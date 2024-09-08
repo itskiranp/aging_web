@@ -33,7 +33,7 @@
 
     <!-- Main Content Section -->
     <main>
-        <div class="container">
+        <div class="main-container">
             @yield('content') <!-- This will allow different pages to insert content -->
         </div>
     </main>

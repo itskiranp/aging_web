@@ -5,7 +5,7 @@
 
 @section('content')
     <div class="publications-container">
-        <h1><b>Publications</b></h1>
+        <h1>Publications</h1>
         @foreach ($publications as $publication)
             <div class="publication-item">
                 <h3>{{ $publication->authors }}</h3>
@@ -14,6 +14,6 @@
                 </h3>
             </div>
         @endforeach
-        <h1><b>Conference Posters</b></h1>
+        <h1>Conference Posters</h1>
     </div>
 @endsection

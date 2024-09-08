@@ -17,7 +17,6 @@ body {
     background-color: #024242; /* Blue background */
     color: white;
     padding: 20px;
-    display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
@@ -30,7 +29,6 @@ body {
 }
 
 .header-container {
-    display: flex;
     align-items: center;
 }
 
@@ -38,10 +36,11 @@ body {
     width: 350px; /* Adjust the size of the logo */
     height: auto;
     margin-left: 30px;
+    display: flex;
 }
 /* main body styling */
-.container{
-    margin: 0px;
+.main-container{
+    margin: 50px;
 }
 
 /* Navbar styling  */
@@ -104,7 +103,6 @@ body {
 /* Main container */
 .cadas-container {
     display: flex;
-    width:auto;
     margin-top: 100px;
     margin-right:0px;
     align-items: flex-start; /* Aligns items at the top */
@@ -182,13 +180,7 @@ body {
 }
 
 /* General container styling */
-.investigators-content {
-    padding: 200px;
-    max-width: 900px;
-    margin-left: 0 auto;
-    margin-top: 0px;
 
-}
 
 /* Heading styles */
 .investigators-content h1 {
@@ -242,21 +234,16 @@ body {
 
 /* publications page styling  */
 
-.publications-container {
-    margin-right: 0%;
-    padding: 200px;
-    font-family: "Open Sans";
-    word-wrap: break-word;
-    vertical-align: baseline;
-}
+
 
 .publication-item {
-    line-height: 1.6;
+    line-height: 1.2;
     margin-bottom: 20px;
     margin-right: 20px;
     padding: 10px;
     border-bottom: 1px solid #ccc;
     font-family: "FontAwesome";
+    font-size: medium;
 }
 
 .publication-item a:hover {
@@ -264,19 +251,11 @@ body {
 }
 
 /* General styling for the links page */
-.links-page {
-    display: flex;
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
-    gap: 20px; /* Space between the links section and sidebar */
-    justify-content: space-between;
-    margin: 20px auto;
-    max-width: 1200px;
-    padding: 200px;
-}
 
 /* Links container styling */
 .links-container {
-    flex: 2; /* Occupies two-thirds of the page */
+    flex: 1; /* Occupies two-thirds of the page */
+    display: wrap;
 }
 
 .links-container h1 {
@@ -288,6 +267,9 @@ body {
 .links-list {
     list-style-type: disc;
     padding-left: 20px;
+    display:grid;
+    justify-content: flex-start;
+    /* flex-direction: column; */
 }
 
 .links-list li {
@@ -297,7 +279,7 @@ body {
 
 .links-list a {
     color: #007bff; /* Blue color for links */
-    text-decoration: none;
+    text-decoration: dotted;
 }
 
 .links-list a:hover {
@@ -306,7 +288,16 @@ body {
 
 /* Sidebar styling with orange box */
 .sidebar {
-    flex: 1; /* Sidebar takes one-third of the page */
+    flex:auto; /* Sidebar takes one-third of the page */
+    display: flex;
+    display: block;
+    justify-content:flex-end;
+    background-color: #d9534f; /* Orange background */
+    padding: 20px;  /* Padding for some spacing */
+    color: white;  /* White text color */
+    width: 30%; /* Sidebar width */
+
+
 }
 
 .highlight-box {
@@ -316,6 +307,9 @@ body {
     font-size: 1.1em;
     text-align: center;
     border-radius: 5px; /* Optional: rounded corners */
+    margin-bottom: 15px; /* Space between boxes */
+    
+
 }
 
 /* Responsive styling */
@@ -330,15 +324,6 @@ body {
 }
 
 /* General page contact styling */
-
-.contact-page {
-    text-align: left;
-    padding-top: 200px; /* Add padding around the content */
-    padding-bottom: 100px; /* Add padding around the content */
-    max-width: 800px; /* Limit the width for better readability */
-    margin-left: 20px; /* Center the content horizontally */
-    background-color: #fff; /* Ensure background color is consistent */
-}
 
 .contact-page h1 {
     font-size: 2.5em; /* Make the heading prominent */
@@ -380,6 +365,7 @@ body {
     margin: 0 auto; /* Center align the footer content */
     width: 100%; /* Ensure the content takes full width of footer */
     font-size: large;
+    
 }
 
 .footer-left,
