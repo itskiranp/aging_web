@@ -38,6 +38,12 @@ body {
     margin-left: 30px;
     display: flex;
 }
+@media {
+    
+}
+
+
+
 /* main body styling */
 .main-container {
     margin: 50px;
@@ -45,12 +51,9 @@ body {
 
 /* Navbar styling  */
 
-.main-nav {
-    background-color: #024242;
-    height: 5%;
-}
 .navbar {
     justify-content: flex-end;
+    padding: 0px !important;  
 }
 .navbar ul {
     font-family: "FontAwesom";
@@ -88,24 +91,19 @@ body {
 
 /* For smaller screens (mobile devices) */
 @media (max-width: 768px) {
-    .navbar{
-        margin-bottom: 50px;
+    .navbar {
+        /* margin-bottom: 50px; */
     }
     .navbar ul {
-        display:block; 
+        display: block;
         flex-direction: column;
         /* width: 100%; */
     }
-    .navbar a{
+    .navbar a {
         width: 100%;
     }
-
-
-    .navbar ul li {
-        /* margin: 10px 0; Adjust margins for mobile */
-    }
+    
 }
-
 
 /* Home Content Styling */
 /* General styling for the container */
@@ -260,6 +258,10 @@ body {
     text-decoration: underline;
 }
 
+.conference-item{
+    list-style-type:none;
+}
+
 /* General styling for the links page */
 
 /* Links container styling */
@@ -303,8 +305,7 @@ body {
     display: block;
     background-color: #d9534f; /* Orange background */
     padding: 20px; /* Padding for some spacing */
-    color: white; /* White text color */    
-    
+    color: white; /* White text color */
 }
 
 .highlight-box {

@@ -21,6 +21,5 @@ Route::get('/investigators', [PageController::class, 'investigators'])->name('in
 Route::get('/links', [PageController::class, 'links'])->name('links');
 
 Route::get('/publications', [PublicationController::class, 'index']);
-Route::get('/conferenceposters', [PublicationController::class, 'index']);
 
 

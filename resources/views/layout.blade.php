@@ -7,9 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title')</title>
     <link rel="stylesheet" href="{{ asset('public/style.css') }}"> <!-- Link your custom CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    
-        
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script>
+        https: //cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js
+    </script>
+
+
 </head>
 
 <body>
@@ -46,7 +50,7 @@
         <div class="footer-content">
             <div class="footer-left">
                 <img src="{{ asset('images/footer_logo.png') }}" alt="Berkeley Logo" class="footer-logo">
-                
+
                 <p>University of California, Berkeley<sup>&reg;</sup> | Population Sciences</p>
                 <p>This project is funded by the National Institute of Aging, National Institutes of Health
                     (5R01AG064778).</p>
@@ -65,4 +69,5 @@
         </div>
     </footer>
 </body>
+
 </html>
