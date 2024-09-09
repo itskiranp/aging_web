@@ -12,7 +12,7 @@ class PublicationController extends Controller
 {
     public function index()
     {
-        $publications = publications::all(); // Fetch all publications
+        $publications = Publication::all(); // Fetch all publications
         $conferences = Conference::all(); 
         return view('publications', compact('publications','conferences')); // Pass the data to the view
 

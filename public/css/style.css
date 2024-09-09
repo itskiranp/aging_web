@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     color: #333;
     background-color: #f5f5f5;
-    line-height:normal;
+    line-height: normal;
 }
 
 /* Header styling */
@@ -39,56 +39,72 @@ body {
     display: flex;
 }
 /* main body styling */
-.main-container{
+.main-container {
     margin: 50px;
 }
 
 /* Navbar styling  */
 
-.main-nav{
+.main-nav {
     background-color: #024242;
     height: 5%;
 }
-.navbar{
-    justify-content:flex-end;
-    
+.navbar {
+    justify-content: flex-end;
 }
-.navbar ul{
-    font-family: 'FontAwesom';
+.navbar ul {
+    font-family: "FontAwesom";
     font-weight: 600;
-    list-style-type: none ;
-    display:flex;
+    list-style-type: none;
+    display: flex;
     justify-content: flex-end;
     background-color: #ff2f00;
     width: 100%;
-    height:auto;
+    height: auto;
     padding-right: 50px;
     margin-top: 0px;
     overflow: hidden;
 }
-.navbar a{
+.navbar a {
     color: white;
     text-decoration: none;
     padding: 15px;
     display: block;
     /* text-align: center; */
     transition: background-color 0.3s ease;
-
 }
-.navbar a:hover{
+.navbar a:hover {
     background-color: rgb(167, 21, 21);
     color: white;
-    
 }
-.navbar li a{
+.navbar li a {
     float: left;
-    align-items:end;
+    align-items: end;
 }
 .main-nav a.active {
     background-color: rgb(167, 21, 21);
     color: white; /* Optional: Adjust the text color */
 }
 
+/* For smaller screens (mobile devices) */
+@media (max-width: 768px) {
+    .navbar{
+        margin-bottom: 50px;
+    }
+    .navbar ul {
+        display:block; 
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    .navbar a{
+        width: 100%;
+    }
+
+
+    .navbar ul li {
+        /* margin: 10px 0; Adjust margins for mobile */
+    }
+}
 
 
 /* Home Content Styling */
@@ -97,22 +113,20 @@ body {
     padding: auto;
     margin: auto;
     width: 100%;
-        
 }
 
 /* Main container */
 .cadas-container {
     display: flex;
     margin-top: 100px;
-    margin-right:0px;
+    margin-right: 0px;
     align-items: flex-start; /* Aligns items at the top */
     justify-content: space-between;
-    max-width:1500px;
+    max-width: 1500px;
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     flex-wrap: wrap; /* Ensures the layout is responsive */
-    
 }
 
 /* Image section - on the left */
@@ -138,14 +152,13 @@ body {
 
 .cadas-text h3 {
     font-size: 28px;
-  
 }
 
-.cadas-text p{
+.cadas-text p {
     font-size: 18px;
     line-height: 1.6;
 }
-.cadas-secondtext p{
+.cadas-secondtext p {
     font-size: 18px;
     line-height: 1.6;
 }
@@ -180,7 +193,6 @@ body {
 }
 
 /* General container styling */
-
 
 /* Heading styles */
 .investigators-content h1 {
@@ -234,8 +246,6 @@ body {
 
 /* publications page styling  */
 
-
-
 .publication-item {
     line-height: 1.2;
     margin-bottom: 20px;
@@ -249,7 +259,6 @@ body {
 .publication-item a:hover {
     text-decoration: underline;
 }
-
 
 /* General styling for the links page */
 
@@ -268,7 +277,7 @@ body {
 .links-list {
     list-style-type: disc;
     padding-left: 20px;
-    display:grid;
+    display: grid;
     justify-content: flex-start;
     /* flex-direction: column; */
 }
@@ -289,27 +298,24 @@ body {
 
 /* Sidebar styling with orange box */
 .sidebar {
-    flex:auto; /* Sidebar takes one-third of the page */
+    flex: auto; /* Sidebar takes one-third of the page */
     display: flex;
     display: block;
     background-color: #d9534f; /* Orange background */
-    padding: 20px;  /* Padding for some spacing */
-    color: white;  /* White text color */
-    width: 30%; /* Sidebar width */
-
-
+    padding: 20px; /* Padding for some spacing */
+    color: white; /* White text color */    
+    
 }
 
 .highlight-box {
-    background-color: #d9534f; /* Orange background color */
-    color: white; /* White text */
-    padding: 20px;
+    padding: 100px;
     font-size: 1.1em;
     text-align: center;
-    border-radius: 5px; /* Optional: rounded corners */
     margin-bottom: 15px; /* Space between boxes */
-    flex: 1;
-    }
+    display: flex;
+    /* justify-content: center; */
+    display: block;
+}
 
 /* Responsive styling */
 @media (max-width: 768px) {
@@ -363,8 +369,7 @@ body {
     max-width: 1300px;
     margin: 0 auto; /* Center align the footer content */
     width: 100%; /* Ensure the content takes full width of footer */
-    font-size:medium;
-    
+    font-size: medium;
 }
 
 .footer-left,
@@ -394,7 +399,7 @@ body {
     color: #ccc; /* Text and link color */
     margin: 5px 0; /* Spacing between lines */
     font-size: 0.9em; /* Slightly smaller font for a clear look */
-    display:flexbox;
+    display: flexbox;
     flex-direction: column;
 }
 
@@ -406,8 +411,6 @@ body {
 .footer-content a:hover {
     text-decoration: underline; /* Underline links on hover */
     color: white;
-
-
 }
 
 /* Footer bottom section for copyright */

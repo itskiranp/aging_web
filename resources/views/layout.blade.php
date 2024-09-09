@@ -3,11 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> --}}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title')</title>
     <link rel="stylesheet" href="{{ asset('public/style.css') }}"> <!-- Link your custom CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    
+        
 </head>
 
 <body>
@@ -44,7 +46,7 @@
         <div class="footer-content">
             <div class="footer-left">
                 <img src="{{ asset('images/footer_logo.png') }}" alt="Berkeley Logo" class="footer-logo">
-                <!-- Replace with the correct logo path -->
+                
                 <p>University of California, Berkeley<sup>&reg;</sup> | Population Sciences</p>
                 <p>This project is funded by the National Institute of Aging, National Institutes of Health
                     (5R01AG064778).</p>
@@ -62,7 +64,5 @@
             <p>&copy; Copyright 2024 UC Regents. | website: <a href="#">David Kerr Design</a></p>
         </div>
     </footer>
-
 </body>
-
 </html>
