@@ -53,9 +53,8 @@
                 <p>CADAS | University of California, Berkeley CA 94720-2120</p>
                 <p>Email: <a href="mailto:cadas@berkeley.edu">cadas@berkeley.edu</a></p>
                 <p>
-                    <a href="#">UCB Privacy Statement</a> |
-                    <a href="#">Web Accessibility Policy</a> |
-                    <a href="#">Disclaimer</a>
+                    <a href="https://www.berkeley.edu/privacy-policy">UCB Privacy Statement</a> |
+                    <a href="https://dac.berkeley.edu/web-accessibility/">Web Accessibility Policy</a> | Disclaimer
                 </p>
             </div>
         </div>

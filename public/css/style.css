@@ -363,7 +363,7 @@ body {
     max-width: 1300px;
     margin: 0 auto; /* Center align the footer content */
     width: 100%; /* Ensure the content takes full width of footer */
-    font-size: large;
+    font-size:medium;
     
 }
 
@@ -400,11 +400,14 @@ body {
 
 .footer-content a {
     text-decoration: none;
-    color: #66afe9; /* Blue color for links */
+    /* color: #66afe9; Blue color for links */
 }
 
 .footer-content a:hover {
     text-decoration: underline; /* Underline links on hover */
+    color: white;
+
+
 }
 
 /* Footer bottom section for copyright */
