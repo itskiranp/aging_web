@@ -250,6 +250,7 @@ body {
     text-decoration: underline;
 }
 
+
 /* General styling for the links page */
 
 /* Links container styling */
@@ -291,7 +292,6 @@ body {
     flex:auto; /* Sidebar takes one-third of the page */
     display: flex;
     display: block;
-    justify-content:flex-end;
     background-color: #d9534f; /* Orange background */
     padding: 20px;  /* Padding for some spacing */
     color: white;  /* White text color */
@@ -308,9 +308,8 @@ body {
     text-align: center;
     border-radius: 5px; /* Optional: rounded corners */
     margin-bottom: 15px; /* Space between boxes */
-    
-
-}
+    flex: 1;
+    }
 
 /* Responsive styling */
 @media (max-width: 768px) {
@@ -387,6 +386,7 @@ body {
 .footer-logo {
     width: 200px; /* Adjust logo size */
     margin-bottom: 15px; /* Add some space below the logo */
+    flex-direction: column;
 }
 
 .footer-content p,
@@ -394,6 +394,8 @@ body {
     color: #ccc; /* Text and link color */
     margin: 5px 0; /* Spacing between lines */
     font-size: 0.9em; /* Slightly smaller font for a clear look */
+    display:flexbox;
+    flex-direction: column;
 }
 
 .footer-content a {

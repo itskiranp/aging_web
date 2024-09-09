@@ -8,12 +8,25 @@
         <h1>Publications</h1>
         @foreach ($publications as $publication)
             <div class="publication-item">
-                <h3>{{ $publication->authors }}</h3>
-                <a href="{{ $publication->doi }}" target="_blank">{{ $publication->title }}</a>
+                <p>{{ $publication->authors }}</p>
+                <p><a href="{{ $publication->doi }}" target="_blank">{{ $publication->title }}</a>
                 <em>{{ $publication->journal }}</em>, {{ $publication->volume_issue }}, {{ $publication->year }}.<br>
-                </h3>
+                </p>
             </div>
         @endforeach
         <h1>Conference Posters</h1>
+        <ul>
+            @foreach($conferences as $conference)
+            <div class="Conference-item">
+                <li>
+                    <p>{{ $conference->authors }}</p>
+                    <p><a href="{{ $conference->doi }}" target="_blank">{{ $conference->title }}</a>
+                    <em>{{ $conference->journal }}</em>, {{ $conference->volume_issue }}, {{ $conference->year }}.<br>
+                    </p>
+                </li>
+            </div>
+            @endforeach
+        </ul>
+
     </div>
 @endsection
