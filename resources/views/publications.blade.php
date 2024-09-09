@@ -19,9 +19,9 @@
             @foreach($conferences as $conference)
             <div class="Conference-item">
                 <li>
-                    <p>{{ $conference->authors }}</p>
+                    <p>{{ $conference->authors }} ({{ $conference->year }})</p> 
                     <p><a href="{{ $conference->doi }}" target="_blank">{{ $conference->title }}</a>
-                    <em>{{ $conference->journal }}</em>, {{ $conference->volume_issue }}, {{ $conference->year }}.<br>
+                    <em>{{ $conference->journal }}
                     </p>
                 </li>
             </div>
