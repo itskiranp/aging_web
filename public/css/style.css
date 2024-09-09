@@ -38,11 +38,6 @@ body {
     margin-left: 30px;
     display: flex;
 }
-@media {
-    
-}
-
-
 
 /* main body styling */
 .main-container {
@@ -53,7 +48,7 @@ body {
 
 .navbar {
     justify-content: flex-end;
-    padding: 0px !important;  
+    padding: 0px !important;
 }
 .navbar ul {
     font-family: "FontAwesom";
@@ -91,9 +86,6 @@ body {
 
 /* For smaller screens (mobile devices) */
 @media (max-width: 768px) {
-    .navbar {
-        /* margin-bottom: 50px; */
-    }
     .navbar ul {
         display: block;
         flex-direction: column;
@@ -102,7 +94,6 @@ body {
     .navbar a {
         width: 100%;
     }
-    
 }
 
 /* Home Content Styling */
@@ -258,8 +249,8 @@ body {
     text-decoration: underline;
 }
 
-.conference-item{
-    list-style-type:none;
+.conference-item {
+    list-style-type: none;
 }
 
 /* General styling for the links page */
@@ -306,16 +297,32 @@ body {
     background-color: #d9534f; /* Orange background */
     padding: 20px; /* Padding for some spacing */
     color: white; /* White text color */
+    /* margin-top: 5px; */
+    /* margin-right: 0px; */
+    /* margin-bottom: 30px; */
+    margin-left: 100px;
+
+    padding-top: 4em;
+    padding-right: 6em;
+    /* padding-bottom: 1.5em; */
+    /* padding-left: 1em; */
+    height: 20rem;
+    width: 20rem;
 }
 
 .highlight-box {
-    padding: 100px;
+    /* padding: 100px;
     font-size: 1.1em;
     text-align: center;
     margin-bottom: 15px; /* Space between boxes */
-    display: flex;
+    /* display: flex; */
     /* justify-content: center; */
-    display: block;
+    /* display: block; */
+    font-size: 24px;
+    font-style: normal;
+    text-align: left;
+    border: 0;
+    font-weight: 100;
 }
 
 /* Responsive styling */
