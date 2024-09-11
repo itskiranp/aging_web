@@ -14,7 +14,7 @@ body {
 
 /* Header styling */
 .main-header {
-    background-color: #024242; /* Blue background */
+    background-color: #003262; 
     color: white;
     padding: 20px;
     align-items: center;
@@ -26,6 +26,7 @@ body {
     width: 100%;
     z-index: 10; /* Ensures the header stays above other content */
     height: 25%;
+    display: flex;
 }
 
 .header-container {
@@ -33,10 +34,12 @@ body {
 }
 
 .logo {
-    width: 350px; /* Adjust the size of the logo */
+    width: 176px;
     height: auto;
-    margin-left: 30px;
+    margin-left: 21px;
     display: flex;
+    margin-top: -3px;
+
 }
 
 /* main body styling */
@@ -56,12 +59,13 @@ body {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
-    background-color: #ff2f00;
+    background-color: #615653;
     width: 100%;
     height: auto;
     padding-right: 50px;
     margin-top: 0px;
     overflow: hidden;
+    margin-bottom:0px;
 }
 .navbar a {
     color: white;
@@ -107,8 +111,8 @@ body {
 /* Main container */
 .cadas-container {
     display: flex;
-    margin-top: 100px;
-    margin-right: 0px;
+    margin-top: 14px;
+    margin-right: 130px;
     align-items: flex-start; /* Aligns items at the top */
     justify-content: space-between;
     max-width: 1500px;
@@ -116,6 +120,13 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     flex-wrap: wrap; /* Ensures the layout is responsive */
+}
+.mb-4{
+    margin-bottom: 0.5rem !important;
+
+}
+.list-group-numbered{
+    margin-bottom: 15px;
 }
 
 /* Image section - on the left */
@@ -169,67 +180,75 @@ body {
     }
 }
 
-/* Alert message styling */
-.alert-message {
-    background-color: #ff2f00; /* Red/Orange background color (similar to Bootstrap's 'danger' alert) */
-    color: white; /* White text color */
-    text-align: center; /* Center the text */
-    padding: 15px; /* Add padding for spacing inside the alert box */
-    font-size: 1.2em; /* Increase font size for readability */
-    font-weight: bold; /* Make the text bold */
-    margin: 20px 0; /* Add margin to create spacing around the alert */
-    border-radius: 5px; /* Optional: rounded corners */
+
+    /* CSVF-SCAN */
+
+/* General Accordion Styles */
+.accordion .card {
+    border: none;
+    margin-bottom: 1rem;
 }
 
-/* General container styling */
-
-/* Heading styles */
-.investigators-content h1 {
-    font-size: 2.5em;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
+.accordion .card-header {
+    background-color: #0b2c45; /* Background color for header */
+    color: #ffffff; /* Text color */
+    padding: 1rem;
+    cursor: pointer;
 }
 
-.investigators-content h2 {
-    font-size: 1.8em;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
-    margin-top: 30px;
+.accordion .card-header h2 {
+    margin: 0;
 }
 
-/* Investigator list styling */
-.investigators-list {
-    list-style-type: disc; /* Disc bullet points */
-    padding-left: 20px;
-}
-
-.investigators-list li {
-    font-size: 1.1em;
-    margin-bottom: 10px;
-    line-height: 1.6;
-}
-
-/* Link styling */
-.investigators-list a {
-    color: #007bff; /* Blue color for links */
+.accordion .btn-link {
+    color: #ffffff; /* Button text color */
     text-decoration: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+    width: 100%;
+    text-align: left;
+    padding: 0;
 }
 
-.investigators-list a:hover {
-    text-decoration: underline; /* Underline links on hover */
+.accordion .btn-link:hover {
+    text-decoration: none;
+    color: #f4c430; /* Change color on hover */
 }
 
-/* Responsive adjustments */
+.accordion .card-body {
+    background-color: #f9f9f9; /* Background color for body */
+    color: #333333;
+    padding: 1rem;
+}
+
+/* Responsive Styling */
 @media (max-width: 768px) {
-    .investigators-content {
-        padding: 10px;
+    .accordion .btn-link {
+        font-size: 1.1rem; /* Adjust font size for smaller screens */
     }
 
-    .investigators-content h1,
-    .investigators-content h2 {
-        font-size: 1.5em;
+    .accordion .card-header {
+        padding: 0.75rem;
+    }
+
+    .accordion .card-body {
+        padding: 0.75rem;
+        font-size: 0.9rem; /* Smaller font for better readability on mobile */
+    }
+}
+
+@media (max-width: 576px) {
+    .accordion .btn-link {
+        font-size: 1rem; /* Further adjust font size for extra small screens */
+    }
+
+    .accordion .card-header {
+        padding: 0.5rem;
+    }
+
+    .accordion .card-body {
+        padding: 0.5rem;
+        font-size: 0.85rem; /* Make content even more compact for very small devices */
     }
 }
 
@@ -251,6 +270,7 @@ body {
 
 .conference-item {
     list-style-type: none;
+    
 }
 
 /* General styling for the links page */
@@ -362,7 +382,7 @@ body {
 
 /* General Footer Styling */
 .site-footer {
-    background-color: #333; /* Dark background for footer */
+    background-color: #024242; /* Dark background for footer */
     justify-content: space-between;
     color: #ccc; /* Light text color */
     font-family: Arial, sans-serif; /* Clear and simple font */
@@ -389,17 +409,21 @@ body {
 .footer-left {
     width: 45%; /* Adjust width to fit the left side better */
     text-align: left;
+    margin-top: 2rem;
 }
 
 .footer-right {
     width: 45%; /* Adjust width to fit the right side */
     text-align: right;
+    margin-right: 50px;
+    margin-top: 30px;
 }
 
 .footer-logo {
-    width: 200px; /* Adjust logo size */
+    width: 150px; /* Adjust logo size */
     margin-bottom: 15px; /* Add some space below the logo */
     flex-direction: column;
+    margin-left:24px;
 }
 
 .footer-content p,
@@ -409,6 +433,7 @@ body {
     font-size: 0.9em; /* Slightly smaller font for a clear look */
     display: flexbox;
     flex-direction: column;
+    margin-left:24px;
 }
 
 .footer-content a {
@@ -451,4 +476,49 @@ body {
         width: 100%; /* Full width for both sections */
         margin-bottom: 20px;
     }
+}
+
+
+footer {
+    background-color: #0b2c45;
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer .container h4 {
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer hr {
+    border-color: #f4c430;
+    margin: 10px auto;
+    width: 50px;
+}
+
+footer i {
+    margin-right: 10px;
+}
+
+footer a {
+    color: #ffffff;
+    /* margin: 0 15px; */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f4c430;
+}
+
+footer i.fa-2x {
+    margin-top: 10px;
+}
+footer .social-icon a{
+    /* display:inline-block; */
+    margin:0 0px;
+    margin-left:10px;
 }

@@ -11,9 +11,9 @@ class PageController extends Controller
         return view('home');
     }
 
-    public function investigators()
+    public function Cvfs()
     {
-        return view('investigators');
+        return view('Cvfs');
     }
 
     public function publications()

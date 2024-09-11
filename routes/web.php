@@ -17,7 +17,7 @@ Route::post('/products',[ProductController::class,'store'])->name('products.stor
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::get('/publications', [PageController::class, 'publications'])->name('publications');
-Route::get('/investigators', [PageController::class, 'investigators'])->name('investigators');
+Route::get('/Cvfs', [PageController::class, 'Cvfs'])->name('Cvfs');
 Route::get('/links', [PageController::class, 'links'])->name('links');
 
 Route::get('/publications', [PublicationController::class, 'index']);

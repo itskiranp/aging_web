@@ -11,9 +11,11 @@
             <h1>Links</h1>
             <div class="col-6">
                 <ul class="links-list">
-                    <li><a href="#" target="_blank">The 10/66 Dementia Research Group</a></li>
-                    <li><a href="#" target="_blank">Harmonized Cognitive Assessment Protocol (HCAP) network</a> - see
-                        website for links to HCAP sister studies</li>
+                    <li><a href="{{ asset('uploads/CVFS-SCAN.pdf') }}" target="_blank" >Chitwan Valley Family Study-Study on Cognition and Aging in Nepal (CVFS-SCAN)</a></li>
+                    <li><a href="{{ asset('uploads/NHRC Summary_10122022.pdf') }}" target="_blank" >NHRC Summary_10122022</a></li>
+                    <li><a href="{{ asset('uploads/Project_Details.pdf') }}" target="_blank" >Project Details</a></li>
+                    <li><a href="{{ asset('uploads/Longitudinal Aging Study in Nepal.pptx') }}" target="_blank" >Longitudinal Aging Study in Nepal</a></li>
+                    
                     <li><a href="#" target="_blank">Health and Retirement Study</a></li>
                     <li><a href="#" target="_blank">Puerto Rican Elderly: Health Conditions (PREHCO) Project</a></li>
                     <li><a href="#" target="_blank">Survey on Health, Well-Being, and Aging in Latin America and the
