@@ -21,9 +21,17 @@
 <body>
     <!-- Header Section -->
     <header class="main-header">
-        <div class="header-container">
-            <img src="{{ asset('images/aging_logo.png') }}" alt="CADAS Logo" class="logo"> <!-- CADAS Logo -->
-        </div>
+        <div class="row">
+            <div class="col-3 header-container">
+                <img src="{{ asset('images/aging_logo.png') }}" alt="CADAS Logo" class="logo"> <!-- CADAS Logo -->
+            </div>
+            <div class="col-6 main-header">
+                <h2 class="text-start">Study on Cognition and Aging in Nepal
+                </h2>
+                {{-- <p class="text-start">Chitwan Valley Family Study(CVFS-SCAN) </p> --}}
+            </div>
+
+
     </header>
 
     <!-- Navigation Bar -->
@@ -54,16 +62,15 @@
                 <h4>Contact Details</h4>
                 {{-- <hr style="border-top: 2px solid #f4c430; width: 50px;"> --}}
                 <p><i class="fa fa-map-marker" aria-hidden="true"></i> Bharatpur-15, Fulbari, Chitwan, Nepal</p>
-                <p><i class="fa fa-phone" aria-hidden="true"></i> +977-56-591054, +977-56-592406</p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i>+977-56-591054, +977-56-592406</p>
                 <p><i class="fa fa-envelope" aria-hidden="true"></i> iser.nepal@outlook.com</p>
                 <p><i class="fa fa-clock-o" aria-hidden="true"></i> 10 A.M. - 5 P.M.</p>
 
                 <div class="social-icon">
-                    <a href="https://www.facebook.com/isernepalofficial/" target="_blank">
-                        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
-                    <a href="https://www.linkedin.com/in/iser-nepal-68b407160/" target="_blank">
-                        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-                    </a>
+                    <a href="https://www.facebook.com/isernepalofficial/" target="_blank"><i
+                            class="fa fa-facebook-square fa-2x" ></i></a>
+                    <a href="https://www.linkedin.com/in/iser-nepal-68b407160/" target="_blank"><i
+                            class="fa fa-linkedin-square fa-2x" ></i></a>
                 </div>
 
             </div>
