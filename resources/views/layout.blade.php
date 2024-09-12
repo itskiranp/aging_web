@@ -21,13 +21,14 @@
 <body>
     <!-- Header Section -->
     <header class="main-header">
-        <div class="row">
-            <div class="col-3 header-container">
+        <div class="row align-items-center">
+            <div class="col-3 me-4">
                 <img src="{{ asset('images/aging_logo.png') }}" alt="aging Logo" class="logo"> <!-- Aging Logo -->
             </div>
-            <div class="col-6 main-header">
-                <h2 class="text-start">Study on Cognition and Aging in Nepal
+            <div class="col-6  ">
+                <h2 class="text-start " >Study on Cognition and Aging in Nepal
                 </h2>
+                <p class="text-start">Chitwan Valley Family Study(CVFS-SCAN)</p>
 
             </div>
 
@@ -62,8 +63,8 @@
                 <h4>Contact Details</h4>
                 {{-- <hr style="border-top: 2px solid #f4c430; width: 50px;"> --}}
                 <p><i class="fa fa-map-marker" aria-hidden="true"></i> Bharatpur-15, Fulbari, Chitwan, Nepal</p>
-                <p><i class="fa fa-phone" aria-hidden="true"></i>+977-56-591054, +977-56-592406</p>
-                <p><i class="fa fa-envelope" aria-hidden="true"></i> iser.nepal@outlook.com</p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i> +977-56-591054, +977-56-592406</p>
+                <p><i class="fa fa-envelope" aria-hidden="true"></i>  iser.nepal@outlook.com</a></p>
                 <p><i class="fa fa-clock-o" aria-hidden="true"></i> 10 A.M. - 5 P.M.</p>
 
                 <div class="social-icon">

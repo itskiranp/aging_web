@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -31,7 +32,7 @@ body {
 }
 
 .header-container {
-    display: flex;  /*not included*/
+    display: flex; /*not included*/
     align-items: center;
 }
 
@@ -83,16 +84,6 @@ body {
         font-size: 1rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
 
 /* main body styling */
 .main-container {
@@ -418,7 +409,16 @@ body {
     width: 45%; /* Adjust width to fit the left side better */
     text-align: left;
     margin-top: 2rem;
-    margin-left: 1.5rem;
+    /* margin-left: 1.5rem; */
+}
+
+a {
+    display: inline-block;
+    /* margin-right: 10px; Adjust this value to control the space */
+}
+
+.social-icon {
+    margin-left: 1.2rem;
 }
 
 .footer-right {
@@ -448,6 +448,7 @@ body {
 .footer-content a {
     text-decoration: none;
     /* color: #66afe9; Blue color for links */
+    margin-left: 4px;
 }
 
 .footer-content a:hover {

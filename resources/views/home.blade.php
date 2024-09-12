@@ -46,8 +46,7 @@
                 <h2> FINDINGS</h2>
                 <strong>Data</strong>
                 <p>Data will be available upon completion.</p>
-                <strong>Publications</strong>
-                <p>No publications yet.</p>
+                
 
 
             </div>
