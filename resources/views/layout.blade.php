@@ -23,12 +23,12 @@
     <header class="main-header">
         <div class="row">
             <div class="col-3 header-container">
-                <img src="{{ asset('images/aging_logo.png') }}" alt="CADAS Logo" class="logo"> <!-- CADAS Logo -->
+                <img src="{{ asset('images/aging_logo.png') }}" alt="aging Logo" class="logo"> <!-- Aging Logo -->
             </div>
             <div class="col-6 main-header">
                 <h2 class="text-start">Study on Cognition and Aging in Nepal
                 </h2>
-                {{-- <p class="text-start">Chitwan Valley Family Study(CVFS-SCAN) </p> --}}
+
             </div>
 
 
@@ -68,9 +68,9 @@
 
                 <div class="social-icon">
                     <a href="https://www.facebook.com/isernepalofficial/" target="_blank"><i
-                            class="fa fa-facebook-square fa-2x" ></i></a>
+                            class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
                     <a href="https://www.linkedin.com/in/iser-nepal-68b407160/" target="_blank"><i
-                            class="fa fa-linkedin-square fa-2x" ></i></a>
+                            class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
                 </div>
 
             </div>

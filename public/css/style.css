@@ -25,11 +25,13 @@ body {
     right: 0;
     width: 100%;
     z-index: 10; /* Ensures the header stays above other content */
-    height: 25%;
+    height: auto; /*25%*/
     display: flex;
+    flex-direction: row; /*not included*/
 }
 
 .header-container {
+    display: flex;  /*not included*/
     align-items: center;
 }
 
@@ -37,9 +39,60 @@ body {
     width: 176px;
     height: auto;
     margin-left: 21px;
-    display: flex;
+    /* display: flex; */
     margin-top: -3px;
 }
+
+/* Media query for smaller devices like tablets and mobile */
+@media (max-width: 768px) {
+    .main-header {
+        padding: 10px;
+        flex-direction: column; /* Stack elements vertically */
+        text-align: center;
+    }
+
+    .header-container {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        width: 120px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+}
+
+/* Media query for extra small devices (like smartphones) */
+@media (max-width: 480px) {
+    .main-header {
+        padding: 5px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 /* main body styling */
 .main-container {
