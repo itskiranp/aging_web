@@ -12,10 +12,6 @@
         https: //cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-    {{-- <link rel="stylesheet" href="{{ asset('public/style.css') }}"> <!-- Link your custom CSS --> --}}
-
 </head>
 
 <body>
@@ -26,13 +22,11 @@
                 <img src="{{ asset('images/aging_logo.png') }}" alt="aging Logo" class="logo"> <!-- Aging Logo -->
             </div>
             <div class="col-6  ">
-                <h2 class="text-start " >Study on Cognition and Aging in Nepal
+                <h2 class="text-start ">Study on Cognition and Aging in Nepal
                 </h2>
                 <p class="text-start">Chitwan Valley Family Study(CVFS-SCAN)</p>
 
             </div>
-
-
     </header>
 
     <!-- Navigation Bar -->
@@ -40,11 +34,11 @@
         <nav class="navbar">
             <ul>
                 <li><a href="/" class="{{ Request::is('/') ? 'active' : '' }}">Home</a></li>
-                <li><a href="/Cvfs" class="{{ Request::is('Cvfs') ? 'active' : '' }}">Cvfs</a></li>
+                <li><a href="/Research" class="{{ Request::is('Research') ? 'active' : '' }}">Research</a></li>
                 <li><a href="/publications" class="{{ Request::is('publications') ? 'active' : '' }}">Publications</a>
                 </li>
                 <li><a href="/links" class="{{ Request::is('links') ? 'active' : '' }}">Links</a></li>
-                <li><a href="/contact" class="{{ Request::is('contact') ? 'active' : '' }}">Contact</a></li>
+                <li><a href="/About" class="{{ Request::is('About') ? 'active' : '' }}">About</a></li>
             </ul>
         </nav>
     </div>
@@ -64,7 +58,7 @@
                 {{-- <hr style="border-top: 2px solid #f4c430; width: 50px;"> --}}
                 <p><i class="fa fa-map-marker" aria-hidden="true"></i> Bharatpur-15, Fulbari, Chitwan, Nepal</p>
                 <p><i class="fa fa-phone" aria-hidden="true"></i> +977-56-591054, +977-56-592406</p>
-                <p><i class="fa fa-envelope" aria-hidden="true"></i>  iser.nepal@outlook.com</a></p>
+                <p><i class="fa fa-envelope" aria-hidden="true"></i> iser.nepal@outlook.com</a></p>
                 <p><i class="fa fa-clock-o" aria-hidden="true"></i> 10 A.M. - 5 P.M.</p>
 
                 <div class="social-icon">

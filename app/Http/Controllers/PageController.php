@@ -12,9 +12,9 @@ class PageController extends Controller
         return view('home');
     }
 
-    public function Cvfs()
+    public function Research()
     {
-        return view('Cvfs');
+        return view('Research');
     }
 
     public function publications()
@@ -25,9 +25,9 @@ class PageController extends Controller
     {
         return view('links');
     }
-    public function contact()
+    public function About()
     {
-        return view('contact');
+        return view('About');
     }
 
 }

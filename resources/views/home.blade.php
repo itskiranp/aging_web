@@ -5,91 +5,137 @@
 @section('title', 'Home')
 
 @section('content')
-
-    <div class="home-container">
-        <h1 class="text-center">International Labor Migration, Armed Conflict, and Alzheimer Disease in Nepal</h1>
-
-        <div class="row home-container">
-            <div class="col-8">
-                <h2>Rationale</h2>
-                <p>
-                    Population aging is becoming increasingly more common in many low- and middle-income countries (LMIC).
-                    As a result, these countries face the growing burden of common age-associated chronic illnesses,
-                    including ADRD. Nepal is a low middle-income country where the population is now aging, putting a rising
-                    number of adults at risk of developing ADRD. There is little or no research in Nepal to investigate the
-                    scope and primary determinants of ADRD, and even the most basic information on ADRD is currently
-                    lacking. There is an urgent need to build expertise in the design and conduct of systematic
-                    population-level investigations of ADRD in Nepal. There is an equally urgent need to start collecting
-                    rigorous new data on the scope and determinants of ADRD and other aging-related changes in health to
-                    guide the development of prevention strategies and reduce the burden of ADRD in Nepal.
-                </p>
-                <h2>Objectives / Research Questions</h2>
-                <p>This study aims to answer the three specific research questions: </p>
-                <ol>
-                    <li>Are exposure to armed conflict and traumatic events associated with higher risk of ADRD?</li>
-                    <li>Is international labor migration experience associated with a higher risk of ADRD?</li>
-                    <li>Does the interaction between genetic predisposition and environmental factors modify the risk of
-                        ADRD?</li>
-                </ol>
-
-                <h2>Methodology</h2>
-                <p><strong>Sampling:</strong> The study follows a longitudinal cohort design, focusing on a representative
-                    sample of
-                    4000 older adults and their caregivers, drawn from the Chitwan Valley population. Frail adults with life
-                    expectancy less than six months are excluded.</p>
-                <p><strong>Data Collection:</strong> Data is collected through face-to-face Computer-Assisted Personal
-                    Interviewing
-                    (CAPI), which includes cognitive and physical function tests, self-report instruments, and assessments
-                    of
-                    weight, height, and blood pressure.</p>
-
-                <h2> FINDINGS</h2>
-                <strong>Data</strong>
-                <p>Data will be available upon completion.</p>
-                
-
-
+    <div class="container-fluid p-0 mb-5">
+        <div id="imageSlider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/rhino.jpg" class="d-block w-100" alt="Mountain landscape">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Image 1</h5>
+                        <p>Image description.......</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/background.JPG" class="d-block w-100" alt="Nepal">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Image 2</h5>
+                        <p>Image description.......</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/nepal.jpg" class="d-block w-100" alt="City skyline">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Image 3</h5>
+                        <p>Image description.......</p>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <ul class="list-group">
-
-                    <li class="list-group-item list-group-item-primary">
-                        <h2>Project Details</h2>
-                    </li>
-                    <li class="list-group-item list-group-item-secondary"><strong>Project Type/Duration:
-                        </strong>Ongoing/2022-2027</li>
-                    <li class="list-group-item list-group-item-success"><strong>Working District:</strong> Chitwan</li>
-                    <li class="list-group-item list-group-item-danger"><strong>Thematic Area:</strong> Non-communicable
-                        diseases, ADRD, and International out-migration</li>
-                    <li class="list-group-item list-group-item-warning"><strong>Partners:</strong> <br>University of
-                        Michigan,<br>
-                        Institute for Social and Environmental Research-Nepal,<br>
-                        Norvic International Hospital,<br>
-                        Tribhuvan University</li>
-                    <li class="list-group-item list-group-item-info">
-                        <h2>Research Team</h2>
-                        <ul>
-                            <li>Dr. Dirgha Jibi Ghimire</li>
-                            <li>Dr. Carlos Mendes de Leon</li>
-                            <li>Dr. Emily Briceno-Abreu</li>
-                            <li>Dr. Colter Mitchell</li>
-                            <li>Dr. Janak Rai</li>
-                            <li>Dr. Kenneth M. Langa</li>
-                            <li>Dr. Meeta Sainju Pradhan</li>
-                            <li>Dr. Pankaj Jalan</li>
-                            <li>Dr. Uttam Sharma</li>
-                        </ul>
-                    </li>
-                    <li class="list-group-item list-group-item-dark"><strong>Funding:</strong><br>National Institutes of
-                        Health (NIH) </li>
-                    <li class="list-group-item list-group-item-dark"><strong>Contact Person:</strong> <br> Dr. Dirgha Jibi
-                        Ghimire<br>
-                        Email: <a href="dirghaiser@outlook.com">dirghaiser@outlook.com</a>
-                    </li>
-                </ul>
+            <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#imageSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#imageSlider" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#imageSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#imageSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
         </div>
+        {{-- <div class="d-flex justify-content-center mt-3">
+        <button id="pausePlayBtn" class="btn btn-primary me-2">
+            <i class="fas fa-pause"></i> Pause
+        </button>
+        <div class="btn-group" role="group" aria-label="Thumbnail navigation">
+            <button type="button" class="btn btn-outline-primary" data-bs-target="#imageSlider" data-bs-slide-to="0">1</button>
+            <button type="button" class="btn btn-outline-primary" data-bs-target="#imageSlider" data-bs-slide-to="1">2</button>
+            <button type="button" class="btn btn-outline-primary" data-bs-target="#imageSlider" data-bs-slide-to="2">3</button>
+        </div>
+    </div> --}}
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const carousel = new bootstrap.Carousel(document.getElementById('imageSlider'), {
+                interval: 3000,
+                wrap: true,
+                keyboard: true
+            });
 
+            const pausePlayBtn = document.getElementById('pausePlayBtn');
+            pausePlayBtn.addEventListener('click', function() {
+                if (this.innerHTML.includes('Pause')) {
+                    carousel.pause();
+                    this.innerHTML = '<i class="fas fa-play"></i> Play';
+                } else {
+                    carousel.cycle();
+                    this.innerHTML = '<i class="fas fa-pause"></i> Pause';
+                }
+            });
 
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'ArrowLeft') {
+                    carousel.prev();
+                } else if (e.key === 'ArrowRight') {
+                    carousel.next();
+                }
+            });
+        });
+    </script>
+
+    <div class="mb-5">
+        <h2>Study on Cognition and Aging in Nepal.</h2>
+        <p>Welcome to our research initiative on International Labor Migration, Armed Conflict, and Alzheimer's Disease in
+            Nepal. As Nepal's population ages, the country faces a rising number of adults at risk of Alzheimer's Disease
+            and Related Dementias (ADRD). This study seeks to address a significant gap in research by investigating the
+            potential impact of exposure to armed conflict, labor migration, and genetic-environmental interactions on ADRD
+            risk in Nepal. Through rigorous data collection and analysis, we aim to guide the development of strategies to
+            prevent and reduce the burden of ADRD in aging populations.</p>
+
+    </div>
+    <section class="collaborators-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Collaborators</h2>
+            <div class="position-relative">
+                <div class="collaborators-slider">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+                            <div class="collaborator-card">
+                                <img src="images/Michigan.PNG" alt="Sarah Johnson" class="img-fluid rounded-circle mb-3">
+                                <h5 class="text-center">University of Michigan</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+                            <div class="collaborator-card">
+                                <img src="images/Tu.PNG" alt="TU" class="img-fluid rounded-circle mb-3">
+                                <h5 class="text-center">Tribhuvan University</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+                            <div class="collaborator-card">
+                                <img src="images/Norvic.PNG" alt="Emily Rodriguez" class="img-fluid rounded-circle mb-3">
+                                <h5 class="text-center">Norvic International Hospital </h5>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+                            <div class="collaborator-card">
+                                <img src="images/Iser.PNG" alt="David Thompson" class="img-fluid rounded-circle mb-3">
+                                <h5 class="text-center">ISER-N</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- <button class="btn btn-slider btn-prev" aria-label="Previous collaborator">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+                <button class="btn btn-slider btn-next" aria-label="Next collaborator">
+                    <i class="bi bi-chevron-right"></i>
+                </button> --}}
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 @endsection
