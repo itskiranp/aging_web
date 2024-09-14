@@ -9,7 +9,7 @@
         <!-- Links Section -->
         <div class="row links-container">
             <h1>Links</h1>
-            <div class="col-6">
+            <div class="col">
                 <ul class="links-list">
                     <li><a href="{{ asset('uploads/CVFS-SCAN.pdf') }}" target="_blank" >Chitwan Valley Family Study-Study on Cognition and Aging in Nepal (CVFS-SCAN)</a></li>
                     <li><a href="{{ asset('uploads/NHRC Summary_10122022.pdf') }}" target="_blank" >NHRC Summary_10122022</a></li>

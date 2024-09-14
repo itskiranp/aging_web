@@ -73,9 +73,8 @@
                 <div class="container">
                     <img src="{{ asset('images/aging_logo.png') }}" alt="Aging Logo" class="footer-logo">
 
-                    <p>Study on Cognition and Aging in Nepal.| CVFS-SCAN</p>
-                    <p>This project is funded by the National Institute of Aging, National Institutes of Health
-                        (5R01AG064778).</p>
+                    <p>Study on Cognition and Aging in Nepal | CVFS-SCAN</p>
+                    <p>This project is funded by the National Institute of Health(NIH)</p>
 
 
                 </div>

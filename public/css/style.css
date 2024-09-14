@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body {
@@ -238,7 +237,7 @@ body {
     height: 150px;
     object-fit: cover;
     border: 5px solid #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .btn-slider {
@@ -253,7 +252,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
 
@@ -292,26 +291,7 @@ body {
     }
 }
 
-
 /* publications page styling  */
-
-.publication-item {
-    line-height: 1.2;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-    font-family: "FontAwesome";
-    font-size: medium;
-}
-
-.publication-item a:hover {
-    text-decoration: underline;
-}
-
-.conference-item {
-    list-style-type: none;
-}
 
 /* General styling for the links page */
 
@@ -349,75 +329,123 @@ body {
     text-decoration: underline; /* Underline on hover */
 }
 
-/* Sidebar styling with orange box */
-.sidebar {
-    flex: auto; /* Sidebar takes one-third of the page */
-    display: flex;
-    display: block;
-    background-color: #d9534f; /* Orange background */
-    padding: 20px; /* Padding for some spacing */
-    color: white; /* White text color */
-    /* margin-top: 5px; */
-    /* margin-right: 0px; */
-    /* margin-bottom: 30px; */
-    margin-left: 100px;
-
-    padding-top: 4em;
-    padding-right: 6em;
-    /* padding-bottom: 1.5em; */
-    /* padding-left: 1em; */
-    height: 20rem;
-    width: 20rem;
-}
-
-.highlight-box {
-    /* padding: 100px;
-    font-size: 1.1em;
-    text-align: center;
-    margin-bottom: 15px; /* Space between boxes */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* display: block; */
-    font-size: 24px;
-    font-style: normal;
-    text-align: left;
-    border: 0;
-    font-weight: 100;
-}
 
 /* Responsive styling */
 @media (max-width: 768px) {
     .links-page {
         flex-direction: column; /* Stack links and sidebar vertically on smaller screens */
     }
+}
 
-    .sidebar {
-        margin-top: 20px; /* Add space between links and sidebar */
+/* General About page styling */
+
+.card {
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        margin-top: 2rem;
     }
 }
 
-/* General page contact styling */
 
-.contact-page h1 {
-    font-size: 2.5em; /* Make the heading prominent */
-    color: #333; /* Darker heading color for contrast */
-    margin-bottom: 20px;
+/* Research team styling  */
+
+.research-team {
+    background-color: #f8f9fa;
 }
 
-.contact-page p {
-    font-size: 1.1em;
-    color: #555; /* Lighter color for text */
-    margin-bottom: 10px;
+.team-member {
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
 }
 
-.contact-page a {
-    color: #007bff; /* Standard link color */
-    text-decoration: none;
+.team-member:hover {
+    transform: translateY(-5px);
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.team-member p {
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.team-member .qualification {
+    font-style: italic;
+}
+
+.team-member .position {
     font-weight: bold;
 }
 
-.contact-page a:hover {
-    text-decoration: underline; /* Add underline on hover */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #333;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .team-member img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .team-member h3 {
+        font-size: 1.2rem;
+    }
+
+    .team-member p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .team-member img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .team-member h3 {
+        font-size: 1rem;
+    }
+
+    .team-member p {
+        font-size: 0.8rem;
+    }
 }
 
 /* General Footer Styling */

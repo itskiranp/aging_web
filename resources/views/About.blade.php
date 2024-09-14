@@ -1,4 +1,3 @@
-
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
 @extends('layout')
@@ -6,10 +5,170 @@
 @section('title', 'About')
 
 @section('content')
-    <div class="contact-page">
-        <h1>Contact</h1>
-        <p>ISER-N | Institute For Social And Environmental Research - Nepal.</p>
-        <p>Dr. Dirgha Jibi Ghimire</p>
-        <p>E-mail: <a href="dirghaiser@outlook.com">dirghaiser@outlook.com</a></p>
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-8 mb-4 mb-md-0">
+            <h2 class="mb-4">About Our Project</h2>
+            <div class="card">
+                {{-- <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Project workspace"> --}}
+                <div class="card-body">
+                    <h2 class="text-center">International Labor Migration, Armed Conflict and Alzheimer Disease and
+                        related Dementia Risk in Nepal</h2>
+                    <h5 class="card-title">Our Goal</h5>
+                    <p class="card-text">The main goal is to build research capacity and gather data to address and prevent Alzheimer’s disease and related dementias (ADRD) in Nepal’s aging population.</p>
+                    <h5 class="card-title">Specific Aims</h5>
+                    <p class="card-text">This project focuses on understanding and addressing Alzheimer’s disease and related dementias (ADRD) in Nepal, a growing concern due to the country’s aging population. The study has three main objectives:
+                        <ol>
+                            <li>Build research capacity to study ADRD and other age-related health conditions by training in cognitive assessments and statistical methods.</li>
+                            <li>Conduct a population-based study of 4,000 adults over 50 years of age to gather data on ADRD, with follow-up research.</li>
+                            <li>Analyze the impact of key risk factors, including international labor migration and exposure to political conflict, on the prevalence of ADRD.</li>
+                        </ol>
+                    </p>
+                    <h5 class="card-title">Objective</h5>
+                    <ol>
+                        <li>Estimate the prevalence of ADRD and cognitive impairment and assess key risk factors.</li>
+                        <li>Conduct a longitudinal study on aging-related health changes in older adults in Nepal.</li>
+                        <li>Build expertise in analyzing complex longitudinal data.</li>
+                    </ol>
+
+
+                    <h5 class="card-title mt-4">Thematic area</h5>
+                    <p class="card-text">Non communicable disease, Alzheimer disease and related dementias
+                        (ADRD) and International out-migration</p>
+                    <h5 class="card-title mt-4">Study Location</h5>
+                    <p class="card-text">Our team collaborates remotely, with our main development hub located in San Francisco, California.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h2 class="mb-4">Important Links</h2>
+            <div class="d-grid gap-3">
+                <a href="#" class="btn btn-primary">Connect With Us</a>
+                <a href="#" class="btn btn-outline-secondary">Website Feedback</a>
+                <a href="#" class="btn btn-info">Documentation</a>
+                <a href="#" class="btn btn-success">Join Our Team</a>
+            </div>
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h5 class="card-title">Stay Updated</h5>
+                    <p class="card-text">Subscribe to our newsletter for the latest updates and features.</p>
+                    <form>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<section class="research-team py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Our Research Team</h2>
+        <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="team-member">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a" alt="John Doe" class="img-fluid rounded-circle mb-3">
+                        <h3>Dr. Dirgha Jibi Ghimire</h3>
+                        <p class="qualification">Ph.D., Social Demographer, Professor University of Michigan and Director, ISER-N     </p>
+                        <p class="position">MPI</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="team-member">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2" alt="Jane Smith" class="img-fluid rounded-circle mb-3">
+                        <h3>Dr. Carlos Mendes de Leon</h3>
+                        <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p>
+                        <p class="position">MPI</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="team-member">
+                        <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5" alt="Mike Johnson" class="img-fluid rounded-circle mb-3">
+                        <h3>Dr. Emily Briceno-Abreu</h3>
+                        <p class="qualification">Ph.D., a neuropsychologist and Clinical Associate Professor University of Michigan</p>
+                        <p class="position">Co-I</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="team-member">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956" alt="Emily Brown" class="img-fluid rounded-circle mb-3">
+                        <h3>Dr. Colter Mitchell</h3>
+                        <p class="qualification">PhD., Associate Professor in the Survey Research Center, University of Michigan</p>
+                        <p class="position">Co-I</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="team-member">
+                        <img src="https://images.unsplash.com/photo-1566492031773-4f4e44671857" alt="David Lee" class="img-fluid rounded-circle mb-3">
+                        <h3>Dr. Janak Rai</h3>
+                        <p class="qualification"> Ph.D., Anthropologist, Associate Professor Tribhuvan University Nepal</p>
+                        <p class="position">Co-I</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="team-member">
+                        <img src="https://images.unsplash.com/photo-1564460576398-ef55d99548b2" alt="Sarah Chen" class="img-fluid rounded-circle mb-3">
+                        <h3>Dr. Kenneth M. Langa</h3>
+                        <p class="qualification">M.D., Cyrus Sturgis Professor of Medicine, University of Michigan</p>
+                        <p class="position">Co-I</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="team-member">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d" alt="Alex Taylor" class="img-fluid rounded-circle mb-3">
+                        <h3>Dr. Meeta Sainju Pradhan</h3>
+                        <p class="qualification"> Ph.D., Social Demographer Research Scientist, ISER-N</p>
+                        <p class="position">Co-I</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="team-member">
+                        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e" alt="Olivia Wilson" class="img-fluid rounded-circle mb-3">
+                        <h3>Dr. Pankaj Jalan</h3>
+                        <p class="qualification">M.D., Neurologist, Norvic International Hospital</p>
+                        <p class="position">Co-I</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="team-member">
+                        <img src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4" alt="Daniel Park" class="img-fluid rounded-circle mb-3">
+                        <h3>Dr. Uttam Sharma</h3>
+                        <p class="qualification">Economist, Research Scientist, ISER-N</p>
+                        <p class="position">Lead, Co-I</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'ArrowLeft') {
+            document.querySelector('.carousel-control-prev').click();
+        } else if (event.key === 'ArrowRight') {
+            document.querySelector('.carousel-control-next').click();
+        }
+    });
+
+    var carousel = new bootstrap.Carousel(document.getElementById('teamCarousel'), {
+        interval: 5000,
+        wrap: true,
+        keyboard: true
+    });
+</script>
 @endsection
