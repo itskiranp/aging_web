@@ -63,7 +63,7 @@
         </div>
     </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+{{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> --}}
 
 
 <section class="research-team py-5">
@@ -73,7 +73,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="team-member">
-                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a" alt="John Doe" class="img-fluid rounded-circle mb-3">
+                        <img src="images/Dr. Dhirgha jibi ghimire.jpg " alt="Dr. Dirgha Jibi Ghimire" class="img-fluid rounded-circle mb-3">
                         <h3>Dr. Dirgha Jibi Ghimire</h3>
                         <p class="qualification">Ph.D., Social Demographer, Professor University of Michigan and Director, ISER-N     </p>
                         <p class="position">MPI</p>
@@ -81,7 +81,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="team-member">
-                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2" alt="Jane Smith" class="img-fluid rounded-circle mb-3">
+                        <img src="images/Dr. Carlos Mendes de Leon.jpg" alt="Dr. Carlos Mendes de Leon" class="img-fluid rounded-circle mb-3">
                         <h3>Dr. Carlos Mendes de Leon</h3>
                         <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p>
                         <p class="position">MPI</p>
@@ -89,7 +89,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="team-member">
-                        <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5" alt="Mike Johnson" class="img-fluid rounded-circle mb-3">
+                        <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5" alt="Dr. Emily Briceno-Abreu" class="img-fluid rounded-circle mb-3">
                         <h3>Dr. Emily Briceno-Abreu</h3>
                         <p class="qualification">Ph.D., a neuropsychologist and Clinical Associate Professor University of Michigan</p>
                         <p class="position">Co-I</p>
@@ -97,7 +97,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="team-member">
-                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956" alt="Emily Brown" class="img-fluid rounded-circle mb-3">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956" alt="Dr. Colter Mitchell" class="img-fluid rounded-circle mb-3">
                         <h3>Dr. Colter Mitchell</h3>
                         <p class="qualification">PhD., Associate Professor in the Survey Research Center, University of Michigan</p>
                         <p class="position">Co-I</p>
@@ -105,7 +105,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="team-member">
-                        <img src="https://images.unsplash.com/photo-1566492031773-4f4e44671857" alt="David Lee" class="img-fluid rounded-circle mb-3">
+                        <img src="https://images.unsplash.com/photo-1566492031773-4f4e44671857" alt="Dr. Janak Rai" class="img-fluid rounded-circle mb-3">
                         <h3>Dr. Janak Rai</h3>
                         <p class="qualification"> Ph.D., Anthropologist, Associate Professor Tribhuvan University Nepal</p>
                         <p class="position">Co-I</p>
@@ -113,7 +113,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="team-member">
-                        <img src="https://images.unsplash.com/photo-1564460576398-ef55d99548b2" alt="Sarah Chen" class="img-fluid rounded-circle mb-3">
+                        <img src="https://images.unsplash.com/photo-1564460576398-ef55d99548b2" alt="Dr. Kenneth M. Langa" class="img-fluid rounded-circle mb-3">
                         <h3>Dr. Kenneth M. Langa</h3>
                         <p class="qualification">M.D., Cyrus Sturgis Professor of Medicine, University of Michigan</p>
                         <p class="position">Co-I</p>
@@ -121,7 +121,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="team-member">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d" alt="Alex Taylor" class="img-fluid rounded-circle mb-3">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d" alt="Dr. Meeta Sainju Pradhan" class="img-fluid rounded-circle mb-3">
                         <h3>Dr. Meeta Sainju Pradhan</h3>
                         <p class="qualification"> Ph.D., Social Demographer Research Scientist, ISER-N</p>
                         <p class="position">Co-I</p>

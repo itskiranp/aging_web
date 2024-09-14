@@ -227,7 +227,6 @@ body {
     text-align: center;
     transition: transform 0.3s ease;
 }
-
 .collaborator-card:hover {
     transform: translateY(-5px);
 }
@@ -238,8 +237,9 @@ body {
     object-fit: cover;
     border: 5px solid #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px; height:250px; object-fit: contain;
+    mix-blend-mode: darken;
 }
-
 .btn-slider {
     position: absolute;
     top: 50%;

@@ -56,7 +56,7 @@
         </div>
     </div> --}}
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> --}}
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const carousel = new bootstrap.Carousel(document.getElementById('imageSlider'), {
@@ -104,25 +104,25 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-7 mb-4 mb-md-0">
                             <div class="collaborator-card">
-                                <img src="images/UM.JPG" alt="Michigan University" class="img-fluid mb-4" style="width: 240px; height:210px; object-fit: cover;">
+                                <img src="images/UM.JPG" alt="Michigan University" class="img-fluid mb-4 collaborator-card--img">
                                 {{-- <h5 class="text-center">University of Michigan</h5> --}}
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-7 mb-4 mb-md-0">
                             <div class="collaborator-card">
-                                <img src="images/Tu.PNG" alt="TU" class="img-fluid mb-4" style="width: 210px; height: 240px; object-fit: cover;">
+                                <img src="images/Tu.PNG" alt="TU" class="img-fluid mb-4 collaborator-card--img">
                                 {{-- <h5 class="text-center">Tribhuvan University</h5> --}}
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-7 mb-4 mb-md-0">
                             <div class="collaborator-card">
-                                <img src="images/NIH.jpg" alt="NIH" class="img-fluid mb-4" style="width: 350px; height: 210px; object-fit: cover;">
+                                <img src="images/NIH.jpg" alt="NIH" class="img-fluid mb-4 collaborator-card--img">
                                 {{-- <h5 class="text-center">Norvic International Hospital </h5> --}}
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-7 mb-4 mb-md-0">
                             <div class="collaborator-card">
-                                <img src="images/Iser.PNG" alt="David Thompson" class="img-fluid mb-3" style="width: 210px; height: 210px; object-fit: cover;">
+                                <img src="images/Iser.PNG" alt="David Thompson" class="img-fluid mb-3">
                                 {{-- <h5 class="text-center">ISER-N</h5> --}}
                             </div>
                         </div>
