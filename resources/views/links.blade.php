@@ -11,10 +11,10 @@
             <h1>Links</h1>
             <div class="col">
                 <ul class="links-list">
-                    <li><a href="{{ asset('uploads/CVFS-SCAN.pdf') }}" target="_blank" >Chitwan Valley Family Study-Study on Cognition and Aging in Nepal (CVFS-SCAN)</a></li>
-                    <li><a href="{{ asset('uploads/NHRC Summary_10122022.pdf') }}" target="_blank" >NHRC Summary_10122022</a></li>
-                    <li><a href="{{ asset('uploads/Project_Details.pdf') }}" target="_blank" >Project Details</a></li>
-                    <li><a href="{{ asset('uploads/Longitudinal Aging Study in Nepal.pptx') }}" target="_blank" >Longitudinal Aging Study in Nepal</a></li>
+                    <li><a href="#" >Chitwan Valley Family Study-Study on Cognition and Aging in Nepal (CVFS-SCAN)</a></li>
+                    <li><a href="#" >NHRC Summary_10122022</a></li>
+                    <li><a href="#" >Project Details</a></li>
+                    <li><a href="#" target="_blank" >Longitudinal Aging Study in Nepal</a></li>
                 </ul>
             </div>
 
