@@ -69,13 +69,59 @@
                 </div>
                 <div>
                     <div class="map-container">
+                        <div id="map" style="height: 40%; width: 100%;"></div>
+                        <div class="map-overlay ">
+                            <h3>Study Location</h3>
+                            <p>Chitwan District, Nepal</p>
+                        </div>
+                        <div class="map-error d-none alert alert-danger" role="alert">
+                            Unable to load the map. Please check your internet connection and try again.
+                        </div>
+                    </div>
+                    
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+                    
+                    <script async
+                        src="https://maps.gomaps.pro/maps/api/js?key=AlzaSy2ky9iiI63FurfccxQFYqdzr39DyfrW4GM&callback=initMap">
+                    </script>
+                    
+                    <script>
+                        function initMap() {
+                            // Coordinates of the Chitwan District, Nepal
+                            const chitwan = { lat: 27.583331, lng: 84.5166646 };
+                    
+                            // Initialize the map, centered at Chitwan
+                            const map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 10,
+                                center: chitwan,
+                                mapTypeId: 'roadmap'
+                            });
+                    
+                            // Add a marker at Chitwan District
+                            const marker = new google.maps.Marker({
+                                position: chitwan,
+                                map: map,
+                                title: 'Chitwan District, Nepal'
+                            });
+                        }
+                    
+                        // Error handling for iframe map errors (if you use iframes elsewhere)
+                        window.addEventListener('error', function(e) {
+                            if (e.target.tagName === 'IFRAME') {
+                                document.querySelector('.map-error').classList.remove('d-none');
+                            }
+                        }, true);
+                    </script>
+                    
+
+                    {{-- <div class="map-container">
                         <iframe width="100%" height="100%" style="border:0" loading="lazy" allowfullscreen
                             referrerpolicy="no-referrer-when-downgrade"
                             src="https://maps.gomaps.pro/maps/embed/v1/place?key=AlzaSy2ky9iiI63FurfccxQFYqdzr39DyfrW4GM&q=Chitwan+District,Nepal&zoom=10">
                         </iframe>
                         <div class="map-overlay ">
                             <h3>Study Location</h3>
-                            {{-- <p>Chitwan District, Nepal</p> --}}
+                            
                         </div>
                         <div class="map-error d-none alert alert-danger" role="alert">
                             Unable to load the map. Please check your internet connection and try again.
@@ -89,7 +135,7 @@
                                 document.querySelector('.map-error').classList.remove('d-none');
                             }
                         }, true);
-                    </script>
+                    </script> --}}
 
                 </div>
             </div>
