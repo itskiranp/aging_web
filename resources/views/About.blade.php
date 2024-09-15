@@ -89,7 +89,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="team-member">
-                        <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5" alt="Dr. Emily Briceno-Abreu" class="img-fluid rounded-circle mb-3">
+                        <img src="images/Emily-MarieBriceno-Abreut.jpg" alt="Dr. Emily Briceno-Abreu" class="img-fluid rounded-circle mb-3">
                         <h3>Dr. Emily Briceno-Abreu</h3>
                         <p class="qualification">Ph.D., a neuropsychologist and Clinical Associate Professor University of Michigan</p>
                         <p class="position">Co-I</p>
@@ -97,7 +97,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="team-member">
-                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956" alt="Dr. Colter Mitchell" class="img-fluid rounded-circle mb-3">
+                        <img src="images/colter-mitchell.jpg" alt="Dr. Colter Mitchell" class="img-fluid rounded-circle mb-3">
                         <h3>Dr. Colter Mitchell</h3>
                         <p class="qualification">PhD., Associate Professor in the Survey Research Center, University of Michigan</p>
                         <p class="position">Co-I</p>
@@ -105,7 +105,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="team-member">
-                        <img src="https://images.unsplash.com/photo-1566492031773-4f4e44671857" alt="Dr. Janak Rai" class="img-fluid rounded-circle mb-3">
+                        <img src="images/Janak-Rai.png" alt="Dr. Janak Rai" class="img-fluid rounded-circle mb-3">
                         <h3>Dr. Janak Rai</h3>
                         <p class="qualification"> Ph.D., Anthropologist, Associate Professor Tribhuvan University Nepal</p>
                         <p class="position">Co-I</p>
@@ -113,7 +113,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="team-member">
-                        <img src="https://images.unsplash.com/photo-1564460576398-ef55d99548b2" alt="Dr. Kenneth M. Langa" class="img-fluid rounded-circle mb-3">
+                        <img src="images/Dr. Kenneth M. Langa.JPG" alt="Dr. Kenneth M. Langa" class="img-fluid rounded-circle mb-3">
                         <h3>Dr. Kenneth M. Langa</h3>
                         <p class="qualification">M.D., Cyrus Sturgis Professor of Medicine, University of Michigan</p>
                         <p class="position">Co-I</p>
@@ -121,7 +121,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="team-member">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d" alt="Dr. Meeta Sainju Pradhan" class="img-fluid rounded-circle mb-3">
+                        <img src="" alt="Dr. Meeta Sainju Pradhan" class="img-fluid rounded-circle mb-3">
                         <h3>Dr. Meeta Sainju Pradhan</h3>
                         <p class="qualification"> Ph.D., Social Demographer Research Scientist, ISER-N</p>
                         <p class="position">Co-I</p>
@@ -129,7 +129,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="team-member">
-                        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e" alt="Olivia Wilson" class="img-fluid rounded-circle mb-3">
+                        <img src="images/Dr. Pankaj Jalan.JPG" alt="Olivia Wilson" class="img-fluid rounded-circle mb-3">
                         <h3>Dr. Pankaj Jalan</h3>
                         <p class="qualification">M.D., Neurologist, Norvic International Hospital</p>
                         <p class="position">Co-I</p>
@@ -137,7 +137,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="team-member">
-                        <img src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4" alt="Daniel Park" class="img-fluid rounded-circle mb-3">
+                        <img src="images/DR_UTTAM_SHARMA.jpg" alt="Daniel Park" class="img-fluid rounded-circle mb-3">
                         <h3>Dr. Uttam Sharma</h3>
                         <p class="qualification">Economist, Research Scientist, ISER-N</p>
                         <p class="position">Lead, Co-I</p>
