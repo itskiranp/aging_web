@@ -36,7 +36,7 @@
                     <p class="card-text">Non communicable disease, Alzheimer disease and related dementias
                         (ADRD) and International out-migration</p>
                     <h5 class="card-title mt-4">Study Location</h5>
-                    <p class="card-text">Our team collaborates remotely, with our main development hub located in San Francisco, California.</p>
+                    <p class="card-text">Our team collaborates remotely, with our main research hub located in Chitwan, Nepal.</p>
                 </div>
             </div>
         </div>
