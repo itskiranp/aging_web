@@ -88,7 +88,7 @@
                     <script>
                         function initMap() {
                             // Coordinates of the Chitwan District, Nepal
-                            const chitwan = { lat: 27.583331, lng: 84.5166646 };
+                            const chitwan = { lat: 27.68333, lng: 84.43333 };
                     
                             // Initialize the map, centered at Chitwan
                             const map = new google.maps.Map(document.getElementById('map'), {
