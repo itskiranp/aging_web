@@ -364,6 +364,62 @@ body {
 }
 
 
+/* Google map integrate styling */
+.map-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.map-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+    margin-top:2.5rem;
+
+}
+
+.map-overlay h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.map-overlay p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+}
+
+.map-error {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+}
+
+@media (max-width: 768px) {
+    .map-container {
+        padding-bottom: 75%;
+    }
+}
+
 /* Research team styling  */
 
 .research-team {
