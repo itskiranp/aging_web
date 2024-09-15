@@ -118,7 +118,7 @@ body {
     transition: background-color 0.3s ease;
 }
 .navbar a:hover {
-    background-color: rgb(167, 21, 21);
+    background-color: rgb(27 135 46);
     color: white;
 }
 .navbar li a {
@@ -126,7 +126,7 @@ body {
     align-items: end;
 }
 .main-nav a.active {
-    background-color: rgb(167, 21, 21);
+    background-color: rgb(27 135 46);
     color: white; /* Optional: Adjust the text color */
 }
 

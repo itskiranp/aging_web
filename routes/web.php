@@ -16,10 +16,10 @@ Route::post('/products',[ProductController::class,'store'])->name('products.stor
 
 
 Route::get('/', [PageController::class, 'home'])->name('home');
-Route::get('/About', [PageController::class, 'About'])->name('About');
-Route::get('/publications', [PageController::class, 'publications'])->name('publications');
 Route::get('/Research', [PageController::class, 'Research'])->name('Research');
+Route::get('/publications', [PageController::class, 'publications'])->name('publications');
 Route::get('/links', [PageController::class, 'links'])->name('links');
+Route::get('/About', [PageController::class, 'About'])->name('About');
 
 Route::get('/publications', [PublicationController::class, 'index']);
 
