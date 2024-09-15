@@ -121,7 +121,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="team-member">
-                        <img src="" alt="Dr. Meeta Sainju Pradhan" class="img-fluid rounded-circle mb-3">
+                        <img src="images/dr-meeta-sainju-pradhan.jpg" alt="Dr. Meeta Sainju Pradhan" class="img-fluid rounded-circle mb-3">
                         <h3>Dr. Meeta Sainju Pradhan</h3>
                         <p class="qualification"> Ph.D., Social Demographer Research Scientist, ISER-N</p>
                         <p class="position">Co-I</p>
@@ -137,7 +137,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="team-member">
-                        <img src="images/DR_UTTAM_SHARMA.jpg" alt="Daniel Park" class="img-fluid rounded-circle mb-3">
+                        <img src="images/Uttam-Sharma.jpg" alt="Daniel Park" class="img-fluid rounded-circle mb-3">
                         <h3>Dr. Uttam Sharma</h3>
                         <p class="qualification">Economist, Research Scientist, ISER-N</p>
                         <p class="position">Lead, Co-I</p>
