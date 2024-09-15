@@ -5,10 +5,6 @@ use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
 
 Route::get('/products',[ProductController::class,'index'])->name('products.index');
 Route::get('/products/create',[ProductController::class,'create'])->name('products.create');
@@ -23,5 +19,3 @@ Route::get('/About', [PageController::class, 'About'])->name('About');
 
 Route::get('/publications', [PublicationController::class, 'index']);
 
-
-// Route::get('/', ShowHome::class);

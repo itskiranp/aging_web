@@ -54,7 +54,8 @@
     <footer class="site-footer">
         <div class="footer-content">
             <div class="footer-left">
-                <h4>Contact Details</h4>
+                <h4>Contact Person</h4>
+                {{-- <strong>Dr. Dirgha Jibi Ghimire</strong> --}}
                 {{-- <hr style="border-top: 2px solid #f4c430; width: 50px;"> --}}
                 <p><i class="fa fa-map-marker" aria-hidden="true"></i> Bharatpur-15, Fulbari, Chitwan, Nepal</p>
                 <p><i class="fa fa-phone" aria-hidden="true"></i> +977-56-591054, +977-56-592406</p>
