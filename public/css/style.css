@@ -25,13 +25,13 @@ body {
     right: 0;
     width: 100%;
     z-index: 10; /* Ensures the header stays above other content */
-    height: auto; /*25%*/
+    height: auto;
     display: flex;
-    flex-direction: row; /*not included*/
+    flex-direction: row; 
 }
 
 .header-container {
-    display: flex; /*not included*/
+    display: flex; 
     align-items: center;
 }
 

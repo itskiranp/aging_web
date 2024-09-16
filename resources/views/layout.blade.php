@@ -18,15 +18,17 @@
     <!-- Header Section -->
     <header class="main-header">
         <div class="row align-items-center">
+            <!-- Aging Logo Section-->
             <div class="col-3 me-4">
-                <img src="{{ asset('images/aging_logo.png') }}" alt="aging Logo" class="logo"> <!-- Aging Logo -->
+                <img src="{{ asset('images/aging_logo.png') }}" alt="aging Logo" class="logo">
             </div>
+            <!-- Title and Subtitle Section -->
             <div class="col-6  ">
-                <h2 class="text-start ">Study on Cognition and Aging in Nepal
-                </h2>
+                <h2 class="text-start ">Study on Cognition and Aging in Nepal</h2>
                 <p class="text-start">Chitwan Valley Family Study(CVFS-SCAN)</p>
-
             </div>
+            <!-- Search Box Section -->
+
     </header>
 
     <!-- Navigation Bar -->
@@ -48,7 +50,7 @@
         <div class="main-container">
             @yield('content') <!-- This will allow different pages to insert content -->
         </div>
-    </main>
+    </main> 
 
     <!-- Footer Section -->
     <footer class="site-footer">
@@ -73,11 +75,8 @@
             <div class="footer-right">
                 <div class="container">
                     <img src="{{ asset('images/aging_logo.png') }}" alt="Aging Logo" class="footer-logo">
-
                     <p>Study on Cognition and Aging in Nepal | CVFS-SCAN</p>
                     <p>This project is funded by the National Institute of Health(NIH)</p>
-
-
                 </div>
             </div>
         </div>
@@ -87,5 +86,4 @@
         </div>
     </footer>
 </body>
-
 </html>
