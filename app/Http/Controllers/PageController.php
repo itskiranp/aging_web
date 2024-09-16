@@ -16,6 +16,11 @@ class PageController extends Controller
     {
         return view('Research');
     }
+    public function cvfs()
+    {
+        // This method only returns the view since the content is static in the Blade file
+        return view('cvfs');
+    }
 
     public function publications()
     {

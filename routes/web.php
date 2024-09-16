@@ -14,6 +14,8 @@ Route::get('/About', [PageController::class, 'About'])->name('About');
 
 Route::get('/publications', [PublicationController::class, 'index']);
 
+Route::get('/cvfs', [PageController::class, 'cvfs'])->name('cvfs');
+
 
 // Route::get('/cvfs', function () {
 //     return view('cvfs');
