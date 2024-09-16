@@ -7,9 +7,9 @@ use Illuminate\Support\Facades\Storage;
 
 class PageController extends Controller
 {
-    public function home()
+    public function Index()
     {
-        return view('home');
+        return view('Index');
     }
 
     public function Research()

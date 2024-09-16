@@ -11,7 +11,7 @@ Route::get('/products/create',[ProductController::class,'create'])->name('produc
 Route::post('/products',[ProductController::class,'store'])->name('products.store');
 
 
-Route::get('/', [PageController::class, 'home'])->name('home');
+Route::get('/', [PageController::class, 'Index'])->name('Index');
 Route::get('/Research', [PageController::class, 'Research'])->name('Research');
 Route::get('/publications', [PageController::class, 'publications'])->name('publications');
 Route::get('/links', [PageController::class, 'links'])->name('links');

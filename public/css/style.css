@@ -291,6 +291,13 @@ body {
     }
 }
 
+/* Research page styling */
+.overlay-image-blur {
+    filter: blur(2px); /* Adjust the blur radius as needed */
+    -webkit-filter: blur(2px); /* For compatibility with older browsers */
+}
+
+
 /* publications page styling  */
 
 /* General styling for the links page */
