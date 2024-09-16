@@ -18,11 +18,12 @@
                     <img src="{{ asset('images/background.JPG') }}" class="card-img overlay-image-blur" alt="CVFS"
                         height="300px">
                     <div class="card-img-overlay d-flex align-items-center justify-content-center text-center">
-                    
+
                         <div>
-                            <h1 class="card-title mt-5" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Chitwan Valley Family
+                            <h3 class="card-title mt-5" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Chitwan Valley
+                                Family
                                 Study on Cognition and Aging in Nepal
-                                (CVFS-SCAN)</h1>
+                                (CVFS-SCAN)</h3>
                             <p class="card-text " style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">
                                 This longitudinal study investigates the cognitive decline and dementia
                                 risks in older adults in the Chitwan Valley of Nepal, involving 4,000 participants and their

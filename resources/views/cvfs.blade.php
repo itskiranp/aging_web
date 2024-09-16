@@ -61,8 +61,4 @@
     <a href="{{ route('Research') }}" class="btn btn-primary">Back</a>
 </div>
 
-
-
-
-
 @endsection
