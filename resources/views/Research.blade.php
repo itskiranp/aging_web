@@ -15,18 +15,19 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="card bg-dark text-white">
-                    <img src="{{ asset('images/background.JPG') }}" class="card-img overlay-image-blur" alt="Meditations"
+                    <img src="{{ asset('images/background.JPG') }}" class="card-img overlay-image-blur" alt="CVFS"
                         height="300px">
                     <div class="card-img-overlay d-flex align-items-center justify-content-center text-center">
                         <div>
-                            <h1 class="card-title">Chitwan Valley Family
+                            <h1 class="card-title mt-5">Chitwan Valley Family
                                 Study on Cognition and Aging in Nepal
                                 (CVFS-SCAN)</h1>
-                            <p class="card-text mb-5">
+                            <p class="card-text ">
                                 This longitudinal study investigates the cognitive decline and dementia
                                 risks in older adults in the Chitwan Valley of Nepal, involving 4,000 participants and their
                                 caregivers.
                             </p>
+                            {{-- <a href="{{ route('cvfs') }}"> --}}
                         </div>
                     </div>
                 </div>
@@ -37,14 +38,15 @@
         <div class="row mt-4">
             <div class="col-md-6">
                 <div class="card bg-dark text-white">
-                    <img src="{{ asset('images/Blog1.jpg') }}" class="card-img overlay-image-blur" alt="Dr Joe's Blog" height="300px">
+                    <img src="{{ asset('images/Blog1.jpg') }}" class="card-img overlay-image-blur" alt="blog 1" height="300px">
                     <div class="card-img-overlay d-flex align-items-center justify-content-center text-center">
                         <div>
                             <h3 class="card-title">Blog 1</h3>
                             <p class="card-text">
-                                Every two weeks, Dr Joe answers common questions, introduces new material, simplifies
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                {{-- Every two weeks, Dr Joe answers common questions, introduces new material, simplifies
                                 complex ideas, and explains
-                                the foundational teachings of this work.
+                                the foundational teachings of this work. --}}
                             </p>
                         </div>
                     </div>
