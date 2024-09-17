@@ -10,24 +10,24 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="images/Elderly_Men.JPG" class="d-block w-100" alt="Mountain landscape">
-                    <div class="carousel-caption d-none d-md-block">
+                    {{-- <div class="carousel-caption d-none d-md-block">
                         <h5>Image 1</h5>
                         <p>Image description.......</p>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="carousel-item">
-                    <img src="images/background.JPG" class="d-block w-100" alt="Nepal">
-                    <div class="carousel-caption d-none d-md-block">
+                    <img src="images/background.JPG" class="d-block w-100" alt="backgroundpic">
+                    {{-- <div class="carousel-caption d-none d-md-block">
                         <h5>Image 2</h5>
                         <p>Image description.......</p>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="carousel-item">
-                    <img src="images/nepal.jpg" class="d-block w-100" alt="City skyline">
-                    <div class="carousel-caption d-none d-md-block">
+                    <img src="images/nepal.jpg" class="d-block w-100" alt="Nepal">
+                    {{-- <div class="carousel-caption d-none d-md-block">
                         <h5>Image 3</h5>
                         <p>Image description.......</p>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider" data-bs-slide="prev">
@@ -45,18 +45,8 @@
                 <button type="button" data-bs-target="#imageSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
         </div>
-        {{-- <div class="d-flex justify-content-center mt-3">
-        <button id="pausePlayBtn" class="btn btn-primary me-2">
-            <i class="fas fa-pause"></i> Pause
-        </button>
-        <div class="btn-group" role="group" aria-label="Thumbnail navigation">
-            <button type="button" class="btn btn-outline-primary" data-bs-target="#imageSlider" data-bs-slide-to="0">1</button>
-            <button type="button" class="btn btn-outline-primary" data-bs-target="#imageSlider" data-bs-slide-to="1">2</button>
-            <button type="button" class="btn btn-outline-primary" data-bs-target="#imageSlider" data-bs-slide-to="2">3</button>
-        </div>
-    </div> --}}
+        
     </div>
-    {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> --}}
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const carousel = new bootstrap.Carousel(document.getElementById('imageSlider'), {
@@ -65,28 +55,10 @@
                 keyboard: true
             });
 
-            const pausePlayBtn = document.getElementById('pausePlayBtn');
-            pausePlayBtn.addEventListener('click', function() {
-                if (this.innerHTML.includes('Pause')) {
-                    carousel.pause();
-                    this.innerHTML = '<i class="fas fa-play"></i> Play';
-                } else {
-                    carousel.cycle();
-                    this.innerHTML = '<i class="fas fa-pause"></i> Pause';
-                }
-            });
-
-            document.addEventListener('keydown', function(e) {
-                if (e.key === 'ArrowLeft') {
-                    carousel.prev();
-                } else if (e.key === 'ArrowRight') {
-                    carousel.next();
-                }
-            });
         });
     </script>
 
-    <div class="mb-5">
+    <div class="mb-3">
         <h2>Study on Cognition and Aging in Nepal.</h2>
         <p>Welcome to our research initiative on International Labor Migration, Armed Conflict, and Alzheimer's Disease in
             Nepal. As Nepal's population ages, the country faces a rising number of adults at risk of Alzheimer's Disease
@@ -94,17 +66,28 @@
             potential impact of exposure to armed conflict, labor migration, and genetic-environmental interactions on ADRD
             risk in Nepal. Through rigorous data collection and analysis, we aim to guide the development of strategies to
             prevent and reduce the burden of ADRD in aging populations.</p>
+            <p>
+                Our project, the Chitwan Valley Family Study on Cognition and Aging in Nepal (CVFS-SCAN), is designed to explore how aging impacts the health and cognition of older adults in Nepal. With a focus on ADRD, we aim to understand the prevalence, risk factors, and long-term effects of international labor migration and armed conflict on dementia and other age-associated conditions. By engaging over 4,000 adults aged 50 and older and their caregivers, our study aims to shed light on critical health issues facing the elderly in Nepal.
+            </p>
 
     </div>
-    <section class="collaborators-section py-5">
+    <div class="mb-5">
+        <h2>Why This Matters</h2>
+        <p>
+            With an aging population, Nepal needs to be prepared for the growing health challenges that accompany it. Understanding the factors that contribute to ADRD will allow us to develop prevention strategies and policies that reduce the burden of dementia on individuals, families, and communities. Our research will not only help Nepal but also provide valuable insights for other low-resource countries facing similar issues.
+
+        </p>
+
+    </div>
+    <section class="collaborators-section">
         <div class="container">
             <h2 class="text-center mb-5">Our Collaborators</h2>
             <div class="position-relative">
                 <div class="collaborators-slider">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+                        <div class="col-md-3 col-sm-7 mb-4 mb-md-0">
                             <div class="collaborator-card">
-                                <img src="images/UM.JPG" alt="Michigan University" class="img-fluid mb-4 collaborator-card--img">
+                                <img src="images/Michigan University.JPG" alt="Michigan University" class="img-fluid mb-4 collaborator-card--img">
                                 {{-- <h5 class="text-center">University of Michigan</h5> --}}
                             </div>
                         </div>
@@ -116,7 +99,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
                             <div class="collaborator-card">
-                                <img src="images/NIH.jpg" alt="NIH" class="img-fluid mb-4 collaborator-card--img">
+                                <img src="images/NIH.JPG" alt="NIH" class="img-fluid mb-4 collaborator-card--img">
                                 {{-- <h5 class="text-center">Norvic International Hospital </h5> --}}
                             </div>
                         </div>
@@ -128,12 +111,6 @@
                         </div>
                     </div>
                 </div>
-                {{-- <button class="btn btn-slider btn-prev" aria-label="Previous collaborator">
-                    <i class="bi bi-chevron-left"></i>
-                </button>
-                <button class="btn btn-slider btn-next" aria-label="Next collaborator">
-                    <i class="bi bi-chevron-right"></i>
-                </button> --}}
             </div>
         </div>
     </section>

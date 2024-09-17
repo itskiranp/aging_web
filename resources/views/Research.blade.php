@@ -6,109 +6,51 @@
 
 @section('content')
 
-    {{-- @extends('layouts.app') --}}
-
 @section('content')
-    <div class="container mt-5">
 
-        <!-- Section 1: Full-width image with text overlay -->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="card bg-dark text-white">
-                    <img src="{{ asset('images/background.JPG') }}" class="card-img overlay-image-blur" alt="CVFS"
-                        height="300px">
-                    <div class="card-img-overlay d-flex align-items-center justify-content-center text-center">
-
-                        <div>
-                            <h3 class="card-title mt-5" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Chitwan Valley
-                                Family
-                                Study on Cognition and Aging in Nepal
-                                (CVFS-SCAN)</h3>
-                            <p class="card-text " style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">
-                                This longitudinal study investigates the cognitive decline and dementia
-                                risks in older adults in the Chitwan Valley of Nepal, involving 4,000 participants and their
-                                caregivers.
-                            </p>
-                        </div>
-                    </div>
-                    <a href="{{ route('cvfs') }}" class="stretched-link"></a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section 2: Two-column layout with images and text -->
-        <div class="row mt-4">
-            <div class="col-md-6">
-                <div class="card bg-dark text-white">
-                    <img src="{{ asset('images/Blog1.jpg') }}" class="card-img overlay-image-blur" alt="blog 1"
-                        height="300px">
-                    <div class="card-img-overlay d-flex align-items-center justify-content-center text-center">
-                        <div>
-                            <h3 class="card-title">Blog 1</h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua.
-                                {{-- Every two weeks, Dr Joe answers common questions, introduces new material, simplifies
-                                complex ideas, and explains
-                                the foundational teachings of this work. --}}
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="card bg-dark text-white">
-                    <img src="{{ asset('images/Blog2.jpg') }}" class="card-img overlay-image-blur" alt="New Research"
-                        height="300px">
-                    <div class="card-img-overlay d-flex align-items-center justify-content-center text-center">
-                        <div>
-                            <h3 class="card-title">New Research</h3>
-                            <p class="card-text">
-                                Discover new breakthroughs and insights in neuroscience, quantum physics, and epigenetics
-                                that are driving
-                                profound change and transformation.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-
-
-    {{-- <div class="card">
+    <main class="container my-5">
         <div class="card-header">
-            <h2>Longitudinal Aging Study in Nepal - Summary</h2>
+        <h2 class="text-center mb-5">Chitwan Valley Family Study on Cognition and Aging in Nepal (CVFS-SCAN)</h2>
         </div>
-        <div class="card-body">
-            <p><strong>Study Overview:</strong> This longitudinal study investigates the cognitive decline and dementia
-                risks in older adults in the Chitwan Valley of Nepal, involving 4,000 participants and their caregivers.</p>
+        
+        <section id="research-details">
+            {{-- <h2 class="mb-4">Research Details</h2> --}}
+            <div class="row">
+                <div class="col">
+                    <h3>Study Overview</h3>
+                    <p>The Longitudinal Aging Study in Nepal is a comprehensive research initiative aimed at understanding the impact of aging on cognitive health, specifically focusing on Alzheimer’s Disease and Related Dementias (ADRD), in Nepal. The study seeks to explore how factors such as international labor migration and exposure to armed conflict contribute to the risk of dementia and cognitive impairments in older adults.</p>
+                </div>
+            </div>
+        </section>
+        <section id="image-gallery" class="mt-4">
+            <h3 class="mb-2">Study Area</h3>
+            <img src="images/CVFS study area.png" class="card-img-top" height="100%" alt="Project workspace">
+        </section>
 
-            <h4>Key Objectives:</h4>
+        <section>
+            <h2>Study Objectives</h2>
             <ul>
-                <li>Build research capacity for Alzheimer's Disease and Related Dementias (ADRD).</li>
-                <li>Develop a systematic population-based study on ADRD and aging in Nepal.</li>
-                <li>Study the effects of labor migration and armed conflict on dementia risk.</li>
+                <li><strong>Build Research Capacity:</strong> Train local researchers to conduct systematic research on ADRD, including culturally appropriate cognitive assessments and advanced statistical analysis of longitudinal data.</li>
+                <li><strong>Conduct a Population-Based Study:</strong> Survey 4,000 adults aged 50 and above, along with their 4,000 caregivers, and carry out follow-up assessments to estimate the prevalence and incidence of ADRD.</li>
+                <li><strong>Investigate Risk Factors:</strong> Analyze how long-term labor migration and exposure to armed conflict impact the risk of developing ADRD and other cognitive impairments.</li>
             </ul>
+        </section>
 
-            <h4>Research Methods:</h4>
+        <section>
+            <h2>Study Methods</h2>
+            <p>The study employs a stratified two-stage cluster sampling technique to survey a representative sample of 4,000 older adults and their caregivers from the Chitwan Valley. Data collection includes:</p>
             <ul>
-                <li><strong>Study Design:</strong> Longitudinal cohort study.</li>
-                <li><strong>Population:</strong> 4,000 older adults (aged 50+) and their caregivers (aged 18+).</li>
-                <li><strong>Sampling Technique:</strong> Stratified two-stage cluster sampling with oversampling for
-                    specific ethnic groups.</li>
+                <li>Harmonized Cognitive Assessment Protocol (HCAP) instruments for cognitive and physical function assessments.</li>
+                <li>Interviews with participants and caregivers, including assessments of height, weight, and blood pressure.</li>
+                <li>Biomarker collection involving plasma, serum, and red blood cells.</li>
             </ul>
+        </section>
 
-            <h4>Team Collaboration:</h4>
-            <p>This study is conducted in collaboration with researchers from Nepal and major U.S. institutions, including
-                ISER-Nepal and the University of Michigan.</p>
+        <section>
+            <h2>Timeline and Current Status</h2>
+            <p>The study commenced in 2022 and is projected to conclude by 2027. The research team has successfully completed initial data collection and is preparing for follow-up assessments in the coming years.</p>
+        </section>
 
-            <h4>Projected Timeline:</h4>
-            <p>Full participation and data collection are expected to be completed by 2024.</p>
-        </div>
-    </div>
-    </div> --}}
-@endsection
+      
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    @endsection

@@ -16,15 +16,15 @@ class PageController extends Controller
     {
         return view('Research');
     }
-    public function cvfs()
-    {
-        // This method only returns the view since the content is static in the Blade file
-        return view('cvfs');
-    }
 
     public function publications()
     {
         return view('publications');
+    }
+    public function people()
+    {
+        return view('people');
+        
     }
     public function links()
     {
@@ -34,6 +34,25 @@ class PageController extends Controller
     {
         return view('About');
     }
+
+        // Method for Researcher page
+        public function showResearcher()
+        {
+            return view('people.researcher');
+        }
+    
+        // Method for Staff page
+        public function showStaff()
+        {
+            return view('people.staff'); // This view file should be created
+        }
+    
+        // Method for Board Member page
+        public function showBoardMember()
+        {
+            return view('people.board'); // This view file should be created
+        }
+
 
 }
 

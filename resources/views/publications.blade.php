@@ -7,7 +7,7 @@
     <div class="publications-container">
         <h1>Publications</h1>
         No publications yet.
-        {{-- @foreach ($publications as $publication)
+        @foreach ($publications as $publication)
             <div class="publication-item">
                 <p>{{ $publication->authors }}</p>
                 <p><a href="{{ $publication->doi }}" target="_blank">{{ $publication->title }}</a>
@@ -29,5 +29,5 @@
             @endforeach
         </ul>
 
-    </div>--}}
+    </div>
 @endsection 
