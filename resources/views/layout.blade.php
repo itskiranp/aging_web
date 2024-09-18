@@ -33,13 +33,12 @@
 
     <!-- Navigation Bar -->
 
-
     <div class="main-nav">
         <nav
             class="navbar navbar-expand-sm justify-content-center justify-content-sm-center justify-content-md-end  me-md-6">
             <ul class="navbar-nav fs-5 text">
                 <li class="nav-item">
-                    <a href="/" class="nav-link {{ Request::is('/') ? 'active' : '' }}">Home</a>
+                    <a href="/" class="nav-link {{ Request::is('/') ? 'active' : '' }} icon-link-hover" >Home</a>
                 </li>
                 <li class="nav-item">
                     <a href="/Research" class="nav-link {{ Request::is('Research') ? 'active' : '' }}">Study</a>
@@ -49,7 +48,7 @@
                         class="nav-link {{ Request::is('publications') ? 'active' : '' }}">Publications</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}"
+                    <a href="#" class="nav-link dropdown-toggle  {{ Request::is('people') ? 'active' : '' }}"
                         id="peopleDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         People
                     </a>

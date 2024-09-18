@@ -10,7 +10,7 @@
 
     <main class="container my-5">
         <div class="card-header">
-        <h2 class="text-center mb-5">Chitwan Valley Family Study on Cognition and Aging in Nepal (CVFS-SCAN)</h2>
+        <h2 class="text-center mb-5"><strong>Chitwan Valley Family Study on Cognition and Aging in Nepal (CVFS-SCAN)</strong></h2>
         </div>
         
         <section id="research-details">
