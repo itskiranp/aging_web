@@ -89,9 +89,10 @@ body {
     margin: 50px;
     padding: 30px;
 }
+                      
 
-/* new navbar styling */
-/* Main Navigation */
+/* Main Navigation  styling*/
+
 .main-nav {
     /* background-color: #2f5c32; */
     width: 100%;
@@ -123,6 +124,7 @@ body {
 .navbar-nav .nav-link {
     /* background-color: #4CAF50; */
     color: black !important;
+
    
 }
 
