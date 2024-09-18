@@ -44,13 +44,13 @@ class PageController extends Controller
         // Method for Staff page
         public function showStaff()
         {
-            return view('people.staff'); // This view file should be created
+            return view('people.staff'); 
         }
     
         // Method for Board Member page
         public function showBoardMember()
         {
-            return view('people.board'); // This view file should be created
+            return view('people.board'); 
         }
 
 

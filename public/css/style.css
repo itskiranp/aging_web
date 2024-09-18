@@ -142,6 +142,7 @@ body {
 
 .nav-item:hover .dropdown-menu {
     display: block;
+    background-color: #D9D9D9;
 }
 
 

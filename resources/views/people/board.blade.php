@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-
 @extends('layout')
 
 @section('title', 'researcher')
@@ -15,7 +14,7 @@
         <div class="row justify-content-center">
             <div class="col-6 col-md-3">
                 <div class="team-member">
-                    <img src="/images/Dr.%20Dhirgha%20jibi%20ghimire.jpg" alt="Dr. Dirgha Jibi Ghimire"
+                    <img src="/images/Dr_ Dhirgha_jibi_ghimire.jpg" alt="Dr. Dirgha Jibi Ghimire"
                         class="img-fluid rounded-circle mb-3">
                     <h3>Dr. Dirgha Jibi Ghimire</h3>
                     <p class="qualification">Ph.D., Social Demographer, Professor University of Michigan and

@@ -56,7 +56,7 @@
                         <li><a href="{{ route('people.researcher') }}" class="dropdown-item fs-5 text">Researcher</a>
                         </li>
                         <li><a href="/people/staff" class="dropdown-item fs-5 text">Staff</a></li>
-                        <li><a href="/people/board" class="dropdown-item fs-5 text">Board Member</a></li>
+                        <li><a href="/people/board" class="dropdown-item fs-5 text">Investigators</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">

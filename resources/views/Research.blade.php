@@ -14,7 +14,6 @@
         </div>
         
         <section id="research-details">
-            {{-- <h2 class="mb-4">Research Details</h2> --}}
             <div class="row">
                 <div class="col">
                     <h3>Study Overview</h3>
