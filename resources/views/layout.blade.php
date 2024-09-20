@@ -3,15 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    {{-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> --}}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title')</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
+
     {{-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"> --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
 </head>
 
 <body>
@@ -26,8 +29,9 @@
             <div class="col-8">
                 <h1 class="text-start"><strong>Study on Cognition and Aging in Nepal</strong></h1>
                 <p class="text-start">Chitwan Valley Family Study(CVFS-SCAN)</p>
+
+
             </div>
-            <!-- Search Box Section -->
 
     </header>
 
@@ -38,10 +42,14 @@
             class="navbar navbar-expand-sm justify-content-center justify-content-sm-center justify-content-md-end  me-md-6">
             <ul class="navbar-nav fs-5 text">
                 <li class="nav-item">
-                    <a href="/" class="nav-link {{ Request::is('/') ? 'active' : '' }} icon-link-hover" >Home</a>
+                    <a href="/" class="nav-link {{ Request::is('/') ? 'active' : '' }}">Home </a>
+                </li>
+                {{-- <i class="fa-solid fa-house-chimney mt-1"></i> --}}
+                <li class="nav-item">
+                    <a href="/study" class="nav-link {{ Request::is('study') ? 'active' : '' }}">Study</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/Research" class="nav-link {{ Request::is('Research') ? 'active' : '' }}">Study</a>
+                    <a href="/data" class="nav-link {{ Request::is('data') ? 'active' : '' }}">Data</a>
                 </li>
                 <li class="nav-item">
                     <a href="/publications"
@@ -56,17 +64,25 @@
                         <li><a href="{{ route('people.researcher') }}" class="dropdown-item fs-5 text">Researcher</a>
                         </li>
                         <li><a href="/people/staff" class="dropdown-item fs-5 text">Staff</a></li>
-                        <li><a href="/people/board" class="dropdown-item fs-5 text">Investigators</a></li>
+                        <li><a href="/people/investigators" class="dropdown-item fs-5 text">Investigators</a></li>
                     </ul>
                 </li>
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a href="/links" class="nav-link {{ Request::is('links') ? 'active' : '' }}">Links</a>
-                </li>
+                </li> --}}
                 <li class="nav-item">
                     <a href="/About" class="nav-link {{ Request::is('About') ? 'active' : '' }}">About</a>
                 </li>
             </ul>
+            {{-- <!-- Search Box Section -->
+             
+         <div class="navbar-search navbar-search-expand-sm justify-content-sm-center justify-content-sm-center justify-content-md-end  me-md-6">
+            <input class="navbar-srch" type="search" name="" placeholder="Type to search">
+            <a href="#"> <button class="btn btn-navbar-search">Search</button></a>
+
+        </div>       --}}
         </nav>
+
     </div>
 
 
@@ -88,7 +104,7 @@
                 <p><i class="fa fa-phone" aria-hidden="true"></i> +977-56-591054, +977-56-592406</p>
                 <p><i class="fa fa-envelope" aria-hidden="true"></i> iser.nepal@outlook.com</a></p>
                 <p><i class="fa fa-solid fa-clock" aria-hidden="true"></i> 10 A.M. - 5 P.M.</p>
-                
+
                 <div class="social-icon">
                     <a href="https://www.facebook.com/isernepalofficial/" target="_blank">
                         <i class="fa fa-brands fa-facebook fa-2x" aria-hidden="true"></i>

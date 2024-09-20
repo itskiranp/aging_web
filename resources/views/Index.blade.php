@@ -2,14 +2,14 @@
 
 @extends('layout')
 
-@section('title', 'Home')
+@section('title', 'Study on Cognition and Aging in Nepal')
 
 @section('content')
-    <div class="container-fluid p-0 mb-5">
+    <div class="container-fluid p-0 mb-5 mt-4">
         <div id="imageSlider" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/Elderly_Men.JPG" class="d-block w-100" alt="Mountain landscape">
+                    <img src="images/Elderly_Men.JPG" class="d-block w-100" alt="elderly-men">
                     {{-- <div class="carousel-caption d-none d-md-block">
                         <h5>Image 1</h5>
                         <p>Image description.......</p>

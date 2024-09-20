@@ -85,6 +85,44 @@ body {
     }
 }
 
+/* search box styling */
+/* .navbar-search{
+    width: 300px;
+    float: left;
+    margin-left: 270px;
+} */
+/* .navbar-srch{
+    font-family: 'Times New Roman';
+    width: 150px;
+    height: 30px;
+    border: 1px solid rgb(31, 17, 230);
+    color: rgb(31, 17, 230);
+    border-right: none;
+    font-size: 16px;
+    
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn-navbar-search{
+    height: 40px;
+    background-color: #007bff;
+    border: 2px solid orange;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.btn-search:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+} */
+
+
+
+
 /* main body styling */
 .main-container {
     margin: 50px;
@@ -92,12 +130,13 @@ body {
 }
                       
 
-/* Main Navigation  styling*/
+/* Main Navigation styling*/
 
 .main-nav {
     /* background-color: #2f5c32; */
     width: 100%;
     background-color: #D9D9D9;
+    /* height: 60px; */
 }
 
 .navbar-nav {
@@ -117,25 +156,24 @@ body {
     padding: 10px 15px;
     /* color: white; */
     text-decoration: none;
-    font-size: 18px;  
-
-    
+    font-size: 18px;      
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #000000;
 }
 
-.navbar-nav .nav-link {
-    /* background-color: #4CAF50; */
+/* .navbar-nav .nav-link {
+    background-color: #4CAF50;
     color: black !important;
-
-   
-}
+} */
 
 .nav-item .dropdown-menu {
     display: none;
     position: absolute;
-    top: 100%;
+    top: 50px;
     left: 0;
-    background-color: white;
-    border: 1px solid #ccc;
+    /* background-color: white; */
+    /* border: 1px solid #ccc; */
     z-index: 1;
     /* min-width: 200px; */
 }
@@ -162,9 +200,6 @@ body {
         margin-right: 7rem !important;
     }
 }
-
-
-
 
 
 /* Home Content Styling */
@@ -317,6 +352,24 @@ body {
         display: none;
     }
 }
+
+/* dropdown-menu investigators pages styling */
+
+.investigator {
+    margin-bottom: 50px;
+}
+.investigator img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.investigator .btn-download {
+    margin-top: 10px;
+}
+
+
+
+
+
 
 /* General styling for the links page */
 
@@ -515,6 +568,34 @@ body {
         font-size: 0.8rem;
     }
 }
+
+
+/* feedback page styling */
+.rating {
+    display: flex;
+    justify-content: start;
+    flex-direction: row-reverse;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 2rem;
+    color: lightgray;
+    cursor: pointer;
+    padding: 0 0.1rem;
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked ~ label {
+    color: gold;
+}
+
+
+
 
 /* General Footer Styling */
 .site-footer {

@@ -5,7 +5,7 @@
 @section('title', 'About')
 
 @section('content')
-    <div class="container my-5">
+    <div class="container my-4">
         <div class="row">
             <div class="col-md-8 mb-4 mb-md-0">
                 <h2 class="mb-4">About Our Project</h2>
@@ -51,8 +51,8 @@
                 <h2 class="mb-4">Important Links</h2>
                 <div class="d-grid gap-3">
                     <a href="#" class="btn btn-primary">Connect With Us</a>
-                    <a href="#" class="btn btn-outline-secondary">Website Feedback</a>
-                    {{-- <a href="#" class="btn btn-info">Documentation</a> --}}
+                    <a href="{{ route('feedback') }}" class="btn btn-outline-secondary">Website Feedback</a>
+                    <a href="{{ route('links') }}" class="btn btn-info">Documentation</a>
                     <a href="#" class="btn btn-success">Join Our Team</a>
                 </div>
                 <div class="card mt-4 mb-3">
@@ -112,38 +112,11 @@
                             }
                         }, true);
                     </script>
-                    
-
-                    {{-- <div class="map-container">
-                        <iframe width="100%" height="100%" style="border:0" loading="lazy" allowfullscreen
-                            referrerpolicy="no-referrer-when-downgrade"
-                            src="https://maps.gomaps.pro/maps/embed/v1/place?key=AlzaSy2ky9iiI63FurfccxQFYqdzr39DyfrW4GM&q=Chitwan+District,Nepal&zoom=10">
-                        </iframe>
-                        <div class="map-overlay ">
-                            <h3>Study Location</h3>
-                            
-                        </div>
-                        <div class="map-error d-none alert alert-danger" role="alert">
-                            Unable to load the map. Please check your internet connection and try again.
-                        </div>
-                    </div>
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-                    <script>
-                        
-                        window.addEventListener('error', function(e) {
-                            if (e.target.tagName === 'IFRAME') {
-                                document.querySelector('.map-error').classList.remove('d-none');
-                            }
-                        }, true);
-                    </script> --}}
 
                 </div>
             </div>
         </div>
     </div>
-
-    {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> --}}
-
-
+   
     
 @endsection

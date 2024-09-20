@@ -2,13 +2,11 @@
 
 @extends('layout')
 
-@section('title', 'Research')
+@section('title', 'CVFS')
 
 @section('content')
 
-@section('content')
-
-    <main class="container my-5">
+    <main class="container my-4">
         <div class="card-header">
         <h2 class="text-center mb-5"><strong>Chitwan Valley Family Study on Cognition and Aging in Nepal (CVFS-SCAN)</strong></h2>
         </div>
@@ -17,7 +15,8 @@
             <div class="row">
                 <div class="col">
                     <h3>Study Overview</h3>
-                    <p>The Longitudinal Aging Study in Nepal is a comprehensive research initiative aimed at understanding the impact of aging on cognitive health, specifically focusing on Alzheimer’s Disease and Related Dementias (ADRD), in Nepal. The study seeks to explore how factors such as international labor migration and exposure to armed conflict contribute to the risk of dementia and cognitive impairments in older adults.</p>
+                    <p>The Longitudinal 404
+                        NOT FOUNDAging Study in Nepal is a comprehensive research initiative aimed at understanding the impact of aging on cognitive health, specifically focusing on Alzheimer’s Disease and Related Dementias (ADRD), in Nepal. The study seeks to explore how factors such as international labor migration and exposure to armed conflict contribute to the risk of dementia and cognitive impairments in older adults.</p>
                 </div>
             </div>
         </section>
