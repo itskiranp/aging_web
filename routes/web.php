@@ -12,6 +12,9 @@ Route::get('/data', [PageController::class, 'data'])->name('data');
 Route::get('/publications', [PageController::class, 'publications'])->name('publications');
 // Route::get('/people', [PageController::class, 'people'])->name('people');
 Route::get('/links', [PageController::class, 'links'])->name('links');
+Route::get('/events', [PageController::class, 'events'])->name('events');
+Route::get('/gallery', [PageController::class, 'gallery'])->name('gallery');
+
 Route::get('/About', [PageController::class, 'About'])->name('About');
 
 Route::get('/feedback', [PageController::class, 'showFeedback'])->name('feedback');

@@ -4,10 +4,10 @@
 @section('title', 'Publications')
 
 @section('content')
-    <div class="publications-container">
+    <div class="container">
         <h1>Publications</h1>
         No publications yet.
-        @foreach ($publications as $publication)
+        {{-- @foreach ($publications as $publication)
             <div class="publication-item">
                 <p>{{ $publication->authors }}</p>
                 <p><a href="{{ $publication->doi }}" target="_blank">{{ $publication->title }}</a>
@@ -27,7 +27,9 @@
                 </li>
             </div>
             @endforeach
-        </ul>
+        </ul> --}}
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 @endsection 

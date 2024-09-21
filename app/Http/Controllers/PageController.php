@@ -11,7 +11,6 @@ class PageController extends Controller
     {
         return view('Index');
     }
-
     public function study()
     {
         return view('study');
@@ -50,6 +49,14 @@ class PageController extends Controller
     public function links()
     {
         return view('links');
+    }
+    public function events()
+    {
+        return view('events');
+    }
+    public function gallery()
+    {
+        return view('gallery');
     }
     public function About()
     {

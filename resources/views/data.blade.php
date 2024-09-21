@@ -4,12 +4,13 @@
 
 @section('title', 'Data')
 
-@section('content')
+@section('content') 
 
-<div class="container mt-4">
-    <h2 class="text-center mb-4">DATA</h2>
 
-    {{-- <div class="accordion" id="dataAccordion">
+<div class="container mb-5">
+    <h2 class="text-center mb-5">DATA</h2>
+
+    <div class="accordion" id="dataAccordion">
         <!-- First Panel (Pilot Data) -->
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
@@ -123,7 +124,7 @@
                 </div>
             </div>
         </div>
-    </div> --}}
+    </div>
 </div>
 
 <!-- Bootstrap 5 JS -->

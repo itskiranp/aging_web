@@ -6,13 +6,13 @@
 
 @section('content')
 
-    <div class="container mt-3">
+    <div class="container ">
         <h1 class="text-start">Website Feedback</h1>
         <p class="text-start">Your feedback is very important to us.</p>
         <div class="row">
             <div class="col-md-8 mb-4 mb-md-0">
 
-                {{-- <form action="/submit-feedback" method="POST" class="needs-validation" novalidate>
+                <form action="/submit-feedback" method="POST" class="needs-validation" novalidate>
                     <!-- Name Input -->
                     <div class="mb-3">
                         <label for="name" class="form-label">Name</label>
@@ -100,7 +100,7 @@
                 }, false)
             })
         })()
-    </script> --}}
+    </script>
 
 
 
