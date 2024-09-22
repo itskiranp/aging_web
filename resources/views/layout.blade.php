@@ -37,7 +37,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon" style="background-color: white;"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -56,12 +56,12 @@
                         <a class="nav-link {{ Request::is('publications') ? 'active' : '' }}"
                             href="/publications">Publication</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown" >
                         <a class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}" href="/people"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             People
                         </a>
-                        <ul class="dropdown-menu" style="background-color:rgba(164, 164, 167, 0.9);">
+                        <ul class="dropdown-menu" style="padding: 0;">
                             <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
                                     href="/people/investigators">Investigators</a></li>
                             <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
@@ -70,8 +70,38 @@
                                     href="/people/staff">Staff</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}" href="/people"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Capacity Building
+                        </a>
+                        <ul class="dropdown-menu" style="padding: 0;">
+                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                    href="#">General Interviewing Techniques(GIT) Training</a></li>
+                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                    href="#">Study Specific Training</a></li>
+                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                    href="#">Supervisors Training</a></li>
+                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                    href="#">Survey Data Analysis Training</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}" href="/people"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" style="padding: 0;">
+                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                    href="#">Presentations</a></li>
+                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                    href="#">Policy Brief</a></li>
+                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                    href="#">Dissemination</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ Request::is('events') ? 'active' : '' }}" href="/events">News & Events</a>
+                        <a class="nav-link {{ Request::is('events') ? 'active' : '' }}" href="/events">Events</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ Request::is('gallery') ? 'active' : '' }}" href="/gallery">Gallery</a>
@@ -82,8 +112,8 @@
 
 
                 </ul>
-                <form class="d-flex " role="search">
-                    <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                <form class="d-flex ms-auto" role="search">
+                    <input class="form-control me-1 ms-4" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>

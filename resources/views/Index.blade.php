@@ -29,8 +29,9 @@
                     <img src="images/elderly woman.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/agingbackground.png" class="d-block w-100" alt="...">
+                    <img src="images/eldery.JPG" class="d-block w-100" alt="...">
                 </div>
+
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
                 data-bs-slide="prev">

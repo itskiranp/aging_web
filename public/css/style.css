@@ -83,11 +83,14 @@ body {
 /* navbar styling */
 
 .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-left: 0 !important;
     padding-right: 0 !important;
     padding-top: 0 !important; /* Remove top padding */
     padding-bottom: 0 !important; /* Remove bottom padding */
-    background-color: #555;
+    background-color: #232323;
 }
 
 .navbar-nav .nav-link {
@@ -98,14 +101,15 @@ body {
     align-items: center;
 }
 .navbar .form-control {
-    font-size: 15px; /* Adjust size of search input text */
+    font-size: 12px; /* Adjust size of search input text */
 }
 .nav-item a{
-    padding: 10px;
+    padding: 15px;
 }
 .navbar .btn {
-    font-size: 15px; /* Adjust size of search button text */
+    font-size: 13px; /* Adjust size of search button text */
     color: white !important;
+    
 }
 .navbar-nav .nav-link:hover {
     background-color: #3d3c3c; /* Light background on hover */
@@ -117,6 +121,20 @@ body {
     color: white !important; /* Ensure the text color remains readable */
     border-radius: 3px; /* Optional: Adds rounded corners */
 }
+
+.dropdown-menu li{
+    background-color: #232323;
+
+}
+
+.dropdown-menu a{
+    color: white !important;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color:#36353d;
+}
+
+
 
 /* main body styling */
 
