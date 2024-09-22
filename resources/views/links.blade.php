@@ -5,9 +5,9 @@
 @section('title', 'Links')
 
 @section('content')
-    <div class="links-page">
+    <div class="container">
         <!-- Links Section -->
-        <div class="row links-container">
+        <div class="row links">
             <h1>Links</h1>
             <div class="col">
                 <ul class="links-list">
@@ -17,16 +17,9 @@
                     <li><a href="#" target="_blank" >Longitudinal Aging Study in Nepal</a></li>
                 </ul>
             </div>
-
-
-            {{-- <!-- Sidebar with the orange box -->
-            <div class="col">
-                <div class="sidebar">
-                    <div class="highlight-box">
-                        <p>CADAS seeks to cross-harmonize with 10/66, and the HCAP family of studies.</p>
-                    </div>
-                </div>
-            </div> --}}
+            
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 @endsection

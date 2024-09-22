@@ -64,7 +64,6 @@ body {
     }
 }
 
-
 /* Media query for extra small devices like smartphones */
 @media (max-width: 480px) {
     .main-header {
@@ -84,7 +83,6 @@ body {
 /* navbar styling */
 
 .navbar {
-    /* min-height: 56px;  */
     padding-left: 0 !important;
     padding-right: 0 !important;
     padding-top: 0 !important; /* Remove top padding */
@@ -95,7 +93,6 @@ body {
 .navbar-nav .nav-link {
     font-size: 18px; /* Change this value to increase or decrease the size */
     color: white !important;
-    /* padding: 13px 15px; */
     height: 100%;
     display: flex;
     align-items: center;
@@ -112,7 +109,6 @@ body {
 }
 .navbar-nav .nav-link:hover {
     background-color: #3d3c3c; /* Light background on hover */
-    /* color: black !important;  */
     border-radius: 3px;
 
 }
@@ -124,15 +120,11 @@ body {
 
 /* main body styling */
 
-
-/* Main Navigation styling*/
-
 /* Home Content Styling */
 /* General styling for the container */
 .home-content {
     padding: auto;
     margin: auto;
-    /* width: 100%; */
 }
 
 /* carousel styling */
@@ -200,11 +192,8 @@ body {
 }
 
 .collaborator-card img {
-    /* width: 150px; */
-    /* height: 150px; */
     object-fit: cover;
     border: 5px solid #fff;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     width: 200px;
     height: 200px;
     object-fit: contain;
@@ -214,7 +203,6 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    /* background-color: #fff; */
     border: none;
     border-radius: 50%;
     width: 40px;
@@ -222,14 +210,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     transition: all 0.3s ease;
 }
 
-/* .btn-slider:hover {
-    background-color: #007bff;
-    color: #fff;
-} */
 
 .btn-prev {
     left: -20px;
@@ -338,7 +321,6 @@ body {
     padding-left: 20px;
     display: grid;
     justify-content: flex-start;
-    /* flex-direction: column; */
 }
 
 .links-list li {
@@ -454,7 +436,6 @@ body {
     height: 200px;
     object-fit: cover;
     border: 5px solid #fff;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 .team-member h3 {
@@ -542,7 +523,6 @@ body {
 }
 
 /* General Footer Styling */
-/* General Footer Styling */
 .site-footer {
     background-color: #024242;
     color: #ccc;
@@ -624,7 +604,7 @@ body {
     position: relative;
 }
 .external-link {
-    position: relative; /* Needed to position the icon relative to the text */
+    position: relative; 
     display: inline-block; /* Keeps the link text and icon together */
 }
 
