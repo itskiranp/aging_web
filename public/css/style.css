@@ -126,6 +126,10 @@ body {
     background-color: #232323;
 
 }
+.navbar .dropdown-menu {
+    padding: 0;
+}
+
 
 .dropdown-menu a{
     color: white !important;

@@ -61,7 +61,7 @@
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             People
                         </a>
-                        <ul class="dropdown-menu" style="padding: 0;">
+                        <ul class="dropdown-menu" >
                             <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
                                     href="/people/investigators">Investigators</a></li>
                             <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
@@ -75,7 +75,7 @@
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Capacity Building
                         </a>
-                        <ul class="dropdown-menu" style="padding: 0;">
+                        <ul class="dropdown-menu" >
                             <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
                                     href="#">General Interviewing Techniques(GIT) Training</a></li>
                             <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
@@ -91,7 +91,7 @@
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Products
                         </a>
-                        <ul class="dropdown-menu" style="padding: 0;">
+                        <ul class="dropdown-menu" >
                             <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
                                     href="#">Presentations</a></li>
                             <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
@@ -109,8 +109,6 @@
                     <li class="nav-item">
                         <a class="nav-link {{ Request::is('About') ? 'active' : '' }}" href="/About">About</a>
                     </li>
-
-
                 </ul>
                 <form class="d-flex ms-auto" role="search">
                     <input class="form-control me-1 ms-4" type="search" placeholder="Search" aria-label="Search">
@@ -119,7 +117,6 @@
             </div>
         </div>
     </nav>
-
 
     <!-- Main Content Section -->
     <main>
@@ -147,7 +144,6 @@
                     </a>
                 </div>
             </div>
-
             <!-- Logo and Research Project Section -->
             <div class="footer-right">
                 <div class="logos">
