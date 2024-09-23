@@ -27,5 +27,16 @@ Route::get('/people/staff', [PageController::class, 'showStaff'])->name('people.
 Route::get('/people/investigators', [PageController::class, 'showInvestigatorMember'])->name('people.investigators');
 
 
+Route::get('/capacitybuilding/interviewing', [PageController::class, 'showinterviewingMember'])->name('capacitybuilding.interviewing');
+Route::get('/capacitybuilding/specifictraining', [PageController::class, 'showspecificMember'])->name('capacitybuilding.specifictraining');
+Route::get('/capacitybuilding/supervisiortraining', [PageController::class, 'showsupervisiorMember'])->name('capacitybuilding.supervisiortraining');
+Route::get('/capacitybuilding/analysictraining', [PageController::class, 'showanalysicMember'])->name('capacitybuilding.analysictraining');
+
+Route::get('/products/presentations', [PageController::class, 'showpresentationMember'])->name('products.presentations');
+Route::get('/products/policy', [PageController::class, 'showpolicyMember'])->name('products.policy');
+Route::get('/products/dissemination', [PageController::class, 'showdisseminationMember'])->name('products.dissemination');
+
+
+
 
 

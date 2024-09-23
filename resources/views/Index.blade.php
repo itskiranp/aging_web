@@ -26,10 +26,10 @@
                     <img src="images/background.JPG" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/elderly woman.jpg" class="d-block w-100" alt="...">
+                    <img src="images/iserfamily.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="images/eldery.JPG" class="d-block w-100" alt="...">
+                    <img src="images/elderly woman.jpg" class="d-block w-100" alt="...">
                 </div>
 
             </div>
@@ -97,7 +97,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
                             <div class="collaborator-card">
-                                <img src="images/Tu.PNG" alt="TU" class="img-fluid mb-4 collaborator-card--img">
+                                <img src="images/georgetown.png" alt="TU" class="img-fluid mb-4 collaborator-card--img">
 
                             </div>
                         </div>

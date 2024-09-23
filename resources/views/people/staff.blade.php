@@ -59,6 +59,116 @@
                     <p><a href="">Cirriculum Viate</a></p>
                 </div>
             </div>
+            <div class="col-6 col-md-3">
+                <div class="team-member">
+                    <img src="/images/Rajendra-Ghimire.jpg" alt="Rajendra-Ghimire"
+                        class="img-fluid rounded-circle mb-3">
+                    <h3>Mr. Rajendra Ghimire</h3>
+                    {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
+                    <p class="position">RESEARCH OFFICER</p>
+                    <p><a href="">Email</a></p>
+                    <p><a href="">Cirriculum Viate</a></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="team-member">
+                    <img src="/images/Krishna-Shrestha.jpg" alt="Gita-subedi"
+                        class="img-fluid rounded-circle mb-3">
+                    <h3>Mr. Krishna Shrestha</h3>
+                    {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
+                    <p class="position">RESEARCH OFFICER</p>
+                    <p><a href="">Email</a></p>
+                    <p><a href="">Cirriculum Viate</a></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="team-member">
+                    <img src="/images/Gita-subedi.jpeg" alt="Gita-subedi"
+                        class="img-fluid rounded-circle mb-3">
+                    <h3>Mrs. Gita Subedi</h3>
+                    {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
+                    <p class="position">FINANCE OFFICER</p>
+                    <p><a href="">Email</a></p>
+                    <p><a href="">Cirriculum Viate</a></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="team-member">
+                    <img src="/images/Mangal-Raj-Darai.jpg" alt="Gita-subedi"
+                        class="img-fluid rounded-circle mb-3">
+                    <h3>Mr. Mangal Raj Darai</h3>
+                    {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
+                    <p class="position">ASST. ACCOUNT OFFICER</p>
+                    <p><a href="">Email</a></p>
+                    <p><a href="">Cirriculum Viate</a></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="team-member">
+                    <img src="/images/Dil_Bahadur_C K.jpeg" alt="Dil_Bahadur_C K"
+                        class="img-fluid rounded-circle mb-3">
+                    <h3>Dil Bahadur C.K.</h3>
+                    {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
+                    <p class="position">ASST. ACCOUNT OFFICER</p>
+                    <p><aGita-subedi href="">Email</aGita-subedi></p>
+                    <p><a href="">Cirriculum Viate</a></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="team-member">
+                    <img src="/images/sundari_lama.jpg" alt="sundari_lama"
+                        class="img-fluid rounded-circle mb-3">
+                    <h3>Sundari Lama</h3>
+                    {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
+                    <p class="position">ASST. ACCOUNT OFFICER</p>
+                    <p><a href="">Email</a></p>
+                    <p><a href="">Cirriculum Viate</a></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="team-member">
+                    <img src="/images/Nira-Gurung.jpg" alt="Nira-Gurung"
+                        class="img-fluid rounded-circle mb-3">
+                    <h3>Nira Gurung</h3>
+                    {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
+                    <p class="position">ASST. RESEARCH OFFICER</p>
+                    <p><a href="">Email</a></p>
+                    <p><a href="">Cirriculum Viate</a></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="team-member">
+                    <img src="/images/Sita-Chaudhary.jpg" alt="Sita-Chaudhary"
+                        class="img-fluid rounded-circle mb-3">
+                    <h3>Sita Chaudhary</h3>
+                    {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
+                    <p class="position">ASST. RESEARCH OFFICER</p>
+                    <p><a href="">Email</a></p>
+                    <p><a href="">Cirriculum Viate</a></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="team-member">
+                    <img src="/images/Gobinda-Lamichhane.jpg" alt="Gobinda-Lamichhane"
+                        class="img-fluid rounded-circle mb-3">
+                    <h3>Govinda Lamichhane</h3>
+                    {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
+                    <p class="position">ASST. RESEARCH OFFICER</p>
+                    <p><a href="">Email</a></p>
+                    <p><a href="">Cirriculum Viate</a></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="team-member">
+                    <img src="/images/Kamana-Ghimiredv.jpg" alt="Kamana-Ghimiredv"
+                        class="img-fluid rounded-circle mb-3">
+                    <h3>Kamana Ghimire</h3>
+                    {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
+                    <p class="position">ASST. RESEARCH OFFICER</p>
+                    <p><a href="">Email</a></p>
+                    <p><a href="">Cirriculum Viate</a></p>
+                </div>
+            </div>
         </div>
     </div>
 </div>

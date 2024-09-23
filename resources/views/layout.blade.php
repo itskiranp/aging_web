@@ -16,8 +16,168 @@
 </head>
 
 <body>
+    <header class="header">
+        <div class="sf-top-header">
+            <div class="container">
+                <div class="row">
+                    <!-- Left Section: Geo Navigation -->
+                    <div class="col-md-4">
+                        <div class="geo-navigation">
+                            <!-- You can replace this with actual navigation items -->
+                            <nav>
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" href="#"><strong>Global</strong></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" href="#"><strong>Regions</strong></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <!-- Right Section: Language Selector & Search -->
+                    <div class="col-md-8 d-flex justify-content-end align-items-center">
+                        <!-- Search Form with Hidden Fields -->
+                        {{-- <div class="search">
+                    <form class="form-inline" role="search" action="/search" method="GET">
+                        <input type="hidden" name="resultsUrl" value="/home/search-results">
+                        <input type="hidden" name="indexCatalogue" value="genericsearchindex1">
+                        <input type="hidden" name="wordsMode" value="AnyWord">
+                        <input type="hidden" name="disableSuggestions" value="true">
+                        <input type="hidden" name="minSuggestionLength" value="3">
+                        <input type="hidden" name="suggestionFields" value="Title,Content">
+                        <input type="hidden" name="language" value="en">
+                        <input type="hidden" name="siteId" value="15210d59-ad60-47ff-a542-7ed76645f0c7">
+                        <input type="hidden" name="suggestionsRoute" value="/restapi/search/suggestions">
+                        <input type="hidden" name="searchTextBoxId" value="4a4a497a-b395-4d35-838d-4d67880e1e9">
+                        <input type="hidden" name="searchButtonId" value="fd20de65-9df2-401d-a425-527779431099">
+                        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark ml-2" type="submit">Search</button>
+                    </form>
+                </div> --}}
+
+                        <!-- Language Selector -->
+                        <div class="sf-lang-selector language-selector">
+                            <i class="fas fa-language"></i>
+                            <label for="language-selector" class="language-label">Select Language</label>
+                            <select id="language-selector" name="language-selector" class="form-control"
+                                onchange="openLink(value)">
+                                <option value="en">English</option>
+                                <option value="fr">French</option>
+                                <option value="es">Spanish</option>
+                                <!-- Add more languages as needed -->
+                            </select>
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="sf-main-header" class="main-header">
+            <div class="container d-flex justify-content:start">
+                <div class="row">
+                    <!-- Logo Section -->
+                    <div class="col-md-2">
+                        <div class="header-logo logos-container ">
+                            <a href="/" title="Home" class="primary-logo">
+
+                                <img src="/images/aging_logo.png" class="logo "></img>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-9 ">
+                        <h2 class="mt-3">Chitwan Valley Family Study - Study on Cognition and Aging in Nepal</h2>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container ">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon" style="background-color: white;"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page"
+                                    href="/"><i class="fa-solid fa-house-chimney  me-2 "></i>HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link {{ Request::is('study') ? 'active' : '' }}" href="/study">STUDY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link {{ Request::is('data') ? 'active' : '' }}" href="/data">DATA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link {{ Request::is('publications') ? 'active' : '' }}"
+                                    href="/publications">PUBLICATION</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}"
+                                    href="/people" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    PEOPLE
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                            href="/people/investigators">Investigators</a></li>
+                                    <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                            href="/people/researcher">Researcher</a></li>
+                                    <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                            href="/people/staff">Staff</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}"
+                                    href="/people" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    CAPACITY BUILDING
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                            href="/capacitybuilding/interviewing">General Interviewing Techniques(GIT)
+                                            Training</a></li>
+                                    <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                            href="/capacitybuilding/specifictraining">Study Specific Training</a></li>
+                                    <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                            href="/capacitybuilding/supervisiortraining">Supervisors Training</a></li>
+                                    <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                            href="/capacitybuilding/analysictraining">Survey Data Analysis Training</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link {{ Request::is('events') ? 'active' : '' }}" href="/events">NEWS &
+                                    EVENTS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link {{ Request::is('gallery') ? 'active' : '' }}"
+                                    href="/gallery">GALLERY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link {{ Request::is('About') ? 'active' : '' }}"
+                                    href="/About">ABOUT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+
+    </header>
+
+
+
+
+
     <!-- Header Section -->
-    <header class="main-header lg">
+    {{-- <header class="main-header lg">
         <div class="row align-items-center ms-5">
             <!-- Aging Logo Section-->
             <div class="col-2">
@@ -25,14 +185,14 @@
             </div>
             <!-- Title and Subtitle Section -->
             <div class="col-9 text-start flex-d ">
-                <h1 class="text-uppercase"><strong>Chitwan Valley Family Study on Cognition and Aging in Nepal</strong>
+                <h1 ><strong>Chitwan Valley Family Study on Cognition and Aging in Nepal</strong>
                 </h1>
 
             </div>
 
-    </header>
+    </header> --}}
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg mb-3">
+    {{-- <nav class="navbar navbar-expand-lg mb-3">
         <div class="container ">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -44,22 +204,22 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page" href="/"><i
-                                class="fa-solid fa-house-chimney  me-2 "></i>Home</a>
+                                class="fa-solid fa-house-chimney  me-2 "></i>HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ Request::is('study') ? 'active' : '' }}" href="/study">Study</a>
+                        <a class="nav-link {{ Request::is('study') ? 'active' : '' }}" href="/study">STUDY</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ Request::is('data') ? 'active' : '' }}" href="/data">Data</a>
+                        <a class="nav-link {{ Request::is('data') ? 'active' : '' }}" href="/data">DATA</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ Request::is('publications') ? 'active' : '' }}"
-                            href="/publications">Publication</a>
+                            href="/publications">PUBLICATION</a>
                     </li>
                     <li class="nav-item dropdown" >
                         <a class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}" href="/people"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            People
+                            PEOPLE
                         </a>
                         <ul class="dropdown-menu" >
                             <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
@@ -73,17 +233,17 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}" href="/people"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Capacity Building
+                            CAPACITY BUILDING
                         </a>
                         <ul class="dropdown-menu" >
                             <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="#">General Interviewing Techniques(GIT) Training</a></li>
+                                    href="/capacitybuilding/interviewing">General Interviewing Techniques(GIT) Training</a></li>
                             <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="#">Study Specific Training</a></li>
+                                    href="/capacitybuilding/specifictraining">Study Specific Training</a></li>
                             <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="#">Supervisors Training</a></li>
+                                    href="/capacitybuilding/supervisiortraining">Supervisors Training</a></li>
                             <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="#">Survey Data Analysis Training</a></li>
+                                    href="/capacitybuilding/analysictraining">Survey Data Analysis Training</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -93,21 +253,21 @@
                         </a>
                         <ul class="dropdown-menu" >
                             <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="#">Presentations</a></li>
+                                    href="/products/presentations">Presentations</a></li>
                             <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="#">Policy Brief</a></li>
+                                    href="/products/policy">Policy Brief</a></li>
                             <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="#">Dissemination</a></li>
+                                    href="/products/dissemination">Dissemination</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ Request::is('events') ? 'active' : '' }}" href="/events">Events</a>
+                        <a class="nav-link {{ Request::is('events') ? 'active' : '' }}" href="/events">NEWS & EVENTS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ Request::is('gallery') ? 'active' : '' }}" href="/gallery">Gallery</a>
+                        <a class="nav-link {{ Request::is('gallery') ? 'active' : '' }}" href="/gallery">GALLERY</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ Request::is('About') ? 'active' : '' }}" href="/About">About</a>
+                        <a class="nav-link {{ Request::is('About') ? 'active' : '' }}" href="/About">ABOUT</a>
                     </li>
                 </ul>
                 <form class="d-flex ms-auto" role="search">
@@ -116,7 +276,7 @@
                 </form>
             </div>
         </div>
-    </nav>
+    </nav> --}}
 
     <!-- Main Content Section -->
     <main>
@@ -180,6 +340,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
     </script>
+
 </body>
 
 </html>

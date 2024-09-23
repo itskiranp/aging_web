@@ -68,4 +68,39 @@ class PageController extends Controller
     {
         return view('feedback'); // Returns the feedback.blade.php view
     }
+
+    public function showinterviewingMember()
+    {
+        return view('capacitybuilding.interviewing');
+    }
+    public function showspecificMember()
+    {
+        return view('capacitybuilding.specifictraining');
+    }
+    public function showsupervisiorMember()
+    {
+        return view('capacitybuilding.supervisiortraining');
+    }
+    public function showanalysicMember()
+    {
+        return view('capacitybuilding.analysictraining');
+    }
+
+
+    public function showpresentationMember()
+    {
+        return view('products.presentations');
+    }
+    public function showpolicyMember()
+    {
+        return view('products.policy');
+    }
+    public function showdisseminationMember()
+    {
+        return view('products.dissemination');
+    }
+
+
+
+
 }
