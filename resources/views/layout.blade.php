@@ -89,7 +89,7 @@
                         </div>
                     </div>
                     <div class="col-md-9 ">
-                        <h2 class="mt-3">Chitwan Valley Family Study - Study on Cognition and Aging in Nepal</h2>
+                        <h2 class="mt-3" style="color:darkblue"><strong>Chitwan Valley Family Study - Study on Cognition and Aging in Nepal</strong></h2>
 
                     </div>
                 </div>
