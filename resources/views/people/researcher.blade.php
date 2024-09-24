@@ -8,7 +8,7 @@
     <div class="container text-center my-5">
         <h2>Research Team</h2>
 
-        
+
         <div class="my-5">
             <div class="row justify-content-center">
                 <div class="col-7 col-md-3">
@@ -70,7 +70,7 @@
                         <p class="position">Co-Investigator</p>
                     </div>
                 </div>
-                
+
 
                 <div class="col-4 col-md-3">
                     <div class="team-member">
@@ -85,7 +85,8 @@
             <div class="row justify-content-center">
                 <div class="col-6 col-md-3">
                     <div class="team-member ">
-                        <img src="/images/Dr.%20Pankaj%20Jalan.JPG" alt="Olivia Wilson" class="img-fluid rounded-circle mb-3">
+                        <img src="/images/Dr.%20Pankaj%20Jalan.JPG" alt="Olivia Wilson"
+                            class="img-fluid rounded-circle mb-3">
                         <h3>Dr. Pankaj Jalan</h3>
                         <p class="qualification">M.D., Neurologist, Norvic International Hospital</p>
                         <p class="position">Co-Investigator</p>
@@ -101,14 +102,14 @@
                     </div>
                 </div>
             </div>
-                
 
-            </div>
+
         </div>
+    </div>
 
 
 
-        <!-- Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
-    @endsection
+@endsection

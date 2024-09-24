@@ -89,25 +89,25 @@
             <div class="position-relative">
                 <div class="collaborators-slider">
                     <div class="row">
-                        <div class="col-md-3 col-sm-7 mb-4 mb-md-0">
+                        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
                             <div class="collaborator-card">
                                 <img src="images/Michigan University.JPG" alt="Michigan University"
                                     class="img-fluid mb-4 collaborator-card--img">
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+                        <div class="col-md-4 col-sm-6 mb-4 mb-md-0" >
                             <div class="collaborator-card">
-                                <img src="images/georgetown.png" alt="TU" class="img-fluid mb-4 collaborator-card--img">
+                                <img src="images/GeorgeT.png" alt="GU"  class="img-fluid mb-4 collaborator-card--img">
 
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-                            <div class="collaborator-card">
-                                <img src="images/NIH.JPG" alt="NIH" class="img-fluid mb-4 collaborator-card--img">
+                            {{-- <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+                                <div class="collaborator-card">
+                                    <img src="images/NIH.JPG" alt="NIH" class="img-fluid mb-4 collaborator-card--img">
 
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+                                </div>
+                            </div> --}}
+                        <div class="col-md-4 col-sm-6 mb-4 mb-md-0">
                             <div class="collaborator-card">
                                 <img src="images/Iser.PNG" alt="David Thompson" class="img-fluid mb-3">
                             </div>

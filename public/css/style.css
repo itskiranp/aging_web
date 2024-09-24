@@ -12,77 +12,27 @@ body {
     line-height: normal;
     overflow-x: hidden;
 }
+/* Top header styling */
 
-/* Header styling */
-/* .main-header {
-    background-color: #003262;
-    color: white;
-    align-items: center;
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: 10; 
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    bottom: 0;
-}
-
-.header-container {
-    display: flex;
-}
-
-
-.logo {
-    width: 176px;
-    height: auto;
-    margin-top: -3px;
-}
-
-.main-header .col-9{
+.sf-top-header .dropdown-menu {
     padding: 0;
-} */
+}
+.sf-top-header .dropdown-menu a {
+    background-color: #00477d;
+    color: white;
+}
+.sf-top-header .dropdown-menu .dropdown-item:hover {
+    color: yellow;
+}
 
-/* 
-@media (max-width: 768px) {
-    .main-header {
-        flex-direction: column; 
-        text-align: center;
-        padding: 10px 0;
-    }
+.sf-top-header {
+    background-color: #00477d;
+    padding: 10px 0;
+}
+.geo-navigation .nav-link {
+    color: white !important;
+}
 
-    .logo {
-        width: 120px;
-        margin-left: 0;
-        margin-bottom: 10px;
-    }
-
-    .col-9 h1 {
-        margin-left: 50px;
-    }
-
-    h1 {
-        font-size: 1.5rem; 
-    }
-} */
-
-/* @media (max-width: 480px) {
-    .main-header {
-        padding: 5px;
-        text-align: center;
-        flex-direction: column; 
-    }
-
-    .logo {
-        width: 100px;
-    }
-
-    h1 {
-        font-size: 1rem;
-    }
-} */
 /* navbar styling */
 
 .navbar {
@@ -91,156 +41,49 @@ body {
     align-items: center;
     padding-left: 0 !important;
     padding-right: 0 !important;
-    padding-top: 0 !important; 
-    padding-bottom: 0 !important; 
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
     background-color: #00477d;
 }
-
 .navbar-nav .nav-link {
-    font-size: 18px; 
+    font-size: 18px;
     color: white !important;
     height: 100%;
     display: flex;
     align-items: center;
-}
-.navbar .form-control {
-    font-size: 12px; 
-}
-.nav-item a{
     padding: 15px;
 }
-.navbar .btn {
-    font-size: 13px; 
-    color: white !important;
-    
+.nav-item a {
+    padding: 10px;
 }
 .navbar-nav .nav-link:hover {
-    background-color: #3d3c3c; 
-    border-radius: 3px;
-
+    background-color: #3d3c3c;
+    border-radius: 2px;
 }
 .navbar-nav .nav-link.active {
-    background-color: #36353d; 
-    color: white !important; 
-    border-radius: 3px; 
-}
-.navbar .dropdown-menu{
-    background-color: #003262;
-}
-
-.dropdown-menu li{
-    background-color: #232323;
-
-}
-.navbar .dropdown-menu {
-    padding: 0;
-}
-
-
-.dropdown-menu a{
-    color: white !important;
-}
-.dropdown-menu .dropdown-item:hover{
-    background-color:#36353d;
-}
-
-/* public/css/app.css */
-
-/* public/css/app.css */
-.sf-top-header {
-    background-color: #00477d; 
-    padding: 10px 0;
-    height: auto;
-    
-}
-
-.geo-navigation .nav-link {
-    color: white !important;
-    margin-right: 10px;
-}
-
-.search input[type="text"] {
-    width: 150px;
-}
-
-.search .form-control {
-    padding: 5px;
-}
-
-.language-selector select {
-    width: 150px;
-    padding: 5px;
-}
-
-.sf-top-header .form-inline {
-    display: flex;
-    align-items: center;
-}
-
-.sf-top-header .btn-outline-dark {
-    padding: 5px 15px;
-}
-
-
-@media (min-width: 1020px) {
-    #sf-top-header {
-        background-color: var(--d-l1-background);
-    }
-}
-
-/* public/css/app.css */
-.sf-lang-selector {
-    position: relative;
-    display: flex;
-    align-items: center;
-    color: white;
-}
-
-.sf-lang-selector i {
-    margin-right: 5px;
-    font-size: 1.2rem;
-    color: white;
-}
-
-.language-selector select {
-    min-width: 150px;
-    padding: 5px;
+    background-color: #36353d;
     border-radius: 3px;
-    border: 1px solid #ccc;
 }
-
-.language-label {
-    margin-right: 10px;
-    font-weight: bold;
+.navbar-nav .dropdown-menu {
+    padding: 0px;
 }
-
-.language-selector select {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background: none;
-    padding-right: 25px; /* for the dropdown arrow */
-}
-
-.language-selector .fa-angle-down {
-    position: absolute;
-    right: 10px;
-    pointer-events: none;
-    font-size: 1rem;
+.navbar-nav .dropdown-menu a {
+    background-color: #00477d;
     color: white;
+    line-height: normal;
+}
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    color: yellow;
 }
 
-
-/* public/css/app.css */
+/* main header styling */
 .main-header {
-    background-color: #f8f9fa; 
-    /* padding: 20px 0; */
+    background-color: #f8f9fa;
     height: auto;
 }
 
 .header-logo {
     display: flex;
-    /* justify-content: center;  */
     align-items: center;
 }
 
@@ -249,27 +92,38 @@ body {
 }
 
 .logo {
-    width: 150px; 
+    width: 150px;
     height: auto;
     display: flex;
-    margin-right: 150px;
+    margin-left: 60px;
 }
+/* search box styling */
 
-.cls-1 {
-    fill: lightblue; 
+.sbox {
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgb(0, 0, 0, 0.3);
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.sbox:hover input {
+    width: 200px;
+}
+.sbox input {
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+.sbox a .fas {
+    color: #1daf;
+    font-size: 18px;
+}
 
 /* main body styling */
 
@@ -320,7 +174,7 @@ body {
 .carousel-item img {
     object-fit: cover;
     height: 100%;
-    width:100%;
+    width: 100%;
 }
 
 .carousel {
@@ -364,15 +218,6 @@ body {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
-}
-
-
-.btn-prev {
-    left: -20px;
-}
-
-.btn-next {
-    right: -20px;
 }
 
 @media (max-width: 767.98px) {
@@ -749,7 +594,6 @@ body {
     margin-bottom: 15px;
     font-size: 0.9em;
     line-height: normal;
-    
 }
 
 .footer-links {
@@ -757,15 +601,14 @@ body {
     position: relative;
 }
 .external-link {
-    position: relative; 
+    position: relative;
     display: inline-block; /* Keeps the link text and icon together */
 }
 
-
 .external-link i {
     position: absolute;
-    top: 2px;        /* Slightly raise the icon */
-    right: -12px;     /* Move the icon slightly to the right */
+    top: 2px; /* Slightly raise the icon */
+    right: -12px; /* Move the icon slightly to the right */
     font-size: 0.75em; /* Adjust the size of the icon to be smaller */
 }
 
@@ -810,7 +653,7 @@ body {
     .footer-left,
     .footer-right {
         width: 100%;
-        
+
         margin-bottom: 20px;
     }
 
@@ -821,7 +664,6 @@ body {
     .logos {
         text-align: end;
         padding-right: 20px;
-
     }
     .footer-logo {
         margin-bottom: 10px;

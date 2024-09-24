@@ -5,9 +5,9 @@
 @section('title', 'CVFS')
 
 @section('content')
-    <main class="container my-4 ">
+    <main class="container my-4 mt-5">
         <div class="card-header">
-        <h2 class="text-center mb-5"><strong>Chitwan Valley Family Study on Cognition and Aging in Nepal (CVFS-SCAN)</strong></h2>
+        <h2 class="text-start mb-3"><strong>Chitwan Valley Family Study on Cognition and Aging in Nepal (CVFS-SCAN)</strong></h2>
         </div>
         
         <section id="research-details">
