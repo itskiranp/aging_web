@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
+use Stichoza\GoogleTranslate\GoogleTranslate;
+
 
 class PageController extends Controller
 {
@@ -29,18 +31,14 @@ class PageController extends Controller
         return view('people');
     }
     // Method for People page
-    public function showResearcher()
-    {
-        return view('people.researcher');
-    }
 
-    // Method for Staff page
+        // Method for Staff page
     public function showStaff()
     {
         return view('people.staff');
     }
 
-    // Method for Board Member page
+    // Method for Investigator page
     public function showInvestigatorMember()
     {
         return view('people.investigators');
@@ -100,7 +98,7 @@ class PageController extends Controller
         return view('products.dissemination');
     }
 
-
+    
 
 
 }

@@ -39,6 +39,17 @@
             </div>
             <div class="col-6 col-md-3">
                 <div class="team-member">
+                    <img src="/images/#" alt="Mr. Hardik Sapkota"
+                        class="img-fluid rounded-circle mb-3">
+                    <h3>Mr. Hardik Sapkota</h3>
+                    {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
+                    <p class="position">PROJECT MANAGER</p>
+                    <p><a href="">Email</a></p>
+                    <p><a href="">Cirriculum Viate</a></p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="team-member">
                     <img src="/images/prem-p-pandit.jpg" alt="prem-p-pandit"
                         class="img-fluid rounded-circle mb-3">
                     <h3>Mr. Prem Prakash Pandit</h3>

@@ -4,6 +4,7 @@ use App\Livewire\ShowHome;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\GoogleTranslateController;
 
 
 Route::get('/', [PageController::class, 'Index'])->name('Index');
@@ -22,7 +23,7 @@ Route::get('/feedback', [PageController::class, 'showFeedback'])->name('feedback
 
 Route::get('/publications', [PublicationController::class, 'index']);
 
-Route::get('/people/researcher', [PageController::class, 'showResearcher'])->name('people.researcher');
+
 Route::get('/people/staff', [PageController::class, 'showStaff'])->name('people.staff');
 Route::get('/people/investigators', [PageController::class, 'showInvestigatorMember'])->name('people.investigators');
 
@@ -32,9 +33,9 @@ Route::get('/capacitybuilding/specifictraining', [PageController::class, 'showsp
 Route::get('/capacitybuilding/supervisiortraining', [PageController::class, 'showsupervisiorMember'])->name('capacitybuilding.supervisiortraining');
 Route::get('/capacitybuilding/analysictraining', [PageController::class, 'showanalysicMember'])->name('capacitybuilding.analysictraining');
 
-Route::get('/products/presentations', [PageController::class, 'showpresentationMember'])->name('products.presentations');
-Route::get('/products/policy', [PageController::class, 'showpolicyMember'])->name('products.policy');
-Route::get('/products/dissemination', [PageController::class, 'showdisseminationMember'])->name('products.dissemination');
+// Route::get('/products/presentations', [PageController::class, 'showpresentationMember'])->name('products.presentations');
+// Route::get('/products/policy', [PageController::class, 'showpolicyMember'])->name('products.policy');
+// Route::get('/products/dissemination', [PageController::class, 'showdisseminationMember'])->name('products.dissemination');
 
 
 

@@ -13,17 +13,39 @@ body {
     overflow-x: hidden;
 }
 /* Top header styling */
+.language-select {
+    background-color: #003262;  /* Match header background */
+    padding: 8px;
+    border-radius: 5px;
+}
 
-.sf-top-header .dropdown-menu {
-    padding: 0;
+.language-select label {
+    color: #fff;  /* White text for the label */
+    font-weight: bold;
+    margin-right: 10px;  /* Space between label and select box */
 }
-.sf-top-header .dropdown-menu a {
-    background-color: #00477d;
-    color: white;
+
+.language-select select {
+    background-color: #fff;  /* White background for select box */
+    color: #000;  /* Black text for select box */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    width: 80px;
 }
-.sf-top-header .dropdown-menu .dropdown-item:hover {
-    color: yellow;
+
+.language-select select:hover {
+    border-color: #0055a5;
 }
+
+.language-select select:focus {
+    outline: none;
+    border-color: #0055a5;
+    box-shadow: 0 0 5px rgba(0, 85, 165, 0.5);
+}
+
 
 .sf-top-header {
     background-color: #00477d;
@@ -55,6 +77,7 @@ body {
 }
 .nav-item a {
     padding: 10px;
+    gap: 10px;
 }
 .navbar-nav .nav-link:hover {
     background-color: #3d3c3c;
@@ -66,6 +89,7 @@ body {
 }
 .navbar-nav .dropdown-menu {
     padding: 0px;
+    
 }
 .navbar-nav .dropdown-menu a {
     background-color: #00477d;

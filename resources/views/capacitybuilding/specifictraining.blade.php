@@ -4,10 +4,17 @@
 
 @section('title', 'CVFS on Cognition and Aging in Nepal')
 @section('content')
-<div class="container ">
+<div class="container mt-4 mb-5">
 <div><h2>Specific Training</h2></div>
 
-    <p> In Progress .....</p>
+    <ul>
+        <li>
+            Specific training will be conducted for research staff on the administration of cognitive assessments, survey instruments, and data collection protocols.
+        </li>
+        <li>
+            <strong>Training on bio-specimen collection</strong> and processing will also be provided to ensure proper blood sample collection and storage techniques.
+        </li>
+    </ul>
 </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

@@ -3,7 +3,7 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'b0534e38f28d2fd85400cb65dc1f6aeebcac919a',
+        'reference' => '62a7a6e073f42dddfa6115622434bbf80f08b570',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -532,7 +532,7 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'b0534e38f28d2fd85400cb65dc1f6aeebcac919a',
+            'reference' => '62a7a6e073f42dddfa6115622434bbf80f08b570',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -1207,6 +1207,15 @@
             'replaced' => array(
                 0 => '*',
             ),
+        ),
+        'stichoza/google-translate-php' => array(
+            'pretty_version' => 'v5.2.0',
+            'version' => '5.2.0.0',
+            'reference' => '9429773d991c98f68a25bec40d20f590ea3312a0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../stichoza/google-translate-php',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'symfony/clock' => array(
             'pretty_version' => 'v7.1.1',

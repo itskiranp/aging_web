@@ -48,20 +48,17 @@
 
                         </div>
 
-
-                        <!-- Language Selector -->
-                       
-                        <div class="dropdown">
-                            <lable class="btn btn-secondary  dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                                aria-expanded="false"><i class="fa-solid fa-language"></i>
-                                Select Language
-                            </lable>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">English</a></li>
-                                <li><a class="dropdown-item" href="#">French</a></li>
-                                <li><a class="dropdown-item" href="#">Español</a></li>
-                            </ul>
+                        <div class="language-select d-flex align-items-center">
+                            <label for="language" class="me-2"><i class="fa-solid fa-language"></i> Language:</label>
+                            <select id="language" onchange="translateLanguage()" class="dropdown">
+                                <option value="en">English</option>
+                                <option value="ne">नेपाली</option>
+                                <option value="hi">हिन्दी</option>
+                                <option value="es">Español</option>
+                            </select>
                         </div>
+
+                        <div id="google_translate_element" style="display:none;"></div>
 
                     </div>
                 </div>
@@ -115,21 +112,20 @@
                                 href="/people" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 PEOPLE
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu mt-0">
                                 <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
                                         href="/people/investigators">Investigators</a></li>
-                                <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                        href="/people/researcher">Researcher</a></li>
+
                                 <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
                                         href="/people/staff">Staff</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown ">
                             <a class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}"
                                 href="/people" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 CAPACITY BUILDING
                             </a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu mt-0">
                                 <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
                                         href="/capacitybuilding/interviewing">General Interviewing Techniques(GIT)
                                         Training</a></li>
@@ -161,112 +157,6 @@
 
 
     </header>
-
-
-
-
-
-    <!-- Header Section -->
-    {{-- <header class="main-header lg">
-        <div class="row align-items-center ms-5">
-            <!-- Aging Logo Section-->
-            <div class="col-2">
-                <img src="{{ asset('images/aging_logo.png') }}" alt="aging Logo" class="logo">
-            </div>
-            <!-- Title and Subtitle Section -->
-            <div class="col-9 text-start flex-d ">
-                <h1 ><strong>Chitwan Valley Family Study on Cognition and Aging in Nepal</strong>
-                </h1>
-
-            </div>
-
-    </header> --}}
-    <!-- Navigation Bar -->
-    {{-- <nav class="navbar navbar-expand-lg mb-3">
-        <div class="container ">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" style="background-color: white;"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page" href="/"><i
-                                class="fa-solid fa-house-chimney  me-2 "></i>HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {{ Request::is('study') ? 'active' : '' }}" href="/study">STUDY</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {{ Request::is('data') ? 'active' : '' }}" href="/data">DATA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {{ Request::is('publications') ? 'active' : '' }}"
-                            href="/publications">PUBLICATION</a>
-                    </li>
-                    <li class="nav-item dropdown" >
-                        <a class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}" href="/people"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            PEOPLE
-                        </a>
-                        <ul class="dropdown-menu" >
-                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="/people/investigators">Investigators</a></li>
-                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="/people/researcher">Researcher</a></li>
-                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="/people/staff">Staff</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}" href="/people"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            CAPACITY BUILDING
-                        </a>
-                        <ul class="dropdown-menu" >
-                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="/capacitybuilding/interviewing">General Interviewing Techniques(GIT) Training</a></li>
-                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="/capacitybuilding/specifictraining">Study Specific Training</a></li>
-                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="/capacitybuilding/supervisiortraining">Supervisors Training</a></li>
-                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="/capacitybuilding/analysictraining">Survey Data Analysis Training</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}" href="/people"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Products
-                        </a>
-                        <ul class="dropdown-menu" >
-                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="/products/presentations">Presentations</a></li>
-                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="/products/policy">Policy Brief</a></li>
-                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="/products/dissemination">Dissemination</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {{ Request::is('events') ? 'active' : '' }}" href="/events">NEWS & EVENTS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {{ Request::is('gallery') ? 'active' : '' }}" href="/gallery">GALLERY</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link {{ Request::is('About') ? 'active' : '' }}" href="/About">ABOUT</a>
-                    </li>
-                </ul>
-                <form class="d-flex ms-auto" role="search">
-                    <input class="form-control me-1 ms-4" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
-    </nav> --}}
 
     <!-- Main Content Section -->
     <main>
@@ -330,6 +220,40 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
     </script>
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en', // Default language
+                includedLanguages: 'en,ne,es,hi', // Languages included in the dropdown
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_element');
+        }
+
+        function translateLanguage() {
+            var language = document.getElementById("language").value;
+
+            // Set the Google Translate cookie with the selected language
+            var translateCookie = 'googtrans=/en/' + language;
+            document.cookie = translateCookie;
+
+            // Reload the page to apply translation
+            window.location.reload();
+        }
+
+        // Load the Google Translate script dynamically
+        function loadGoogleTranslateScript() {
+            var script = document.createElement('script');
+            script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+            document.head.appendChild(script);
+        }
+
+        // Initialize Google Translate on page load
+        window.onload = function() {
+            loadGoogleTranslateScript();
+        };
+    </script>
+
 
 </body>
 
