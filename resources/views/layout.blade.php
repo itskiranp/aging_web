@@ -23,7 +23,7 @@
                     <div class="col-md-4">
                         <div class="geo-navigation ">
                             <!-- You can replace this with actual navigation items -->
-                            <div class="social-icons mt-1 ms-3">
+                            <div class="social-icons mt-2 ms-3">
                                 <a href="https://www.facebook.com/isernepalofficial/" target="_blank">
                                     <i class="fa fa-brands fa-facebook fa-2x"></i></a>
                                 <a href="https://www.linkedin.com/in/iser-nepal-68b407160/" target="_blank">

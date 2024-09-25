@@ -89,6 +89,7 @@ body {
 }
 .navbar-nav .dropdown-menu {
     padding: 0px;
+    opacity: 80%;
     
 }
 .navbar-nav .dropdown-menu a {
@@ -121,6 +122,18 @@ body {
     display: flex;
     margin-left: 60px;
 }
+@media(max-width:1110px){
+    .main-header h2{
+        margin-left: 80px;
+        font-size: 2rem;
+        align-items: left;
+    }
+    .logo{
+        width:100px
+    }
+}
+
+
 /* search box styling */
 
 .sbox {
