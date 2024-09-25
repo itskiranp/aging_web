@@ -18,13 +18,21 @@
 <body>
     <header class="header">
         <div class="sf-top-header">
-            <div class="container">
                 <div class="row">
                     <!-- Left Section: Geo Navigation -->
                     <div class="col-md-4">
                         <div class="geo-navigation ">
                             <!-- You can replace this with actual navigation items -->
-                            <nav>
+                            <div class="social-icons mt-1 ms-3">
+                                <a href="https://www.facebook.com/isernepalofficial/" target="_blank">
+                                    <i class="fa fa-brands fa-facebook fa-2x"></i></a>
+                                <a href="https://www.linkedin.com/in/iser-nepal-68b407160/" target="_blank">
+                                    <i class="fa fa-brands fa-linkedin fa-2x"></i>
+                                </a>
+                            </div>
+
+
+                            {{-- <nav>
                                 <ul class="nav ">
                                     <li class="nav-item">
                                         <a class="nav-link text-dark" href="#"><strong>Global</strong></a>
@@ -33,7 +41,7 @@
                                         <a class="nav-link text-dark" href="#"><strong>Regions</strong></a>
                                     </li>
                                 </ul>
-                            </nav>
+                            </nav> --}}
                         </div>
                     </div>
 
@@ -48,7 +56,7 @@
 
                         </div>
 
-                        <div class="language-select d-flex align-items-center">
+                        <div class="language-select d-flex align-items-center me-3">
                             <label for="language" class="me-2"><i class="fa-solid fa-language"></i> Language:</label>
                             <select id="language" onchange="translateLanguage()" class="dropdown">
                                 <option value="en">English</option>
@@ -62,7 +70,6 @@
 
                     </div>
                 </div>
-            </div>
         </div>
 
         <div id="sf-main-header" class="main-header">
