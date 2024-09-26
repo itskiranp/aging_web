@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Stichoza\GoogleTranslate\GoogleTranslate;
+use App\Models\Investigator;
 
 
 class PageController extends Controller
@@ -96,6 +97,13 @@ class PageController extends Controller
     public function showdisseminationMember()
     {
         return view('products.dissemination');
+    }
+
+
+    public function investigators()
+    {
+        $investigators = Investigator::all();  // Fetch all investigators
+        return view('people.investigators', compact('investigators'));
     }
 
     

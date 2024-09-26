@@ -121,7 +121,7 @@
                             </a>
                             <ul class="dropdown-menu mt-0">
                                 <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                        href="/people/investigators">Investigators</a></li>
+                                        href="{{ route('investigators') }}">Investigators</a></li>
 
                                 <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
                                         href="/people/staff">Staff</a></li>

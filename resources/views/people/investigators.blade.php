@@ -4,8 +4,35 @@
 @section('title', 'Investigators')
 
 @section('content')
+<div class="container text-center my-5">
+    <h2 class="mb-5">Investigators</h2>
+    <div class="container">
+        @foreach($investigators as $investigator)
+        <div class="row investigator mb-4">
+            <!-- Investigator Image -->
+            <div class="col-md-3 text-center">
+                <img src="{{ asset('storage/' . $investigator->profile_image) }}" alt="{{ $investigator->name }}" class="img-fluid">
 
-    <div class="container text-center my-5">
+            </div>
+            <!-- Investigator Details -->
+            <div class="col-md-9 text-start">
+                <h5>{{ $investigator->name }}</h5>
+                <p><strong>{{ $investigator->position }}</strong></p>
+                <p><strong><i class="fas fa-phone"></i> {{ $investigator->phone }}</strong></p>
+                <p><strong><i class="fa-solid fa-envelope"></i></strong> <a href="mailto:{{ $investigator->email }}">{{ $investigator->email }}</a></p>
+                <p>{{ $investigator->bio }}</p>
+                <p>{{ $investigator->description }}</p>
+                <a href="#" class="btn btn-primary btn-download">Download CV</a>
+            </div>
+        </div>
+        @endforeach
+    </div>
+</div>
+
+
+
+
+    {{-- <div class="container text-center my-5">
         <h2 class="mb-5">Investigators</h2>
         <div class="container ">
 
@@ -225,7 +252,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>

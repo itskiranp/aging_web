@@ -37,6 +37,8 @@ Route::get('/capacitybuilding/analysictraining', [PageController::class, 'showan
 // Route::get('/products/policy', [PageController::class, 'showpolicyMember'])->name('products.policy');
 // Route::get('/products/dissemination', [PageController::class, 'showdisseminationMember'])->name('products.dissemination');
 
+Route::get('/investigators', [PageController::class, 'investigators'])->name('investigators');
+
 
 
 
