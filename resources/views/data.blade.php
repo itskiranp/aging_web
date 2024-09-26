@@ -13,17 +13,87 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                         aria-expanded="true" aria-controls="collapseOne">
-                        Key Informant Data:
+                        Chitwan Valley Family Study (CVFS) Linked Data Sets
                     </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <p>
-                            The study plans to collect data from <strong>4000 individuals aged 50 and above</strong> and
-                            their <strong>4000 key informants/caregivers</strong> in the Chitwan Valley Family Study (CVFS).
-                            The caregivers will provide essential information about the respondents' functional status,
-                            memory concerns, and activities of daily living (ADL).
+                            It describes various surveys and data collection efforts over time in the Chitwan Valley, which
+                            are essential for understanding ADRD (Alzheimer’s Disease and Related Dementias) and population
+                            aging in Nepal.
                         </p>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                  <th scope="col">Survey Name</th>
+                                  <th scope="col">Year</th>
+                                  <th scope="col">Age Group</th>
+                                  <th scope="col">Sample Size (N)</th>
+                                  <th scope="col">Response Rate</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">Individual Survey</th>
+                                  <td>1996</td>
+                                  <td>15-59 years	</td>
+                                  <td>5,271 Individuals</td>
+                                  <td>97%</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Elderly Health & Wellbeing Survey</th>
+                                  <td>2006</td>
+                                  <td>	45+ years</td>
+                                  <td>2,147 Individuals</td>
+                                  <td>99%</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Ideational Survey</th>
+                                  <td>	2008</td>
+                                  <td>15-59 years</td>
+                                  <td>9,574 Individuals</td>
+                                  <td>	95%</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Health and Stress Survey</th>
+                                  <td>	2016-2018</td>
+                                  <td>15-59 years</td>
+                                  <td>	10,714 Individuals</td>
+                                  <td>	93%</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Household Consumption/Agriculture Survey</th>
+                                  <td>	1996, 2001, 2006, 2015</td>
+                                  <td>18+ years</td>
+                                  <td>3,271 Households</td>
+                                  <td>	98%</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Neighborhood History Calendar (NBH)</th>
+                                  <td>	1995, 2006, 2015</td>
+                                  <td>	N/A</td>
+                                  <td>151 Neighborhoods</td>
+                                  <td>	--</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Health Service Calendar (HLTHS)</th>
+                                  <td>	1995, 2006, 2015</td>
+                                  <td>N/A</td>
+                                  <td>268 Health Services</td>
+                                  <td>	99%</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Household Demographic Event Registry</th>
+                                  <td>	Monthly since 1997</td>
+                                  <td>N/A</td>
+                                  <td>3,331 Households</td>
+                                  <td>	95%</td>
+                                </tr>
+                              </tbody>
+
+                        </table>
+
                         <p>DATA <a href="#">Click Here</a> </p>
                         <p>CodeBook <a href="#">Click Here</a> </p>
                     </div>
@@ -205,7 +275,13 @@
 </div> --}}
 
     <!-- Bootstrap 5 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 
 
 @endsection
