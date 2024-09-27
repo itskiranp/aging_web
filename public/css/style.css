@@ -55,6 +55,11 @@ body {
     color: white !important;
 }
 
+.social-icons i {
+    font-size: 28px; /* You can change the size value here */
+}
+
+
 /* navbar styling */
 
 .navbar {
@@ -277,6 +282,11 @@ body {
         display: none;
     }
 }
+/* data page styling */
+
+
+
+
 
 /* dropdown-menu investigators pages styling */
 
@@ -307,9 +317,6 @@ body {
     transform: scale(1.05);
 }
 
-.lightbox {
-    z-index: 1050;
-}
 
 .lb-outerContainer {
     background-color: transparent;

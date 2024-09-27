@@ -9,6 +9,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,21 +19,21 @@
 <body>
     <header class="header">
         <div class="sf-top-header">
-                <div class="row">
-                    <!-- Left Section: Geo Navigation -->
-                    <div class="col-md-4">
-                        <div class="geo-navigation ">
-                            <!-- You can replace this with actual navigation items -->
-                            <div class="social-icons mt-2 ms-3">
-                                <a href="https://www.facebook.com/isernepalofficial/" target="_blank">
-                                    <i class="fa fa-brands fa-facebook fa-2x"></i></a>
-                                <a href="https://www.linkedin.com/in/iser-nepal-68b407160/" target="_blank">
-                                    <i class="fa fa-brands fa-linkedin fa-2x"></i>
-                                </a>
-                            </div>
+            <div class="row">
+                <!-- Left Section: Geo Navigation -->
+                <div class="col-md-4">
+                    <div class="geo-navigation ">
+                        <!-- You can replace this with actual navigation items -->
+                        <div class="social-icons mt-2 ms-4">
+                            <a href="https://www.facebook.com/isernepalofficial/" target="_blank">
+                                <i class="fa fa-brands fa-facebook "></i></a>
+                            <a href="https://www.linkedin.com/in/iser-nepal-68b407160/" target="_blank">
+                                <i class="fa fa-brands fa-linkedin "></i>
+                            </a>
+                        </div>
 
 
-                            {{-- <nav>
+                        {{-- <nav>
                                 <ul class="nav ">
                                     <li class="nav-item">
                                         <a class="nav-link text-dark" href="#"><strong>Global</strong></a>
@@ -42,34 +43,33 @@
                                     </li>
                                 </ul>
                             </nav> --}}
-                        </div>
-                    </div>
-
-                    <!-- Right Section: Language Selector & Search -->
-                    <div class="col-md-8 d-flex justify-content-end align-items-center">
-                        <!-- Search Form with Hidden Fields -->
-                        <div class="sbox me-3">
-                            <input type="text" placeholder="Search...">
-                            <a href="">
-                                <i class="fas fa-search"></i>
-                            </a>
-
-                        </div>
-
-                        <div class="language-select d-flex align-items-center me-3">
-                            <label for="language" class="me-2"><i class="fa-solid fa-language"></i> Language:</label>
-                            <select id="language" onchange="translateLanguage()" class="dropdown">
-                                <option value="en">English</option>
-                                <option value="ne">नेपाली</option>
-                                <option value="hi">हिन्दी</option>
-                                <option value="es">Español</option>
-                            </select>
-                        </div>
-
-                        <div id="google_translate_element" style="display:none;"></div>
-
                     </div>
                 </div>
+
+                <!-- Right Section: Language Selector & Search -->
+                <div class="col-md-8 d-flex justify-content-end align-items-center">
+                    <!-- Search Form with Hidden Fields -->
+                    <div class="sbox me-3">
+                        <input type="text" placeholder="Search...">
+                        <a href="">
+                            <i class="fas fa-search"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="language-select d-flex align-items-center me-3">
+                        <label for="language" class="me-2"><i class="fa-solid fa-language"></i> Language:</label>
+                        <select id="language" onchange="translateLanguage()" class="dropdown">
+                            <option value="en">English</option>
+                            <option value="ne">नेपाली</option>
+                            <option value="es">Español</option>
+                        </select>
+                    </div>
+
+                    <div id="google_translate_element" style="display:none;"></div>
+
+                </div>
+            </div>
         </div>
 
         <div id="sf-main-header" class="main-header">
@@ -183,13 +183,13 @@
                 <p><i class="fa fa-envelope" aria-hidden="true"></i> iser.nepal@outlook.com</p>
                 <p><i class="fa fa-clock" aria-hidden="true"></i> 10 A.M. - 5 P.M.</p>
 
-                <div class="social-icons">
+                {{-- <div class="social-icons">
                     <a href="https://www.facebook.com/isernepalofficial/" target="_blank">
                         <i class="fa fa-brands fa-facebook fa-2x"></i></a>
                     <a href="https://www.linkedin.com/in/iser-nepal-68b407160/" target="_blank">
                         <i class="fa fa-brands fa-linkedin fa-2x"></i>
                     </a>
-                </div>
+                </div> --}}
             </div>
             <!-- Logo and Research Project Section -->
             <div class="footer-right">
@@ -221,18 +221,19 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
-</script>
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
+    </script>
+
+
     <script>
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({
                 pageLanguage: 'en', // Default language
-                includedLanguages: 'en,ne,es,hi', // Languages included in the dropdown
+                includedLanguages: 'en,ne,es', // Languages included in the dropdown
                 layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
                 autoDisplay: false
             }, 'google_translate_element');
@@ -264,5 +265,6 @@
 
 
 </body>
+
 
 </html>

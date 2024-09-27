@@ -38,11 +38,16 @@ class InvestigatorResource extends Resource
                 Textarea::make('bio')->nullable(),
                 Textarea::make('description')->label('Description')->required(),  // Add the description field
                 FileUpload::make('profile_image')
-                    ->directory('images')  // Set the directory inside 'public'
-                    ->image() 
-                    ->imageEditor()  
-                    ->maxSize(2048)           
+                    ->directory('images')
+                    ->image()
+                    ->imageEditor()
+                    ->maxSize(2048)
                     ->nullable(),
+                FileUpload::make('profile_pdf')
+                    ->label('Profile PDF')
+                    ->acceptedFileTypes(['application/pdf']) // Only allow PDF
+                    ->directory('profile_pdfs') // Optional directory
+                    ->columnSpanFull(),
             ]);
     }
 
@@ -50,7 +55,7 @@ class InvestigatorResource extends Resource
     {
         return $table
             ->columns([
-                //
+
                 TextColumn::make('name')->sortable()->searchable(),
                 TextColumn::make('position'),
                 TextColumn::make('email'),

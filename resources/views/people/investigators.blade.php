@@ -22,7 +22,9 @@
                 <p><strong><i class="fa-solid fa-envelope"></i></strong> <a href="mailto:{{ $investigator->email }}">{{ $investigator->email }}</a></p>
                 <p>{{ $investigator->bio }}</p>
                 <p>{{ $investigator->description }}</p>
-                <a href="#" class="btn btn-primary btn-download">Download CV</a>
+                <a href="{{ $investigator->getFirstMediaUrl('profile_pdf') }}" target="_blank">Download CV</a>
+
+                
             </div>
         </div>
         @endforeach
@@ -254,6 +256,8 @@
         </div>
     </div> --}}
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+</script>
 
 @endsection

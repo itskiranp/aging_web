@@ -106,6 +106,18 @@ class PageController extends Controller
         return view('people.investigators', compact('investigators'));
     }
 
+    public function downloadPDF($id)
+{
+    $investigator = Investigator::findOrFail($id);
+    $media = $investigator->getFirstMedia('profile_pdf');
+
+    if ($media) {
+        return response()->download($media->getPath(), $media->file_name);
+    }
+
+    return redirect()->back()->with('error', 'PDF not found.');
+}
+
     
 
 
