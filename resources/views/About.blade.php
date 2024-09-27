@@ -12,7 +12,7 @@
                 <div class="card">
                     {{-- <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Project workspace"> --}}
                     <div class="card-body">
-                        <h2 class="text-center">International Labor Migration, Armed Conflict and Alzheimer Disease and
+                        <h2 class="text-start">International Labor Migration, Armed Conflict and Alzheimer Disease and
                             related Dementia Risk in Nepal</h2>
                         <h5 class="card-title">Our Goal</h5>
                         <p class="card-text">The main goal is to build research capacity and gather data to address and
@@ -51,9 +51,9 @@
                 <h2 class="mb-4">Important Links</h2>
                 <div class="d-grid gap-3">
                     <a href="#" class="btn btn-primary">Connect With Us</a>
-                    <a href="{{ route('feedback') }}" class="btn btn-outline-secondary">Website Feedback</a>
                     <a href="{{ route('links') }}" class="btn btn-info">Documentation</a>
                     <a href="#" class="btn btn-success">Join Our Team</a>
+                    <a href="{{ route('feedback') }}" class="btn btn-outline-secondary">Website Feedback</a>
                 </div>
                 <div class="card mt-4 mb-3">
                     <div class="card-body">

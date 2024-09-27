@@ -4,7 +4,7 @@
 @section('title', 'Investigators')
 
 @section('content')
-<div class="container text-center my-5">
+{{-- <div class="container text-center my-5">
     <h2 class="mb-5">Investigators</h2>
     <div class="container">
         @foreach($investigators as $investigator)
@@ -29,12 +29,12 @@
         </div>
         @endforeach
     </div>
-</div>
+</div> --}}
 
 
 
 
-    {{-- <div class="container text-center my-5">
+    <div class="container text-center my-5">
         <h2 class="mb-5">Investigators</h2>
         <div class="container ">
 
@@ -254,7 +254,7 @@
                 </div>
             </div>
         </div>
-    </div> --}}
+    </div>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">

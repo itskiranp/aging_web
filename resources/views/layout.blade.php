@@ -84,8 +84,13 @@
                     </div>
                 </div>
                 <div class="col-md-9 ">
-                    <h2 class="mt-3" style="color:#00477d"><strong>Chitwan Valley Family Study - Study on Cognition
-                            and Aging in Nepal</strong></h2>
+                    <div class="header-text text">
+                        <p class="h1 mt-3 mb-0" style="color:#00477d"><strong>Chitwan Valley Family Study (CVFS)</strong></p>
+                        <p class="h2"style="color:#00477d">Study on Cognition
+                            and Aging in Nepal</p>
+                        {{-- <h2 class="mt-3" style="color:#00477d"><strong>Chitwan Valley Family Study - Study on Cognition
+                            and Aging in Nepal</strong></h2> --}}
+                    </div>
 
                 </div>
             </div>
