@@ -6,7 +6,7 @@
 
 @section('content')
 
-    <div class="container ">
+    <div class="container mt-4 ">
         <h1 class="text-start">Website Feedback</h1>
         <p class="text-start">Your feedback is very important to us.</p>
         <div class="row">

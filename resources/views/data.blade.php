@@ -10,7 +10,7 @@
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                         aria-expanded="true" aria-controls="collapseOne">
-                        Chitwan Valley Family Study (CVFS) Linked Data Sets
+                        <strong>Chitwan Valley Family Study (CVFS) Linked Data Sets</strong>
                     </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
@@ -34,57 +34,60 @@
                                     <th scope="row">Individual Survey</th>
                                     <td>1996</td>
                                     <td>15-59 years</td>
-                                    <td>5,271 Individuals</td>
+                                    <td>5,271 Ind.</td>
                                     <td>97%</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">Elderly Health & Wellbeing Survey</th>
                                     <td>2006</td>
                                     <td>45+ years</td>
-                                    <td>2,147 Individuals</td>
+                                    <td>2,147 Ind.</td>
                                     <td>99%</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">Ideational Survey</th>
                                     <td>2008</td>
                                     <td>15-59 years</td>
-                                    <td>9,574 Individuals</td>
+                                    <td>9,574 Ind.</td>
                                     <td>95%</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">Health and Stress Survey</th>
                                     <td>2016-2018</td>
                                     <td>15-59 years</td>
-                                    <td>10,714 Individuals</td>
+                                    <td>10,714 Ind.</td>
                                     <td>93%</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Household Consumption/Agriculture Survey</th>
+                                    <th scope="row">HH Consumption/Agriculture Survey</th>
                                     <td>1996, 2001, 2006, 2015</td>
                                     <td>18+ years</td>
-                                    <td>3,271 Households</td>
+                                    <td>3,271 HH</td>
                                     <td>98%</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Neighborhood History Calendar (NBH)</th>
+                                    <th scope="row">(NBH) History Calendar</th>
                                     <td>1995, 2006, 2015</td>
                                     <td>N/A</td>
-                                    <td>151 Neighborhoods</td>
-                                    <td>--</td>
+                                    <td>151 NBH</td>
+                                    <td>100%</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Health Service Calendar (HLTHS)</th>
+                                    <th scope="row">(HLTHS) Health Service Calendar </th>
                                     <td>1995, 2006, 2015</td>
                                     <td>N/A</td>
-                                    <td>268 Health Services</td>
+                                    <td>268 HLTHS</td>
                                     <td>99%</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Household Demographic Event Registry</th>
+                                    <th scope="row">HH Demographic Event Registry</th>
                                     <td>Monthly since 1997</td>
                                     <td>N/A</td>
-                                    <td>3,331 Households</td>
+                                    <td>3,331 HH</td>
                                     <td>95%</td>
+                                </tr>
+                                <tr>
+                                    <th colspan="5" class="text-center">Ind: Individual Survey; HH: Household Survey; NBH: Neighborhood Survey</th>
                                 </tr>
                             </tbody>
                         </table>
@@ -93,51 +96,56 @@
                     </div>
                 </div>
             </div>
+            
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Data Collection Methods
+                       <strong> Preliminary data on physical & mental health in adults aged > 50</strong>
                     </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                     data-bs-parent="#dataAccordion">
                     <div class="accordion-body">
-                        <p>Effective data collection is crucial for accurate analysis. Here are some common methods:</p>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h5>Quantitative Methods</h5>
-                                <ul>
-                                    <li>Surveys</li>
-                                    <li>Experiments</li>
-                                    <li>Observations</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <h5>Qualitative Methods</h5>
-                                <ul>
-                                    <li>Interviews</li>
-                                    <li>Focus Groups</li>
-                                    <li>Case Studies</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Chitwan Valley Health and Stress Study (2016-2018) Data
-                    </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-bs-parent="#dataAccordion">
-                    <div class="accordion-body">
                         <p>The following data is from a study examining the physical and mental health of adults aged 50 and older in Chitwan Valley.</p>
                         <table class="table table-hover">
                             <thead>
+                                <tr>
+                                    <th colspan="4" class="text-center">Chitwan Valley Elderly Health and Well-Being Survey 2006 (N = 1,111)
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Male</th>
+                                    <th scope="col">Female</th>
+                                    <th scope="col">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                              
+                                <tr>
+                                <th scope="row">Number of functional limitations (0-8)</th>
+                                  <td>4.26</td>
+                                  <td>3.33</td>
+                                  <td>3.77</td>
+                                </tr>
+                                <tr>
+                                <th scope="row">Self-rated health (% fair/poor health)
+                                </th>
+                                  <td>77%</td>
+                                  <td>82%</td>
+                                  <td>79%</td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th colspan="4" class="text-center">Chitwan Valley Health and Stress Study 2016-2018 (N=1,331)</th>
+                                </tr>
                                 <tr>
                                   <th scope="col">Condition</th>
                                   <th scope="col">Male</th>
@@ -159,16 +167,22 @@
                                   <td>24.3%</td>
                                 </tr>
                                 <tr>
-                                  <th scope="row">Life-time Post-Traumatic Stress Disorder</th>
+                                  <th scope="row">Life-time Post-Traumatic Stress Disorder(PTSD)</th>
                                   <td>1.2%</td>
                                   <td>7.6%</td>
                                   <td>8.8%</td>
                                 </tr>
                                 <tr>
-                                  <th scope="row">Life-time Alcohol Abuse Disorder</th>
+                                  <th scope="row">Life-time Alcohol Abuse Disorder(AUD)</th>
                                   <td>12.0%</td>
                                   <td>1.5%</td>
                                   <td>13.5%</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Ever experienced any potentially traumatic event</th>
+                                  <td>91.7%</td>
+                                  <td>85.3%</td>
+                                  <td>88.5%</td>
                                 </tr>
                              
                               </tbody>
@@ -178,13 +192,82 @@
                 </div>
             </div>
             <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <strong>International Labor Migration Data</strong>
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#dataAccordion">
+                    <div class="accordion-body">
+                        <p>The Life History Calendar (LHC) method will be utilized to gather and update data on international labor migration among participants. This method uses visual "timing" cues based on respondents’ other personal life events, which improves recall and autobiographical memory. The LHC has been validated for use in elderly participants with low literacy, ensuring accurate collection of individual data on residential, educational, employment, marital, and mental health history.</p>
+                        <div class="row">
+                            <ul class="ms-3">
+                                <h5>Key Statistics:</h5>
+                                <li>Percentage of CVFS Participants Reporting International Trips (2016-2018): 34%</li>
+                                <li>Percentage of Adults Aged > 50 Reporting International Trips: 37%</li>
+                                <li>International Trips Reported by Men: 53%</li>
+                                <li>International Trips Reported by Women: 21%</li>
+                                <li>Mean Number of Trips Among Participants Reporting at Least One Trip: 1.45</li>
+                                <li>Mean Duration of International Trips: 7.67 years</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
                 <h2 class="accordion-header" id="headingFour">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        Data Visualization Techniques
+                        <strong>Armed Conflict Exposure Data</strong>
                     </button>
                 </h2>
                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#dataAccordion">
+                    <div class="accordion-body">
+                        <p>Data on armed conflict events have been collected from the <strong>South Asia Terrorist Panel (SATP)</strong>, major English and Nepali news media, and other NGOs in Nepal. The <strong>Institute for Social and Environmental Research-Nepal (ISER-N)</strong> has compiled and verified these events with data from Maoist and Government security forces, court records, and by physically visiting the conflict locations.</p>
+                        <div class="row">
+                            <ul class="ms-3">
+                                <p>The detailed data includes the occurrence, date, and location of armed conflict events during the civil war (1996-2006), covering: <strong> Arrests,Killings,Gunfire,Disappearances,Bombings,Beatings</strong>.</p>
+                                <h5>Key Time Frame:</h5>
+                                <li>The most intense period of conflict was between 2001 and 2006.</li>
+                                <li>The first year of significant conflict data is 2003, which will be used as a reference in longitudinal studies, as most participants will have been at least 29 years old by then, meaning they would have experienced these events during mid-adulthood.</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <strong> Biomarker Data Collection</strong>
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#dataAccordion">
+                    <div class="accordion-body">
+                        <p>For future studies, blood samples will be collected from 4,000 participants during face-to-face interviews. Details of the biomarker collection process include:</p>
+                        <div class="row">
+                            <ul class="ms-3">
+                                <li>A total of 32.5 ml of blood drawn and processed into various components (plasma, serum, and buffy coat).</li>
+                                <li>Samples will be stored at -80°C and transported to both a central laboratory in Kathmandu and the University of Michigan for further research.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                       <Strong> Data Visualization Techniques</Strong>
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                     data-bs-parent="#dataAccordion">
                     <div class="accordion-body">
                         <p>Data visualization helps in understanding complex data sets through graphical representation.</p>
@@ -225,146 +308,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-    {{-- <div class="container mt-4 mb-4">
-    <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                    aria-expanded="true" aria-controls="collapseOne">
-                    Chitwan Valley Family Study (CVFS) Linked Data Sets
-                </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <p>
-                        It describes various surveys and data collection efforts over time in the Chitwan Valley, which
-                        are essential for understanding ADRD (Alzheimer’s Disease and Related Dementias) and population
-                        aging in Nepal.
-                    </p>
-                    <table class="table table-striped table-hover">
-                        <thead>
-                            <tr>
-                                <th scope="col">Survey Name</th>
-                                <th scope="col">Year</th>
-                                <th scope="col">Age Group</th>
-                                <th scope="col">Sample Size (N)</th>
-                                <th scope="col">Response Rate</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Individual Survey</th>
-                                <td>1996</td>
-                                <td>15-59 years</td>
-                                <td>5,271 Individuals</td>
-                                <td>97%</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Elderly Health & Wellbeing Survey</th>
-                                <td>2006</td>
-                                <td>45+ years</td>
-                                <td>2,147 Individuals</td>
-                                <td>99%</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Ideational Survey</th>
-                                <td>2008</td>
-                                <td>15-59 years</td>
-                                <td>9,574 Individuals</td>
-                                <td>95%</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Health and Stress Survey</th>
-                                <td>2016-2018</td>
-                                <td>15-59 years</td>
-                                <td>10,714 Individuals</td>
-                                <td>93%</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Household Consumption/Agriculture Survey</th>
-                                <td>1996, 2001, 2006, 2015</td>
-                                <td>18+ years</td>
-                                <td>3,271 Households</td>
-                                <td>98%</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Neighborhood History Calendar (NBH)</th>
-                                <td>1995, 2006, 2015</td>
-                                <td>N/A</td>
-                                <td>151 Neighborhoods</td>
-                                <td>--</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Health Service Calendar (HLTHS)</th>
-                                <td>1995, 2006, 2015</td>
-                                <td>N/A</td>
-                                <td>268 Health Services</td>
-                                <td>99%</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Household Demographic Event Registry</th>
-                                <td>Monthly since 1997</td>
-                                <td>N/A</td>
-                                <td>3,331 Households</td>
-                                <td>95%</td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                    <p>DATA <a href="#">Click Here</a></p>
-                    <p>CodeBook <a href="#">Click Here</a></p>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Questionnaire:
-                </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <p>
-                        The <strong>Harmonized Cognitive Assessment Protocol (HCAP)</strong> is the primary tool for
-                        cognitive assessment. The study will adapt and validate the HCAP instruments, with multiple
-                        steps for translation, pilot testing, and cognitive interviewing to ensure cultural relevance
-                        in Nepal.
-                    </p>
-                    <p>DATA <a href="#">Click Here</a></p>
-                    <p>CodeBook <a href="#">Click Here</a></p>
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    HCAP
-                </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <p>
-                        The HCAP includes a comprehensive set of <strong>18 cognitive tests</strong> for respondents
-                        and <strong>5 informant tests</strong> to assess cognitive functions, dementia, and related
-                        conditions. The data from this will be compared to international studies through the HCAP
-                        International Network.
-                    </p>
-                    <p>DATA <a href="#">Click Here</a></p>
-                    <p>CodeBook <a href="#">Click Here</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> --}}
 
     <!-- Only load the bootstrap bundle script, which includes Popper.js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
