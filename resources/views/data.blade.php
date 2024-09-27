@@ -158,31 +158,31 @@
                                   <th scope="row">Life-time Major Depressive Disorder</th>
                                   <td>10.0%</td>
                                   <td>43.8%</td>
-                                  <td>53.8%</td>
+                                  <td>--</td>
                                 </tr>
                                 <tr>
                                   <th scope="row">Life-time Generalized Anxiety Disorder</th>
                                   <td>1.0%</td>
                                   <td>23.3%</td>
-                                  <td>24.3%</td>
+                                  <td>--</td>
                                 </tr>
                                 <tr>
                                   <th scope="row">Life-time Post-Traumatic Stress Disorder(PTSD)</th>
                                   <td>1.2%</td>
                                   <td>7.6%</td>
-                                  <td>8.8%</td>
+                                  <td>--</td>
                                 </tr>
                                 <tr>
                                   <th scope="row">Life-time Alcohol Abuse Disorder(AUD)</th>
                                   <td>12.0%</td>
                                   <td>1.5%</td>
-                                  <td>13.5%</td>
+                                  <td>--</td>
                                 </tr>
                                 <tr>
                                   <th scope="row">Ever experienced any potentially traumatic event</th>
                                   <td>91.7%</td>
                                   <td>85.3%</td>
-                                  <td>88.5%</td>
+                                  <td>--</td>
                                 </tr>
                              
                               </tbody>
@@ -230,6 +230,7 @@
                         <div class="row">
                             <ul class="ms-3">
                                 <p>The detailed data includes the occurrence, date, and location of armed conflict events during the civil war (1996-2006), covering: <strong> Arrests,Killings,Gunfire,Disappearances,Bombings,Beatings</strong>.</p>
+                                <img src="images/armed_conflict_exposer_data.jpg" class="img-fluid" alt="...">
                                 <h5>Key Time Frame:</h5>
                                 <li>The most intense period of conflict was between 2001 and 2006.</li>
                                 <li>The first year of significant conflict data is 2003, which will be used as a reference in longitudinal studies, as most participants will have been at least 29 years old by then, meaning they would have experienced these events during mid-adulthood.</li>
