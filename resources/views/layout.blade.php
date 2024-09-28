@@ -30,7 +30,6 @@
                                 <i class="fa fa-brands fa-linkedin "></i>
                             </a>
                         </div>
-                        
                     </div>
                 </div>
 
@@ -42,7 +41,6 @@
                         <a href="">
                             <i class="fas fa-search"></i>
                         </a>
-
                     </div>
 
                     <div class="language-select d-flex align-items-center me-3">
@@ -53,9 +51,7 @@
                             <option value="es">Español</option>
                         </select>
                     </div>
-
                     <div id="google_translate_element" style="display:none;"></div>
-
                 </div>
             </div>
         </div>
@@ -71,13 +67,14 @@
                 </div>
                 <div class="col-md-9 col-8">
                     <div class="header-text align-item-start">
-                        <p class="h1 mt-3 mb-0" style="color:rgb(54, 54, 252)"><strong>Chitwan Valley Family Study (CVFS)</strong></p>
+                        <p class="h1 mt-3 mb-0" style="color:rgb(54, 54, 252)"><strong>Chitwan Valley Family Study
+                                (CVFS)</strong></p>
                         <p class="h2" style="color: rgb(54, 54, 252)">Study on Cognition and Aging in Nepal</p>
                     </div>
                 </div>
             </div>
         </div>
-        
+
         <nav class="navbar navbar-expand-lg ">
             <div class="container ">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -167,7 +164,7 @@
                 <p><i class="fa fa-phone" aria-hidden="true"></i> +977-56-591054, +977-56-592406</p>
                 <p><i class="fa fa-envelope" aria-hidden="true"></i> iser.nepal@outlook.com</p>
                 <p><i class="fa fa-clock" aria-hidden="true"></i> 10 A.M. - 5 P.M.</p>
-               
+
             </div>
             <!-- Logo and Research Project Section -->
             <div class="footer-right">
@@ -199,13 +196,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
-    </script>
-
 
     <script>
         function googleTranslateElementInit() {
@@ -239,10 +229,10 @@
         window.onload = function() {
             loadGoogleTranslateScript();
         };
+        
     </script>
 
 
 </body>
-
 
 </html>
