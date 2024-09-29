@@ -4,7 +4,7 @@
 @section('title', 'Publications')
 
 @section('content')
-    <div class="container">
+    <div class="container mt-5 mb-5">
         <h1>Publications</h1>
         No publications yet.
         {{-- @foreach ($publications as $publication)

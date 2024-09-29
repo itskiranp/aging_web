@@ -156,7 +156,6 @@ body {
 }
 
 /* navbar styling */
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -178,7 +177,7 @@ body {
 
 .navbar-nav .nav-link {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     color: white !important;
     display: block;
     padding: 15px;
@@ -187,7 +186,8 @@ body {
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-    background-color: rgb(54, 54, 252);
+    background-color: #00477d;
+    /* rgb(54, 54, 150); */
     border-radius: 2px;
 }
 
@@ -204,7 +204,7 @@ body {
 
 /* Show the dropdown menu */
 .navbar-nav .dropdown-menu.show {
-    opacity: 80%;
+    opacity: 90%;
     visibility: visible;
     transform: translateY(0); /* Move back to normal position */
 }
@@ -213,20 +213,20 @@ body {
 .navbar-nav .dropdown-menu a {
     background-color: #00153c;
     color: white;
+    font-weight: 400px;
     line-height: 30px;
     text-transform: uppercase;
     display: block;
     padding: 10px 20px;
     transition: background-color 0.3s ease;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 
 .navbar-nav .dropdown-menu .dropdown-item:hover {
     color: yellow;
-    background-color: rgba(54, 54, 252, 0.7); /* Slight background on hover */
+    background-color: #00477d; /* Slight background on hover */
 }
-
-
-
 
 /* .navbar {
     display: flex;
@@ -394,7 +394,6 @@ body {
         display: none;
     }
 }
-/* data page styling */
 
 /* dropdown-menu investigators pages styling */
 
@@ -451,18 +450,6 @@ body {
 }
 
 /* General styling for the links page */
-
-/* Links container styling */
-.links-container {
-    flex: 1; /* Occupies two-thirds of the page */
-    display: wrap;
-}
-
-.links-container h1 {
-    font-size: 2.5em;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
 
 .links-list {
     list-style-type: disc;
@@ -756,9 +743,9 @@ body {
 
 .external-link i {
     position: absolute;
-    top: 2px; /* Slightly raise the icon */
-    right: -12px; /* Move the icon slightly to the right */
-    font-size: 0.75em; /* Adjust the size of the icon to be smaller */
+    top: 2px;
+    right: -12px;
+    font-size: 0.75em;
 }
 
 .footer-links a {
@@ -769,8 +756,9 @@ body {
 }
 
 .footer-links a:hover {
-    text-decoration: underline;
-    color: #fff;
+    text-decoration: none;
+    /* color: #fff; */
+    color: #66afe9;
 }
 
 /* Footer Bottom Section */
@@ -784,12 +772,13 @@ body {
 }
 
 .footer-bottom a {
-    color: #66afe9;
+    color: #fff;
+    text-decoration: none;
 }
 
 .footer-bottom a:hover {
-    color: #fff;
-    text-decoration: underline;
+    color: #66afe9;
+    text-decoration: none;
 }
 
 /* Responsive Adjustments */
@@ -802,7 +791,6 @@ body {
     .footer-left,
     .footer-right {
         width: 100%;
-
         margin-bottom: 20px;
     }
 

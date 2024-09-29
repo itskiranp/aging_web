@@ -105,7 +105,7 @@
                                 PEOPLE
                             </a>
                             <ul class="dropdown-menu mt-0">
-                                <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                <li><a class="dropdown-item "
                                         href="{{ route('investigators') }}">Investigators</a></li>
 
                                 <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
@@ -119,14 +119,13 @@
                             </a>
                             <ul class="dropdown-menu mt-0">
                                 <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                        href="/capacitybuilding/interviewing">General Interviewing Techniques(GIT)
-                                        Training</a></li>
+                                        href="/capacitybuilding/interviewing">Research Capacity Building Activities</a></li>
                                 <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                        href="/capacitybuilding/specifictraining">Study Specific Training</a></li>
+                                        href="/capacitybuilding/specifictraining">Survey Data Collection Methods    </a></li>
                                 <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                        href="/capacitybuilding/supervisiortraining">Supervisors Training</a></li>
+                                        href="/capacitybuilding/supervisiortraining">Statistical Analysis Methods for Complex Data</a></li>
                                 <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                        href="/capacitybuilding/analysictraining">Survey Data Analysis Training</a>
+                                        href="/capacitybuilding/analysictraining">Power Considerations in Data Analysis</a>
                                 </li>
                             </ul>
                         </li>

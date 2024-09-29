@@ -7,7 +7,7 @@
 @section('content')
     <div class="container">
         <!-- Links Section -->
-        <div class="row links">
+        <div class="row links mt-3">
             <h1>Links</h1>
             <div class="col">
                 <ul class="links-list">

@@ -52,7 +52,7 @@
                 <div class="d-grid gap-3">
                     <a href="#" class="btn btn-primary">Connect With Us</a>
                     <a href="{{ route('links') }}" class="btn btn-info">Documentation</a>
-                    <a href="#" class="btn btn-success">Join Our Team</a>
+                    {{-- <a href="#" class="btn btn-success">Join Our Team</a> --}}
                     <a href="{{ route('feedback') }}" class="btn btn-outline-secondary">Website Feedback</a>
                 </div>
                 <div class="card mt-4 mb-3">
@@ -78,23 +78,25 @@
                             Unable to load the map. Please check your internet connection and try again.
                         </div>
                     </div>
-                                        
-                    <script async
-                        src="https://maps.gomaps.pro/maps/api/js?key=AlzaSy2ky9iiI63FurfccxQFYqdzr39DyfrW4GM&callback=initMap">
+
+                    <script async src="https://maps.gomaps.pro/maps/api/js?key=AlzaSy2ky9iiI63FurfccxQFYqdzr39DyfrW4GM&callback=initMap">
                     </script>
-                    
+
                     <script>
                         function initMap() {
                             // Coordinates of the Chitwan District, Nepal
-                            const chitwan = { lat: 27.68333, lng: 84.43333 };
-                    
+                            const chitwan = {
+                                lat: 27.68333,
+                                lng: 84.43333
+                            };
+
                             // Initialize the map, centered at Chitwan
                             const map = new google.maps.Map(document.getElementById('map'), {
                                 zoom: 10,
                                 center: chitwan,
                                 mapTypeId: 'roadmap'
                             });
-                    
+
                             // Add a marker at Chitwan District
                             const marker = new google.maps.Marker({
                                 position: chitwan,
@@ -102,7 +104,7 @@
                                 title: 'Chitwan District, Nepal'
                             });
                         }
-                    
+
                         // Error handling for iframe map errors (if you use iframes elsewhere)
                         window.addEventListener('error', function(e) {
                             if (e.target.tagName === 'IFRAME') {
@@ -115,6 +117,6 @@
             </div>
         </div>
     </div>
-   
-    
+
+
 @endsection

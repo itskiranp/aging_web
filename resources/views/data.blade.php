@@ -5,16 +5,16 @@
 @section('content')
 
     <div class="container my-5">
-        <h1 class="text-center mb-4">Data</h1>
+        <h1 class="text-start mb-4">Data</h1>
         <div class="accordion" id="dataAccordion">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                        aria-expanded="true" aria-controls="collapseOne">
+                        aria-expanded="True" aria-controls="collapseOne">
                         <strong>Chitwan Valley Family Study (CVFS) Linked Data Sets</strong>
                     </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                     data-bs-parent="#dataAccordion">
                     <div class="accordion-body">
                         <p> It describes various surveys and data collection efforts over time in the Chitwan Valley, which
@@ -189,6 +189,8 @@
                               </tbody>
                             
                           </table>
+                          <p>DATA <a href="#">Click Here</a></p>
+                        <p>CodeBook <a href="#">Click Here</a></p>
                     </div>
                 </div>
             </div>
@@ -261,15 +263,42 @@
                     </div>
                 </div>
             </div>
-
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingSix">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                       <Strong> Data Visualization Techniques</Strong>
+                        <strong> Statistical Analysis of Data</strong>
                     </button>
                 </h2>
                 <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                    data-bs-parent="#dataAccordion">
+                    <div class="accordion-body">
+                        <p>The statistical analysis plan involves creating summary (composite) variables for cognitive and physical function tests and multi-item instruments. These procedures ensure comparability with previous research and provide reliable results on cognition and ADRD risk factors.</p>
+                        <div class="row">
+                            <h5>Key Statistical Methods:</h5>
+                            <ul class="ms-3">
+                                <li><strong>Cognitive and Physical Function Scores:</strong></li>
+                                <p>We calculate summary scores for cognitive and physical tests by computing z-scores for individual tests and averaging them across tests.</p>
+                                <li><strong>Exposure Variables:</strong></li>
+                                <p>Summary scores are also computed for self-reported variables like international labor migration and armed conflict exposure.</p>
+                                <li><strong>Descriptive Analysis:</strong></li>
+                                <p>A range of statistical checks (means, medians, ranges, and distributions) is conducted on individual and composite variables.</p>
+                                <li><strong>Regression Models:</strong></li>
+                                <p>The primary analyses use design-adjusted <strong>logistic regression</strong>for binary outcomes and linear regression for continuous outcomes, accounting for key demographics like age, sex, education, and risk factors such as cardiovascular disease, diabetes, and depression.</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                       <Strong> Data Visualization Techniques</Strong>
+                    </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
                     data-bs-parent="#dataAccordion">
                     <div class="accordion-body">
                         <p>Data visualization helps in understanding complex data sets through graphical representation.</p>
@@ -310,11 +339,5 @@
             </div>
         </div>
     </div>
-
-    <!-- Only load the bootstrap bundle script, which includes Popper.js -->
-    {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script> --}}
-
 
 @endsection

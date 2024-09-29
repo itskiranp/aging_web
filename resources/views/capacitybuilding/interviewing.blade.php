@@ -4,9 +4,16 @@
 
 @section('title', 'CVFS on Cognition and Aging in Nepal')
 @section('content')
-<div class="container mt-3 mb-5">
-<div><h2>General Interviewing Technique (GIT) Training:</h2></div>
+<div class="container mt-4 mb-5">
+<div><h2>Research Capacity Building Activities</h2></div>
 
-    <p> <strong>Training modules</strong> will be developed to train staff on conducting <strong>cognitive interviews</strong>. These interviews ensure that the participants understand the questions and provide accurate responses. The staff will be trained in <strong>cognitive testing techniques</strong> and the translation protocol for administering HCAP..</p>
+    <p>Our research capacity building program aims to strengthen the ability to conduct clinical and population studies on <strong>Alzheimer's Disease and Related Dementias (ADRD)</strong> and other chronic health conditions associated with aging. The program has two primary goals:</p>
+    <p>
+        <ul>
+            <li>Strengthen survey data collection methods, with a focus on culturally informed ADRD assessments.</li>
+            <li>Build and enhance statistical analysis methods for longitudinal population studies.</li>
+        </ul>
+        The activities focus on training Nepali investigators, who will then train others in academic and clinical settings across Nepal.
+    </p>
 </div>
 @endsection
