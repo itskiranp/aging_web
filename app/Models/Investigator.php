@@ -18,14 +18,15 @@ class Investigator extends Model implements HasMedia
         'phone',
         'email',
         'bio',
-        'profile_image',
-        'description',  // Add the new field
+        'profile_pic',
+        'description',  
+        'profile_pdf',
     ];
 
       // Define the media collection for profile images
       public function registerMediaCollections(): void
       {
-          $this->addMediaCollection('profile_image')->singleFile();
+          $this->addMediaCollection('profile_pic')->singleFile();
       }
 
       

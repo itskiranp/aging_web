@@ -4,37 +4,37 @@
 @section('title', 'Investigators')
 
 @section('content')
-{{-- <div class="container text-center my-5">
-    <h2 class="mb-5">Investigators</h2>
-    <div class="container">
-        @foreach($investigators as $investigator)
-        <div class="row investigator mb-4">
-            <!-- Investigator Image -->
-            <div class="col-md-3 text-center">
-                <img src="{{ asset('storage/' . $investigator->profile_image) }}" alt="{{ $investigator->name }}" class="img-fluid">
-
-            </div>
-            <!-- Investigator Details -->
-            <div class="col-md-9 text-start">
-                <h5>{{ $investigator->name }}</h5>
-                <p><strong>{{ $investigator->position }}</strong></p>
-                <p><strong><i class="fas fa-phone"></i> {{ $investigator->phone }}</strong></p>
-                <p><strong><i class="fa-solid fa-envelope"></i></strong> <a href="mailto:{{ $investigator->email }}">{{ $investigator->email }}</a></p>
-                <p>{{ $investigator->bio }}</p>
-                <p>{{ $investigator->description }}</p>
-                <a href="{{ $investigator->getFirstMediaUrl('profile_pdf') }}" target="_blank">Download CV</a>
-
-                
-            </div>
-        </div>
-        @endforeach
-    </div>
-</div> --}}
-
-
-
-
     <div class="container text-center my-5">
+        <h2 class="mb-5">Investigators</h2>
+        <div class="container">
+            @foreach ($investigators as $investigator)
+                <div class="row investigator mb-4">
+                    <!-- Investigator Image -->
+                    <div class="col-md-3 text-center">
+                        <img src="{{($investigator->profile_pic) }}" alt="{{ $investigator->name }}"
+                            class="img-fluid">
+
+                    </div>
+                    <!-- Investigator Details -->
+                    <div class="col-md-9 text-start">
+                        <h5>{{ $investigator->name }}</h5>
+                        <p><strong>{{ $investigator->position }}</strong></p>
+                        <p><strong><i class="fas fa-phone"></i> {{ $investigator->phone }}</strong></p>
+                        <p><strong><i class="fa-solid fa-envelope"></i></strong> <a
+                                href="mailto:{{ $investigator->email }}">{{ $investigator->email }}</a></p>
+                        <p>{{ $investigator->bio }}</p>
+                        <p>{{ $investigator->description }}</p>
+                            <a href="{{ ($investigator->profile_pdf)}} " class="btn btn-primary" target="_blank">Download CV</a>
+                        </div>
+                </div>
+            @endforeach
+        </div>
+    </div>
+
+
+
+
+    {{-- <div class="container text-center my-5">
         <h2 class="mb-5">Investigators</h2>
         <div class="container ">
 
@@ -254,6 +254,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
 @endsection

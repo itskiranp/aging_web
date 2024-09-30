@@ -37,17 +37,21 @@ class InvestigatorResource extends Resource
                 TextInput::make('email')->email()->required(),
                 Textarea::make('bio')->nullable(),
                 Textarea::make('description')->label('Description')->required(),  // Add the description field
-                FileUpload::make('profile_image')
-                    ->directory('images')
-                    ->image()
-                    ->imageEditor()
-                    ->maxSize(2048)
-                    ->nullable(),
-                FileUpload::make('profile_pdf')
-                    ->label('Profile PDF')
-                    ->acceptedFileTypes(['application/pdf']) // Only allow PDF
-                    ->directory('profile_pdfs') // Optional directory
-                    ->columnSpanFull(),
+                // FileUpload::make('profile_image')
+                //     ->directory('images')
+                //     ->image()
+                //     ->imageEditor()
+                //     ->maxSize(2048)
+                //     ->nullable(),
+                TextInput::make('profile_pic')
+                ->label('Profile Pic')
+                ->nullable(), 
+
+                
+                TextInput::make('profile_pdf')
+                ->label('Profile PDF')
+                ->nullable(),  
+
             ]);
     }
 

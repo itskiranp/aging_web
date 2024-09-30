@@ -74,7 +74,6 @@
                 </div>
             </div>
         </div>
-
         <nav class="navbar navbar-expand-lg ">
             <div class="container ">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -230,7 +229,6 @@
         };
         
     </script>
-
 
 </body>
 

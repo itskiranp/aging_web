@@ -19,6 +19,8 @@ return new class extends Migration
             $table->string('email');
             $table->text('bio');
             $table->string('profile_image')->nullable();
+            $table->string('profile_pdf')->nullable();
+
             $table->timestamps();
         });
     }

@@ -55,7 +55,7 @@ body {
 }
 
 .social-icons i {
-    font-size: 28px; /* You can change the size value here */
+    font-size: 28px;
 }
 
 /* search box styling */
@@ -219,13 +219,20 @@ body {
     display: block;
     padding: 10px 20px;
     transition: background-color 0.3s ease;
-    /* display: flex;
-    flex-wrap: wrap; */
+  
 }
 
 .navbar-nav .dropdown-menu .dropdown-item:hover {
     color: yellow;
     background-color: #00477d; /* Slight background on hover */
+}
+@media (min-width: 990px) and (max-width: 1202px) {
+    .navbar-nav .nav-link i {
+        display: flex;
+        flex-direction: row;
+        font-size: 1rem; 
+        margin-bottom: 8px;
+    }
 }
 
 /* .navbar {
@@ -550,11 +557,7 @@ body {
     }
 }
 
-/* Research team styling  */
-
-.research-team {
-    background-color: #f8f9fa;
-}
+/* staff member styling  */
 
 .team-member {
     text-align: center;

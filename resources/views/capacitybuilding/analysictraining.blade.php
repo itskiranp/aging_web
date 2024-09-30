@@ -10,7 +10,7 @@
         </div>
 
         <p> Our research aims to ensure adequate statistical power to detect associations between risk factors and cognitive
-            outcomes, such as Alzheimer’s Disease and Related Dementias (ADRD). These considerations are crucial for
+            outcomes, such as <strong>Alzheimer’s Disease and Related Dementias (ADRD)</strong>. These considerations are crucial for
             building a research infrastructure capable of generating reliable and valid results in Nepal.</p>
         <div class="row">
             <div class="col">
@@ -32,9 +32,9 @@
             </div>
         </div>
         <div>
-            <h5><strong>Sex as a Biological Variable:</strong></h5>
+            <h6><strong>Sex as a Biological Variable:</strong></h6>
             <ul>
-                <li><strong>Sex-Specific Analysis:</strong></li>
+                <li>Sex-Specific Analysis:</li>
                 <p>Since previous studies have shown mixed results regarding sex differences in ADRD risk, we will
                     explore sex-specific models and interaction effects between sex and predictor variables to
                     understand these differences in the Nepali population.</p>
