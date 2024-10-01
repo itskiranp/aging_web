@@ -67,6 +67,10 @@ class PageController extends Controller
     {
         return view('feedback'); // Returns the feedback.blade.php view
     }
+    public function showConnect()
+    {
+        return view('connect'); // Returns the feedback.blade.php view
+    }
 
     public function showinterviewingMember()
     {

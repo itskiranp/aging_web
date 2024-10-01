@@ -50,7 +50,7 @@
             <div class="col-md-4">
                 <h2 class="mb-4">Important Links</h2>
                 <div class="d-grid gap-3">
-                    <a href="#" class="btn btn-primary">Connect With Us</a>
+                    <a href="{{ route('connect') }}" class="btn btn-primary">Connect With Us</a>
                     <a href="{{ route('links') }}" class="btn btn-info">Documentation</a>
                     {{-- <a href="#" class="btn btn-success">Join Our Team</a> --}}
                     <a href="{{ route('feedback') }}" class="btn btn-outline-secondary">Website Feedback</a>

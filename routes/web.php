@@ -1,5 +1,6 @@
 <?php
 use App\Http\Controllers\PublicationController;
+use App\Http\Controllers\ContactController;
 use App\Livewire\ShowHome;
 use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
@@ -19,6 +20,10 @@ Route::get('/gallery', [PageController::class, 'gallery'])->name('gallery');
 Route::get('/About', [PageController::class, 'About'])->name('About');
 
 Route::get('/feedback', [PageController::class, 'showFeedback'])->name('feedback');
+Route::get('/connect', [PageController::class, 'showConnect'])->name('connect');
+// web.php
+Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
+
 
 
 Route::get('/publications', [PublicationController::class, 'index']);
