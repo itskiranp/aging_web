@@ -37,10 +37,12 @@
                 <div class="col-md-8 d-flex justify-content-end align-items-center">
                     <!-- Search Form with Hidden Fields -->
                     <div class="sbox me-3">
-                        <input type="text" placeholder="Search...">
-                        <a href="">
-                            <i class="fas fa-search"></i>
-                        </a>
+                        <form action="{{ route('search') }}" method="GET">
+                            <input type="text" name="query" placeholder="Search...">
+                            <button type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
                     </div>
 
                     <div class="language-select d-flex align-items-center me-3">
@@ -55,7 +57,7 @@
                 </div>
             </div>
         </div>
-        <div id="sf-main-header" class="main-header">
+        <div class="main-header" id="sf-main-header">
             <div class="row ">
                 <!-- Logo Section -->
                 <div class="col-md-2 col-4">
@@ -74,75 +76,83 @@
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container ">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon" style="background-color: white;"></span>
-                </button>
+        <div class="row navWrapper">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container ">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon" style="background-color: white;"></span>
+                    </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page"
-                                href="/"><i class="fa-solid fa-house-chimney fa-lg me-2 "></i>HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link {{ Request::is('study') ? 'active' : '' }}" href="/study">STUDY</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link {{ Request::is('data') ? 'active' : '' }}" href="/data">DATA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link {{ Request::is('publications') ? 'active' : '' }}"
-                                href="/publications">PUBLICATION</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}"
-                                href="/people" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                PEOPLE
-                            </a>
-                            <ul class="dropdown-menu mt-0">
-                                <li><a class="dropdown-item "
-                                        href="{{ route('investigators') }}">Investigators</a></li>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page"
+                                    href="/"><i class="fa-solid fa-house-chimney fa-lg me-2 "></i>HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link {{ Request::is('study') ? 'active' : '' }}" href="/study">STUDY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link {{ Request::is('data') ? 'active' : '' }}" href="/data">DATA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link {{ Request::is('publications') ? 'active' : '' }}"
+                                    href="/publications">PUBLICATION</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}"
+                                    href="/people" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    PEOPLE
+                                </a>
+                                <ul class="dropdown-menu mt-0">
+                                    <li><a class="dropdown-item " href="{{ route('investigators') }}">Investigators</a>
+                                    </li>
 
-                                <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                        href="/people/staff">Staff</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown ">
-                            <a class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}"
-                                href="/people" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                CAPACITY BUILDING
-                            </a>
-                            <ul class="dropdown-menu mt-0">
-                                <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                        href="/capacitybuilding/interviewing">Research Capacity Building Activities</a></li>
-                                <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                        href="/capacitybuilding/specifictraining">Survey Data Collection Methods    </a></li>
-                                <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                        href="/capacitybuilding/supervisiortraining">Statistical Analysis Methods for Complex Data</a></li>
-                                <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                        href="/capacitybuilding/analysictraining">Power Considerations in Data Analysis</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link {{ Request::is('events') ? 'active' : '' }}" href="/events">NEWS &
-                                EVENTS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link {{ Request::is('gallery') ? 'active' : '' }}"
-                                href="/gallery">GALLERY</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link {{ Request::is('About') ? 'active' : '' }}" href="/About">ABOUT</a>
-                        </li>
-                    </ul>
+                                    <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                            href="/people/staff">Staff</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}"
+                                    href="/people" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    CAPACITY BUILDING
+                                </a>
+                                <ul class="dropdown-menu mt-0">
+                                    <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                            href="/capacitybuilding/interviewing">Research Capacity Building
+                                            Activities</a></li>
+                                    <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                            href="/capacitybuilding/specifictraining">Survey Data Collection Methods
+                                        </a></li>
+                                    <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                            href="/capacitybuilding/supervisiortraining">Statistical Analysis Methods
+                                            for Complex Data</a></li>
+                                    <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                            href="/capacitybuilding/analysictraining">Power Considerations in Data
+                                            Analysis</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link {{ Request::is('events') ? 'active' : '' }}" href="/events">NEWS &
+                                    EVENTS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link {{ Request::is('gallery') ? 'active' : '' }}"
+                                    href="/gallery">GALLERY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link {{ Request::is('About') ? 'active' : '' }}"
+                                    href="/About">ABOUT</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
+
     </header>
 
     <!-- Main Content Section -->
@@ -227,8 +237,26 @@
         window.onload = function() {
             loadGoogleTranslateScript();
         };
-        
     </script>
+    <script>
+        window.onscroll = function() {
+            stickyNavbar();
+        };
+
+        var navbar = document.querySelector('.navWrapper');
+        var stickyPosition = navbar.offsetTop;
+
+        function stickyNavbar() {
+            if (window.pageYOffset > stickyPosition) {
+                navbar.classList.add("sticky");
+                navbar.style.animation = "slideDown 0.5s ease"; /* Slide down effect when sticky */
+            } else {
+                navbar.classList.remove("sticky");
+                navbar.style.animation = ""; /* Remove animation when back to normal */
+            }
+        }
+    </script>
+
 
 </body>
 

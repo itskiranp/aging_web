@@ -6,7 +6,11 @@ use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\GoogleTranslateController;
+use App\Http\Controllers\SearchController;
 
+
+
+Route::get('/search', [SearchController::class, 'search'])->name('search');
 
 Route::get('/', [PageController::class, 'Index'])->name('Index');
 Route::get('/study', [PageController::class, 'study'])->name('study');

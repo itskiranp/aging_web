@@ -19,17 +19,24 @@ class Investigator extends Model implements HasMedia
         'email',
         'bio',
         'profile_pic',
-        'description',  
+        'description',
         'profile_pdf',
     ];
 
-      // Define the media collection for profile images
-      public function registerMediaCollections(): void
-      {
-          $this->addMediaCollection('profile_pic')->singleFile();
-      }
+    // Define the media collection for profile images
+    public function registerMediaCollections(): void
+    {
+        $this->addMediaCollection('profile_pic')->singleFile();
+    }
 
-      
+    protected $table = 'investigators';
 
-
+    //add a scope for searching
+    public function scopeSearch($query, $term)
+    {
+        // You can customize which fields are searched
+        return $query->where('name', 'LIKE', "%{$term}%")
+            ->orWhere('position', 'LIKE', "%{$term}%")
+            ->orWhere('email', 'LIKE', "%{$term}%");
+    }
 }
