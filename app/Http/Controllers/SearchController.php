@@ -9,13 +9,20 @@ class SearchController extends Controller
 {
     public function search(Request $request)
     {
-        // Get the search term from the request
         $query = $request->input('query');
-        
-        // Search the investigators table
-        $results = Investigator::search($query)->get();
-
-        // Pass the results to a search results view
-        return view('search_results', compact('results'));
+    
+        // If there's no query, redirect back or show a message
+        if (!$query) {
+            return redirect()->back()->with('error', 'Please enter a search term.');
+        }
+    
+        // Otherwise, proceed with search logic
+        $results = Investigator::where('name', 'LIKE', "%{$query}%")
+                    ->orWhere('position', 'LIKE', "%{$query}%")
+                    ->orWhere('email', 'LIKE', "%{$query}%")
+                    ->get();
+    
+        return view('search_results', ['results' => $results]);
     }
+    
 }

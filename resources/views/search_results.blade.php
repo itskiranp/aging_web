@@ -7,7 +7,7 @@
     <h1>Search Results</h1>
 
     @if($results->isEmpty())
-        <p>No results found for your search query.</p>
+        <p>No Results. Please try searching for something else.</p>
     @else
         <table class="table table-bordered">
             <thead>

@@ -37,11 +37,10 @@
                 <div class="col-md-8 d-flex justify-content-end align-items-center">
                     <!-- Search Form with Hidden Fields -->
                     <div class="sbox me-3">
-                        <form action="{{ route('search') }}" method="GET">
-                            <input type="text" name="query" placeholder="Search...">
-                            <button type="submit">
-                                <i class="fas fa-search"></i>
-                            </button>
+                        <form action="{{ route('search') }}" id="searchForm" method="GET">
+                            <input type="text" id="searchInput" name="query" placeholder="Search..." required>
+                            <button type="submit" id="searchButton"><i class="fas fa-search"></i></button>
+
                         </form>
                     </div>
 
@@ -58,7 +57,16 @@
             </div>
         </div>
         <div class="main-header" id="sf-main-header">
-            <div class="row ">
+            <div class="container">
+                <!-- Logo Section -->
+                <div class="col-md-6">
+                    <a href="{{ url('/') }}" class="logo">
+                        <img src="/images/heading_logo1.PNG" class="img-fluid" alt="...">
+                    </a>
+                </div>
+            </div>
+
+            {{-- <div class="row ">
                 <!-- Logo Section -->
                 <div class="col-md-2 col-4">
                     <div class="header-logo logos-container">
@@ -74,7 +82,7 @@
                         <p class="h2" style="color: rgb(54, 54, 252)">Study on Cognition and Aging in Nepal</p>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
         <div class="row navWrapper">
             <nav class="navbar navbar-expand-lg ">
@@ -167,7 +175,11 @@
         <div class="footer-content">
             <!-- Contact Details Section -->
             <div class="footer-left">
+                <div class="logos">
+                <img src="/images/isernepal-at.png" class="img-fluid" alt="...">
+            </div>
                 <h4>Contact Details</h4>
+
                 <p><i class="fa fa-map-marker" aria-hidden="true"></i> Bharatpur-15, Fulbari, Chitwan, Nepal</p>
                 <p><i class="fa fa-phone" aria-hidden="true"></i> +977-56-591054, +977-56-592406</p>
                 <p><i class="fa fa-envelope" aria-hidden="true"></i> iser.nepal@outlook.com</p>
@@ -255,6 +267,17 @@
                 navbar.style.animation = ""; /* Remove animation when back to normal */
             }
         }
+    </script>
+    <script>
+        document.getElementById('searchForm').addEventListener('submit', function(event) {
+            var searchInput = document.getElementById('searchInput').value.trim();
+
+            // Prevent submission if input is empty
+            if (!searchInput) {
+                event.preventDefault(); // Stops form submission
+                alert("Please enter a search term.");
+            }
+        });
     </script>
 
 

@@ -11,7 +11,7 @@
         <div class="container my-5">
             <div class="row">
                 <!-- Contact Form Section -->
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <h3>Contact Us</h3>
                     <p>If you have any questions or need more information, feel free to send us a message using the form
                         below.</p>
@@ -54,7 +54,7 @@
                 </div>
 
                 <!-- Contact Information Section -->
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <h3>Our Contact Information</h3>
                     <p>You can also reach out to us through the following contact details:</p>
 
