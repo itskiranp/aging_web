@@ -57,16 +57,16 @@
             </div>
         </div>
         <div class="main-header" id="sf-main-header">
-            <div class="container">
+            {{-- <div class="container">
                 <!-- Logo Section -->
                 <div class="col-md-6">
                     <a href="{{ url('/') }}" class="logo">
                         <img src="/images/heading_logo1.PNG" class="img-fluid" alt="...">
                     </a>
                 </div>
-            </div>
+            </div> --}}
 
-            {{-- <div class="row ">
+            <div class="row ">
                 <!-- Logo Section -->
                 <div class="col-md-2 col-4">
                     <div class="header-logo logos-container">
@@ -82,7 +82,7 @@
                         <p class="h2" style="color: rgb(54, 54, 252)">Study on Cognition and Aging in Nepal</p>
                     </div>
                 </div>
-            </div> --}}
+            </div>
         </div>
         <div class="row navWrapper">
             <nav class="navbar navbar-expand-lg ">
