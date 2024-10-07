@@ -305,11 +305,11 @@
                         <div class="row">
                             <div class="col-md-4 mb-3">
                                 <div class="card">
-                                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                                    <img src="/images/cvfs bar diagram.png"
                                         class="card-img-top" alt="Bar Chart">
                                     <div class="card-body">
                                         <h5 class="card-title">Bar Charts</h5>
-                                        <p class="card-text">Used for comparing quantities across different categories.</p>
+                                        <p class="card-text">Studies with measures comparable to CVFS.</p>
                                     </div>
                                 </div>
                             </div>
