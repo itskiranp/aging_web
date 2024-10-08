@@ -25,7 +25,7 @@ body {
 }
 
 .language-select select {
-    background-color: #fff; /* White background for select box */
+    background-color: #fff; 
     color: #000; /* Black text for select box */
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -164,9 +164,7 @@ body {
 }
 
 #sf-main-header .logo img {
-    display: flex;
-   
-    
+    display: flex;    
 }
 
 .navbar {
@@ -174,7 +172,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 !important;
-    /* background-color: #00153c; */
     background-color: transparent;
     width: 100%;
     transition: background-color 0.3s ease;
@@ -420,11 +417,6 @@ body {
     margin-top: 10px;
 }
 
-/* news and events page styling */
-
-/* #calendar {
-    min-height: 300px;
-} */
 
 /* gallery page styling  */
 .gallery-img {
@@ -765,7 +757,6 @@ body {
 
 .footer-links a:hover {
     text-decoration: none;
-    /* color: #fff; */
     color: #66afe9;
 }
 

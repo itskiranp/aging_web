@@ -171,13 +171,13 @@
     </main>
 
     <!-- Footer Section -->
-    <footer class="site-footer mt-4">
+    <footer class="site-footer mt-2">
         <div class="footer-content">
             <!-- Contact Details Section -->
             <div class="footer-left">
                 <div class="logos">
-                <img src="/images/isernepal-at.png" class="img-fluid" alt="...">
-            </div>
+                    <img src="/images/isernepal-at.png" class="img-fluid" alt="iser-n">
+                </div>
                 <h4>Contact Details</h4>
 
                 <p><i class="fa fa-map-marker" aria-hidden="true"></i> Bharatpur-15, Fulbari, Chitwan, Nepal</p>
@@ -205,7 +205,6 @@
                 </div>
             </div>
         </div>
-
         <!-- Footer Bottom Section -->
         <div class="footer-bottom">
             <p>&copy; Institute for Social and Environmental Research – Nepal | website: <a
