@@ -61,7 +61,7 @@
                 <!-- Logo Section -->
                 <div class="col-md-6">
                     <a href="{{ url('/') }}" class="logo">
-                        <img src="/images/heading_logo1.PNG" class="img-fluid" alt="...">
+                        <img src="/images/heading_logo_1.PNG" class="img-fluid" alt="...">
                     </a>
                 </div>
             </div>
@@ -278,8 +278,5 @@
             }
         });
     </script>
-
-
 </body>
-
 </html>
