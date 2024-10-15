@@ -13,7 +13,7 @@ body {
 }
 /* Top header styling */
 .language-select {
-    background-color: #00153c; 
+    background-color: #00153c;
     padding: 8px;
     border-radius: 5px;
 }
@@ -25,7 +25,7 @@ body {
 }
 
 .language-select select {
-    background-color: #fff; 
+    background-color: #fff;
     color: #000; /* Black text for select box */
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -70,7 +70,6 @@ body {
 }
 .sbox:hover input {
     width: 200px;
-    
 }
 .sbox input {
     width: 0;
@@ -81,10 +80,10 @@ body {
     background: transparent;
 }
 #searchButton {
-    background-color: transparent; 
-    border: none; 
-    outline: none; 
-    cursor: pointer; 
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 #searchButton i {
     color: #1daf;
@@ -159,12 +158,12 @@ body {
     }
 }
 #sf-main-header {
-    background-color:white; /* Your preferred background color */
+    background-color: white; /* Your preferred background color */
     padding: 10px 0;
 }
 
 #sf-main-header .logo img {
-    display: flex;    
+    display: flex;
 }
 
 .navbar {
@@ -178,7 +177,6 @@ body {
 }
 
 .navbar-nav {
-  
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -249,7 +247,8 @@ body {
 /* Initial styles for the navbar wrapper */
 .navWrapper {
     background-color: #00153c;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease,
+        transform 0.3s ease;
 }
 
 /* Sticky state with transition effects */
@@ -260,15 +259,16 @@ body {
     right: 0;
     z-index: 1000;
     background-color: #00153c;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
-    transform: translateY(0); 
-    transition: background-color 0.5s ease, box-shadow 0.5s ease, transform 0.5s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(0);
+    transition: background-color 0.5s ease, box-shadow 0.5s ease,
+        transform 0.5s ease;
 }
 
 /* Optional: Shrink the height slightly when the navbar is sticky */
 .sticky .navbar {
-    padding: 10px 0; 
-    transition: padding 0.3s ease; 
+    padding: 10px 0;
+    transition: padding 0.3s ease;
 }
 
 /* Transition effects for navbar links when sticky */
@@ -284,9 +284,9 @@ body {
     }
 }
 .navbar-toggler {
-    background-color: transparent; 
-    border: none; 
-    outline: none; 
+    background-color: transparent;
+    border: none;
+    outline: none;
 }
 
 /* Home Content Styling */
@@ -336,13 +336,11 @@ body {
 .carousel-item img {
     object-fit: cover;
     height: 100%;
-    /* width: 100vh; */
 }
 
 .carousel {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    /* width: 100%; */
     margin-left: 0;
 }
 
@@ -416,7 +414,6 @@ body {
 .investigator .btn-download {
     margin-top: 10px;
 }
-
 
 /* gallery page styling  */
 .gallery-img {
