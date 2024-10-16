@@ -65,24 +65,6 @@
                     </a>
                 </div>
             </div>
-
-            {{-- <div class="row ">
-                <!-- Logo Section -->
-                <div class="col-md-2 col-4">
-                    <div class="header-logo logos-container">
-                        <a href="/" title="Home" class="primary-logo">
-                            <img src="/images/aging_logo.png" class="logo"></img>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-9 col-8">
-                    <div class="header-text align-item-start">
-                        <p class="h1 mt-3 mb-0" style="color:rgb(54, 54, 252)"><strong>Chitwan Valley Family Study
-                                (CVFS)</strong></p>
-                        <p class="h2" style="color: rgb(54, 54, 252)">Study on Cognition and Aging in Nepal</p>
-                    </div>
-                </div>
-            </div> --}}
         </div>
         <div class="row navWrapper">
             <nav class="navbar navbar-expand-lg ">
@@ -279,4 +261,5 @@
         });
     </script>
 </body>
+
 </html>
