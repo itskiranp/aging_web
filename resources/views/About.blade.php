@@ -69,54 +69,16 @@
                 </div>
                 <div>
                     <div class="map-container">
-                        <div id="map" style="height: 40%; width: 100%;"></div>
-                        <div class="map-overlay ">
-                            <h3>Study Location</h3>
-                            <p>Chitwan District, Nepal</p>
-                        </div>
-                        <div class="map-error d-none alert alert-danger" role="alert">
-                            Unable to load the map. Please check your internet connection and try again.
+                        <div id="map" style="height: 47%; width: 100%;">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9849.228324968473!2d84.37578462921785!3d27.65381230539688!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3994fa3c167e33df%3A0xdc393700902f9460!2sInstitute%20for%20Social%20and%20Environmental%20Research-Nepal!5e1!3m2!1sen!2snp!4v1729080868135!5m2!1sen!2snp"
+                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                         </div>
                     </div>
-
-                    <script async src="https://maps.gomaps.pro/maps/api/js?key=AlzaSy2ky9iiI63FurfccxQFYqdzr39DyfrW4GM&callback=initMap">
-                    </script>
-
-                    <script>
-                        function initMap() {
-                            // Coordinates of the Chitwan District, Nepal
-                            const chitwan = {
-                                lat: 27.68333,
-                                lng: 84.43333
-                            };
-
-                            // Initialize the map, centered at Chitwan
-                            const map = new google.maps.Map(document.getElementById('map'), {
-                                zoom: 10,
-                                center: chitwan,
-                                mapTypeId: 'roadmap'
-                            });
-
-                            // Add a marker at Chitwan District
-                            const marker = new google.maps.Marker({
-                                position: chitwan,
-                                map: map,
-                                title: 'Chitwan District, Nepal'
-                            });
-                        }
-
-                        // Error handling for iframe map errors (if you use iframes elsewhere)
-                        window.addEventListener('error', function(e) {
-                            if (e.target.tagName === 'IFRAME') {
-                                document.querySelector('.map-error').classList.remove('d-none');
-                            }
-                        }, true);
-                    </script>
-
                 </div>
             </div>
         </div>
     </div>
-
-
 @endsection
