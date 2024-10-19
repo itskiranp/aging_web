@@ -5,6 +5,14 @@
 @section('title', 'CVFS on Cognition and Aging in Nepal')
 @section('content')
 <div class="container mt-4 mb-5">
+    <nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb" class="d-flex justify-content-end">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Capacity Building</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Research Activities</li>
+        </ol>
+      </nav>
+
 <div><h2>Research Capacity Building Activities</h2></div>
 
     <p>Our research capacity building program aims to strengthen the ability to conduct clinical and population studies on <strong>Alzheimer's Disease and Related Dementias (ADRD)</strong> and other chronic health conditions associated with aging. The program has two primary goals:</p>

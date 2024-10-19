@@ -5,6 +5,15 @@
 
 @section('content')
     <div class="container text-center my-5">
+        <nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb" class="d-flex justify-content-end">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">People</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Investigators</li>
+            </ol>
+          </nav>
+          
+          
         <h2 class="mb-5">Investigators</h2>
         <div class="container">
             @foreach ($investigators as $investigator)

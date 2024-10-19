@@ -7,6 +7,14 @@
 @section('content')
 
 <div class="container text-center my-5">
+    <nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb" class="d-flex justify-content-end">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">People</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Staff  </li>
+        </ol>
+      </nav>
+      
     <h2>Staff </h2>
     <!-- Principal Investigators Section -->
     <div class="my-5">
@@ -64,8 +72,8 @@
                     <h3>Mrs. Adina Gurung</h3>
                     {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
                     <p class="position">DATA MANAGER</p>
-                    <p><a href="">Email</a></p>
-                    <p><a href="">Cirriculum Viate</a></p>
+                    <p><a href="mailto:adinaiser@outlook.com">Email</a></p>
+                    <p><a href="/uploads/Adina-Gurung-cv.pdf" target="_blank" >Cirriculum Viate</a></p>
                 </div>
             </div>
             <div class="col-6 col-md-3">
@@ -108,8 +116,8 @@
                     <h3>Mrs. Gita Subedi</h3>
                     {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
                     <p class="position">FINANCE OFFICER</p>
-                    <p><a href="mailto:">Email</a></p>
-                    <p><a href="">Cirriculum Viate</a></p>
+                    <p><a href="mailto::gitaspandey@gmail.com">Email</a></p>
+                    <p><a href="/uploads/Gita-Subedi.pdf" target="_blank">Cirriculum Viate</a></p>
                 </div>
             </div>
             <div class="col-6 col-md-3">
@@ -119,8 +127,6 @@
                     <h3>Mr. Mangal Raj Darai</h3>
                     {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
                     <p class="position">ASST. ACCOUNT OFFICER</p>
-                    <p><a href="mailto:">Email</a></p>
-                    <p><a href="">Cirriculum Viate</a></p>
                 </div>
             </div>
             <div class="col-6 col-md-3">
@@ -130,8 +136,6 @@
                     <h3>Dil Bahadur C.K.</h3>
                     {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
                     <p class="position">ASST. ACCOUNT OFFICER</p>
-                    <p><a href="mailto:">Email</a></p>
-                    <p><a href="">Cirriculum Viate</a></p>
                 </div>
             </div>
             <div class="col-6 col-md-3">
@@ -141,8 +145,6 @@
                     <h3>Sundari Lama</h3>
                     {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
                     <p class="position">ASST. ACCOUNT OFFICER</p>
-                    <p><a href="mailto:">Email</a></p>
-                    <p><a href="">Cirriculum Viate</a></p>
                 </div>
             </div>
             <div class="col-6 col-md-3">
@@ -152,8 +154,7 @@
                     <h3>Nira Gurung</h3>
                     {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
                     <p class="position">ASST. RESEARCH OFFICER</p>
-                    <p><a href="mailto:">Email</a></p>
-                    <p><a href="">Cirriculum Viate</a></p>
+                   
                 </div>
             </div>
             <div class="col-6 col-md-3">
@@ -163,8 +164,6 @@
                     <h3>Sita Chaudhary</h3>
                     {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
                     <p class="position">ASST. RESEARCH OFFICER</p>
-                    <p><a href="mailto:">Email</a></p>
-                    <p><a href="">Cirriculum Viate</a></p>
                 </div>
             </div>
             <div class="col-6 col-md-3">
@@ -174,8 +173,6 @@
                     <h3>Govinda Lamichhane</h3>
                     {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
                     <p class="position">ASST. RESEARCH OFFICER</p>
-                    <p><a href="mailto:">Email</a></p>
-                    <p><a href="">Cirriculum Viate</a></p>
                 </div>
             </div>
             <div class="col-6 col-md-3">
@@ -185,8 +182,6 @@
                     <h3>Kamana Ghimire</h3>
                     {{-- <p class="qualification"> Epidemiologist, Georgetown University, Washington DC</p> --}}
                     <p class="position">ASST. RESEARCH OFFICER</p>
-                    <p><a href="mailto:">Email</a></p>
-                    <p><a href="">Cirriculum Viate</a></p>
                 </div>
             </div>
         </div>

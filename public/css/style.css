@@ -3,10 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-family: "Open Sans", system-ui; */
+    font-family: 'Merriweather', serif;
 }
 
 body {
-    font-family: sans-serif !important;
+    /* font-family: sans-serif !important; */
     color: #333;
     background-color: #f5f5f5;
     line-height: normal;
@@ -188,8 +190,10 @@ body {
 }
 
 .navbar-nav .nav-link {
+    font-family: "Open Sans", system-ui;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 450;
+    letter-spacing: 1.5px;
     color: white !important;
     display: block;
     padding: 15px;
@@ -287,6 +291,19 @@ body {
     background-color: transparent;
     border: none;
     outline: none;
+}
+
+/* breadcrumb items styling */
+
+.breadcrumb {
+    /* background-color: transparent;  */
+    padding: 0; /* Remove padding */
+    margin-bottom: 1rem; /* Adjust margin */
+}
+
+.breadcrumb-item a {
+    color: #003262; /* Theme color for links */
+    text-decoration: none; /* Remove underline from links */
 }
 
 /* Home Content Styling */

@@ -5,12 +5,18 @@
 @section('title', 'About')
 
 @section('content')
-    <div class="container my-4">
+    <div class="container my-5">
+        <nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb" class="d-flex justify-content-end">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">About</li>
+            </ol>
+          </nav>
         <div class="row">
             <div class="col-md-8 mb-4 mb-md-0">
                 <h2 class="mb-4">About Our Project</h2>
                 <div class="card">
-                    {{-- <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Project workspace"> --}}
+                    
                     <div class="card-body">
                         <h2 class="text-start">International Labor Migration, Armed Conflict and Alzheimer Disease and
                             related Dementia Risk in Nepal</h2>
@@ -69,7 +75,7 @@
                 </div>
                 <div>
                     <div class="map-container">
-                        <div id="map" style="height: 47%; width: 100%;">
+                        <div id="map" style="height: 45%; width: 100%;">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9849.228324968473!2d84.37578462921785!3d27.65381230539688!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3994fa3c167e33df%3A0xdc393700902f9460!2sInstitute%20for%20Social%20and%20Environmental%20Research-Nepal!5e1!3m2!1sen!2snp!4v1729080868135!5m2!1sen!2snp"
                                 width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"

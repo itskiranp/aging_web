@@ -2,7 +2,14 @@
 @extends('layout')
 @section('title', 'Data')
 @section('content')
-<div class="container my-5">
+<div class="container my-4 mb-5">
+    <nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb" class="d-flex justify-content-end">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
+      
         <h1 class="text-start mb-4">Data</h1>
         <div class="accordion" id="dataAccordion">
             <div class="accordion-item">

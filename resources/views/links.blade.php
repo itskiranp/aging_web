@@ -5,7 +5,14 @@
 @section('title', 'Links')
 
 @section('content')
-    <div class="container">
+    <div class="container mb-5 mt-5">
+        <nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb" class="d-flex justify-content-end">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
+              <li class="breadcrumb-item"><a href="{{ url('/About') }}">About</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Documentation</li>
+            </ol>
+          </nav>
         <!-- Links Section -->
         <div class="row links mt-3">
             <h1>Links</h1>

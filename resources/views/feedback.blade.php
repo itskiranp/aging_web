@@ -6,7 +6,14 @@
 
 @section('content')
 
-    <div class="container mt-4 ">
+    <div class="container mt-4 mb-5">
+        <nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb" class="d-flex justify-content-end">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
+              <li class="breadcrumb-item"><a href="{{ url('/About') }}">About</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Feedback</li>
+            </ol>
+          </nav>
         <h1 class="text-start">Website Feedback</h1>
         <p class="text-start">Your feedback is very important to us.</p>
         <div class="row">

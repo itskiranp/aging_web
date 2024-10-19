@@ -7,6 +7,12 @@
 @section('content')
 
     <div id="main-content" class="container my-5">
+        <nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb" class="d-flex justify-content-end">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">News & Events</li>
+            </ol>
+          </nav>
         <section id="latest-news" class="mb-5 ">
             <h2>Latest News</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">

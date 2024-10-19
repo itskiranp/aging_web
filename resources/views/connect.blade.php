@@ -5,6 +5,13 @@
 @section('title', 'CVFS on Cognition and Aging in Nepal')
 @section('content')
     <div class="container mt-5 mb-5">
+        <nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb" class="d-flex justify-content-end">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
+              <li class="breadcrumb-item"><a href="{{ url('/About') }}">About</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Connect With Us</li>
+            </ol>
+          </nav>
         <div>
             <h2>Connect With Us</h2>
         </div>

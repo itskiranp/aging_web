@@ -4,7 +4,14 @@
 
 @section('title', 'CVFS on Cognition and Aging in Nepal')
 @section('content')
-    <div class="container mt-5 mb-4 ">
+    <div class="container mt-4 mb-5 ">
+        <nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb" class="d-flex justify-content-end">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Capacity Building</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Power Considerations</li>
+            </ol>
+          </nav>
         <div>
             <h2>Power Considerations in Data Analysis </h2>
         </div>
