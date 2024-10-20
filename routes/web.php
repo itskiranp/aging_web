@@ -47,6 +47,7 @@ Route::get('/capacitybuilding/analysictraining', [PageController::class, 'showan
 // Route::get('/products/dissemination', [PageController::class, 'showdisseminationMember'])->name('products.dissemination');
 
 Route::get('/investigators', [PageController::class, 'investigators'])->name('investigators');
+Route::get('/people/staff', [PageController::class, 'showStaff'])->name('staff.show');
 
 
 

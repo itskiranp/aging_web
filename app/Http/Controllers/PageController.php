@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Stichoza\GoogleTranslate\GoogleTranslate;
 use App\Models\Investigator;
+use App\Models\Staff;
 
 
 class PageController extends Controller
@@ -34,10 +35,10 @@ class PageController extends Controller
     // Method for People page
 
         // Method for Staff page
-    public function showStaff()
-    {
-        return view('people.staff');
-    }
+    // public function showStaff()
+    // {
+    //     return view('people.staff');
+    // }
 
     // Method for Investigator page
     public function showInvestigatorMember()
@@ -121,7 +122,11 @@ class PageController extends Controller
 
     return redirect()->back()->with('error', 'PDF not found.');
 }
-
+public function showStaff()
+{
+    $staffMembers = Staff::all(); // Fetch all staff data
+    return view('people.staff', compact('staffMembers'));
+}
     
 
 
