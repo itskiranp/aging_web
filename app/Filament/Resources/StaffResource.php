@@ -14,6 +14,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Filament\Forms\Components\TextInput;
 use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Columns\ImageColumn;
 use Filament\Forms\Components\FileUpload;
 
 class StaffResource extends Resource
@@ -36,6 +37,7 @@ class StaffResource extends Resource
                     ->label('Email'),
                 FileUpload::make('image')
                     ->directory('images') // This ensures images are uploaded to /public/images
+                    
                     ->label('Profile Image'),
                 FileUpload::make('cv_link')
                     ->directory('uploads') // This ensures CVs are uploaded to /public/uploads
@@ -50,6 +52,7 @@ class StaffResource extends Resource
                 TextColumn::make('name')->sortable()->searchable(),
                 TextColumn::make('position'),
                 TextColumn::make('email'),
+                Imagecolumn::make('image')->circular(),
             ])
             ->filters([
                 //

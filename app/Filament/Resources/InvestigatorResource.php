@@ -9,6 +9,7 @@ use Filament\Forms;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\FileUpload;
+use Filament\Forms\Components\MarkdownEditor;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Columns\ImageColumn;
 use Filament\Forms\Form;
@@ -35,22 +36,26 @@ class InvestigatorResource extends Resource
                 TextInput::make('position')->required(),
                 TextInput::make('phone')->required(),
                 TextInput::make('email')->email()->required(),
-                Textarea::make('bio')->nullable(),
-                Textarea::make('description')->label('Description')->required(),  // Add the description field
-                // FileUpload::make('profile_image')
-                //     ->directory('images')
-                //     ->image()
-                //     ->imageEditor()
-                //     ->maxSize(2048)
-                //     ->nullable(),
-                TextInput::make('profile_pic')
-                ->label('Profile Pic')
-                ->nullable(), 
+                MarkdownEditor::make('bio')->nullable(),
+                MarkdownEditor::make('description')
+                ->label('Description')
+                ->required() 
+                ->extraAttributes(['style' => 'height: 50vh; overflow-y: auto;']),
+                FileUpload::make('image')
+                    ->directory('images')
+                    ->label('Image')
+                    ->nullable(),
+                // TextInput::make('profile_pic')
+                // ->label('Profile Pic')
+                // ->nullable(), 
 
                 
-                TextInput::make('profile_pdf')
-                ->label('Profile PDF')
-                ->nullable(),  
+                // TextInput::make('profile_pdf')
+                // ->label('Profile PDF')
+                // ->nullable(),  
+                FileUpload::make('profile_pdf')
+                    ->directory('uploads') // This ensures CVs are uploaded to /public/uploads
+                    ->label('Curriculum Vitae'),
 
             ]);
     }
@@ -64,7 +69,7 @@ class InvestigatorResource extends Resource
                 TextColumn::make('position'),
                 TextColumn::make('email'),
                 TextColumn::make('phone'),
-                ImageColumn::make('profile_image')->label('Profile Image')->circular(),
+                ImageColumn::make('image')->label('Profile Pic')->circular(),
                 TextColumn::make('created_at')->since()
             ])
             ->filters([

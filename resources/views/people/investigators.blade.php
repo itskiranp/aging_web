@@ -20,7 +20,7 @@
                 <div class="row investigator mb-4">
                     <!-- Investigator Image -->
                     <div class="col-md-3 text-center">
-                        <img src="{{($investigator->profile_pic) }}" alt="{{ $investigator->name }}"
+                        <img src="{{ Storage::url($investigator->image) }}" alt="{{ $investigator->name }}"
                             class="img-fluid">
 
                     </div>
@@ -33,7 +33,7 @@
                                 href="mailto:{{ $investigator->email }}">{{ $investigator->email }}</a></p>
                         <p>{{ $investigator->bio }}</p>
                         <p>{{ $investigator->description }}</p>
-                            <a href="{{ ($investigator->profile_pdf)}} " class="btn btn-primary" target="_blank">Download CV</a>
+                            <a href="{{ Storage::url($investigator->profile_pdf) }} " class="btn btn-primary" target="_blank">Download CV</a>
                         </div>
                 </div>
             @endforeach
