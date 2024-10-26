@@ -69,6 +69,7 @@ body {
     background: #fff;
     border-radius: 30px;
     align-items: center;
+    transition: width 0.8s;
 }
 .sbox:hover input {
     width: 200px;
@@ -80,6 +81,9 @@ body {
     font-weight: 500;
     transition: 0.8s;
     background: transparent;
+}
+.sbox input:focus {
+    width: 200px;
 }
 #searchButton {
     background-color: transparent;

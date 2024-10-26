@@ -36,7 +36,7 @@
                 <!-- Right Section: Language Selector & Search -->
                 <div class="col-md-8 d-flex justify-content-end align-items-center">
                     <!-- Search Form with Hidden Fields -->
-                    <div class="sbox me-3">
+                    <div class="d-flex sbox me-3">
                         <form action="{{ route('search') }}" id="searchForm" method="GET">
                             <input type="text" id="searchInput" name="query" placeholder="Search..." required>
                             <button type="submit" id="searchButton"><i class="fas fa-search"></i></button>
