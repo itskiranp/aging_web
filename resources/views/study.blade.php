@@ -66,5 +66,29 @@
             <p>The study commenced in 2022 and is projected to conclude by 2027. The research team has successfully
                 completed initial data collection and is preparing for follow-up assessments in the coming years.</p>
         </section>
+        <!-- Add new section for Potential Problems and Alternative Strategies -->
+        <section>
+            <h2>Potential Problems and Alternative Strategies</h2>
+            <h3>1. Participant Burden</h3>
+            <p>We anticipate that the survey interview, including cognitive tests, will take 1.5 – 2 hours to complete. In this sample of middle-aged to older adults, this duration may cause fatigue for some participants. Our strategy will be to train interview staff to be sensitive to respondent fatigue and offer to split the interview over multiple sessions to reduce the burden. Although splitting interviews can lower response rates, previous CVFS studies have achieved high response rates of over 90% for similar length interviews.</p>
 
+            <h3>2. Privacy of Interview</h3>
+            <p>In rural areas, it is often difficult to conduct interviews in private, as many households live in small dwellings. Our staff will offer to move interviews to safe, private outdoor locations and will send teams of two interviewers—one to conduct the interview and the other to keep household members occupied, ensuring the interview is private. We will also add interviewer observation questions to record the presence of others and control for these factors in our statistical models.</p>
+
+            <h3>3. Limited Statistical Power</h3>
+            <p>We recognize that statistical power may be limited. However, this work will lay the groundwork for future ADRD research in Nepal. We plan to continue enrolling eligible participants from the current CVFS cohort, contingent on future funding support.</p>
+
+            <h3>4. Biomarker Data</h3>
+            <p>We plan to collect biomarker data, though we have not yet included specific assays of blood samples. This decision stems from the evolving scientific understanding of ADRD biomarkers. We will store frozen samples and seek future funding to conduct assays once more is known about relevant biomarkers for ADRD.</p>
+        </section>
+
+        <!-- Add new section for Broader Implications -->
+        <section>
+            <h2>Broader Implications for ADRD Research in Nepal</h2>
+            <p>Population aging is a growing concern in lower-income countries, including Nepal. This has led to an increase in older adults at high risk of developing Alzheimer's Disease and Related Dementias (ADRD). Much remains unknown about the burden of ADRD in Nepal and the care needs of patients and their families.</p>
+
+            <p>Nepal also faces unique social and economic challenges, such as labor migration and armed conflict, which expose its population to health risks throughout life. Our study focuses on two common risk factors in low- and middle-income countries: international labor migration and armed conflict. While immediate health risks like occupational injuries, disabilities, depression, and PTSD are well-documented, the long-term health impacts, particularly those that manifest later in life, remain less understood.</p>
+
+            <p>This study aims to fill critical gaps in understanding the long-term health consequences of these risk factors, especially in relation to ADRD. Findings from this research will not only enhance our understanding of ADRD risks in Nepal but will also have relevance for other low- and middle-income countries undergoing similar social and economic transitions.</p>
+        </section>
     @endsection
