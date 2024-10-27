@@ -328,7 +328,7 @@
                 <h2 class="accordion-header" id="headingSeven">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                        <Strong> Data Visualization Techniques</Strong>
+                        <Strong> Graphical Data Analysis</Strong>
                     </button>
                 </h2>
                 <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
@@ -347,20 +347,20 @@
                             </div>
                             <div class="col-md-4 mb-3">
                                 <div class="card">
-                                    <img src="https://images.unsplash.com/photo-1543286386-713bdd548da4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                                    <img src="/images/dementia.png"
                                         class="card-img-top" alt="Line Graph">
                                     <div class="card-body">
-                                        <h5 class="card-title">Line Graphs</h5>
-                                        <p class="card-text">Ideal for showing trends over time or comparing trends.</p>
+                                        <h5 class="card-title">Bar Charts</h5>
+                                        <p class="card-text">Estimated Prevalence of Dementia Among Individuals Aged 60 and Over by Global Regions (2009 vs. 2015)</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4 mb-3">
                                 <div class="card">
-                                    <img src="/images/piechart_image.jpg" class="card-img-top" alt="Pie Chart">
+                                    <img src="/images/workpermits.png" class="card-img-top" alt="Pie Chart">
                                     <div class="card-body">
-                                        <h5 class="card-title">Pie Charts</h5>
-                                        <p class="card-text">Effective for showing proportions of a whole.</p>
+                                        <h5 class="card-title">Bar Charts</h5>
+                                        <p class="card-text">Annual Work Permit Issuance for International Migrants (2008/09 - 2018/19)</p>
                                     </div>
                                 </div>
                             </div>
