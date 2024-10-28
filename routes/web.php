@@ -30,9 +30,6 @@ Route::post('/contact', [ContactController::class, 'send'])->name('contact.send'
 
 
 
-Route::get('/publications', [PublicationController::class, 'index']);
-
-
 Route::get('/people/staff', [PageController::class, 'showStaff'])->name('people.staff');
 Route::get('/people/investigators', [PageController::class, 'showInvestigatorMember'])->name('people.investigators');
 
