@@ -32,7 +32,7 @@
         <!-- Image 3 -->
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal3">
-                <img src="/images/gallery4.jpg" alt="Image 3" class="img-fluid rounded gallery-img">
+                <img src="/images/blood_sample3.JPG" alt="Image 3" class="img-fluid rounded gallery-img">
             </a>
         </div>
 
@@ -53,7 +53,7 @@
         <!-- Image 6 -->
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal6">
-                <img src="/images/gallery3.jpg" alt="Image 6" class="img-fluid rounded gallery-img">
+                <img src="/images/Blood_sample2.JPG" alt="Image 6" class="img-fluid rounded gallery-img">
             </a>
         </div>
 
@@ -67,7 +67,7 @@
         <!-- Image 8 -->
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal8">
-                <img src="/images/gallery2.jpg" alt="Image 8" class="img-fluid rounded gallery-img">
+                <img src="/images/Blood_sample.JPG" alt="Image 8" class="img-fluid rounded gallery-img">
             </a>
         </div>
     </div>

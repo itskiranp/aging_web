@@ -13,12 +13,12 @@ return new class extends Migration
     {
         Schema::create('conferenceposters', function (Blueprint $table) {
 
-            $table->id(); // Creates an auto-incrementing primary key
-            $table->string('title', 255); // VARCHAR(255) NOT NULL for title
-            $table->text('authors'); // TEXT NOT NULL for authors
+            $table->id(); 
+            $table->string('title', 255);
+            $table->text('authors'); 
             $table->string('journal', 255)->nullable();
             $table->year('year')->nullable();
-            $table->string('doi', 100)->nullable(); // VARCHAR(100) for DOI, nullable
+            $table->string('doi', 100)->nullable(); 
             $table->timestamps();
         });
     }
