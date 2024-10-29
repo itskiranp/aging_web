@@ -18,7 +18,7 @@
         <!-- Image 1 -->
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
             <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal1">
-                <img src="/images/gallery1.jpg" alt="Image 1" class="img-fluid rounded gallery-img">
+                <img src="/images/health_and_stress_training(CVFS).jpg" alt="Image 1" class="img-fluid rounded gallery-img">
             </a>
         </div>
 
@@ -78,11 +78,11 @@
     <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
             <div class="modal-body">
-                <img src="/images/gallery1.jpg" alt="Image 1" class="img-fluid rounded">
+                <img src="/images/health_and_stress_training(CVFS).jpg" alt="Image 1" class="img-fluid rounded">
             </div>
            
             <div class="modal-footer">
-                <h5 class="modal-title" id="imageModal1Label">Image 1</h5>
+                <h5 class="modal-title" id="imageModal1Label">CVFS health and stress survey and training.</h5>
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
