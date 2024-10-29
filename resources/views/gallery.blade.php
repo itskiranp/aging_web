@@ -89,7 +89,7 @@
     </div>
 </div>
 
-<!-- Repeat Modal for Each Image -->
+
 <!-- Image Modal 2 -->
 <div class="modal fade" id="imageModal2" tabindex="-1" aria-labelledby="imageModal2Label" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
@@ -98,14 +98,98 @@
                 <img src="/images/gallery51.png" alt="Image 2" class="img-fluid rounded">
             </div>
             <div class="modal-footer">
-                <h5 class="modal-title" id="imageModal2Label">Image 2</h5>
+                <h5 class="modal-title" id="imageModal2Label">Survey Data analysis 2016</h5>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Image Modal 3 -->
+<div class="modal fade" id="imageModal3" tabindex="-1" aria-labelledby="imageModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="/images/blood_sample3.JPG" alt="Image 3" class="img-fluid rounded">
+            </div>
+            <div class="modal-footer">
+                <h5 class="modal-title" id="imageModal2Label">Image 3</h5>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Image Modal 4 -->
+<div class="modal fade" id="imageModal4" tabindex="-1" aria-labelledby="imageModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="/images/gallery81.png" alt="Image 2" class="img-fluid rounded">
+            </div>
+            <div class="modal-footer">
+                <h5 class="modal-title" id="imageModal2Label">GIT Training.</h5>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Image Modal 5 -->
+<div class="modal fade" id="imageModal5" tabindex="-1" aria-labelledby="imageModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="/images/gallery7.png" alt="Image 2" class="img-fluid rounded">
+            </div>
+            <div class="modal-footer">
+                <h5 class="modal-title" id="imageModal2Label">Image 5</h5>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Image Modal 6 -->
+<div class="modal fade" id="imageModal6" tabindex="-1" aria-labelledby="imageModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="/images/Blood_sample2.JPG" alt="Image 2" class="img-fluid rounded">
+            </div>
+            <div class="modal-footer">
+                <h5 class="modal-title" id="imageModal2Label">Image 6</h5>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Image Modal 7 -->
+<div class="modal fade" id="imageModal7" tabindex="-1" aria-labelledby="imageModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="/images/gallery6.jpg" alt="Image 2" class="img-fluid rounded">
+            </div>
+            <div class="modal-footer">
+                <h5 class="modal-title" id="imageModal2Label">Image 7</h5>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Image Modal 8 -->
+<div class="modal fade" id="imageModal8" tabindex="-1" aria-labelledby="imageModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="/images/Blood_sample.JPG" alt="Image 2" class="img-fluid rounded">
+            </div>
+            <div class="modal-footer">
+                <h5 class="modal-title" id="imageModal2Label">Image 8</h5>
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
 </div>
 
-<!-- Repeat similar modal structure for remaining images... -->
+
 
 
 

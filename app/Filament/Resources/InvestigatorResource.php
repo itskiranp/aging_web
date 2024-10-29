@@ -45,14 +45,9 @@ class InvestigatorResource extends Resource
                     ->directory('images')
                     ->label('Image')
                     ->nullable(),
-                // TextInput::make('profile_pic')
-                // ->label('Profile Pic')
-                // ->nullable(), 
-
+             
                 
-                // TextInput::make('profile_pdf')
-                // ->label('Profile PDF')
-                // ->nullable(),  
+               
                 FileUpload::make('profile_pdf')
                     ->directory('uploads') // This ensures CVs are uploaded to /public/uploads
                     ->label('Curriculum Vitae'),
