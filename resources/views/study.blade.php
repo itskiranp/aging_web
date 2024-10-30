@@ -25,8 +25,17 @@
                 <div class="card shadow-sm">
                     <div class="card-body">
                         <h3 class="card-title">Study Overview</h3>
-                        <p class="card-text">The Longitudinal Aging Study in Nepal is a comprehensive research initiative aimed at understanding
-                        the impact of aging on cognitive health, specifically focusing on Alzheimer’s Disease and Related Dementias (ADRD), in Nepal. The study seeks to explore how factors such as international labor migration and exposure to armed conflict contribute to the risk of dementia and cognitive impairments in older adults.</p>
+                        <p class="card-text">
+                            The Longitudinal Aging Study in Nepal is a comprehensive research initiative aimed at understanding
+                            the impact of aging on cognitive health, specifically focusing on Alzheimer’s Disease and Related Dementias (ADRD), in Nepal. 
+                            The study seeks to explore how factors such as international labor migration and exposure to armed conflict contribute to the risk 
+                            of dementia and cognitive impairments in older adults.
+                        </p>
+                        <p class="card-text">
+                            In addition, we are exploring how chronic psychological stress impacts the transition to adulthood. Using hair cortisol concentration (HCC), 
+                            a reliable and non-invasive biomarker, we measure long-term stress in young adults. This study is part of the Chitwan Valley Family Study (CVFS), 
+                            a 25-year longitudinal study of community, household, and individual factors.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -39,7 +48,9 @@
         <div class="card">
             <img src="images/CVFS study area.png" class="card-img-top" alt="CVFS Study Area">
             <div class="card-body">
-                <p class="card-text">The Chitwan Valley, where the CVFS study is conducted, is located in Nepal. The region provides a diverse and representative sample for studying the cognitive aging process.</p>
+                <p class="card-text">
+                    The Chitwan Valley, where the CVFS study is conducted, is located in Nepal. The region provides a diverse and representative sample for studying both the cognitive aging process and life transitions impacted by stress.
+                </p>
             </div>
         </div>
     </section>
@@ -52,15 +63,19 @@
                 <div class="card border-info h-100">
                     <div class="card-body">
                         <h4 class="card-title"><i class="bi bi-mortarboard"></i> Build Research Capacity</h4>
-                        <p class="card-text">Train local researchers to conduct systematic research on ADRD, including culturally appropriate cognitive assessments and advanced statistical analysis of longitudinal data.</p>
+                        <p class="card-text">
+                            Train local researchers to conduct systematic research on ADRD, including culturally appropriate cognitive assessments and advanced statistical analysis of longitudinal data.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card border-success h-100">
                     <div class="card-body">
-                        <h4 class="card-title"><i class="bi bi-people"></i> Conduct a Population-Based Study</h4>
-                        <p class="card-text">Survey 4,000 adults aged 50 and above, along with their 4,000 caregivers, and carry out follow-up assessments to estimate the prevalence and incidence of ADRD.</p>
+                        <h4 class="card-title"><i class="bi bi-people"></i> Large-Scale Testing of Hair Cortisol</h4>
+                        <p class="card-text">
+                            Test large-scale self-collection of hair samples vs professional collection to measure cortisol levels and analyze chronic stress in young adults aged 18-21.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -68,7 +83,9 @@
                 <div class="card border-warning h-100">
                     <div class="card-body">
                         <h4 class="card-title"><i class="bi bi-graph-up"></i> Investigate Risk Factors</h4>
-                        <p class="card-text">Analyze how long-term labor migration and exposure to armed conflict impact the risk of developing ADRD and other cognitive impairments.</p>
+                        <p class="card-text">
+                            Analyze how long-term labor migration and exposure to armed conflict impact the risk of developing ADRD and other cognitive impairments, while linking hair cortisol data to life transitions.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -87,10 +104,11 @@
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#methodsAccordion">
                     <div class="accordion-body">
-                        The study employs a stratified two-stage cluster sampling technique to survey a representative sample of 4,000 older adults and their caregivers from the Chitwan Valley. Data collection includes:
+                        The study employs a stratified two-stage cluster sampling technique to survey a representative sample of 4,000 older adults and their caregivers. In addition, we use a randomized experiment to compare self-collection of hair samples to professional collection for cortisol analysis.
+                        Data collection includes:
                         <ul>
                             <li>Harmonized Cognitive Assessment Protocol (HCAP) instruments for cognitive and physical function assessments.</li>
-                            <li>Interviews with participants and caregivers, including assessments of height, weight, and blood pressure.</li>
+                            <li>Hair sample collection for cortisol analysis to measure long-term stress.</li>
                             <li>Biomarker collection involving plasma, serum, and red blood cells.</li>
                         </ul>
                     </div>
@@ -105,7 +123,9 @@
         <div class="card border-secondary mb-3">
             <div class="card-body">
                 <h5 class="card-title"><span class="badge bg-info">2022</span> Study Commencement</h5>
-                <p class="card-text">The study commenced in 2022 and is projected to conclude by 2027. Initial data collection is completed and follow-up assessments are planned.</p>
+                <p class="card-text">
+                    The study commenced in 2022 and is projected to conclude by 2027. Initial data collection is completed and follow-up assessments are planned, including hair cortisol sampling and biomarker collection for stress analysis.
+                </p>
             </div>
         </div>
     </section>
@@ -118,7 +138,9 @@
                 <div class="card border-danger">
                     <div class="card-header">Participant Burden</div>
                     <div class="card-body">
-                        <p>We anticipate that the survey interview, including cognitive tests, will take 1.5 – 2 hours to complete. This may cause fatigue for middle-aged to older adults. Our strategy is to offer multiple settings for the interview to reduce burden while maintaining high participation rates.</p>
+                        <p>
+                            We anticipate that the survey interview, including cognitive tests, will take 1.5 – 2 hours to complete. This may cause fatigue for middle-aged to older adults. Our strategy is to offer multiple settings for the interview to reduce burden while maintaining high participation rates.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -126,7 +148,9 @@
                 <div class="card border-primary">
                     <div class="card-header">Privacy of Interview</div>
                     <div class="card-body">
-                        <p>In rural areas, it is often difficult to conduct interviews in private. Our staff will move interviews to outdoor locations and send two-person teams to ensure privacy. We will also collect data on the presence of others during interviews.</p>
+                        <p>
+                            In rural areas, it is often difficult to conduct interviews in private. Our staff will move interviews to outdoor locations and send two-person teams to ensure privacy. We will also collect data on the presence of others during interviews.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -136,7 +160,9 @@
                 <div class="card border-warning">
                     <div class="card-header">Limited Statistical Power</div>
                     <div class="card-body">
-                        <p>While recognizing potential limitations in statistical power, this study lays the groundwork for future ADRD research in Nepal. We plan to continue enrollment as participants become age-eligible.</p>
+                        <p>
+                            While recognizing potential limitations in statistical power, this study lays the groundwork for future ADRD research in Nepal. We plan to continue enrollment as participants become age-eligible.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -144,7 +170,9 @@
                 <div class="card border-info">
                     <div class="card-header">Biomarker Data</div>
                     <div class="card-body">
-                        <p>We plan to collect biomarker data, though we have not yet committed to specific assays. Frozen samples will be stored for future analysis as scientific advances clarify the relevance of biomarkers for ADRD.</p>
+                        <p>
+                            We plan to collect biomarker data, though we have not yet committed to specific assays. Frozen samples will be stored for future analysis as scientific advances clarify the relevance of biomarkers for ADRD.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -153,10 +181,12 @@
 
     <!-- Broader Implications Section -->
     <section class="mt-5">
-        <h2>Broader Implications for ADRD Research in Nepal</h2>
+        <h2>Broader Implications</h2>
         <div class="card border-success">
             <div class="card-body">
-                <p>Population aging is a growing concern in lower-income countries like Nepal. With the rising number of older adults at risk of Alzheimer's Disease and Related Dementias (ADRD), the burden on families and the healthcare system is increasing. This study will provide critical insights into the social and economic factors impacting aging in Nepal, and will have broad applications to other low- and middle-income countries experiencing similar transitions.</p>
+                <p>
+                    Understanding stress through hair cortisol measurement offers a new way to explore how stress influences key life transitions. The results of this study will help establish protocols for self-collection in large-scale research, reducing costs and making stress measurement more accessible in population studies.
+                </p>
             </div>
         </div>
     </section>
