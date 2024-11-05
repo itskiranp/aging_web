@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
 
 <body>
@@ -258,6 +257,73 @@
                 event.preventDefault(); // Stops form submission
                 alert("Please enter a search term.");
             }
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const calendarMonth = document.getElementById("calendar-month");
+            const calendarGrid = document.getElementById("calendar");
+
+            const now = new Date();
+            const today = now.getDate();
+            let month = now.getMonth();
+            let year = now.getFullYear();
+
+            const monthNames = [
+                "January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December"
+            ];
+
+            function renderCalendar() {
+                calendarGrid.innerHTML = ""; // Clear existing calendar days
+                calendarMonth.textContent = `${monthNames[month]} ${year}`;
+
+                // Get the first day of the month and the number of days in the month
+                const firstDayOfMonth = new Date(year, month, 1).getDay();
+                const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+                // Fill in blank days before the first day of the month
+                for (let i = 0; i < firstDayOfMonth; i++) {
+                    const blankDay = document.createElement("div");
+                    blankDay.classList.add("empty-day"); // Adding a class for empty days if styling is needed
+                    calendarGrid.appendChild(blankDay);
+                }
+
+                // Populate the days of the current month
+                for (let day = 1; day <= daysInMonth; day++) {
+                    const dayElement = document.createElement("div");
+                    dayElement.textContent = day;
+                    dayElement.classList.add("calendar-day");
+
+                    // Highlight today
+                    if (day === today && month === now.getMonth() && year === now.getFullYear()) {
+                        dayElement.classList.add("today");
+                    }
+
+                    // Mark weekends in red
+                    const dayOfWeek = (firstDayOfMonth + day - 1) % 7;
+                    if (dayOfWeek === 5) { // 5 = Saturday, 6 = Sunday
+                        dayElement.classList.add("text-danger");
+                    }
+
+                    calendarGrid.appendChild(dayElement);
+                }
+            }
+
+            renderCalendar();
+
+            // Add click events for previous and next month buttons
+            document.getElementById("prev-month").addEventListener("click", () => {
+                month = month === 0 ? 11 : month - 1;
+                year = month === 11 ? year - 1 : year;
+                renderCalendar();
+            });
+
+            document.getElementById("next-month").addEventListener("click", () => {
+                month = month === 11 ? 0 : month + 1;
+                year = month === 0 ? year + 1 : year;
+                renderCalendar();
+            });
         });
     </script>
 </body>

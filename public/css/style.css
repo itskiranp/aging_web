@@ -422,6 +422,33 @@ body {
         display: none;
     }
 }
+ /* Events and news calender styling */
+ .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.calendar-day, .empty-day {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.calendar-day.today {
+    background-color: #007bff;
+    color: white;
+}
+
+.text-danger {
+    color: red;
+}
+
 
 /* dropdown-menu investigators pages styling */
 
