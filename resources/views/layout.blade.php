@@ -278,14 +278,13 @@
                 calendarGrid.innerHTML = ""; // Clear existing calendar days
                 calendarMonth.textContent = `${monthNames[month]} ${year}`;
 
-                // Get the first day of the month and the number of days in the month
                 const firstDayOfMonth = new Date(year, month, 1).getDay();
                 const daysInMonth = new Date(year, month + 1, 0).getDate();
 
                 // Fill in blank days before the first day of the month
                 for (let i = 0; i < firstDayOfMonth; i++) {
                     const blankDay = document.createElement("div");
-                    blankDay.classList.add("empty-day"); // Adding a class for empty days if styling is needed
+                    blankDay.classList.add("empty-day");
                     calendarGrid.appendChild(blankDay);
                 }
 
@@ -300,10 +299,10 @@
                         dayElement.classList.add("today");
                     }
 
-                    // Mark weekends in red
+                    // Style weekends (Sunday and Saturday)
                     const dayOfWeek = (firstDayOfMonth + day - 1) % 7;
-                    if (dayOfWeek === 5) { // 5 = Saturday, 6 = Sunday
-                        dayElement.classList.add("text-danger");
+                    if (dayOfWeek === 0 || dayOfWeek === 6) { // 0 = Sunday, 6 = Saturday
+                        dayElement.classList.add("weekend"); // Apply a special class for weekends
                     }
 
                     calendarGrid.appendChild(dayElement);

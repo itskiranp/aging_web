@@ -70,7 +70,7 @@
                             <span>Wed</span>
                             <span>Thu</span>
                             <span>Fri</span>
-                            <span class="text-danger">Sat</span>
+                            <span>Sat</span>
                         </div>
                         <div id="calendar" class="calendar-grid">
                             <!-- Calendar days will be inserted here by JavaScript -->

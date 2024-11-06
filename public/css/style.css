@@ -423,9 +423,16 @@ body {
     }
 }
  /* Events and news calender styling */
- .calendar-grid {
+ .calendar-days {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(7, 1fr); /* Ensures seven equal columns for weekday headers */
+    text-align: center;
+    gap: 5px;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* Ensures seven equal columns for day cells */
     gap: 5px;
 }
 
@@ -444,9 +451,8 @@ body {
     background-color: #007bff;
     color: white;
 }
-
-.text-danger {
-    color: red;
+.calendar-day.weekend {
+    color:#201f1fc2; /* Different color for weekends */
 }
 
 
