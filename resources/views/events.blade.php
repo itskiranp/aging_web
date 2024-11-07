@@ -78,15 +78,15 @@
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                    <div id="event-list" class="list-group">
+                        {{-- <a href="#" class="list-group-item list-group-item-action" aria-current="true">
                             <div class="d-flex w-100 justify-content-between">
                                 <h5 class="mb-1">Annual Tech Conference</h5>
                                 <small>3 days away</small>
                             </div>
                             <p class="mb-1">Join us for our annual tech conference featuring industry leaders and
                                 innovative workshops.</p>
-                            <small>Date: Sep 25, 2024 | Location: Convention Center</small>
+                            <small>Date: Nov. 10, 2024 | Location: Convention Center</small>
                         </a>
                         <a href="#" class="list-group-item list-group-item-action">
                             <div class="d-flex w-100 justify-content-between">
@@ -95,7 +95,7 @@
                             </div>
                             <p class="mb-1">Support a great cause at our annual charity fundraiser gala. Enjoy dinner,
                                 music, and more.</p>
-                            <small class="text-muted">Date: May 27, 2023 | Location: Grand Hotel</small>
+                            <small class="text-muted">Date: Dec. 05, 2024 | Location: Grand Hotel</small>
                         </a>
                         <a href="#" class="list-group-item list-group-item-action">
                             <div class="d-flex w-100 justify-content-between">
@@ -104,8 +104,8 @@
                             </div>
                             <p class="mb-1">Join your neighbors in keeping our community clean and beautiful. All supplies
                                 provided.</p>
-                            <small class="text-muted">Date: June 3, 2023 | Location: City Park</small>
-                        </a>
+                            <small class="text-muted">Date: Dec 10, 2024 | Location: City Park</small>
+                        </a> --}}
                     </div>
                 </div>
             </div>
@@ -114,21 +114,11 @@
         <section id="event-details" class="mb-5">
             <h3 class="mb-4">Event Details</h3>
             <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">Annual Tech Conference</h4>
-                    <p class="card-text">Join us for our annual tech conference featuring industry leaders and innovative
-                        workshops. This year's theme is "AI and the Future of Work." Don't miss out on networking
-                        opportunities and hands-on sessions with cutting-edge technologies.</p>
-                    <ul class="list-group list-group-flush mb-3">
-                        <li class="list-group-item"><strong>Date:</strong> Sep 25, 2024</li>
-                        <li class="list-group-item"><strong>Time:</strong> 9:00 AM - 5:00 PM</li>
-                        <li class="list-group-item"><strong>Location:</strong> Convention Center, 123 Main St, Anytown, USA
-                        </li>
-                    </ul>
-                    {{-- <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#rsvpModal">RSVP Now</button> --}}
+                <div class="card-body" id="event-details-content">
+                    <!-- Event details will be dynamically inserted here by JavaScript -->
+                    <p class="text-muted">Select an event to view details.</p> <!-- Default message -->
                 </div>
             </div>
-        </section>
+        </section>        
     </div>
-
 @endsection

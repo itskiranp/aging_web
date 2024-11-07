@@ -264,6 +264,29 @@
             const calendarMonth = document.getElementById("calendar-month");
             const calendarGrid = document.getElementById("calendar");
 
+            const events = [{
+                    title: "Annual Tech Conference",
+                    date: new Date(2024, 10, 10), // November 10, 2024
+                    description: "Join us for our annual tech conference featuring industry leaders and innovative workshops.",
+                    location: "Convention Center",
+                    time: "9:00 AM - 5:00 PM"
+                },
+                {
+                    title: "Charity Fundraiser Gala",
+                    date: new Date(2024, 11, 5), // December 5, 2024
+                    description: "Support a great cause at our annual charity fundraiser gala. Enjoy dinner, music, and more.",
+                    location: "Grand Hotel",
+                    time: "6:00 PM - 10:00 PM"
+                },
+                {
+                    title: "Community Clean-up Day",
+                    date: new Date(2024, 11, 10), // December 10, 2024
+                    description: "Join your neighbors in keeping our community clean and beautiful. All supplies provided.",
+                    location: "City Park",
+                    time: "8:00 AM - 12:00 PM"
+                }
+            ];
+
             const now = new Date();
             const today = now.getDate();
             let month = now.getMonth();
@@ -274,44 +297,121 @@
                 "July", "August", "September", "October", "November", "December"
             ];
 
-            function renderCalendar() {
-                calendarGrid.innerHTML = ""; // Clear existing calendar days
-                calendarMonth.textContent = `${monthNames[month]} ${year}`;
+            // Calculate days away
+            function calculateDaysAway(eventDate) {
+                const today = new Date();
+                const timeDifference = eventDate - today;
+                return Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+            }
 
+            // Display event details in the Event Details section
+            function displayEventDetails(event) {
+                const eventDetailsContent = document.getElementById("event-details-content");
+
+                if (event) {
+                    eventDetailsContent.innerHTML = `
+                        <h4 class="card-title">${event.title}</h4>
+                        <p class="card-text">${event.description}</p>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item"><strong>Date:</strong> ${event.date.toLocaleDateString()}</li>
+                            <li class="list-group-item"><strong>Time:</strong> ${event.time}</li>
+                            <li class="list-group-item"><strong>Location:</strong> ${event.location}</li>
+                        </ul>
+                    `;
+                } else {
+                    eventDetailsContent.innerHTML = "<p class='text-muted'>No upcoming events.</p>";
+                }
+            }
+
+            // Get the nearest upcoming event
+            function getNearestEvent() {
+                const today = new Date();
+                const upcomingEvents = events.filter(event => event.date >= today);
+                upcomingEvents.sort((a, b) => a.date - b.date);
+                return upcomingEvents.length > 0 ? upcomingEvents[0] : null;
+            }
+
+            // Render the event list with click functionality to display details
+            function renderEventList() {
+                const eventList = document.getElementById("event-list");
+                eventList.innerHTML = "";
+                events.forEach((event, index) => {
+                    const daysAway = calculateDaysAway(event.date);
+                    const listItem = document.createElement("a");
+                    listItem.href = "#";
+                    listItem.classList.add("list-group-item", "list-group-item-action");
+                    listItem.innerHTML = `
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">${event.title}</h5>
+                            <small>${daysAway} days away</small>
+                        </div>
+                        <p class="mb-1">${event.description}</p>
+                        <small>Date: ${event.date.toLocaleDateString()} | Location: ${event.location}</small>
+                    `;
+                    listItem.addEventListener("click", (e) => {
+                        e.preventDefault();
+                        displayEventDetails(event); // Display clicked event's details
+                    });
+                    eventList.appendChild(listItem);
+                });
+            }
+
+            // Render the calendar with event markers and click functionality for each event day
+            function renderCalendar() {
+                calendarGrid.innerHTML = "";
+                calendarMonth.textContent = `${monthNames[month]} ${year}`;
                 const firstDayOfMonth = new Date(year, month, 1).getDay();
                 const daysInMonth = new Date(year, month + 1, 0).getDate();
+                const prevMonthDays = new Date(year, month, 0).getDate();
 
-                // Fill in blank days before the first day of the month
                 for (let i = 0; i < firstDayOfMonth; i++) {
-                    const blankDay = document.createElement("div");
-                    blankDay.classList.add("empty-day");
-                    calendarGrid.appendChild(blankDay);
+                    const prevDayElement = document.createElement("div");
+                    prevDayElement.textContent = prevMonthDays - firstDayOfMonth + i + 1;
+                    prevDayElement.classList.add("prev-month-day");
+                    calendarGrid.appendChild(prevDayElement);
                 }
 
-                // Populate the days of the current month
                 for (let day = 1; day <= daysInMonth; day++) {
                     const dayElement = document.createElement("div");
                     dayElement.textContent = day;
                     dayElement.classList.add("calendar-day");
 
-                    // Highlight today
                     if (day === today && month === now.getMonth() && year === now.getFullYear()) {
                         dayElement.classList.add("today");
                     }
 
-                    // Style weekends (Sunday and Saturday)
+                    const event = events.find(e => e.date.getFullYear() === year && e.date.getMonth() === month && e
+                        .date.getDate() === day);
+                    if (event) {
+                        dayElement.classList.add("event-day");
+                        dayElement.setAttribute("title", event.title);
+                        dayElement.addEventListener("click", () => {
+                            displayEventDetails(event); // Display event details on click
+                        });
+                    }
+
                     const dayOfWeek = (firstDayOfMonth + day - 1) % 7;
-                    if (dayOfWeek === 0 || dayOfWeek === 6) { // 0 = Sunday, 6 = Saturday
-                        dayElement.classList.add("weekend"); // Apply a special class for weekends
+                    if (dayOfWeek === 0 || dayOfWeek === 6) {
+                        dayElement.classList.add("weekend");
                     }
 
                     calendarGrid.appendChild(dayElement);
                 }
+
+                const totalCells = firstDayOfMonth + daysInMonth;
+                const trailingDays = totalCells % 7 === 0 ? 0 : 7 - (totalCells % 7);
+                for (let i = 1; i <= trailingDays; i++) {
+                    const nextDayElement = document.createElement("div");
+                    nextDayElement.textContent = i;
+                    nextDayElement.classList.add("next-month-day");
+                    calendarGrid.appendChild(nextDayElement);
+                }
             }
 
             renderCalendar();
+            renderEventList();
+            displayEventDetails(getNearestEvent()); // Display the nearest event by default
 
-            // Add click events for previous and next month buttons
             document.getElementById("prev-month").addEventListener("click", () => {
                 month = month === 0 ? 11 : month - 1;
                 year = month === 11 ? year - 1 : year;
@@ -326,5 +426,4 @@
         });
     </script>
 </body>
-
 </html>

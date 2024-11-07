@@ -423,37 +423,84 @@ body {
     }
 }
  /* Events and news calender styling */
- .calendar-days {
+ /* Calendar Grid and Days */
+.calendar-days {
     display: grid;
-    grid-template-columns: repeat(7, 1fr); /* Ensures seven equal columns for weekday headers */
+    grid-template-columns: repeat(7, 1fr);
     text-align: center;
     gap: 5px;
 }
 
 .calendar-grid {
     display: grid;
-    grid-template-columns: repeat(7, 1fr); /* Ensures seven equal columns for day cells */
+    grid-template-columns: repeat(7, 1fr);
     gap: 5px;
 }
 
-.calendar-day, .empty-day {
+.calendar-day, .empty-day, .prev-month-day, .next-month-day {
     width: 100%;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background-color: #f8f9fa;
     font-weight: bold;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+    position: relative; /* For positioning the hover effect */
 }
 
+/* Hover Effect for Day Cells */
+.calendar-day:hover, .prev-month-day:hover, .next-month-day:hover {
+    background-color: rgba(0, 0, 0, 0.05); /* Slightly change background on hover */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Creates a thin border around the cell */
+    box-shadow: inset 0px 0px 4px rgba(255, 255, 255, 0.2), 0px 0px 5px rgba(0, 0, 0, 0.2); /* Inner shadow for a recessed effect */
+    cursor: pointer;
+}
+
+/* Style for Today’s Date */
 .calendar-day.today {
     background-color: #007bff;
     color: white;
+    font-weight: bold;
+    border: none; 
 }
+
+/* Style for Weekend Days */
 .calendar-day.weekend {
-    color:#201f1fc2; /* Different color for weekends */
+    color: #201f1fc2; 
 }
+
+/* Style for Previous and Next Month Days */
+.prev-month-day, .next-month-day {
+    color: #666; /* Muted color for previous/next month days */
+    background-color: #e0e0e0; /* Darker background for differentiation */
+}
+
+/* Event Day Styling */
+.event-day {
+    position: relative;
+    background-color: #ffcc00; /* Highlight color for event days */
+    color: black;
+    font-weight: bold;
+}
+
+/* Hover Effect for Event Days */
+.event-day:hover {
+    background-color: #ffb700; /* Darker shade on hover */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Outline on hover */
+    box-shadow: inset 0px 0px 4px rgba(255, 255, 255, 0.2), 0px 0px 5px rgba(0, 0, 0, 0.2); /* Stronger hover effect for event days */
+}
+
+/* Pin Icon for Event Days */
+.event-day::after {
+    content: "📌"; /* Use the pin emoji or replace with an image URL if you prefer a custom icon */
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 14px; /* Adjust the size of the pin as needed */
+    color: red; /* Change color of the pin if desired */
+}
+
 
 
 /* dropdown-menu investigators pages styling */
