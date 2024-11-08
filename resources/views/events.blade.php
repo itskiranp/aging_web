@@ -56,7 +56,7 @@
             <h2 class="mb-4">Upcoming Events</h2>
             <div class="row mb-3">
                 <div class="col-md-7">
-                    
+
                     <div id="calendar-container" class="bg-light p-3 rounded">
                         <div class="calendar-header text-center mb-3">
                             <button class="btn btn-outline-secondary btn-sm me-2" id="prev-month">&lt;</button>
@@ -78,34 +78,9 @@
                     </div>
                 </div>
                 <div class="col-md-5">
+                    <h3 class="mb-3">Event List</h3>
                     <div id="event-list" class="list-group">
-                        {{-- <a href="#" class="list-group-item list-group-item-action" aria-current="true">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">Annual Tech Conference</h5>
-                                <small>3 days away</small>
-                            </div>
-                            <p class="mb-1">Join us for our annual tech conference featuring industry leaders and
-                                innovative workshops.</p>
-                            <small>Date: Nov. 10, 2024 | Location: Convention Center</small>
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">Charity Fundraiser Gala</h5>
-                                <small class="text-muted">1 week away</small>
-                            </div>
-                            <p class="mb-1">Support a great cause at our annual charity fundraiser gala. Enjoy dinner,
-                                music, and more.</p>
-                            <small class="text-muted">Date: Dec. 05, 2024 | Location: Grand Hotel</small>
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">Community Clean-up Day</h5>
-                                <small class="text-muted">2 weeks away</small>
-                            </div>
-                            <p class="mb-1">Join your neighbors in keeping our community clean and beautiful. All supplies
-                                provided.</p>
-                            <small class="text-muted">Date: Dec 10, 2024 | Location: City Park</small>
-                        </a> --}}
+                    <!-- Event list will be dynamically inserted here by JavaScript -->
                     </div>
                 </div>
             </div>
@@ -116,9 +91,31 @@
             <div class="card">
                 <div class="card-body" id="event-details-content">
                     <!-- Event details will be dynamically inserted here by JavaScript -->
-                    <p class="text-muted">Select an event to view details.</p> <!-- Default message -->
+                    {{-- <p class="text-muted">Select an event to view details.</p> <!-- Default message --> --}}
                 </div>
             </div>
-        </section>        
+            @php
+                $formattedEvents = $events
+                    ->map(function ($event) {
+                        return [
+                            'title' => $event->title,
+                            'date' => $event->date->format('Y-m-d'), // Format date as Y-m-d
+                            'description' => $event->description,
+                            'short_description' => $event->short_description,
+                            'location' => $event->location,
+                            'time' => $event->time,
+                        ];
+                    })
+                    ->toArray();
+            @endphp
+            <script>
+                const events = @json($formattedEvents); // Make events data available to JavaScript
+
+                document.addEventListener("DOMContentLoaded", function() {
+                    // Your JavaScript code that interacts with the events
+                    // e.g., renderCalendar(events), renderEventList(events);
+                });
+            </script>
+        </section>
     </div>
 @endsection

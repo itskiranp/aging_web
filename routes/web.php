@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\GoogleTranslateController;
 use App\Http\Controllers\SearchController;
+use App\Http\Controllers\EventController;
 
 
 
@@ -46,6 +47,8 @@ Route::get('/capacitybuilding/analysictraining', [PageController::class, 'showan
 
 Route::get('/investigators', [PageController::class, 'investigators'])->name('investigators');
 Route::get('/people/staff', [PageController::class, 'showStaff'])->name('staff.show');
+
+Route::get('/events', [EventController::class, 'index']);
 
 
 
