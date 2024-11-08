@@ -91,7 +91,6 @@
             <div class="card">
                 <div class="card-body" id="event-details-content">
                     <!-- Event details will be dynamically inserted here by JavaScript -->
-                    {{-- <p class="text-muted">Select an event to view details.</p> <!-- Default message --> --}}
                 </div>
             </div>
             @php
