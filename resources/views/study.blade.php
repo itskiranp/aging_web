@@ -14,8 +14,8 @@
     </nav>
 
     <!-- Main Header Section -->
-    <div class="card-header text-white bg-primary mb-4">
-        <h2 class="text-center"><strong>Chitwan Valley Family Study on Cognition and Aging in Nepal (CVFS-SCAN)</strong></h2>
+    <div class="card-header  mb-4">
+        <h2 class="text-start"><strong>Chitwan Valley Family Study on Cognition and Aging in Nepal (CVFS-SCAN)</strong></h2>
     </div>
 
     <!-- Study Overview Section -->

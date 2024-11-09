@@ -19,7 +19,7 @@
                         <strong>Chitwan Valley Family Study (CVFS) Linked Data Sets</strong>
                     </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                     data-bs-parent="#dataAccordion">
                     <div class="accordion-body">
                         <p> It describes various surveys and data collection efforts over time in the Chitwan Valley, which
