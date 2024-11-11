@@ -8,6 +8,7 @@ use App\Http\Controllers\PageController;
 use App\Http\Controllers\GoogleTranslateController;
 use App\Http\Controllers\SearchController;
 use App\Http\Controllers\EventController;
+use App\Http\Controllers\HomePageController;
 
 
 
@@ -49,6 +50,9 @@ Route::get('/investigators', [PageController::class, 'investigators'])->name('in
 Route::get('/people/staff', [PageController::class, 'showStaff'])->name('staff.show');
 
 Route::get('/events', [EventController::class, 'index']);
+
+Route::get('/', [HomePageController::class, 'index'])->name('home');
+
 
 
 
