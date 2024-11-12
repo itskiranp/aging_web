@@ -313,7 +313,12 @@
             function renderEventList() {
                 const eventList = document.getElementById("event-list");
                 eventList.innerHTML = "";
-                events.forEach(event => {
+
+                // Filter only upcoming events for the event list
+                const upcomingEvents = events.filter(event => event.date >= new Date());
+
+
+                upcomingEvents.forEach(event => {
                     const daysAway = calculateDaysAway(event.date);
                     const listItem = document.createElement("a");
                     listItem.href = "#";
@@ -402,6 +407,7 @@
             });
         });
     </script>
-  
+
 </body>
+
 </html>
