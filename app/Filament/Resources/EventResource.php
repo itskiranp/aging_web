@@ -6,6 +6,8 @@ use App\Filament\Resources\EventResource\Pages;
 use App\Filament\Resources\EventResource\RelationManagers;
 use App\Models\Event;
 use Filament\Forms;
+use Filament\Forms\Components\RichEditor;
+use Filament\Forms\Components\Textarea;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
@@ -23,14 +25,14 @@ class EventResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('title')
+                Textarea::make('title')
                     ->required()
                     ->label('Event Title'),
-                Forms\Components\Textarea::make('short_description')
+                RichEditor::make('short_description')
                     ->label('Short Description')
                     ->placeholder('Enter a brief description for the event')
                     ->maxLength(255),
-                Forms\Components\Textarea::make('description')
+                RichEditor::make('description')
                     ->label('Description'),
                 Forms\Components\DatePicker::make('date')
                     ->required()
