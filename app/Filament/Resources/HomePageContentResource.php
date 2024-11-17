@@ -21,10 +21,6 @@ use Filament\Forms\Components\RichEditor;
 
 
 
-
-
-
-
 class HomePageContentResource extends Resource
 {
     protected static ?string $model = HomePageContent::class;
