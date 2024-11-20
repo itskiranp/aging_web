@@ -37,10 +37,14 @@ class StaffResource extends Resource
                     ->label('Email'),
                 FileUpload::make('image')
                     ->directory('images') // This ensures images are uploaded to /public/images
-                    ->label('Profile Image'),
+                    ->label('Profile Image')
+                    ->preserveFilenames(),
+                    
                 FileUpload::make('cv_link')
                     ->directory('uploads') // This ensures CVs are uploaded to /public/uploads
-                    ->label('Curriculum Vitae'),
+                    ->label('Curriculum Vitae')
+                    ->preserveFilenames(),
+
             ]);
     }
 
