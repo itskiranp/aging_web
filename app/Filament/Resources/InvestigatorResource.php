@@ -44,6 +44,7 @@ class InvestigatorResource extends Resource
                 FileUpload::make('image')
                     ->directory('images')
                     ->label('Image')
+                    ->preserveFilenames()
                     ->nullable(),
              
                 
