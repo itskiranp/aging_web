@@ -878,7 +878,6 @@ body {
     text-decoration: none;
 }
 
-/* Responsive Adjustments */
 @media (max-width: 768px) {
     .footer-content {
         flex-direction: column;
