@@ -300,7 +300,6 @@ body {
 /* breadcrumb items styling */
 
 .breadcrumb {
-    /* background-color: transparent;  */
     padding: 0; /* Remove padding */
     margin-bottom: 1rem; /* Adjust margin */
 }
@@ -571,7 +570,7 @@ body {
 }
 
 .links-list a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline; 
 }
 
 /* Responsive styling */
