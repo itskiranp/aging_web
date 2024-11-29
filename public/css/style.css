@@ -217,7 +217,7 @@ body {
     transform: translateY(10px); /* Move down slightly for transition effect */
     transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
     background-color: #00153c;
-    border: none;
+    border: none; 
 }
 
 /* Show the dropdown menu */
