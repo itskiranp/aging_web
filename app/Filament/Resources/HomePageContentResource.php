@@ -41,11 +41,13 @@ class HomePageContentResource extends Resource
                     ->label('Carousel Images')
                     ->multiple()
                     ->image()
-                    ->required(),
+                    ->required()
+                    ->preserveFilenames(),
                 FileUpload::make('collaborators')
                     ->label('Collaborators Section')
                     ->multiple()
-                    ->required(),
+                    ->required()
+                    ->preserveFilenames(),
             ]);
     }
 
