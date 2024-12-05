@@ -34,7 +34,7 @@ class PageController extends Controller
     }
     // Method for People page
 
-        // Method for Staff page
+    // Method for Staff page
     // public function showStaff()
     // {
     //     return view('people.staff');
@@ -112,22 +112,19 @@ class PageController extends Controller
     }
 
     public function downloadPDF($id)
-{
-    $investigator = Investigator::findOrFail($id);
-    $media = $investigator->getFirstMedia('profile_pdf');
+    {
+        $investigator = Investigator::findOrFail($id);
+        $media = $investigator->getFirstMedia('profile_pdf');
 
-    if ($media) {
-        return response()->download($media->getPath(), $media->file_name);
+        if ($media) {
+            return response()->download($media->getPath(), $media->file_name);
+        }
+
+        return redirect()->back()->with('error', 'PDF not found.');
     }
-
-    return redirect()->back()->with('error', 'PDF not found.');
-}
-public function showStaff()
-{
-    $staffMembers = Staff::all(); // Fetch all staff data
-    return view('people.staff', compact('staffMembers'));
-}
-    
-
-
+    public function showStaff()
+    {
+        $staffMembers = Staff::all(); // Fetch all staff data
+        return view('people.staff', compact('staffMembers'));
+    }
 }

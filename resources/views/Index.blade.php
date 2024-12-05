@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-
 @extends('layout')
 
 @section('title', 'CVFS on Cognition and Aging in Nepal')
