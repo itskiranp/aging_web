@@ -750,6 +750,7 @@ body {
 }
 
 /* General Footer Styling */
+
 .site-footer {
     background-color: #00153c;
     color: #ccc;
@@ -762,7 +763,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    max-width: 1300px;
+    /* max-width: 1300px; */
     margin: 0 auto;
     width: 100%;
     font-size: 0.9em;
