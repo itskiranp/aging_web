@@ -48,6 +48,7 @@ body {
 
 .sf-top-header {
     background-color: #00153c;
+    /* background-image: url(/images/header_background.png); */
     padding: 10px 0;
 }
 .geo-navigation .nav-link {
@@ -97,7 +98,12 @@ body {
 
 /* main header styling */
 .main-header {
-    background-color: #f8f9fa;
+    position: relative;
+    z-index: 1;
+    background-image: url(/images/header_background.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:bottom;
     height: auto;
 }
 
@@ -106,24 +112,18 @@ body {
     justify-content: end;
     align-items: center;
 }
+
 .row {
     margin-right: 0 !important;
     margin-left: 0 !important;
 }
 .header-logo img {
-    width: 150px;
+  
+    /* width: 150px; */
     height: auto;
     display: block;
 }
 
-.header-text {
-    text-align: left;
-}
-
-.header-text p {
-    margin: 0;
-    text-align: left;
-}
 
 /* Media Query for Medium and Large Screens (Tablets and Laptops) */
 @media (min-width: 768px) {
@@ -169,6 +169,8 @@ body {
 
 #sf-main-header .logo img {
     display: flex;
+    mix-blend-mode: darken;
+
 }
 
 .navbar {
