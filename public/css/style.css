@@ -168,14 +168,10 @@ body {
 
 #sf-main-header .logo img {
     display: flex;
-    /* mix-blend-mode:darken; */
-    margin-left: -70px !important;
-    margin-top: auto;
-   
-
+    mix-blend-mode:darken;
+    margin-left: 50px !important;
+    margin-bottom: 10px;
 }
-
-
 .navbar {
     display: flex;
     justify-content: space-between;
