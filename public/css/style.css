@@ -169,8 +169,9 @@ body {
 #sf-main-header .logo img {
     display: flex;
     mix-blend-mode:darken;
-    margin-left: 50px !important;
-    margin-bottom: 10px;
+    margin-left: -80px !important;
+    /* margin-bottom: 10px; */
+    margin-top: -5px;
 }
 .navbar {
     display: flex;
