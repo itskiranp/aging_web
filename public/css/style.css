@@ -169,7 +169,7 @@ body {
 #sf-main-header .logo img {
     display: flex;
     mix-blend-mode:darken;
-    margin-left: -80px !important;
+    margin-left: -100px !important;
     /* margin-bottom: 10px; */
     margin-top: -5px;
 }
