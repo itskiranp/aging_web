@@ -107,18 +107,17 @@ body {
     height: auto;
 }
 
-.header-logo {
+/* .header-logo {
     display: flex;
     justify-content: end;
     align-items: center;
-}
+} */
 
 .row {
     margin-right: 0 !important;
     margin-left: 0 !important;
 }
 .header-logo img {
-  
     /* width: 150px; */
     height: auto;
     display: block;
@@ -169,9 +168,13 @@ body {
 
 #sf-main-header .logo img {
     display: flex;
-    mix-blend-mode: darken;
+    /* mix-blend-mode:darken; */
+    margin-left: -70px !important;
+    margin-top: auto;
+   
 
 }
+
 
 .navbar {
     display: flex;
