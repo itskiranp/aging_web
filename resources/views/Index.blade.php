@@ -33,7 +33,7 @@
     <div class="container mb-3">
         <h2>Study on Cognition and Aging in Nepal.</h2>
         <p>{!! $homeContent->main_text !!}</p>
-    </div>
+    </div> 
     <div class="container mb-5">
         <h2>Why This Matters</h2>
         <p>{!! $homeContent->why_this_matters !!}</p>
