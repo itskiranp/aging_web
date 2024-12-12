@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
 }
 
 body {
@@ -48,7 +48,6 @@ body {
 
 .sf-top-header {
     background-color: #00153c;
-    /* background-image: url(/images/header_background.png); */
     padding: 10px 0;
 }
 .geo-navigation .nav-link {
@@ -101,9 +100,9 @@ body {
     position: relative;
     z-index: 1;
     background-image: url(/images/header_background.png);
-    background-size:contain;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position:bottom;
+    background-position: bottom;
     height: auto;
 }
 
@@ -122,7 +121,6 @@ body {
     height: auto;
     display: block;
 }
-
 
 /* Media Query for Medium and Large Screens (Tablets and Laptops) */
 @media (min-width: 768px) {
@@ -168,7 +166,7 @@ body {
 
 #sf-main-header .logo img {
     display: flex;
-    mix-blend-mode:darken;
+    mix-blend-mode: darken;
     margin-left: -80px !important;
     /* margin-bottom: 10px; */
     margin-top: -5px;
@@ -181,6 +179,7 @@ body {
     background-color: transparent;
     width: 100%;
     transition: background-color 0.3s ease;
+
 }
 
 .navbar-nav {
@@ -219,7 +218,7 @@ body {
     transform: translateY(10px); /* Move down slightly for transition effect */
     transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
     background-color: #00153c;
-    border: none; 
+    border: none;
 }
 
 /* Show the dropdown menu */
@@ -421,8 +420,8 @@ body {
         display: none;
     }
 }
- /* Events and news calender styling */
- /* Calendar Grid and Days */
+/* Events and news calender styling */
+/* Calendar Grid and Days */
 .calendar-days {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -436,7 +435,10 @@ body {
     gap: 5px;
 }
 
-.calendar-day, .empty-day, .prev-month-day, .next-month-day {
+.calendar-day,
+.empty-day,
+.prev-month-day,
+.next-month-day {
     width: 100%;
     height: 40px;
     display: flex;
@@ -444,15 +446,24 @@ body {
     align-items: center;
     border-radius: 5px;
     font-weight: bold;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease,
+        border 0.3s ease;
     position: relative; /* For positioning the hover effect */
 }
 
 /* Hover Effect for Day Cells */
-.calendar-day:hover, .prev-month-day:hover, .next-month-day:hover {
-    background-color: rgba(0, 0, 0, 0.05); /* Slightly change background on hover */
+.calendar-day:hover,
+.prev-month-day:hover,
+.next-month-day:hover {
+    background-color: rgba(
+        0,
+        0,
+        0,
+        0.05
+    ); /* Slightly change background on hover */
     border: 1px solid rgba(0, 0, 0, 0.2); /* Creates a thin border around the cell */
-    box-shadow: inset 0px 0px 4px rgba(255, 255, 255, 0.2), 0px 0px 5px rgba(0, 0, 0, 0.2); /* Inner shadow for a recessed effect */
+    box-shadow: inset 0px 0px 4px rgba(255, 255, 255, 0.2),
+        0px 0px 5px rgba(0, 0, 0, 0.2); /* Inner shadow for a recessed effect */
     cursor: pointer;
 }
 
@@ -461,16 +472,17 @@ body {
     background-color: #007bff;
     color: white;
     font-weight: bold;
-    border: none; 
+    border: none;
 }
 
 /* Style for Weekend Days */
 .calendar-day.weekend {
-    color: #201f1fc2; 
+    color: #201f1fc2;
 }
 
 /* Style for Previous and Next Month Days */
-.prev-month-day, .next-month-day {
+.prev-month-day,
+.next-month-day {
     color: #666; /* Muted color for previous/next month days */
     background-color: #e0e0e0; /* Darker background for differentiation */
 }
@@ -487,7 +499,8 @@ body {
 .event-day:hover {
     background-color: #ffb700; /* Darker shade on hover */
     border: 1px solid rgba(0, 0, 0, 0.2); /* Outline on hover */
-    box-shadow: inset 0px 0px 4px rgba(255, 255, 255, 0.2), 0px 0px 5px rgba(0, 0, 0, 0.2); /* Stronger hover effect for event days */
+    box-shadow: inset 0px 0px 4px rgba(255, 255, 255, 0.2),
+        0px 0px 5px rgba(0, 0, 0, 0.2); /* Stronger hover effect for event days */
 }
 
 /* Pin Icon for Event Days */
@@ -567,7 +580,7 @@ body {
 }
 
 .links-list a:hover {
-    text-decoration: underline; 
+    text-decoration: underline;
 }
 
 /* Responsive styling */
