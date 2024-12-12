@@ -105,13 +105,6 @@ body {
     background-position: bottom;
     height: auto;
 }
-
-/* .header-logo {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-} */
-
 .row {
     margin-right: 0 !important;
     margin-left: 0 !important;
