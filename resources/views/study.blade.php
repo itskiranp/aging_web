@@ -46,7 +46,7 @@
     <section id="image-gallery" class="mb-5">
         <h3 class="mb-3">Study Area</h3>
         <div class="card">
-            <img src="images/CVFS study area.png" class="card-img-top" alt="CVFS Study Area">
+            <img src="images/CVFS study area.png" class="" alt="CVFS Study Area">
             <div class="card-body">
                 <p class="card-text">
                     The Chitwan Valley, where the CVFS study is conducted, is located in Nepal. The region provides a diverse and representative sample for studying both the cognitive aging process and life transitions impacted by stress.
