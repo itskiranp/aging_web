@@ -60,7 +60,7 @@
                 <!-- Logo Section -->
                 <div class="col-md-6">
                     <a href="{{ url('/') }}" class="logo"  >
-                        <img src="/images/header_logo_updated.PNG" class="img-fluid" alt="...">
+                        <img src="/images/header_logo_photoshop.png" class="img-fluid" alt="...">
                     </a>
                 </div>
             </div>
