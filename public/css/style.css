@@ -5,7 +5,6 @@
     box-sizing: border-box;
     font-family: "Merriweather", serif;
 }
-
 body {
     /* font-family: sans-serif !important; */
     color: #333;
@@ -18,13 +17,11 @@ body {
     padding: 8px;
     border-radius: 5px;
 }
-
 .language-select label {
     color: #fff; /* White text for the label */
     font-weight: bold;
     margin-right: 10px; /* Space between label and select box */
 }
-
 .language-select select {
     background-color: #fff;
     color: #000; /* Black text for select box */
@@ -159,8 +156,7 @@ body {
 #sf-main-header .logo img {
     display: flex;
     mix-blend-mode: darken;
-    margin-left: -80px !important;
-    /* margin-bottom: 10px; */
+    margin-left: -50px !important;
     margin-top: -5px;
 }
 .navbar {
