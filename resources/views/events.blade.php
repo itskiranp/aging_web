@@ -21,9 +21,10 @@
                         <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e" class="card-img-top"
                             alt="News article image">
                         <div class="card-body">
-                            <h5 class="card-title">Breaking News Title</h5>
-                            <p class="card-text">This is a short description of the breaking news article.</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
+                            <h5 class="card-title">(CVFS-SCAN) Project Meeting Concludes Successfully
+                            </h5>
+                            <p class="card-text">Pre-Test Review and Planning Meeting for CVFS-SCAN</p>
+                            <a href="{{ route('news') }}" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
                 </div>

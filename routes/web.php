@@ -54,6 +54,11 @@ Route::get('/events', [EventController::class, 'index']);
 Route::get('/', [HomePageController::class, 'index'])->name('home');
 
 
+Route::get('/news', function () {
+    return view('news'); // This renders the news.blade.php file
+})->name('news');
+
+
 
 
 
