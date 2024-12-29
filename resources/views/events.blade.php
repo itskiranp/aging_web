@@ -24,6 +24,7 @@
                             <h5 class="card-title">(CVFS-SCAN) Project Meeting Concludes Successfully
                             </h5>
                             <p class="card-text">Pre-Test Review and Planning Meeting for CVFS-SCAN</p>
+                            <p class="text-muted">December 27, 2024</p>
                             <a href="{{ route('news') }}" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
