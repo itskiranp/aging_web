@@ -14,12 +14,25 @@
         </ol>
     </nav>
 
+    <div class="card shadow-sm">
+   
+      <div class="card-body">
+          <h1 class="card-title">{{ $news->title }}</h1>
+          <p class="card-text text-muted small">{{ $news->published_at->format('M d, Y') }}</p>
+          <p class="card-text">{!! $news->content !!}</p>
+      </div>
+  </div>
+
+  <div class="mt-4">
+      <a href="{{ route('events') }}" class="btn btn-secondary">Back to News & Events</a>
+  </div>
+
     <!-- Main Header Section -->
-    <div class="card-header  mb-4">
+    {{-- <div class="card-header  mb-4">
         <h2 class="text-start"><strong>Chitwan Valley Family Study - Study on Cognition and Aging in Nepal (CVFS-SCAN)</strong></h2>
     </div>
 
-    <!-- Study Overview Section -->
+   
     <section id="research-details" class="mb-5">
         <div class="row">
             <div class="col-lg-12">
@@ -72,6 +85,6 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 </main>
 @endsection

@@ -399,6 +399,18 @@ body {
     }
 }
 /* Events and news calender styling */
+.card {
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
 /* Calendar Grid and Days */
 .calendar-days {
     display: grid;

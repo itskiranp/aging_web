@@ -1,3 +1,5 @@
+
+
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
 @extends('layout')
@@ -5,6 +7,9 @@
 @section('title', 'News and Events')
 
 @section('content')
+@php
+    use Illuminate\Support\Str;
+@endphp
 
     <div id="main-content" class="container my-5">
         <nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb" class="d-flex justify-content-end">
@@ -13,7 +18,39 @@
                 <li class="breadcrumb-item active" aria-current="page">News & Events</li>
             </ol>
         </nav>
-        <section id="latest-news" class="mb-5 ">
+
+        <div class="container py-5">
+            <h1 class="mb-4">Latest News</h1>
+            
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                @foreach($news as $newsItem)
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            @if($newsItem->image_url)
+                                <img src="{{ $newsItem->image_url }}" class="card-img-top" alt="{{ $newsItem->title }}">
+                            @endif
+                            <div class="card-body">
+                                <h5 class="card-title">{{ $newsItem->title }}</h5>
+                                <p class="card-text text-muted small">
+                                    {{ $newsItem->published_at->format('M d, Y') }}
+                                </p>
+                                <p class="card-text">
+                                    {!! Str::limit($newsItem->content, 100) !!}
+                                </p>
+                                <a href="{{ route('news.show', $newsItem) }}" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        
+            <div class="d-flex justify-content-center mt-4">
+                {{ $news->links() }}
+            </div>
+        </div>
+        
+     
+        {{-- <section id="latest-news" class="mb-5 ">
             <h2>Latest News</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -54,7 +91,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         <section id="events" class="mb-5">
             <h2 class="mb-4">Upcoming Events</h2>

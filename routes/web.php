@@ -9,8 +9,8 @@ use App\Http\Controllers\GoogleTranslateController;
 use App\Http\Controllers\SearchController;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\HomePageController;
-
-
+use App\Http\Controllers\NewsController;
+use App\Models\Event;
 
 Route::get('/search', [SearchController::class, 'search'])->name('search');
 
@@ -50,13 +50,15 @@ Route::get('/investigators', [PageController::class, 'investigators'])->name('in
 Route::get('/people/staff', [PageController::class, 'showStaff'])->name('staff.show');
 
 Route::get('/events', [EventController::class, 'index']);
+Route::get('/news/{id}', [EventController::class, 'showNews'])->name('news.show');
+Route::get('/events', [EventController::class, 'showEvents'])->name('events');
 
 Route::get('/', [HomePageController::class, 'index'])->name('home');
 
 
-Route::get('/news', function () {
-    return view('news'); // This renders the news.blade.php file
-})->name('news');
+// Route::get('/news', function () {
+//     return view('news'); 
+// })->name('news');
 
 
 
