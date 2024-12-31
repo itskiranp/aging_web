@@ -36,6 +36,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Latest Update</h5>
                             <p class="card-text">A brief overview of the latest update in the news.</p>
+                            <p class="text-muted">December 20, 2024</p>
                             <a href="#" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
@@ -47,6 +48,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Important Announcement</h5>
                             <p class="card-text">Details about an important announcement or news item.</p>
+                            <p class="text-muted">December 2, 2024</p>
                             <a href="#" class="btn btn-primary">Read More</a>
                         </div>
                     </div>
