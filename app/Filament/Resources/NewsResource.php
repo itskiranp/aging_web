@@ -14,6 +14,8 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Columns\ImageColumn;
+use Filament\Forms\Components\FileUpload;
+
 
 class NewsResource extends Resource
 {
@@ -30,11 +32,14 @@ class NewsResource extends Resource
                 ->maxLength(255),
             Forms\Components\RichEditor::make('content')
                 ->required(),
-            Forms\Components\FileUpload::make('image_url')
-                ->image()
-                // ->directory('images')
-                ->preserveFilenames(),
 
+                FileUpload::make('images')
+                ->directory('news_images')
+                ->label('Carousel Images')
+                ->multiple()
+                ->image()
+                ->preserveFilenames(),
+            
             Forms\Components\DatePicker::make('published_at')
                 ->required()
                 ->default(now()),
