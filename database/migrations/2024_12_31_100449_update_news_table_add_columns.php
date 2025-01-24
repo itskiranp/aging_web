@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::table('news', function (Blueprint $table) {
             $table->string('title')->after('id'); // Add 'title' column
-            $table->text('content')->nullable()->after('title'); // Add 'content' column
+            $table->text('content')->nullable()->after('title'); 
             $table->string('image_url')->nullable()->after('content'); // Add 'image_url' column
             $table->timestamp('published_at')->nullable()->after('image_url'); // Add 'published_at' column
     
