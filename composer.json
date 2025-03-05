@@ -11,6 +11,7 @@
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.5",
+        "mohamedsabil83/filament-forms-tinyeditor": "^2.4",
         "spatie/laravel-medialibrary": "^11.9",
         "spatie/laravel-permission": "*",
         "stichoza/google-translate-php": "^5.2"

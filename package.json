@@ -11,8 +11,10 @@
         "vite": "^5.4.3"
     },
     "dependencies": {
+        "@ckeditor/ckeditor5-build-classic": "^44.2.1",
         "@fullcalendar/core": "^6.1.15",
         "@fullcalendar/daygrid": "^6.1.15",
-        "@fullcalendar/interaction": "^6.1.15"
+        "@fullcalendar/interaction": "^6.1.15",
+        "tinymce": "^7.7.0"
     }
 }

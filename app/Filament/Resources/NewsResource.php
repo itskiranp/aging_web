@@ -1,7 +1,7 @@
 <?php
-
 namespace App\Filament\Resources;
 
+use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
 use App\Filament\Resources\NewsResource\Pages;
 use App\Filament\Resources\NewsResource\RelationManagers;
 use App\Models\News;
@@ -17,6 +17,7 @@ use Filament\Tables\Columns\ImageColumn;
 use Filament\Forms\Components\FileUpload;
 
 
+
 class NewsResource extends Resource
 {
     protected static ?string $model = News::class;
@@ -30,10 +31,13 @@ class NewsResource extends Resource
                 Forms\Components\TextInput::make('title')
                 ->required()
                 ->maxLength(255),
-            Forms\Components\RichEditor::make('content')
+
+                TinyEditor::make('content')
+                ->columnSpanFull()
+                ->profile('default') 
                 ->required(),
 
-                FileUpload::make('images')
+            FileUpload::make('image')
                 ->directory('news_images')
                 ->label('Carousel Images')
                 ->multiple()
@@ -53,6 +57,7 @@ class NewsResource extends Resource
                 TextColumn::make('title')->searchable()->sortable(),
                 ImageColumn::make('image_url')->label('Image'),
                 TextColumn::make('published_at')->date()->sortable(),
+                TextColumn::make('content')->limit(50)->html(),
             ])
             ->filters([
                 //
