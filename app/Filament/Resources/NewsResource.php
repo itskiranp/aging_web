@@ -15,8 +15,7 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Columns\ImageColumn;
 use Filament\Forms\Components\FileUpload;
-
-
+use Filament\Forms\Components\RichEditor;
 
 class NewsResource extends Resource
 {
@@ -32,12 +31,10 @@ class NewsResource extends Resource
                 ->required()
                 ->maxLength(255),
 
-                TinyEditor::make('content')
-                ->columnSpanFull()
-                ->profile('default') 
+                RichEditor::make('content')
                 ->required(),
 
-            FileUpload::make('image')
+            FileUpload::make('images')
                 ->directory('news_images')
                 ->label('Carousel Images')
                 ->multiple()
@@ -57,7 +54,6 @@ class NewsResource extends Resource
                 TextColumn::make('title')->searchable()->sortable(),
                 ImageColumn::make('image_url')->label('Image'),
                 TextColumn::make('published_at')->date()->sortable(),
-                TextColumn::make('content')->limit(50)->html(),
             ])
             ->filters([
                 //

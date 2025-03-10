@@ -1,5 +1,3 @@
-
-
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
 @extends('layout')
@@ -48,50 +46,6 @@
                 {{ $news->links() }}
             </div>
         </div>
-        
-     
-        {{-- <section id="latest-news" class="mb-5 ">
-            <h2>Latest News</h2>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e" class="card-img-top"
-                            alt="News article image">
-                        <div class="card-body">
-                            <h5 class="card-title">(CVFS-SCAN) Project Meeting Concludes Successfully
-                            </h5>
-                            <p class="card-text">Pre-Test Review and Planning Meeting for CVFS-SCAN</p>
-                            <p class="text-muted">December 27, 2024</p>
-                            <a href="{{ route('news') }}" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c" class="card-img-top"
-                            alt="News article image">
-                        <div class="card-body">
-                            <h5 class="card-title">Latest Update</h5>
-                            <p class="card-text">A brief overview of the latest update in the news.</p>
-                            <p class="text-muted">December 20, 2024</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="https://images.unsplash.com/photo-1585829365295-ab7cd400c167" class="card-img-top"
-                            alt="News article image">
-                        <div class="card-body">
-                            <h5 class="card-title">Important Announcement</h5>
-                            <p class="card-text">Details about an important announcement or news item.</p>
-                            <p class="text-muted">December 2, 2024</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
 
         <section id="events" class="mb-5">
             <h2 class="mb-4">Upcoming Events</h2>
