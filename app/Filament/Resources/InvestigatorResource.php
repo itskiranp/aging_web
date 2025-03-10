@@ -20,6 +20,7 @@ use Filament\Tables\Actions\EditAction;
 use Filament\Tables\Actions\DeleteBulkAction;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
 
 class InvestigatorResource extends Resource
 {
@@ -36,19 +37,20 @@ class InvestigatorResource extends Resource
                 TextInput::make('position')->required(),
                 TextInput::make('phone')->required(),
                 TextInput::make('email')->email()->required(),
-                MarkdownEditor::make('bio')->nullable(),
-                MarkdownEditor::make('description')
-                ->label('Description')
-                ->required() 
-                ->extraAttributes(['style' => 'height: 50vh; overflow-y: auto;']),
+                TinyEditor::make('bio')->nullable(),
+                TinyEditor::make('description')
+                    ->columnSpanFull()
+                    ->profile('default')
+                    ->label('Description')
+                    ->required(),
                 FileUpload::make('image')
                     ->directory('images')
                     ->label('Image')
                     ->preserveFilenames()
                     ->nullable(),
-             
-                
-               
+
+
+
                 FileUpload::make('profile_pdf')
                     ->directory('uploads') // This ensures CVs are uploaded to /public/uploads
                     ->label('Curriculum Vitae'),

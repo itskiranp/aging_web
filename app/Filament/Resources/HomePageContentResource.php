@@ -16,7 +16,7 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Filament\Forms\Components\TextEditor;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Forms\Components\FileUpload;
-use Filament\Forms\Components\RichEditor;
+use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
 
 
 
@@ -31,11 +31,15 @@ class HomePageContentResource extends Resource
     {
         return $form
             ->schema([
-                RichEditor::make('main_text')
+                TinyEditor::make('main_text')
+                    ->profile('default')
+                    ->columnSpanFull()
                     ->label('Main Text')
                     ->required(),
-                RichEditor::make('why_this_matters')
+                TinyEditor::make('why_this_matters')
                     ->label('Why This Matters Text')
+                    ->profile('default')
+                    ->columnSpanFull()
                     ->required(),
                 FileUpload::make('carousel_images')
                     ->label('Carousel Images')

@@ -25,7 +25,7 @@
                     
                     <!-- Only show Email and CV for the first 9 staff members -->
                     @php
-                        $maxDisplayCount = 9; // You can adjust this number as needed
+                        $maxDisplayCount = 8; // You can adjust this number as needed
                         $staffCounter = $loop->index + 1; // $loop->index starts from 0, so we add 1
                     @endphp
 

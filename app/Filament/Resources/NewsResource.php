@@ -1,7 +1,7 @@
 <?php
+
 namespace App\Filament\Resources;
 
-use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
 use App\Filament\Resources\NewsResource\Pages;
 use App\Filament\Resources\NewsResource\RelationManagers;
 use App\Models\News;
@@ -15,7 +15,7 @@ use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Columns\ImageColumn;
 use Filament\Forms\Components\FileUpload;
-use Filament\Forms\Components\RichEditor;
+use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
 
 class NewsResource extends Resource
 {
@@ -28,22 +28,24 @@ class NewsResource extends Resource
         return $form
             ->schema([
                 Forms\Components\TextInput::make('title')
-                ->required()
-                ->maxLength(255),
+                    ->required()
+                    ->maxLength(255),
 
-                RichEditor::make('content')
-                ->required(),
+                TinyEditor::make('content')
+                    ->profile('default')
+                    ->columnSpanFull()
+                    ->required(),
 
-            FileUpload::make('images')
-                ->directory('news_images')
-                ->label('Carousel Images')
-                ->multiple()
-                ->image()
-                ->preserveFilenames(),
-            
-            Forms\Components\DatePicker::make('published_at')
-                ->required()
-                ->default(now()),
+                FileUpload::make('images')
+                    ->directory('news_images')
+                    ->label('Carousel Images')
+                    ->multiple()
+                    ->image()
+                    ->preserveFilenames(),
+
+                Forms\Components\DatePicker::make('published_at')
+                    ->required()
+                    ->default(now()),
             ]);
     }
 

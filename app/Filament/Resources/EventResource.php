@@ -6,7 +6,6 @@ use App\Filament\Resources\EventResource\Pages;
 use App\Filament\Resources\EventResource\RelationManagers;
 use App\Models\Event;
 use Filament\Forms;
-use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
@@ -14,6 +13,7 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
 
 class EventResource extends Resource
 {
@@ -28,11 +28,15 @@ class EventResource extends Resource
                 Textarea::make('title')
                     ->required()
                     ->label('Event Title'),
-                RichEditor::make('short_description')
+                TinyEditor::make('short_description')
                     ->label('Short Description')
                     ->placeholder('Enter a brief description for the event')
+                    ->profile('default')
+                    ->columnSpanFull()
                     ->maxLength(255),
-                RichEditor::make('description')
+                TinyEditor::make('description')
+                    ->profile('default')
+                    ->columnSpanFull()
                     ->label('Description'),
                 Forms\Components\DatePicker::make('date')
                     ->required()
