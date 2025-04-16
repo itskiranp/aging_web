@@ -43,7 +43,7 @@
             </div>
         
             <div class="d-flex justify-content-center mt-4">
-                {{ $news->links() }}
+                {{ $news->links('pagination::bootstrap-5') }}
             </div>
         </div>
         <section id="events" class="mb-5">
