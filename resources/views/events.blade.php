@@ -46,7 +46,6 @@
                 {{ $news->links() }}
             </div>
         </div>
-
         <section id="events" class="mb-5">
             <h2 class="mb-4">Upcoming Events</h2>
             <div class="row mb-3">

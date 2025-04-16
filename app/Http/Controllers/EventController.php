@@ -11,7 +11,7 @@ class EventController extends Controller
     public function showEvents()
     {
         $events = Event::all(); // Retrieve all events
-        $news = News::latest()->paginate(6);
+        $news = News::latest()->paginate(3);
         return view('events', compact('news', 'events'));
     }
     public function showNews($id)
