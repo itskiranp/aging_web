@@ -65,7 +65,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Stay Updated</h5>
                         <p class="card-text">Subscribe to our newsletter for the latest updates and features.</p>
-                        <form>
+                        <form action="{{ route('contact.send') }}" method="POST">
+                            @csrf
                             <div class="mb-3">
                                 <input type="email" class="form-control" placeholder="Enter your email">
                             </div>
