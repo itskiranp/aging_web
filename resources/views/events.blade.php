@@ -18,7 +18,7 @@
         </nav>
 
         <div class="container py-5">
-            <h1 class="mb-4">Latest News</h1>
+            <h1 class="gallery-title text-center">Latest News</h1>
             
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 @foreach($news as $newsItem)
@@ -47,7 +47,7 @@
             </div>
         </div>
         <section id="events" class="mb-5">
-            <h2 class="mb-4">Upcoming Events</h2>
+            <h2 class="gallery-title text-center">Upcoming Events</h2>
             <div class="row mb-3">
                 <div class="col-md-7">
 
@@ -81,7 +81,7 @@
         </section>
 
         <section id="event-details" class="mb-5">
-            <h3 class="mb-4">Event Details</h3>
+            <h3 class="gallery-title text-center">Event Details</h3>
             <div class="card">
                 <div class="card-body" id="event-details-content">
                     <!-- Event details will be dynamically inserted here by JavaScript -->

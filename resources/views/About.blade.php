@@ -14,7 +14,7 @@
           </nav>
         <div class="row">
             <div class="col-md-8 mb-4 mb-md-0">
-                <h2 class="mb-4">About Our Project</h2>
+                <h2 class="gallery-title text-center">About Our Project</h2>
                 <div class="card">
                     
                     <div class="card-body">

@@ -10,6 +10,7 @@ use App\Http\Controllers\SearchController;
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\HomePageController;
 use App\Http\Controllers\NewsController;
+use App\Http\Controllers\GalleryController;
 use App\Models\Event;
 
 Route::get('/search', [SearchController::class, 'search'])->name('search');
@@ -21,7 +22,10 @@ Route::get('/publications', [PageController::class, 'publications'])->name('publ
 // Route::get('/people', [PageController::class, 'people'])->name('people');
 Route::get('/links', [PageController::class, 'links'])->name('links');
 Route::get('/events', [PageController::class, 'events'])->name('events');
+
 Route::get('/gallery', [PageController::class, 'gallery'])->name('gallery');
+Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery');
+
 
 Route::get('/About', [PageController::class, 'About'])->name('About');
 

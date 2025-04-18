@@ -10,7 +10,7 @@
         </ol>
       </nav>
       
-        <h1 class="text-start mb-4">Data</h1>
+        <h1 class="gallery-title text-center">Data</h1>
         <div class="accordion" id="dataAccordion">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
