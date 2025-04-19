@@ -5,21 +5,21 @@
 @section('title', 'CVFS on Cognition and Aging in Nepal')
 @section('content')
     <div class="container mt-5 mb-5">
-        <nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb" class="d-flex justify-content-end">
+        <nav class="breadcrumb-nav mb-2 d-flex justify-content-end">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
-              <li class="breadcrumb-item"><a href="{{ url('/About') }}">About</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Connect With Us</li>
+                <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fas fa-home me-1"></i>Home</a></li>
+                <li class="breadcrumb-item"><a href="{{ url('/About') }}">About</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Connect With Us</li>
             </ol>
-          </nav>
+        </nav>
         <div>
-            <h2>Connect With Us</h2>
+            {{-- <h2 class="gallery-title">Connect With Us</h2> --}}
         </div>
         <div class="container my-5">
             <div class="row">
                 <!-- Contact Form Section -->
                 <div class="col-md-7">
-                    <h3>Contact Us</h3>
+                    <h3 class="gallery-title">Contact Us</h3>
                     <p>If you have any questions or need more information, feel free to send us a message using the form
                         below.</p>
                     @if (session('success'))
@@ -62,7 +62,7 @@
 
                 <!-- Contact Information Section -->
                 <div class="col-md-5">
-                    <h3>Our Contact Information</h3>
+                    <h3 class="gallery-title">Our Contact Information</h3>
                     <p>You can also reach out to us through the following contact details:</p>
 
                     <ul class="list-unstyled">

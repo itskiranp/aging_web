@@ -5,16 +5,16 @@
 
 @section('content')
     <div class="container text-center my-5">
-        <nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb" class="d-flex justify-content-end">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
-              <li class="breadcrumb-item"><a href="#">People</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Investigators</li>
+        <nav class="breadcrumb-nav mb-4 d-flex justify-content-end">
+            <ol class="breadcrumb mt-2">
+                <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fas fa-home me-1"></i>Home</a></li>
+                <li class="breadcrumb-item"><a href="{{ url('#') }}">People</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Investigators</li>
             </ol>
-          </nav>
-          
-          
-        <h2 class="mb-5">Investigators</h2>
+        </nav>
+
+
+        <h2 class="mb-5 gallery-title">Investigators</h2>
         <div class="container">
             @foreach ($investigators as $investigator)
                 <div class="row investigator mb-4">
@@ -33,8 +33,9 @@
                                 href="mailto:{{ $investigator->email }}">{{ $investigator->email }}</a></p>
                         <p>{{ $investigator->bio }}</p>
                         <p>{{ $investigator->description }}</p>
-                            <a href="{{ Storage::url($investigator->profile_pdf) }} " class="btn btn-primary" target="_blank">Download CV</a>
-                        </div>
+                        <a href="{{ Storage::url($investigator->profile_pdf) }} " class="btn btn-primary"
+                            target="_blank">Download CV</a>
+                    </div>
                 </div>
             @endforeach
         </div>

@@ -3,31 +3,20 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\App;
-use Illuminate\Support\Facades\Session;
-use Illuminate\Support\Facades\Blade;
-
-
+use App\Typesense\StaffSchema;
+use Typesense\LaravelTypesense\Typesense;
 
 class AppServiceProvider extends ServiceProvider
 {
-    /**
-     * Register any application services.
-     */
-    public function register(): void
+    public function register()
     {
-        //
+        $this->app->bind(StaffSchema::class, function ($app) {
+            return new StaffSchema();
+        });
     }
 
-    /**
-     * Bootstrap any application services.
-     */
-    public function boot(): void
+    public function boot()
     {
-        //
-        $locale = Session::get('locale', config('app.locale'));  // Get locale from session or default config
-        App::setLocale($locale);
-
-     
+        
     }
 }

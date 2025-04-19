@@ -6,14 +6,14 @@
 
 @section('content')
 <div class="container text-center my-5">
-    <nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb" class="d-flex justify-content-end">
-        <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
-        <li class="breadcrumb-item"><a href="#">People</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Staff </li>
+    <nav class="breadcrumb-nav mb-4 d-flex justify-content-end">
+        <ol class="breadcrumb mt-2">
+            <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fas fa-home me-1"></i>Home</a></li>
+            <li class="breadcrumb-item"><a href="{{ url('#') }}">People</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Staff</li>
         </ol>
-        </nav>
-    <h2>Staff</h2>
+    </nav>
+    <h2 class="gallery-title">Staff</h2>
     <div class="row justify-content-center">
         @foreach ($staffMembers as $staff)
             <div class="col-6 col-md-3">

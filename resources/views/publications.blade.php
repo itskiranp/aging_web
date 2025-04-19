@@ -6,15 +6,15 @@
 @section('content')
     <div class="container mt-5 mb-5">
         <!-- Breadcrumb Navigation -->
-        <nav aria-label="breadcrumb" class="d-flex justify-content-end">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Publications</li>
+        <nav class="breadcrumb-nav mb-4 d-flex justify-content-end">
+            <ol class="breadcrumb mt-2">
+                <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fas fa-home me-1"></i>Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Publication</li>
             </ol>
         </nav>
 
         <!-- Page Title -->
-        <h1>Publications</h1>
+        <h1 class="gallery-title text-center">Publications</h1>
 
         <!-- Publication List -->
         @if($publications->isEmpty())

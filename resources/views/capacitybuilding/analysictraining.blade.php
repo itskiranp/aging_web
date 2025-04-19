@@ -5,15 +5,16 @@
 @section('title', 'CVFS on Cognition and Aging in Nepal')
 @section('content')
     <div class="container mt-4 mb-5 ">
-        <nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb" class="d-flex justify-content-end">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
-              <li class="breadcrumb-item"><a href="#">Capacity Building</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Power Considerations</li>
+        
+          <nav class="breadcrumb-nav mb-4 d-flex justify-content-end">
+            <ol class="breadcrumb mt-2">
+                <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fas fa-home me-1"></i>Home</a></li>
+                <li class="breadcrumb-item"><a href="{{ url('#') }}">Capacity Building</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Power Considerations</li>
             </ol>
-          </nav>
+        </nav>
         <div>
-            <h2>Power Considerations in Data Analysis </h2>
+            <h2 class="gallery-title">Power Considerations in Data Analysis </h2>
         </div>
 
         <p> Our research aims to ensure adequate statistical power to detect associations between risk factors and cognitive

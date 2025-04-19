@@ -243,7 +243,7 @@ body {
     left: 0;
     right: 0;
     z-index: 1000;
-    background-color: #00153c;
+    /* background-color: #00153c; */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transform: translateY(0);
     transition: background-color 0.5s ease, box-shadow 0.5s ease,
@@ -272,17 +272,6 @@ body {
     background-color: transparent;
     border: none;
     outline: none;
-}
-
-/* breadcrumb items styling */
-.breadcrumb {
-    padding: 0; /* Remove padding */
-    margin-bottom: 1rem; /* Adjust margin */
-}
-
-.breadcrumb-item a {
-    color: #003262; /* Theme color for links */
-    text-decoration: none; /* Remove underline from links */
 }
 
 /* Home Content Styling */

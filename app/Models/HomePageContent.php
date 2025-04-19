@@ -4,10 +4,17 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Laravel\Scout\Searchable;
 
 class HomePageContent extends Model
 {
-    use HasFactory;
+    use HasFactory, Searchable;
+
+
+
+
+
+    
     protected $fillable = [
         'main_text',
         'why_this_matters',
