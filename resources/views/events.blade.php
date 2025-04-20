@@ -10,7 +10,7 @@
 @endphp
 
     <div id="main-content" class="container my-5">
-        <nav class="breadcrumb-nav mb-4 d-flex justify-content-end">
+        <nav class="breadcrumb-nav mb-2 d-flex justify-content-end">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fas fa-home me-1"></i>Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page">News & Events</li>

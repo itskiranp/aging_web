@@ -10,11 +10,6 @@ class HomePageContent extends Model
 {
     use HasFactory, Searchable;
 
-
-
-
-
-    
     protected $fillable = [
         'main_text',
         'why_this_matters',
@@ -44,4 +39,3 @@ class HomePageContent extends Model
         return json_decode($value, true);
     }
 }
-
