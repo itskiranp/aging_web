@@ -6,11 +6,11 @@
 
 @section('content')
 <main class="container my-4 mb-5">
-    <nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb" class="d-flex justify-content-end">
+
+    <nav class="breadcrumb-nav mb-4 d-flex justify-content-end">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">News and Events</li>
-          <li class="breadcrumb-item active" aria-current="page">News</li>
+            <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fas fa-home me-1"></i>Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">News</li>
         </ol>
     </nav>
 
@@ -53,7 +53,7 @@
         </div>
 
   <div class="mt-4">
-      <a href="{{ route('events') }}" class="btn btn-secondary">Back to News & Events</a>
+      <a href="{{ route('events') }}" class="btn btn-success">Back to News & Events</a>
   </div>
 
 </main>

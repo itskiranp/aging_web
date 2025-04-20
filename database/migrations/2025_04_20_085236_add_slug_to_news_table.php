@@ -11,8 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('investigators', function (Blueprint $table) {
-            $table->string('profile_pdf')->nullable()->after('description');  // Adds the profile_pdf column
+        Schema::table('news', function (Blueprint $table) {
+            $table->string('slug')->nullable()->after('title');
+
         });
     }
 
@@ -21,9 +22,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('investigators', function (Blueprint $table) {
-
-            $table->dropColumn('profile_pdf');  // Removes the profile_pdf column if the migration is rolled back
+        Schema::table('news', function (Blueprint $table) {
+            $table->dropColumn('slug');
         });
     }
 };

@@ -31,6 +31,10 @@ class NewsResource extends Resource
                     ->required()
                     ->maxLength(255),
 
+                Forms\Components\TextInput::make('slug')
+                    ->required()
+                    ->unique(ignorable: fn($record) => $record),
+
                 TinyEditor::make('content')
                     ->profile('default')
                     ->columnSpanFull()
@@ -54,6 +58,7 @@ class NewsResource extends Resource
         return $table
             ->columns([
                 TextColumn::make('title')->searchable()->sortable(),
+                TextColumn::make('slug')->label('Slug')->searchable(),
                 ImageColumn::make('image_url')->label('Image'),
                 TextColumn::make('published_at')->date()->sortable(),
             ])

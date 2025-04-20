@@ -14,10 +14,10 @@ class EventController extends Controller
         $news = News::latest()->paginate(3);
         return view('events', compact('news', 'events'));
     }
-    public function showNews($id)
+    public function showNews($slug)
     {
-        $news = News::findOrFail($id); // Find the news by ID or throw 404
-        $news->images = $news->images ?? []; 
+        $news = News::where('slug', $slug)->firstOrFail();
+        $news->images = $news->images ?? [];
         return view('news', compact('news'));
     }
 }

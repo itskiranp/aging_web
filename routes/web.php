@@ -21,7 +21,7 @@ Route::get('/data', [PageController::class, 'data'])->name('data');
 Route::get('/publications', [PageController::class, 'publications'])->name('publications');
 // Route::get('/people', [PageController::class, 'people'])->name('people');
 Route::get('/links', [PageController::class, 'links'])->name('links');
-Route::get('/events', [PageController::class, 'events'])->name('events');
+// Route::get('/events', [PageController::class, 'events'])->name('events');
 
 Route::get('/gallery', [PageController::class, 'gallery'])->name('gallery');
 Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery');
@@ -53,9 +53,11 @@ Route::get('/capacitybuilding/analysictraining', [PageController::class, 'showan
 Route::get('/investigators', [PageController::class, 'investigators'])->name('investigators');
 Route::get('/people/staff', [PageController::class, 'showStaff'])->name('staff.show');
 
-Route::get('/events', [EventController::class, 'index']);
-Route::get('/news/{id}', [EventController::class, 'showNews'])->name('news.show');
+// Route::get('/events', [EventController::class, 'index']);
 Route::get('/events', [EventController::class, 'showEvents'])->name('events');
+// Route::get('/news/{id}', [EventController::class, 'showNews'])->name('news.show');
+Route::get('/news/{slug}', [EventController::class, 'showNews'])->name('news.show');
+
 
 Route::get('/', [HomePageController::class, 'index'])->name('home');
 
