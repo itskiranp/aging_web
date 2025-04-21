@@ -44,7 +44,7 @@ class NewsResource extends Resource
                     ->directory('news_images')
                     ->label('Carousel Images')
                     ->multiple()
-                    ->image()
+                    
                     ->preserveFilenames(),
 
                 Forms\Components\DatePicker::make('published_at')
