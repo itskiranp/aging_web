@@ -106,10 +106,7 @@ body {
     margin-right: 0 !important;
     margin-left: 0 !important;
 }
-.header-logo img {
-    height: auto;
-    display: block;
-}
+
 
 /* Media Query for Medium and Large Screens (Tablets and Laptops) */
 @media (min-width: 768px) {
@@ -146,8 +143,9 @@ body {
 #sf-main-header .logo img {
     display: flex;
     mix-blend-mode: darken;
-    margin-left: -50px !important;
-    margin-top: -5px;
+    justify-content: right;
+    /* margin-left: -50px !important; */
+    /* margin-top: -5px; */
 }
 .navbar {
     display: flex;

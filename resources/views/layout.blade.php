@@ -61,8 +61,8 @@
             <div class="container">
                 <!-- Logo Section -->
                 <div class="col-md-7">
-                    <a href="{{ url('/') }}" class="logo">
-                        <img src="/images/cvfs-scan logo.png" class="img-fluid " alt="...">
+                    <a href="{{ url('/') }}" class="logo ">
+                        <img src="/images/cvfs-scan logo.png" class="img-fluid mb-2" alt="...">
                     </a>
                 </div>
             </div>
