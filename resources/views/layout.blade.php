@@ -60,9 +60,9 @@
         <div class="main-header" id="sf-main-header">
             <div class="container">
                 <!-- Logo Section -->
-                <div class="col-md-7">
+                <div class="col-md-4">
                     <a href="{{ url('/') }}" class="logo ">
-                        <img src="/images/cvfs-scan logo.png" class="img-fluid mb-2" alt="...">
+                        <img src="/images/cvfs-scan logo.png" class="img-fluid mb-3" alt="...">
                     </a>
                 </div>
             </div>
