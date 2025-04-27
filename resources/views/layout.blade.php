@@ -62,7 +62,7 @@
                 <!-- Logo Section -->
                 <div class="col-md-4">
                     <a href="{{ url('/') }}" class="logo ">
-                        <img src="/images/cvfs-scan logo.png" class="img-fluid mb-3" alt="...">
+                        <img src="/images/cvfs-scan logo.png" class="img-fluid mb-4" alt="...">
                     </a>
                 </div>
             </div>
