@@ -20,7 +20,7 @@
     <header class="header">
         <div class="sf-top-header">
             <div class="row">
-                <!-- Left Section: Geo Navigation -->
+                <!-- Left Section: social media Navigation -->
                 <div class="col-md-4">
                     <div class="geo-navigation ">
                         <!-- You can replace this with actual navigation items -->
@@ -57,15 +57,15 @@
                 </div>
             </div>
         </div>
+        {{-- Logo section --}}
         <div class="main-header" id="sf-main-header">
-            <div class="container">
-                <!-- Logo Section -->
+            {{-- <div class="container"> --}}
                 <div class="col-md-4">
                     <a href="{{ url('/') }}" class="logo ">
-                        <img src="/images/cvfs-scan logo.png" class="img-fluid mb-4" alt="...">
+                        <img src="/images/cvfs-scan logo.png" class="img-fluid mb-4 ms-5" alt="...">
                     </a>
                 </div>
-            </div>
+            {{-- </div> --}}
         </div>
         <div class="row navWrapper">
             <nav class="navbar navbar-expand-lg ">
