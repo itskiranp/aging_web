@@ -60,11 +60,11 @@
         {{-- Logo section --}}
         <div class="main-header" id="sf-main-header">
             {{-- <div class="container"> --}}
-                <div class="col-md-4">
-                    <a href="{{ url('/') }}" class="logo ">
-                        <img src="/images/cvfs-scan logo.png" class="img-fluid mb-4 ms-5" alt="...">
-                    </a>
-                </div>
+            <div class="col-md-3">
+                <a href="{{ url('/') }}" class="logo ">
+                    <img src="/images/cvfs-scan logo.png" class="img-fluid mb-4 ms-5" alt="...">
+                </a>
+            </div>
             {{-- </div> --}}
         </div>
         <div class="row navWrapper">
@@ -82,9 +82,9 @@
                                 <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page"
                                     href="/"><i class="fa-solid fa-house-chimney fa-lg me-2 "></i>HOME</a>
                             </li>
-                            <li class="nav-item">
+                            {{-- <li class="nav-item">
                                 <a class="nav-link {{ Request::is('study') ? 'active' : '' }}" href="/study">STUDY</a>
-                            </li>
+                            </li> --}}
                             <li class="nav-item">
                                 <a class="nav-link {{ Request::is('data') ? 'active' : '' }}" href="/data">DATA</a>
                             </li>
@@ -126,6 +126,30 @@
                                     </li>
                                 </ul>
                             </li>
+                            <!-- Products Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="productsDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    PRODUCTS
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                                    <li><a class="dropdown-item" href="{{ route('products.index') }}">All
+                                            Products</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="{{ route('products.presentations') }}">Presentations</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('products.policy-brief') }}">Policy
+                                            Brief</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="{{ route('products.dissemination') }}">Dissemination</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('products.working-paper') }}">Working
+                                            Paper</a></li>
+                                </ul>
+                            </li>
+
+
                             <li class="nav-item">
                                 <a class="nav-link {{ Request::is('events') ? 'active' : '' }}" href="/events">NEWS &
                                     EVENTS</a>
@@ -414,16 +438,17 @@
             // Filter functionality
             const filterButtons = document.querySelectorAll('.filter-btn');
             const galleryItems = document.querySelectorAll('.gallery-item');
-            
+
             filterButtons.forEach(button => {
                 button.addEventListener('click', () => {
                     filterButtons.forEach(btn => btn.classList.remove('active'));
                     button.classList.add('active');
-                    
+
                     const filterValue = button.getAttribute('data-filter');
-                    
+
                     galleryItems.forEach(item => {
-                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                        if (filterValue === 'all' || item.getAttribute('data-category') ===
+                            filterValue) {
                             item.style.display = 'block';
                         } else {
                             item.style.display = 'none';
@@ -431,7 +456,7 @@
                     });
                 });
             });
-    
+
             // Fix for modal closing issue
             document.querySelectorAll('[data-bs-dismiss="modal"]').forEach(closeBtn => {
                 closeBtn.addEventListener('click', function() {
@@ -452,7 +477,7 @@
                     }
                 });
             });
-    
+
             // Cleanup when modal is closed
             document.querySelectorAll('.modal').forEach(modal => {
                 modal.addEventListener('hidden.bs.modal', function() {

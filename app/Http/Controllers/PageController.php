@@ -91,18 +91,18 @@ class PageController extends Controller
     }
 
 
-    public function showpresentationMember()
-    {
-        return view('products.presentations');
-    }
-    public function showpolicyMember()
-    {
-        return view('products.policy');
-    }
-    public function showdisseminationMember()
-    {
-        return view('products.dissemination');
-    }
+    // public function showpresentationMember()
+    // {
+    //     return view('products.presentations');
+    // }
+    // public function showpolicyMember()
+    // {
+    //     return view('products.policy');
+    // }
+    // public function showdisseminationMember()
+    // {
+    //     return view('products.dissemination');
+    // }
 
 
     public function investigators()

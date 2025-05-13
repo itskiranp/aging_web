@@ -1,16 +1,16 @@
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-
 @extends('layout')
-
-@section('title', 'CVFS on Cognition and Aging in Nepal')
+@section('title', 'products')
 @section('content')
-<div class="container ">
-<div><h2>Presentations</h2></div>
+    <div class="container my-4 mb-5">
+        <nav class="breadcrumb-nav mb-4 d-flex justify-content-end">
+            <ol class="breadcrumb mt-3">
+                <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fas fa-home me-1"></i>Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Products</li>
+                <li class="breadcrumb-item active" aria-current="page">Presentations</li>
+            </ol>
+        </nav>
 
-    <p> No Presentations yet .....</p>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-</script>
+        <h1 class="gallery-title text-center">Presentations</h1>
+    </div>
 @endsection

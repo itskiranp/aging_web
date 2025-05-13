@@ -46,9 +46,7 @@ Route::get('/capacitybuilding/specifictraining', [PageController::class, 'showsp
 Route::get('/capacitybuilding/supervisiortraining', [PageController::class, 'showsupervisiorMember'])->name('capacitybuilding.supervisiortraining');
 Route::get('/capacitybuilding/analysictraining', [PageController::class, 'showanalysicMember'])->name('capacitybuilding.analysictraining');
 
-// Route::get('/products/presentations', [PageController::class, 'showpresentationMember'])->name('products.presentations');
-// Route::get('/products/policy', [PageController::class, 'showpolicyMember'])->name('products.policy');
-// Route::get('/products/dissemination', [PageController::class, 'showdisseminationMember'])->name('products.dissemination');
+
 
 Route::get('/investigators', [PageController::class, 'investigators'])->name('investigators');
 Route::get('/people/staff', [PageController::class, 'showStaff'])->name('staff.show');
@@ -71,3 +69,9 @@ Route::get('/', [HomePageController::class, 'index'])->name('home');
 
 
 
+// routes/web.php
+Route::get('/products', [ProductController::class, 'index'])->name('products.index');
+Route::get('/products/presentations', [ProductController::class, 'presentations'])->name('products.presentations');
+Route::get('/products/policy-brief', [ProductController::class, 'policyBrief'])->name('products.policy-brief');
+Route::get('/products/dissemination', [ProductController::class, 'dissemination'])->name('products.dissemination');
+Route::get('/products/working-paper', [ProductController::class, 'workingPaper'])->name('products.working-paper');

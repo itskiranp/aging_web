@@ -170,8 +170,8 @@ body {
 
 .navbar-nav .nav-link {
     font-family: "Open Sans", system-ui;
-    font-size: 16px;
-    font-weight: 450;
+    font-size: 14px;
+    font-weight: 400;
     letter-spacing: 1.5px;
     color: white !important;
     display: block;
