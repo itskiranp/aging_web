@@ -16,7 +16,6 @@ use Filament\Forms\Components\TextInput;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Forms\Components\Textarea;
 
-
 class PublicationResource extends Resource
 {
     protected static ?string $model = Publication::class;
@@ -27,38 +26,84 @@ class PublicationResource extends Resource
     {
         return $form
             ->schema([
-                TextInput::make('authors')
-                ->required()
-                ->maxLength(255),
-            TextInput::make('title')
-                ->required()
-                ->maxLength(255),
-            TextInput::make('journal')
-                ->maxLength(255),
-            TextInput::make('year')
-                ->required()
-                ->maxLength(4)
-                ->numeric(),
-            TextInput::make('doi')
-                ->maxLength(255),
-            TextInput::make('url')
-                ->maxLength(255),
-            ]);
+                Textarea::make('authors')
+                    ->required()
+                    ->maxLength(255)
+                    ->columnSpanFull(),
+                TextInput::make('title')
+                    ->required()
+                    ->maxLength(255)
+                    ->columnSpanFull(),
+                TextInput::make('journal')
+                    ->maxLength(255),
+                TextInput::make('year')
+                    ->required()
+                    ->numeric()
+                    ->maxLength(4)
+                    ->minValue(1900)
+                    ->maxValue(now()->year),
+                TextInput::make('volume')
+                    ->maxLength(50),
+                TextInput::make('issue')
+                    ->maxLength(50),
+                TextInput::make('pages')
+                    ->maxLength(50)
+                    ->label('Page Numbers (e.g., 123-145)'),
+                TextInput::make('doi')
+                    ->maxLength(255)
+                    ->label('DOI')
+                    ->prefix('https://doi.org/'),
+                TextInput::make('url')
+                    ->maxLength(255)
+                    ->label('URL'),
+            ])
+            ->columns(2);
     }
 
     public static function table(Table $table): Table
     {
         return $table
             ->columns([
-                TextColumn::make('authors')->sortable()->searchable(),
-                TextColumn::make('title')->sortable()->searchable(),
-                TextColumn::make('journal'),
-                TextColumn::make('year')->sortable(),
-                TextColumn::make('doi')->label('DOI')->url(fn ($record) => $record->doi)->openUrlInNewTab(),
-                TextColumn::make('url')->label('URL')->url(fn ($record) => $record->url)->openUrlInNewTab(),
+                TextColumn::make('authors')
+                    ->searchable()
+                    ->wrap()
+                    ->width('25%'),
+                TextColumn::make('title')
+                    ->searchable()
+                    ->wrap()
+                    ->width('30%'),
+                TextColumn::make('journal')
+                    ->searchable()
+                    ->wrap(),
+                TextColumn::make('year')
+                    ->sortable()
+                    ->alignCenter(),
+                TextColumn::make('volume')
+                    ->toggleable(isToggledHiddenByDefault: true),
+                TextColumn::make('issue')
+                    ->toggleable(isToggledHiddenByDefault: true),
+                TextColumn::make('pages')
+                    ->toggleable(isToggledHiddenByDefault: true),
+                TextColumn::make('doi')
+                    ->label('DOI')
+                    ->url(fn ($record) => $record->doi ? 'https://doi.org/'.$record->doi : null)
+                    ->openUrlInNewTab()
+                    ->toggleable(isToggledHiddenByDefault: true),
+                TextColumn::make('url')
+                    ->label('URL')
+                    ->url(fn ($record) => $record->url)
+                    ->openUrlInNewTab()
+                    ->toggleable(isToggledHiddenByDefault: true),
             ])
+            ->defaultSort('year', 'desc')
             ->filters([
-                //
+                Tables\Filters\SelectFilter::make('year')
+                    ->options(fn () => Publication::query()
+                        ->select('year')
+                        ->distinct()
+                        ->orderBy('year', 'desc')
+                        ->pluck('year', 'year')
+                    ),
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),

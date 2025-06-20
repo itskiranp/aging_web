@@ -132,12 +132,9 @@
                                     role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     PRODUCTS
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="productsDropdown">
-                                    <li><a class="dropdown-item" href="{{ route('products.index') }}">All
+                                <ul class="dropdown-menu mt-0" aria-labelledby="productsDropdown">
+                                    <li><a class="dropdown-item" href="{{ route('products.index') }}">
                                             Products</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
                                     <li><a class="dropdown-item"
                                             href="{{ route('products.presentations') }}">Presentations</a></li>
                                     <li><a class="dropdown-item" href="{{ route('products.policy-brief') }}">Policy
@@ -160,7 +157,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link {{ Request::is('About') ? 'active' : '' }}"
-                                    href="/About">ABOUT</a>
+                                    href="/About">CONTACT</a>
                             </li>
                         </ul>
                     </div>
@@ -178,44 +175,128 @@
     </main>
 
     <!-- Footer Section -->
-    <footer class="site-footer mt-2">
-        <div class="footer-content">
-            <!-- Contact Details Section -->
-            <div class="footer-left">
-                <div class="logos">
-                    <img src="/images/isernepal-at.png" class="img-fluid" alt="iser-n">
+    <footer class="site-footer pt-5 pb-4" style="background: linear-gradient(135deg, #1a2a6c 0%, #0a1128 100%);">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Column 1: Contact Information -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-contact h-100">
+                        
+                        <h3 class="text-white text-uppercase mb-3 fs-5 fw-bold">Contact Us</h3>                        
+                        <ul class="list-unstyled text-white-50">
+                            <li class="mb-2 d-flex align-items-start">
+                                <i class="fas fa-map-marker-alt mt-1 me-2 text-white"></i>
+                                <span>Bharatpur-15, Fulbari, Chitwan, Nepal</span>
+                            </li>
+                            <li class="mb-2 d-flex align-items-start">
+                                <i class="fas fa-phone-alt mt-1 me-2 text-white"></i>
+                                <span>+977-56-591054, +977-56-592406</span>
+                            </li>
+                            <li class="mb-2 d-flex align-items-start">
+                                <i class="fas fa-envelope mt-1 me-2 text-white"></i>
+                                <span>iser.nepal@outlook.com</span>
+                            </li>
+                            <li class="d-flex align-items-start">
+                                <i class="fas fa-clock mt-1 me-2 text-white"></i>
+                                <span>10 A.M. - 5 P.M.</span>
+                            </li>
+                        </ul>
+                        <div class="social-icons mt-4">
+                            <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-white me-2"><i class="fab fa-linkedin-in"></i></a>
+                            
+                        </div>
+                    </div>
                 </div>
-                <h4>Contact Details</h4>
 
-                <p><i class="fa fa-map-marker" aria-hidden="true"></i> Bharatpur-15, Fulbari, Chitwan, Nepal</p>
-                <p><i class="fa fa-phone" aria-hidden="true"></i> +977-56-591054, +977-56-592406</p>
-                <p><i class="fa fa-envelope" aria-hidden="true"></i> iser.nepal@outlook.com</p>
-                <p><i class="fa fa-clock" aria-hidden="true"></i> 10 A.M. - 5 P.M.</p>
+                <!-- Column 2: Important Links -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="important-links h-100">
+                        <h3 class="text-white text-uppercase mb-3 fs-5 fw-bold">Important Links</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="https://isernepal.org.np/"
+                                    class="text-white-50 text-decoration-none hover-white">ISER-N</a></li>
+                                    <li class="mb-2"><a href="https://umich.edu/"
+                                        class="text-white-50 text-decoration-none hover-white">University of Michigan</a>
+                                    </li>
+                                    <li class="mb-2"><a href="https://hcap.isr.umich.edu/"
+                                        class="text-white-50 text-decoration-none hover-white">HCAP Network</a></li>
+                                        <li class="mb-2"><a href="https://hrs.isr.umich.edu/data-products/hcap"
+                                            class="text-white-50 text-decoration-none hover-white">Harmonized Cognitive Assessment Protocol (HRS-HCAP)</a></li>
+                                            <li><a href="https://web.sas.upenn.edu/harmonized-cognitive-assessment-protocol-chile/" class="text-white-50 text-decoration-none hover-white">CHILE-COG
+                                                <li class="mb-2"><a href="https://lasi-dad.org/"
+                                                        class="text-white-50 text-decoration-none hover-white">LASI-DAD</a></li>
+                    </a></li>
+                                    </a></li>
+                        </ul>
+                    </div>
+                </div>
 
-            </div>
-            <!-- Logo and Research Project Section -->
-            <div class="footer-right">
-                <div class="logos">
-                    <img src="{{ asset('images/aging_logo.png') }}" alt="Aging Logo" class="footer-logo">
-                    <img src="{{ asset('images/michigan-M.png') }}" alt="Michigan Logo" class="footer-logo">
+                <!-- Column 3: Feedback Section -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="feedback-section h-100">
+                        
+                        <h3 class="text-white text-uppercase mb-3 fs-5 fw-bold">Join our Email List</h3>
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="text-white ">Name:</label>
+                                <input type="text" class="form-control bg-transparent text-white border-secondary"
+                                    placeholder="Your Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="text-white">Email:</label>
+                                <input type="email" class="form-control bg-transparent text-white border-secondary"
+                                    placeholder="Your Email ">
+                            </div>
+                            <button type="submit" class="btn btn-light btn-sm text-dark">Subscribe</button>
+                        </form>
+                    </div>
                 </div>
-                <p class="research-description">
-                    <strong>Study on Cognition and Aging in Nepal | CVFS-SCAN</strong><br>
-                    This project is funded by the National Institute of Health (NIH).
-                </p>
-                <div class="footer-links">
-                    <a href="UCB Privacy Statement" class="external-link">UCB Privacy Statement <i
-                            class="fa-solid fa-arrow-up-right-from-square"></i> </a> |
-                    <a href="Web Accessibility Policy" class="external-link">Web Accessibility Policy<i
-                            class="fa-solid fa-arrow-up-right-from-square"></i> </a> |
-                    <span>Disclaimer</span>
+
+                <!-- Column 4: Research Project -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="research-info h-100">
+                        <h3 class="text-white text-uppercase mb-3 fs-5 fw-bold">Research Project</h3>
+                        <div class="logos d-flex align-items-center mb-3">
+                            <img src="{{ asset('images/aging_logo.png') }}" alt="Aging Logo" class="img-fluid me-2"
+                                style="max-height: 50px;">
+                            <img src="{{ asset('images/michigan-M.png') }}" alt="Michigan Logo" class="img-fluid me-2"
+                                style="max-height: 40px;">
+                              <img src="{{ asset('images/isernepal-at-iser.png') }}" alt="ISERN Logo" class="img-fluid"
+                                style="max-height: 50px;">
+                        </div>
+                        <p class="text-white-50 small">
+                            <strong class="text-white">Study on Cognition and Aging in Nepal | CVFS-SCAN</strong><br>
+                            This project is funded by the National Institute of Health (NIH).
+                        </p>
+
+                        <div class="footer-links mt-4 pt-2 border-top border-secondary">
+                            <a href="#"
+                                class="d-block text-white-50 text-decoration-none hover-white small mb-2">UCB Privacy
+                                Statement <i class="fas fa-external-link-alt fa-xs ms-1"></i></a>
+                            <a href="#"
+                                class="d-block text-white-50 text-decoration-none hover-white small mb-2">Web
+                                Accessibility Policy <i class="fas fa-external-link-alt fa-xs ms-1"></i></a>
+                            <a href="#"
+                                class="d-block text-white-50 text-decoration-none hover-white small">Disclaimer</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Footer Bottom Section -->
-        <div class="footer-bottom">
-            <p>&copy; Institute for Social and Environmental Research – Nepal | website: <a
-                    href="https://isernepal.org.np/" target="_blank">ISER-N</a></p>
+
+            <!-- Copyright Section -->
+            <div class="row mt-4 pt-3 border-top border-secondary">
+                <div class="col-md-12 text-center">
+                    <p class="text-white-50 small mb-0">&copy;
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script> Institute for Social and Environmental Research – Nepal | Website: <a
+                            href="https://isernepal.org.np/" target="_blank"
+                            class="text-white text-decoration-none">ISER-N</a>
+                    </p>
+                </div>
+            </div>
         </div>
     </footer>
 

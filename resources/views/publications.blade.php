@@ -17,26 +17,50 @@
         <h1 class="gallery-title text-center">Publications</h1>
 
         <!-- Publication List -->
+        <!-- Publication List -->
         @if($publications->isEmpty())
             <p>No publications yet.</p>
         @else
-            @foreach($publications as $publication)
-                <div class="publication-item mb-4 p-3 border-start border-4">
-                    <p>
-                        <strong>{{ $publication->authors }} ({{ $publication->year }}).</strong>
-                        <a href="{{ $publication->url }}" class="publication-link">{{ $publication->title }}</a>
-                        <em>{{ $publication->journal }}.</em>
-                    </p>
-                    <div class="mt-2">
-                        @if($publication->doi)
-                            <a href="{{ $publication->doi }}" class="btn btn-primary btn-sm me-2" target="_blank">DOI</a>
-                        @endif
-                        @if($publication->url)
-                            <a href="{{ $publication->url }}" class="btn btn-secondary btn-sm me-2" target="_blank">URL</a>
-                        @endif
-                        <a href="#" class="btn btn-info btn-sm" target="_blank">CITE</a>
+            @php
+                // Group publications by year in descending order
+                $groupedPublications = $publications->sortByDesc('year')->groupBy('year');
+            @endphp
+
+            @foreach($groupedPublications as $year => $publicationsInYear)
+                <h3 class="mt-4 mb-3">{{ $year }}</h3>
+                
+                @foreach($publicationsInYear as $publication)
+                    <div class="publication-item mb-4 p-3 border-start border-4">
+                        <p>
+                            <strong>{{ $publication->authors }} ({{ $publication->year }}).</strong>
+                            {{ $publication->title }}.
+                            @if($publication->journal)
+                                <em>{{ $publication->journal }}</em>
+                                @if($publication->volume)
+                                    , <em>{{ $publication->volume }}</em>
+                                    @if($publication->issue)
+                                        ({{ $publication->issue }})
+                                    @endif
+                                    @if($publication->pages)
+                                        , {{ $publication->pages }}.
+                                    @else
+                                        .
+                                    @endif
+                                @else
+                                    .
+                                @endif
+                            @endif
+                        </p>
+                        <div class="mt-2">
+                            @if($publication->doi)
+                                <a href="https://doi.org/{{ $publication->doi }}" class="btn btn-primary btn-sm me-2" target="_blank">DOI</a>
+                            @endif
+                            @if($publication->url)
+                                <a href="{{ $publication->url }}" class="btn btn-secondary btn-sm me-2" target="_blank">URL</a>
+                            @endif
+                        </div>
                     </div>
-                </div>
+                @endforeach
             @endforeach
         @endif
     </div>

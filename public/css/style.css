@@ -964,7 +964,7 @@ body {
 
 /* General Footer Styling */
 
-.site-footer {
+/* .site-footer {
     background-color: #00153c;
     color: #ccc;
     font-family: Arial, sans-serif;
@@ -976,14 +976,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    /* max-width: 1300px; */
+    
     margin: 0 auto;
     width: 100%;
     font-size: 0.9em;
-}
+} */
 
 /* Contact Details Section */
-.footer-left {
+/* .footer-left {
     width: 45%;
     text-align: left;
     padding-left: 50px;
@@ -1013,10 +1013,10 @@ body {
 
 .social-icons a:hover {
     color: #fff;
-}
+} */
 
 /* Logo and Research Project Section */
-.footer-right {
+/* .footer-right {
     width: 45%;
     text-align: right;
     padding-right: 50px;
@@ -1045,7 +1045,7 @@ body {
 }
 .external-link {
     position: relative;
-    display: inline-block; /* Keeps the link text and icon together */
+    display: inline-block; 
 }
 
 .external-link i {
@@ -1065,10 +1065,10 @@ body {
 .footer-links a:hover {
     text-decoration: none;
     color: #66afe9;
-}
+} */
 
 /* Footer Bottom Section */
-.footer-bottom {
+/* .footer-bottom {
     text-align: center;
     margin-top: 30px;
     border-top: 1px solid #555;
@@ -1110,4 +1110,162 @@ body {
     .footer-logo {
         margin-bottom: 10px;
     }
-}
+} */
+
+/* Contact page styling */
+.contact-card {
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            margin-bottom: 20px;
+            border: none;
+        }
+        .contact-card:hover {
+            transform: translateY(-5px);
+        }
+        .section-title {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .link-item {
+            margin-bottom: 8px;
+        }
+        .link-item a {
+            text-decoration: none;
+            color: #2c3e50;
+            transition: color 0.3s;
+        }
+        .link-item a:hover {
+            color: #3498db;
+        }
+        .download-item {
+            margin-bottom: 10px;
+        }
+        .map-container {
+            height: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        .contact-info i {
+            color: #3498db;
+            margin-right: 10px;
+            width: 20px;
+            text-align: center;
+        }
+        .institute-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .contact-section {
+            background-color: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+        }
+        .right-column-section {
+            margin-bottom: 30px;
+        }
+
+/* Footer styling */
+        .site-footer {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .site-footer h3 {
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+        position: relative;
+        padding-bottom: 10px;
+    }
+    
+    .site-footer h3:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 50px;
+        height: 2px;
+        background: #ffee00;
+    }
+    
+    .site-footer a:hover {
+        color: #fffb21 !important;
+        transition: all 0.3s ease;
+    }
+    
+    .social-icons a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background-color: rgba(255,255,255,0.1);
+        transition: all 0.3s ease;
+    }
+    
+    .social-icons a:hover {
+        background-color: rgba(255,255,255,0.2);
+        transform: translateY(-3px);
+    }
+    
+    .footer-logo {
+        max-height: 50px;
+        opacity: 0.8;
+        transition: opacity 0.3s;
+    }
+    
+    .footer-logo:hover {
+        opacity: 1;
+    }
+    
+    .btn-outline-light:hover {
+        color: #212529 !important;
+    }
+     .hover-white:hover {
+        color: #fff !important;
+        transition: all 0.3s ease;
+    }
+
+    
+    .social-icons a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        /* background-color: rgba(255,255,255,0.1); */
+        transition: all 0.3s ease;
+        text-decoration: none;
+    }
+    
+    .social-icons a:hover {
+        background-color: rgba(255,255,255,0.2);
+        transform: translateY(-2px);
+    }
+    
+    .form-control:focus {
+        background-color: rgba(255,255,255,0.1);
+        color: #fff;
+        border-color: #fff;
+        box-shadow: none;
+    }
+    
+    .btn-light:hover {
+        background-color: #fff;
+        color: #1a2a6c !important;
+    }
+    
+    @media (max-width: 767.98px) {
+        .footer-contact, .important-links, .feedback-section, .research-info {
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding-bottom: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+    }
