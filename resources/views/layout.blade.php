@@ -26,9 +26,9 @@
                         <!-- You can replace this with actual navigation items -->
                         <div class="social-icons mt-2 ms-4">
                             <a href="https://www.facebook.com/isernepalofficial/" target="_blank">
-                                <i class="fa fa-brands fa-facebook "></i></a>
+                                <i class="fab fa-facebook-f "></i></a>
                             <a href="https://www.linkedin.com/in/iser-nepal-68b407160/" target="_blank">
-                                <i class="fa fa-brands fa-linkedin "></i>
+                                <i class="fab fa-linkedin-in "></i>
                             </a>
                         </div>
                     </div>
@@ -241,13 +241,13 @@
                         <form>
                             <div class="mb-3">
                                 <label for="name" class="text-white ">Name:</label>
-                                <input type="text" class="form-control bg-transparent text-white border-secondary"
+                                <input type="text" class=" form-control bg-transparent text-white border-secondary"
                                     placeholder="Your Name">
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="text-white">Email:</label>
-                                <input type="email" class="form-control bg-transparent text-white border-secondary"
-                                    placeholder="Your Email ">
+                                <input type="email" class=" form-control bg-transparent text-white border-secondary"
+                                    placeholder="Your Email" required>
                             </div>
                             <button type="submit" class="btn btn-light btn-sm text-dark">Subscribe</button>
                         </form>
