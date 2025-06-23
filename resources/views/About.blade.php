@@ -67,8 +67,8 @@
                                     (HRS-HCAP)</a></li>
                             <li class="link-item"><a href="https://psc.isr.umich.edu/"><i
                                         class="fas fa-external-link-alt"></i> Population Studies Center</a></li>
-                            <li class="link-item"><a href="https://lasi-dad.org/"><i class="fas fa-external-link-alt"></i>
-                                    LASI-DAD</a></li>
+                            {{-- <li class="link-item"><a href="https://lasi-dad.org/"><i class="fas fa-external-link-alt"></i>
+                                    LASI-DAD</a></li> --}}
                         </ul>
                     </div>
                 </div>

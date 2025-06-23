@@ -228,8 +228,8 @@
                             <li><a href="https://nhrc.gov.np/"
                                     class="text-white-50 text-decoration-none hover-white">NHRC-Nepal Health Research
                                     Council
-                            <li class="mb-2"><a href="#"
-                                    class="text-white-50 text-decoration-none hover-white">LASI-DAD</a></li>
+                            {{-- <li class="mb-2"><a href="#"
+                                    class="text-white-50 text-decoration-none hover-white">LASI-DAD</a></li> --}}
                             </a></li>
                             </a></li>
                         </ul>
