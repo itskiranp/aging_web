@@ -13,7 +13,7 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    
+
 </head>
 
 <body>
@@ -181,8 +181,8 @@
                 <!-- Column 1: Contact Information -->
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="footer-contact h-100">
-                        
-                        <h3 class="text-white text-uppercase mb-3 fs-5 fw-bold">Contact Us</h3>                        
+
+                        <h3 class="text-white text-uppercase mb-3 fs-5 fw-bold">Contact Us</h3>
                         <ul class="list-unstyled text-white-50">
                             <li class="mb-2 d-flex align-items-start">
                                 <i class="fas fa-map-marker-alt mt-1 me-2 text-white"></i>
@@ -205,7 +205,7 @@
                             <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
                             <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
                             <a href="#" class="text-white me-2"><i class="fab fa-linkedin-in"></i></a>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -217,18 +217,21 @@
                         <ul class="list-unstyled">
                             <li class="mb-2"><a href="https://isernepal.org.np/"
                                     class="text-white-50 text-decoration-none hover-white">ISER-N</a></li>
-                                    <li class="mb-2"><a href="https://umich.edu/"
-                                        class="text-white-50 text-decoration-none hover-white">University of Michigan</a>
-                                    </li>
-                                    <li class="mb-2"><a href="https://hcap.isr.umich.edu/"
-                                        class="text-white-50 text-decoration-none hover-white">HCAP Network</a></li>
-                                        <li class="mb-2"><a href="https://hrs.isr.umich.edu/data-products/hcap"
-                                            class="text-white-50 text-decoration-none hover-white">Harmonized Cognitive Assessment Protocol (HRS-HCAP)</a></li>
-                                            <li><a href="https://web.sas.upenn.edu/harmonized-cognitive-assessment-protocol-chile/" class="text-white-50 text-decoration-none hover-white">CHILE-COG
-                                                <li class="mb-2"><a href="https://lasi-dad.org/"
-                                                        class="text-white-50 text-decoration-none hover-white">LASI-DAD</a></li>
-                    </a></li>
-                                    </a></li>
+                            <li class="mb-2"><a href="https://isr.umich.edu/"
+                                    class="text-white-50 text-decoration-none hover-white">ISR-University of Michigan</a>
+                            </li>
+                            <li class="mb-2"><a href="https://hcap.isr.umich.edu/"
+                                    class="text-white-50 text-decoration-none hover-white">HCAP Network</a></li>
+                            <li class="mb-2"><a href="https://hrs.isr.umich.edu/data-products/hcap"
+                                    class="text-white-50 text-decoration-none hover-white">Harmonized Cognitive
+                                    Assessment Protocol (HRS-HCAP)</a></li>
+                            <li><a href="https://nhrc.gov.np/"
+                                    class="text-white-50 text-decoration-none hover-white">NHRC-Nepal Health Research
+                                    Council
+                            <li class="mb-2"><a href="#"
+                                    class="text-white-50 text-decoration-none hover-white">LASI-DAD</a></li>
+                            </a></li>
+                            </a></li>
                         </ul>
                     </div>
                 </div>
@@ -236,7 +239,7 @@
                 <!-- Column 3: Feedback Section -->
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="feedback-section h-100">
-                        
+
                         <h3 class="text-white text-uppercase mb-3 fs-5 fw-bold">Join our Email List</h3>
                         <form>
                             <div class="mb-3">
@@ -261,10 +264,10 @@
                         <div class="logos d-flex align-items-center mb-3">
                             <img src="{{ asset('images/aging_logo.png') }}" alt="Aging Logo" class="img-fluid me-2"
                                 style="max-height: 50px;">
-                            <img src="{{ asset('images/michigan-M.png') }}" alt="Michigan Logo" class="img-fluid me-2"
-                                style="max-height: 40px;">
-                              <img src="{{ asset('images/isernepal-at-iser.png') }}" alt="ISERN Logo" class="img-fluid"
-                                style="max-height: 50px;">
+                            <img src="{{ asset('images/michigan-M.png') }}" alt="Michigan Logo"
+                                class="img-fluid me-2" style="max-height: 40px;">
+                            <img src="{{ asset('images/isernepal-at-iser.png') }}" alt="ISERN Logo"
+                                class="img-fluid" style="max-height: 50px;">
                         </div>
                         <p class="text-white-50 small">
                             <strong class="text-white">Study on Cognition and Aging in Nepal | CVFS-SCAN</strong><br>
