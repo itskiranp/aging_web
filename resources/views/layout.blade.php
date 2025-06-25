@@ -49,8 +49,8 @@
                         <label for="language" class="me-2"><i class="fa-solid fa-language"></i> Language:</label>
                         <select id="language" onchange="translateLanguage()" class="dropdown">
                             <option value="en">English</option>
-                            <option value="ne">नेपाली</option>
-                            <option value="es">Español</option>
+                            {{-- <option value="ne">नेपाली</option>
+                            <option value="es">Español</option> --}}
                         </select>
                     </div>
                     <div id="google_translate_element" style="display:none;"></div>
@@ -60,9 +60,9 @@
         {{-- Logo section --}}
         <div class="main-header" id="sf-main-header">
             {{-- <div class="container"> --}}
-            <div class="col-md-3">
+            <div class="col-lg-8">
                 <a href="{{ url('/') }}" class="logo ">
-                    <img src="/images/cvfs-scan logo.png" class="img-fluid mb-5 ms-5" alt="...">
+                    <img src="/images/Chitwan Valley Family Study(1).png" class="img-fluid mb-4 ms-5" alt="...">
                 </a>
             </div>
             {{-- </div> --}}
