@@ -62,7 +62,7 @@
             {{-- <div class="container"> --}}
             <div class="col-md-3">
                 <a href="{{ url('/') }}" class="logo ">
-                    <img src="/images/cvfs-scan logo.png" class="img-fluid mb-4 ms-5" alt="...">
+                    <img src="/images/cvfs-scan logo.png" class="img-fluid mb-5 ms-5" alt="...">
                 </a>
             </div>
             {{-- </div> --}}

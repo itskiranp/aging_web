@@ -14,6 +14,7 @@
         }
         
         .hero-header {
+            /* background-image: url("images/hero.png"); */
             background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
             color: white;
             padding: 3rem 0;
@@ -79,7 +80,7 @@
             height: 1.5rem;
             border-radius: 50%;
             background: var(--secondary-color);
-            color: white;
+            color: rgb(4, 9, 250);
             display: flex;
             align-items: center;
             justify-content: center;
