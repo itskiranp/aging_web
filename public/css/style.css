@@ -205,10 +205,14 @@ body {
 
 /* Dropdown menu links */
 .navbar-nav .dropdown-menu a {
+    font-family: "Open Sans", system-ui;
     background-color: #00153c;
     color: white;
+    font-size: 14px;
     font-weight: 400px;
-    line-height: 30px;
+    letter-spacing: 1px;
+
+    /* line-height: 30px; */
     text-transform: uppercase;
     display: block;
     padding: 10px 20px;
