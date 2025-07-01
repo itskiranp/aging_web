@@ -20,8 +20,8 @@
             <div class="col-lg-8 mb-4">
                 <!-- ISER-N Card with Image -->
                 <div class="card contact-card">
-                    <img src="/images/building-iser.jpg" alt="ISER-N Building" class="img-fluid card-img-top rounded"
-                        style="height: 250px; object-fit:fill;">
+                    <img src="/images/building-iser.jpg" alt="ISER-N Building" class="img-fluid card-img-top rounded mt-3"
+                        style="height: 200px; object-fit:contain;">
                     <div class="card-body">
                         <h3 class="card-title">Institute for Social and Environmental Research-Nepal (ISER-N)</h3>
                         <p class="card-text">ISER-N is a premier research and development institute. The institute adopts a
