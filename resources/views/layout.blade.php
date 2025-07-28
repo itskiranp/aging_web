@@ -112,10 +112,9 @@
                                 </a>
                                 <ul class="dropdown-menu mt-0">
                                     <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                            href="/capacitybuilding/interviewing">Research Capacity Building
-                                            Activities</a></li>
+                                            href="/capacitybuilding/interviewing">General Interviewing Techniques (GIT) Training</a></li>
                                     <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                            href="/capacitybuilding/specifictraining">Survey Data Collection Methods
+                                            href="/capacitybuilding/specifictraining">Study Specific Training</a></li>
                                         </a></li>
                                     <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
                                             href="/capacitybuilding/supervisiortraining">Statistical Analysis Methods
