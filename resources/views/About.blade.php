@@ -18,8 +18,46 @@
         <div class="row">
             <!-- Left Column -->
             <div class="col-lg-8 mb-4">
-                <!-- ISER-N Card with Image -->
-                <div class="card contact-card">
+                <div class="card contact-card"
+                    style="border: none; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: all 0.3s ease; margin-bottom: 20px; border-radius: 8px; overflow: hidden;">
+                    <!-- Image Grid with Labels -->
+                    <div
+                        style="display: flex; height: 220px; position: relative; gap: 8px; padding: 8px 8px 0 8px; background: #f8f9fa;">
+                        <!-- ISER Main Building -->
+                        <div style="width: 50%; position: relative; border-radius: 6px 6px 0 0; overflow: hidden;">
+                            <img src="/images/iserpic1.jpg" alt="ISER-N Main Building"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                            <div
+                                style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.6); color: white; padding: 5px 10px; font-size: 0.9rem;">
+                                ISER Main Building
+                            </div>
+                        </div>
+
+                        <!-- ISER Guest House -->
+                        <div style="width: 50%; position: relative; border-radius: 6px 6px 0 0; overflow: hidden;">
+                            <img src="/images/iserguestpic1.jpg" alt="ISER Guest House"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                            <div
+                                style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.6); color: white; padding: 5px 10px; font-size: 0.9rem;">
+                                ISER Guest House
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card Body -->
+                    <div class="card-body" style="padding: 20px;">
+                        <h3 class="card-title"
+                            style="margin: 0 0 12px 0; font-size: 1.4rem; color: #222; font-weight: 600;">
+                            Institute for Social and Environmental Research-Nepal (ISER-N)
+                        </h3>
+                        <p class="card-text" style="margin: 0; color: #555; line-height: 1.6; font-size: 1rem;">
+                            ISER-N is a premier research and development institute. The institute adopts a three-pronged
+                            working approach that interlinks research, capacity building, and policy and program
+                            interventions as part of its effort to turn knowledge into practice.
+                        </p>
+                    </div>
+                </div>
+                {{-- <div class="card contact-card">
                     <img src="/images/building-iser.jpg" alt="ISER-N Building" class="img-fluid card-img-top rounded mt-3"
                         style="height: 200px; object-fit:contain;">
                     <div class="card-body">
@@ -28,7 +66,7 @@
                             three-pronged working approach that interlinks research, capacity building, and policy and
                             program interventions as part of its effort to turn knowledge into practice.</p>
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- Contact Details -->
                 <div class="contact-section mt-4">
