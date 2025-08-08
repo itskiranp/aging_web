@@ -14,6 +14,13 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- AOS Animation CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -25,11 +32,13 @@
                     <div class="geo-navigation ">
                         <!-- You can replace this with actual navigation items -->
                         <div class="social-icons mt-2 ms-4">
-                            <a href="https://www.facebook.com/isernepalofficial/" target="_blank">
-                                <i class="fab fa-facebook-f "></i></a>
-                            <a href="https://www.linkedin.com/in/iser-nepal-68b407160/" target="_blank">
-                                <i class="fab fa-linkedin-in "></i>
-                            </a>
+
+                            <a href="https://www.facebook.com/isernepalofficial/" class="text-white "><i
+                                    class="fab fa-facebook-f"></i></a>
+
+                            <a href="#" class="text-white "><i class="fab fa-linkedin-in"></i></a>
+
+
                         </div>
                     </div>
                 </div>
@@ -60,7 +69,7 @@
         {{-- Logo section --}}
         <div class="main-header" id="sf-main-header">
             {{-- <div class="container"> --}}
-            <div class="col-lg-8 mt-1">
+            <div class="col-lg-7 mt-1">
                 <a href="{{ url('/') }}" class="logo ">
                     <img src="/images/cvfs_web_logo1.png" class="img-fluid mb-5 ms-5" alt="...">
                 </a>
@@ -112,52 +121,53 @@
                                 </a>
                                 <ul class="dropdown-menu mt-0">
                                     <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                            href="/capacitybuilding/interviewing">General Interviewing Techniques (GIT) Training</a></li>
+                                            href="/capacitybuilding/interviewing">General Interviewing Techniques (GIT)
+                                            Training</a></li>
                                     <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
                                             href="/capacitybuilding/specifictraining">Study Specific Training</a></li>
-                                        </a></li>
-                                    <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                            href="/capacitybuilding/supervisiortraining">Statistical Analysis Methods
-                                            for Complex Data</a></li>
-                                    <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                            href="/capacitybuilding/analysictraining">Power Considerations in Data
-                                            Analysis</a>
-                                    </li>
-                                </ul>
+                                    </a>
                             </li>
-                            <!-- Products Dropdown -->
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="productsDropdown"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    PRODUCTS
-                                </a>
-                                <ul class="dropdown-menu mt-0" aria-labelledby="productsDropdown">
-                                    <li><a class="dropdown-item" href="{{ route('products.index') }}">
-                                            Products</a></li>
-                                    <li><a class="dropdown-item"
-                                            href="{{ route('products.presentations') }}">Presentations</a></li>
-                                    <li><a class="dropdown-item" href="{{ route('products.policy-brief') }}">Policy
-                                            Brief</a></li>
-                                    <li><a class="dropdown-item"
-                                            href="{{ route('products.dissemination') }}">Dissemination</a></li>
-                                    <li><a class="dropdown-item" href="{{ route('products.working-paper') }}">Working
-                                            Paper</a></li>
-                                </ul>
+                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                    href="/capacitybuilding/supervisiortraining">Statistical Analysis Methods
+                                    for Complex Data</a></li>
+                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                    href="/capacitybuilding/analysictraining">Power Considerations in Data
+                                    Analysis</a>
                             </li>
+                        </ul>
+                        </li>
+                        <!-- Products Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PRODUCTS
+                            </a>
+                            <ul class="dropdown-menu mt-0" aria-labelledby="productsDropdown">
+                                <li><a class="dropdown-item" href="{{ route('products.index') }}">
+                                        Products</a></li>
+                                <li><a class="dropdown-item"
+                                        href="{{ route('products.presentations') }}">Presentations</a></li>
+                                <li><a class="dropdown-item" href="{{ route('products.policy-brief') }}">Policy
+                                        Brief</a></li>
+                                <li><a class="dropdown-item"
+                                        href="{{ route('products.dissemination') }}">Dissemination</a></li>
+                                <li><a class="dropdown-item" href="{{ route('products.working-paper') }}">Working
+                                        Paper</a></li>
+                            </ul>
+                        </li>
 
 
-                            <li class="nav-item">
-                                <a class="nav-link {{ Request::is('events') ? 'active' : '' }}" href="/events">NEWS &
-                                    EVENTS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link {{ Request::is('gallery') ? 'active' : '' }}"
-                                    href="/gallery">GALLERY</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link {{ Request::is('About') ? 'active' : '' }}"
-                                    href="/About">CONTACT</a>
-                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link {{ Request::is('events') ? 'active' : '' }}" href="/events">NEWS &
+                                EVENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link {{ Request::is('gallery') ? 'active' : '' }}"
+                                href="/gallery">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link {{ Request::is('About') ? 'active' : '' }}" href="/About">CONTACT</a>
+                        </li>
                         </ul>
                     </div>
                 </div>
@@ -217,7 +227,8 @@
                             <li class="mb-2"><a href="https://isernepal.org.np/"
                                     class="text-white-50 text-decoration-none hover-white">ISER-N</a></li>
                             <li class="mb-2"><a href="https://isr.umich.edu/"
-                                    class="text-white-50 text-decoration-none hover-white">ISR-University of Michigan</a>
+                                    class="text-white-50 text-decoration-none hover-white">ISR-University of
+                                    Michigan</a>
                             </li>
                             <li class="mb-2"><a href="https://hcap.isr.umich.edu/"
                                     class="text-white-50 text-decoration-none hover-white">HCAP Network</a></li>
@@ -227,9 +238,9 @@
                             <li><a href="https://nhrc.gov.np/"
                                     class="text-white-50 text-decoration-none hover-white">NHRC-Nepal Health Research
                                     Council
-                            {{-- <li class="mb-2"><a href="#"
+                                    {{-- <li class="mb-2"><a href="#"
                                     class="text-white-50 text-decoration-none hover-white">LASI-DAD</a></li> --}}
-                            </a></li>
+                                </a></li>
                             </a></li>
                         </ul>
                     </div>
@@ -571,6 +582,34 @@
             });
         });
     </script>
+    <script>
+        document.getElementById('read-more-btn').addEventListener('click', function() {
+            const hiddenContent = document.getElementById('hidden-content');
+            const button = this;
+            const chevron = document.getElementById('chevron-icon');
+
+            if (hiddenContent.style.display === 'none') {
+                hiddenContent.style.display = 'block';
+                button.innerHTML = '<span>Read Less</span>';
+                chevron.style.transform = 'rotate(180deg)';
+                button.style.background = 'linear-gradient(135deg, #3182ce, #4299e1)';
+            } else {
+                hiddenContent.style.display = 'none';
+                button.innerHTML = '<span>Read More</span>';
+                chevron.style.transform = 'rotate(0deg)';
+                button.style.background = 'linear-gradient(135deg, #4299e1, #3182ce)';
+            }
+        });
+    </script>
+    <!-- AOS Animation JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+
 
 </body>
 
