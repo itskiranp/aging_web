@@ -247,8 +247,8 @@
 
                 <section class="methodology-section">
                     <div class="container">
-                        <h3 class="section-title"
-                            style="color: #2b6cb0; font-size: 1.5rem; font-weight: 600; margin-bottom: 20px; position: relative; padding-left: 20px;">
+                        <h3 class=" text-center section-title"
+                            style="color: #2b6cb0; font-size: 1.5rem; font-weight: 600; margin-bottom: 20px; position: relative;">
                             Methodology
                         </h3>
                         {{-- <h2 class="text-center text-primary mb-5 section-title"></h2> --}}
@@ -399,7 +399,7 @@
 
     <section class="WhyThisMattersSection py-5">
         <div
-            style="font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;  margin: 0 auto; padding:0 100px; color: #2d3748;">
+            style="font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;  margin: 0 auto; padding:0 150px; color: #2d3748;">
             <!-- Header Section -->
             <div style="margin-bottom: 30px; border-bottom: 1px solid #e2e8f0; padding-bottom: 20px;">
                 <h2 style="color: #3182ce; font-size: 1.4rem; font-weight: 500; margin-bottom: 15px;">
