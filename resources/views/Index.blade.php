@@ -37,7 +37,7 @@
 
 
         <div
-            style="font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; width: 100%; margin: 0 auto; padding:0 100px; color: #2d3748;">
+            style="font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; width: 100%; margin: 0 auto; padding:0 150px; color: #2d3748;">
             <!-- Header Section -->
             <div style="margin-bottom: 30px; border-bottom: 1px solid #e2e8f0; padding-bottom: 20px;">
                 <h1
@@ -53,7 +53,7 @@
             </div>
 
             <!-- Main Content - Now in Columns -->
-            <div style="display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 25px;">
+            <div style="display: flex; flex-wrap: wrap; gap: 50px; margin-bottom: 25px;">
                 <!-- Left Column - Text Content -->
                 <div style="flex: 1; min-width: 500px;">
                     <div id="main-content" style="line-height: 1.8;">
