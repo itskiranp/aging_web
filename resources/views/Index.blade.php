@@ -33,273 +33,290 @@
 
         </div>
     </div>
+    <section>
 
-    <div
-        style="font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; max-width: 1100px; margin: 0 auto; padding: 30px; color: #2d3748;">
-        <!-- Header Section -->
-        <div style="margin-bottom: 30px; border-bottom: 1px solid #e2e8f0; padding-bottom: 20px;">
-            <h1 style="color: #1a365d; font-size: 2.2rem; font-weight: 700; margin-bottom: 8px; letter-spacing: -0.5px;">
-                Welcome to CVFS-SCAN
-            </h1>
-            <h2 style="color: #3182ce; font-size: 1.4rem; font-weight: 500; margin-bottom: 15px;">
-                Chitwan Valley Family Study – Study on Cognition and Aging in Nepal
-            </h2>
-            <div
-                style="width: 80px; height: 4px; background: linear-gradient(90deg, #3182ce, #63b3ed); border-radius: 2px;">
-            </div>
-        </div>
 
-        <!-- Main Content - Now in Columns -->
-        <div style="display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 25px;">
-            <!-- Left Column - Text Content -->
-            <div style="flex: 1; min-width: 500px;">
-                <div id="main-content" style="line-height: 1.8;">
-                    <p style="margin-bottom: 18px; font-size: 1.1rem; color: #4a5568;">
-                        The CVFS-SCAN study aims to lay the foundation for a sustainable, population-based research program
-                        focused
-                        on Alzheimer's disease and related dementias (ADRD) and broader age-related health challenges in
-                        Nepal.
-                    </p>
-
-                    <p style="margin-bottom: 18px; font-size: 1.1rem; color: #4a5568;">
-                        As Nepal's population ages, more adults are living longer, but with increased risk of cognitive
-                        decline,
-                        chronic conditions, and disability. Despite the rising burden of ADRD, there is currently limited
-                        national
-                        capacity to monitor, prevent, or manage these conditions, due to the absence of systematic data and
-                        specialized research infrastructure.
-                    </p>
-                    <p style="margin-bottom: 18px; font-size: 1.1rem; color: #4a5568;">
-                        To address this urgent gap, CVFS-SCAN leverages the longstanding Chitwan Valley Family Study (CVFS);
-                        a respected and nationally recognized longitudinal study that began in 1996.
-                        With decades of detailed family, community , and life history data, CVFS provides a unique
-                        foundation for launching a new wave of dementia-focused research tailored to Nepal's specific
-                        historical,
-                        social, and demographic context.
-                    </p>
-                </div>
-            </div>
-
-            <!-- Right Column - Image -->
-            <div style="flex: 1; min-width: 300px; display: flex; justify-content: center; align-items: flex-start;">
+        <div
+            style="font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; width: 100%; margin: 0 auto; padding:0 100px; color: #2d3748;">
+            <!-- Header Section -->
+            <div style="margin-bottom: 30px; border-bottom: 1px solid #e2e8f0; padding-bottom: 20px;">
+                <h1
+                    style="color: #1a365d; font-size: 2.2rem; font-weight: 700; margin-bottom: 8px; letter-spacing: -0.5px;">
+                    Welcome to CVFS-SCAN
+                </h1>
+                <h2 style="color: #3182ce; font-size: 1.4rem; font-weight: 500; margin-bottom: 15px;">
+                    Chitwan Valley Family Study – Study on Cognition and Aging in Nepal
+                </h2>
                 <div
-                    style="width: 100%; max-width: 500px; height: 100%; background: #f8fafc; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); aspect-ratio: 4/3;">
-                    <!-- Placeholder for your image - replace with actual img tag -->
-                    <img src="/images/studyarea_pic.png" alt=""
-                        style="width: 100%; height: auto; object-fit: contain;">
+                    style="width: 80px; height: 4px; background: linear-gradient(90deg, #3182ce, #63b3ed); border-radius: 2px;">
+                </div>
+            </div>
+
+            <!-- Main Content - Now in Columns -->
+            <div style="display: flex; flex-wrap: wrap; gap: 30px; margin-bottom: 25px;">
+                <!-- Left Column - Text Content -->
+                <div style="flex: 1; min-width: 500px;">
+                    <div id="main-content" style="line-height: 1.8;">
+                        <p style="margin-bottom: 18px; font-size: 1.1rem; color: #4a5568;">
+                            The CVFS-SCAN study aims to lay the foundation for a sustainable, population-based research
+                            program
+                            focused
+                            on Alzheimer's disease and related dementias (ADRD) and broader age-related health challenges in
+                            Nepal.
+                        </p>
+
+                        <p style="margin-bottom: 18px; font-size: 1.1rem; color: #4a5568;">
+                            As Nepal's population ages, more adults are living longer, but with increased risk of cognitive
+                            decline,
+                            chronic conditions, and disability. Despite the rising burden of ADRD, there is currently
+                            limited
+                            national
+                            capacity to monitor, prevent, or manage these conditions, due to the absence of systematic data
+                            and
+                            specialized research infrastructure.
+                        </p>
+                        <p style="margin-bottom: 18px; font-size: 1.1rem; color: #4a5568;">
+                            To address this urgent gap, CVFS-SCAN leverages the longstanding Chitwan Valley Family Study
+                            (CVFS);
+                            a respected and nationally recognized longitudinal study that began in 1996.
+                            With decades of detailed family, community , and life history data, CVFS provides a unique
+                            foundation for launching a new wave of dementia-focused research tailored to Nepal's specific
+                            historical,
+                            social, and demographic context.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right Column - Image -->
+                <div style="flex: 1; min-width: 300px; display: flex; justify-content: center; align-items: flex-start;">
                     <div
-                        style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; background: linear-gradient(135deg, #ffffff, #ffffff); color: #4a5568; font-size: 1rem;">
-                        Image Placeholder
+                        style="width: 100%; max-width: 500px; height: 100%; background: #f8fafc; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); aspect-ratio: 4/3;">
+                        <!-- Placeholder for your image - replace with actual img tag -->
+                        <img src="/images/studyarea_pic.png" alt=""
+                            style="width: 100%; height: auto; object-fit: contain;">
+                        <div
+                            style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; background: linear-gradient(135deg, #ffffff, #ffffff); color: #4a5568; font-size: 1rem;">
+                            Image Placeholder
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Hidden Content (unchanged) -->
-        <div id="hidden-content"
-            style="display: none; line-height: 1.7; margin-top: 30px; padding-top: 30px; border-top: 1px solid #e2e8f0;">
-            <!-- Unique Features Section -->
-            <div style="margin-bottom: 35px;">
-                <h3
-                    style="color: #2b6cb0; font-size: 1.5rem; font-weight: 600; margin-bottom: 20px; position: relative; padding-left: 20px;">
-                    {{-- <span style="position: absolute; left: -5px; top: 5px; width: 18px; height: 18px;">
+            <!-- Hidden Content (unchanged) -->
+            <div id="hidden-content"
+                style="display: none; line-height: 1.7; margin-top: 30px; padding-top: 30px; border-top: 1px solid #e2e8f0;">
+                <!-- Unique Features Section -->
+                <div style="margin-bottom: 35px;">
+                    <h3
+                        style="color: #2b6cb0; font-size: 1.5rem; font-weight: 600; margin-bottom: 20px; position: relative; padding-left: 20px;">
+                        {{-- <span style="position: absolute; left: -5px; top: 5px; width: 18px; height: 18px;">
                         <svg viewBox="0 0 24 24" fill="#3182ce" style="width: 100%; height: 100%;">
                             <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />
                         </svg>
                     </span> --}}
-                    What Makes CVFS-SCAN Unique
-                </h3>
+                        What Makes CVFS-SCAN Unique
+                    </h3>
 
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px;">
-                    <div
-                        style="background: #f8fafc; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-                        <h4
-                            style="color: #2c5282; font-size: 1.1rem; font-weight: 600; margin-bottom: 10px; display: flex; align-items: center;">
-                            <svg style="margin-right: 8px; width: 20px; height: 20px; fill: #3182ce;" viewBox="0 0 24 24">
-                                <path
-                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
-                            </svg>
-                            Integration with a Multigenerational Study
-                        </h4>
-                        <p style="color: #4a5568; font-size: 1rem;">
-                            Unlike new studies built from scratch, CVFS-SCAN draws on over two decades of data about
-                            participants' families, education, migration history, economic background, and health. This
-                            allows researchers to investigate life-course influences on cognitive aging in a way few other
-                            LMIC studies can.
-                        </p>
-                    </div>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px;">
+                        <div
+                            style="background: #f8fafc; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                            <h4
+                                style="color: #2c5282; font-size: 1.1rem; font-weight: 600; margin-bottom: 10px; display: flex; align-items: center;">
+                                <svg style="margin-right: 8px; width: 20px; height: 20px; fill: #3182ce;"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+                                </svg>
+                                Integration with a Multigenerational Study
+                            </h4>
+                            <p style="color: #4a5568; font-size: 1rem;">
+                                Unlike new studies built from scratch, CVFS-SCAN draws on over two decades of data about
+                                participants' families, education, migration history, economic background, and health. This
+                                allows researchers to investigate life-course influences on cognitive aging in a way few
+                                other
+                                LMIC studies can.
+                            </p>
+                        </div>
 
-                    <div
-                        style="background: #f8fafc; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-                        <h4
-                            style="color: #2c5282; font-size: 1.1rem; font-weight: 600; margin-bottom: 10px; display: flex; align-items: center;">
-                            <svg style="margin-right: 8px; width: 20px; height: 20px; fill: #3182ce;" viewBox="0 0 24 24">
-                                <path
-                                    d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 16c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7zm1-11h-2v3H8v2h3v3h2v-3h3v-2h-3V8z" />
-                            </svg>
-                            Focus on Nepali-Specific Risk Factors
-                        </h4>
-                        <p style="color: #4a5568; font-size: 1rem;">
-                            One of the first studies globally to test the role of labor migration and exposure to armed
-                            conflict as risk factors for ADRD, experiences that are common and often overlapping in Nepal.
-                        </p>
-                    </div>
+                        <div
+                            style="background: #f8fafc; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                            <h4
+                                style="color: #2c5282; font-size: 1.1rem; font-weight: 600; margin-bottom: 10px; display: flex; align-items: center;">
+                                <svg style="margin-right: 8px; width: 20px; height: 20px; fill: #3182ce;"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 16c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7zm1-11h-2v3H8v2h3v3h2v-3h3v-2h-3V8z" />
+                                </svg>
+                                Focus on Nepali-Specific Risk Factors
+                            </h4>
+                            <p style="color: #4a5568; font-size: 1rem;">
+                                One of the first studies globally to test the role of labor migration and exposure to armed
+                                conflict as risk factors for ADRD, experiences that are common and often overlapping in
+                                Nepal.
+                            </p>
+                        </div>
 
 
-                    <div
-                        style="background: #f8fafc; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-                        <h4
-                            style="color: #2c5282; font-size: 1.1rem; font-weight: 600; margin-bottom: 10px; display: flex; align-items: center;">
-                            <svg style="margin-right: 8px; width: 20px; height: 20px; fill: #3182ce;" viewBox="0 0 24 24">
-                                <path
-                                    d="M16 11c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" />
-                            </svg>
-                            Inclusive Design
-                        </h4>
-                        <p style="color: #4a5568; font-size: 1rem;">
-                            CVFS-SCAN collects data not only from older adults aged 50+, but also from their close family
-                            members or informants, an approach that enables the study of caregiving dynamics,
-                            intergenerational relationships, and shared decision-making in aging households.
-                        </p>
-                    </div>
+                        <div
+                            style="background: #f8fafc; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                            <h4
+                                style="color: #2c5282; font-size: 1.1rem; font-weight: 600; margin-bottom: 10px; display: flex; align-items: center;">
+                                <svg style="margin-right: 8px; width: 20px; height: 20px; fill: #3182ce;"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M16 11c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" />
+                                </svg>
+                                Inclusive Design
+                            </h4>
+                            <p style="color: #4a5568; font-size: 1rem;">
+                                CVFS-SCAN collects data not only from older adults aged 50+, but also from their close
+                                family
+                                members or informants, an approach that enables the study of caregiving dynamics,
+                                intergenerational relationships, and shared decision-making in aging households.
+                            </p>
+                        </div>
 
-                    <div
-                        style="background: #f8fafc; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-                        <h4
-                            style="color: #2c5282; font-size: 1.1rem; font-weight: 600; margin-bottom: 10px; display: flex; align-items: center;">
-                            <svg style="margin-right: 8px; width: 20px; height: 20px; fill: #3182ce;" viewBox="0 0 24 24">
-                                <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z" />
-                                <path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6z" opacity=".7" />
-                            </svg>
-                            Foundational Capacity-Building
-                        </h4>
-                        <p style="color: #4a5568; font-size: 1rem;">
-                            CVFS-SCAN strengthens Nepal's research capacity by training next generation researchers in
-                            dementia science, including cognitive assessment, biospecimen collection, and data analysis
-                            using longitudinal and multilevel techniques.
-                        </p>
+                        <div
+                            style="background: #f8fafc; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+                            <h4
+                                style="color: #2c5282; font-size: 1.1rem; font-weight: 600; margin-bottom: 10px; display: flex; align-items: center;">
+                                <svg style="margin-right: 8px; width: 20px; height: 20px; fill: #3182ce;"
+                                    viewBox="0 0 24 24">
+                                    <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z" />
+                                    <path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6z" opacity=".7" />
+                                </svg>
+                                Foundational Capacity-Building
+                            </h4>
+                            <p style="color: #4a5568; font-size: 1rem;">
+                                CVFS-SCAN strengthens Nepal's research capacity by training next generation researchers in
+                                dementia science, including cognitive assessment, biospecimen collection, and data analysis
+                                using longitudinal and multilevel techniques.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Highlight Quote -->
-            <div
-                style="background: linear-gradient(135deg, #ebf4ff, #bee3f8); border-left: 4px solid #3182ce; padding: 25px; border-radius: 0 8px 8px 0; margin: 30px 0;">
-                <p style="font-size: 1.1rem; color: #2b6cb0; font-weight: 500; margin: 0; line-height: 1.6;"><em>
-                        "Through CVFS-SCAN, Nepal joins the global effort to understand, track, and address dementia,
-                        ensuring
-                        that older adults can live with dignity, support, and opportunity in the years to come."</em>
-                </p>
-            </div>
+                <!-- Highlight Quote -->
+                <div
+                    style="background: linear-gradient(135deg, #ebf4ff, #bee3f8); border-left: 4px solid #3182ce; padding: 25px; border-radius: 0 8px 8px 0; margin: 30px 0;">
+                    <p style="font-size: 1.1rem; color: #2b6cb0; font-weight: 500; margin: 0; line-height: 1.6;"><em>
+                            "Through CVFS-SCAN, Nepal joins the global effort to understand, track, and address dementia,
+                            ensuring
+                            that older adults can live with dignity, support, and opportunity in the years to come."</em>
+                    </p>
+                </div>
 
-            <!-- Goals and Objectives -->
-            <div style="margin-bottom: 35px;">
-                <h3 
-                    style="color: #2b6cb0; font-size: 1.5rem; font-weight: 600; margin-bottom: 20px; position: relative; padding-left: 20px;">
-                    {{-- <span style="position: absolute; left: -5px; top: 5px; width: 18px; height: 18px;">
+                <!-- Goals and Objectives -->
+                <div style="margin-bottom: 35px;">
+                    <h3
+                        style="color: #2b6cb0; font-size: 1.5rem; font-weight: 600; margin-bottom: 20px; position: relative; padding-left: 20px;">
+                        {{-- <span style="position: absolute; left: -5px; top: 5px; width: 18px; height: 18px;">
                         <svg viewBox="0 0 24 24" fill="#3182ce" style="width: 100%; height: 100%;">
                             <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />
                         </svg>
                     </span> --}}
-                    Goals and Objectives
-                </h3>
+                        Goals and Objectives
+                    </h3>
 
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
-                    <div
-                        style="background: white; border-radius: 8px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-top: 3px solid #3182ce;">
-                        <h4 style="color: #2c5282; font-size: 1.1rem; font-weight: 600; margin-bottom: 15px;">
-                            Overall Goal
-                        </h4>
-                        <p style="color: #4a5568; font-size: 1rem;">
-                            To develop a foundation for sustained, high-quality, population-based research into ADRD and
-                            age-related chronic conditions in Nepal.
-                        </p>
-                    </div>
-
-                    <div
-                        style="background: white; border-radius: 8px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-top: 3px solid #3182ce;">
-                        <h4 style="color: #2c5282; font-size: 1.1rem; font-weight: 600; margin-bottom: 15px;">
-                            Objectives
-                        </h4>
-                        <ul style="color: #4a5568; font-size: 1rem; padding-left: 20px; margin: 0;">
-                            <li style="margin-bottom: 8px;">Build capacity for systematic, population-based ADRD research
-                            </li>
-                            <li>Develop and implement longitudinal cohort study on aging</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <section class="methodology-section">
-                <div class="container">
-                    <h3 class="section-title"
-                    style="color: #2b6cb0; font-size: 1.5rem; font-weight: 600; margin-bottom: 20px; position: relative; padding-left: 20px;">
-                    Methodology
-                </h3>
-                    {{-- <h2 class="text-center text-primary mb-5 section-title"></h2> --}}
-
-                    <div class="row g-4">
-
-                        <!-- Study Design -->
-                        <div class="col-md-4">
-                            <div class="card h-100 shadow-sm border-0 methodology-card">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-center mb-3">
-                                        <div class="me-3 methodology-icon"><i class="bi bi-diagram-3"></i></div>
-                                        <h5 class="mb-0 text-primary">Study Design</h5>
-                                    </div>
-                                    <p class="text-muted small mb-0 ">
-                                        This is a longitudinal cohort study of a representative sample of <strong>4,000
-                                            older adults</strong> aged 50+ and their <strong>4,000 key informants</strong>
-                                        from the Chitwan Valley Family Study (CVFS) panel, using a stratified two-stage
-                                        cluster area probability sampling design.
-                                    </p>
-                                </div>
-                            </div>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                        <div
+                            style="background: white; border-radius: 8px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-top: 3px solid #3182ce;">
+                            <h4 style="color: #2c5282; font-size: 1.1rem; font-weight: 600; margin-bottom: 15px;">
+                                Overall Goal
+                            </h4>
+                            <p style="color: #4a5568; font-size: 1rem;">
+                                To develop a foundation for sustained, high-quality, population-based research into ADRD and
+                                age-related chronic conditions in Nepal.
+                            </p>
                         </div>
 
-                        <!-- Survey Data Collection -->
-                        <div class="col-md-4">
-                            <div class="card h-100 shadow-sm border-0 methodology-card">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-center mb-3">
-                                        <div class="me-3 methodology-icon"><i class="bi bi-laptop"></i></div>
-                                        <h5 class="mb-0 text-primary">Survey Data Collection</h5>
-                                    </div>
-                                    <p class="text-muted small mb-0">
-                                        Using <strong>Nepal Harmonized Cognitive Assessment Protocol (NHCAP)</strong>
-                                        instruments, <strong>face-to-face Computer-Assisted Personal Interviewing
-                                            (CAPI)</strong> is administered on laptops. Interviews include cognitive and
-                                        physical function tests, standardized measures, informant interviews, and health
-                                        assessments.
-                                    </p>
-                                </div>
-                            </div>
+                        <div
+                            style="background: white; border-radius: 8px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-top: 3px solid #3182ce;">
+                            <h4 style="color: #2c5282; font-size: 1.1rem; font-weight: 600; margin-bottom: 15px;">
+                                Objectives
+                            </h4>
+                            <ul style="color: #4a5568; font-size: 1rem; padding-left: 20px; margin: 0;">
+                                <li style="margin-bottom: 8px;">Build capacity for systematic, population-based ADRD
+                                    research
+                                </li>
+                                <li>Develop and implement longitudinal cohort study on aging</li>
+                            </ul>
                         </div>
-
-                        <!-- Biomarker Collection -->
-                        <div class="col-md-4">
-                            <div class="card h-100 shadow-sm border-0 methodology-card">
-                                <div class="card-body">
-                                    <div class="d-flex align-items-center mb-3">
-                                        <div class="me-3 methodology-icon"><i class="bi bi-droplet-half"></i></div>
-                                        <h5 class="mb-0 text-primary">Biomarker Collection</h5>
-                                    </div>
-                                    <p class="text-muted small mb-0">
-                                        A team of licensed and trained phlebotomists collect <strong>30 ml of blood</strong>
-                                        during a single draw using a <strong>vacuum extraction system</strong> following
-                                        best practices in biomarker collection.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
-            </section>
 
-            <!-- Specific Aims -->
-            {{-- <div style="margin-bottom: 35px;">
+                <section class="methodology-section">
+                    <div class="container">
+                        <h3 class="section-title"
+                            style="color: #2b6cb0; font-size: 1.5rem; font-weight: 600; margin-bottom: 20px; position: relative; padding-left: 20px;">
+                            Methodology
+                        </h3>
+                        {{-- <h2 class="text-center text-primary mb-5 section-title"></h2> --}}
+
+                        <div class="row g-4">
+
+                            <!-- Study Design -->
+                            <div class="col-md-4">
+                                <div class="card h-100 shadow-sm border-0 methodology-card">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="me-3 methodology-icon"><i class="bi bi-diagram-3"></i></div>
+                                            <h5 class="mb-0 text-primary">Study Design</h5>
+                                        </div>
+                                        <p class="text-muted small mb-0 ">
+                                            This is a longitudinal cohort study of a representative sample of <strong>4,000
+                                                older adults</strong> aged 50+ and their <strong>4,000 key
+                                                informants</strong>
+                                            from the Chitwan Valley Family Study (CVFS) panel, using a stratified two-stage
+                                            cluster area probability sampling design.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Survey Data Collection -->
+                            <div class="col-md-4">
+                                <div class="card h-100 shadow-sm border-0 methodology-card">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="me-3 methodology-icon"><i class="bi bi-laptop"></i></div>
+                                            <h5 class="mb-0 text-primary">Survey Data Collection</h5>
+                                        </div>
+                                        <p class="text-muted small mb-0">
+                                            Using <strong>Nepal Harmonized Cognitive Assessment Protocol (NHCAP)</strong>
+                                            instruments, <strong>face-to-face Computer-Assisted Personal Interviewing
+                                                (CAPI)</strong> is administered on laptops. Interviews include cognitive and
+                                            physical function tests, standardized measures, informant interviews, and health
+                                            assessments.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Biomarker Collection -->
+                            <div class="col-md-4">
+                                <div class="card h-100 shadow-sm border-0 methodology-card">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="me-3 methodology-icon"><i class="bi bi-droplet-half"></i></div>
+                                            <h5 class="mb-0 text-primary">Biomarker Collection</h5>
+                                        </div>
+                                        <p class="text-muted small mb-0">
+                                            A team of licensed and trained phlebotomists collect <strong>30 ml of
+                                                blood</strong>
+                                            during a single draw using a <strong>vacuum extraction system</strong> following
+                                            best practices in biomarker collection.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Specific Aims -->
+                {{-- <div style="margin-bottom: 35px;">
                 <h3
                     style="color: #2b6cb0; font-size: 1.5rem; font-weight: 600; margin-bottom: 20px; position: relative; padding-left: 20px;">
                     
@@ -337,17 +354,17 @@
                 </div>
             </div> --}}
 
+            </div>
+
+
+
+
         </div>
 
-
-
-
-    </div>
-
-    <!-- Read More Button -->
-    <div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
-        <button id="read-more-btn"
-            style="background: linear-gradient(135deg, #4299e1, #3182ce); 
+        <!-- Read More Button -->
+        <div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+            <button id="read-more-btn"
+                style="background: linear-gradient(135deg, #4299e1, #3182ce); 
                    color: white; 
                    border: none; 
                    padding: 12px 28px; 
@@ -360,16 +377,16 @@
                    gap: 10px;
                    transition: all 0.3s ease;
                    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11);">
-            <span>Read More</span>
-            <svg id="chevron-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
-                viewBox="0 0 16 16" style="transition: transform 0.3s ease;">
-                <path fill-rule="evenodd"
-                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
-            </svg>
-        </button>
-    </div>
-    </div>
-    {{-- <div class="container mb-3">
+                <span>Read More</span>
+                <svg id="chevron-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                    fill="currentColor" viewBox="0 0 16 16" style="transition: transform 0.3s ease;">
+                    <path fill-rule="evenodd"
+                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </button>
+        </div>
+        </div>
+        {{-- <div class="container mb-3">
         <h2>Study on Cognition and Aging in Nepal.</h2>
         <p>{!! $homeContent->main_text !!}</p>
     </div> 
@@ -378,9 +395,11 @@
         <p>{!! $homeContent->why_this_matters !!}</p>
     </div> --}}
 
+    </section>
+
     <section class="WhyThisMattersSection py-5">
         <div
-            style="font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; max-width: 1100px; margin: 0 auto; padding: 20px; color: #2d3748;">
+            style="font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;  margin: 0 auto; padding:0 100px; color: #2d3748;">
             <!-- Header Section -->
             <div style="margin-bottom: 30px; border-bottom: 1px solid #e2e8f0; padding-bottom: 20px;">
                 <h2 style="color: #3182ce; font-size: 1.4rem; font-weight: 500; margin-bottom: 15px;">
@@ -493,92 +512,6 @@
 
             </div>
         </div>
-
-
-        {{-- <div class="container py-5">
-            <h5 class="text-center text-primary mb-5">
-                Track progress from inception to launch with clear, accessible milestones.
-            </h5>
-
-            <div class="timeline">
-
-                <!-- Item 1 -->
-                <div class="timeline-item">
-                    <div class="timeline-icon"></div>
-                    <div class="card shadow-sm border-0">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between align-items-start">
-                                <h5 class="mb-1">
-                                    Project Inception
-                                    <span class="badge bg-secondary badge-status">Done</span>
-                                </h5>
-                                <small class="text-muted">2022-01-15</small>
-                            </div>
-                            <p class="text-muted mb-0">
-                                Initial research and requirements gathering for the aging webproject.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Item 2 -->
-                <div class="timeline-item">
-                    <div class="timeline-icon"></div>
-                    <div class="card shadow-sm border-0">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between align-items-start">
-                                <h5 class="mb-1">
-                                    Design & Prototyping
-                                    <span class="badge bg-secondary badge-status">Done</span>
-                                </h5>
-                                <small class="text-muted">2023-05-02</small>
-                            </div>
-                            <p class="text-muted mb-0">
-                                Wireframes and UI prototypes validated with stakeholders.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Item 3 -->
-                <div class="timeline-item">
-                    <div class="timeline-icon"></div>
-                    <div class="card shadow-sm border-0">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between align-items-start">
-                                <h5 class="mb-1">
-                                    Modernization Sprint
-                                    <span class="badge bg-info text-dark badge-status">New</span>
-                                </h5>
-                                <small class="text-muted">2024-10-20</small>
-                            </div>
-                            <p class="text-muted mb-0">
-                                Migrating legacy modules and improving performance.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Item 4 -->
-                <div class="timeline-item">
-                    <div class="timeline-icon"></div>
-                    <div class="card shadow-sm border-0">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between align-items-start">
-                                <h5 class="mb-1">
-                                    Public Launch
-                                </h5>
-                                <small class="text-muted">2025-12-01</small>
-                            </div>
-                            <p class="text-muted mb-0">
-                                Rollout and user onboarding.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div> --}}
     </section>
 
 
