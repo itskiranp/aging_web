@@ -90,14 +90,11 @@
                 <!-- Right Column - Image -->
                 <div style="flex: 1; min-width: 300px; display: flex; justify-content: center; align-items: flex-start;">
                     <div
-                        style="width: 100%; max-width: 500px; height: 100%; background: #f8fafc; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); aspect-ratio: 4/3;">
+                        style="width: 100%; max-width: 500px; height: 100%; background: #f8fafc; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); ">
                         <!-- Placeholder for your image - replace with actual img tag -->
                         <img src="/images/studyarea_pic.png" alt=""
                             style="width: 100%; height: auto; object-fit: contain;">
-                        <div
-                            style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; background: linear-gradient(135deg, #ffffff, #ffffff); color: #4a5568; font-size: 1rem;">
-                            Image Placeholder
-                        </div>
+                        
                     </div>
                 </div>
             </div>
