@@ -20,11 +20,13 @@
             <!-- Paper 1 -->
             
             <!-- Paper 1: Major Depressive Disorder and Associated Factors Among Older Adults -->
-            <div class="col-md-6">
-                <div class="working-paper-card">
-                    <h3 class="paper-title">Major Depressive Disorder and Associated Factors Among Older Adults, Sharma et al.</h3>
-                    <p class="paper-description">This study investigates the prevalence of Major Depressive Disorder (MDD) among older adults, identifying key risk factors such as social isolation, chronic illness, and lifestyle factors that contribute to its onset.</p>
-                    <a href="{{ asset('papers/major_depressive_disorder.pdf') }}" class="btn btn-primary" download>Download Paper</a>
+            <div >
+                <div >
+                    <li class="paper-item mb-5" style="font-size: 1.2rem;">
+                    Major Depressive Disorder and Associated Factors Among Older Adults, Sharma et al. <br></li>
+                    <!-- <p class="paper-description">This study investigates the prevalence of Major Depressive Disorder (MDD) among older adults, identifying key risk factors such as social isolation, chronic illness, and lifestyle factors that contribute to its onset.</p> -->
+                    <!-- <a href="{{ asset('papers/major_depressive_disorder.pdf') }}" class="btn btn-primary" download>Download Paper</a> -->
+                    
                 </div>
             </div>
         

@@ -1340,28 +1340,4 @@ body {
             background-color: #0d6efd;
         }
 
-        /* working paper page styling */
-        .working-paper-card {
-    background-color: #f9f9f9;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.paper-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #333;
-}
-
-.paper-description {
-    font-size: 1rem;
-    color: #666;
-    margin-bottom: 15px;
-}
-
-.btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-}
+       
