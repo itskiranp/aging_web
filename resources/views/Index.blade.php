@@ -78,7 +78,7 @@
                         <p style="margin-bottom: 18px; font-size: 1.1rem; color: #4a5568;">
                             To address this urgent gap, CVFS-SCAN leverages the longstanding Chitwan Valley Family Study
                             (CVFS);
-                            a respected and nationally recognized longitudinal study that began in 1996.
+                            a respected and nationally recognized longitudinal study that began in 1995.
                             With decades of detailed family, community , and life history data, CVFS provides a unique
                             foundation for launching a new wave of dementia-focused research tailored to Nepal's specific
                             historical,

@@ -143,8 +143,8 @@
                                 PRODUCTS
                             </a>
                             <ul class="dropdown-menu mt-0" aria-labelledby="productsDropdown">
-                                <li><a class="dropdown-item" href="{{ route('products.index') }}">
-                                        Products</a></li>
+                                <!-- <li><a class="dropdown-item" href="{{ route('products.index') }}">
+                                        Products</a></li> -->
                                 <li><a class="dropdown-item"
                                         href="{{ route('products.presentations') }}">Presentations</a></li>
                                 <li><a class="dropdown-item" href="{{ route('products.policy-brief') }}">Policy
