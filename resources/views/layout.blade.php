@@ -36,7 +36,7 @@
                             <a href="https://www.facebook.com/isernepalofficial/" class="text-white "><i
                                     class="fab fa-facebook-f"></i></a>
 
-                            <a href="#" class="text-white "><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.linkedin.com/feed/" class="text-white "><i class="fab fa-linkedin-in"></i></a>
 
 
                         </div>
