@@ -1327,17 +1327,9 @@ body {
         }
         .section-header {
             position: relative;
-            padding-bottom: 10px;
-            margin-bottom: 2rem;
+            /* padding-bottom: 10px; */
+            margin-bottom: 1rem;
         }
-        .section-header:after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 80px;
-            height: 3px;
-            background-color: #0d6efd;
-        }
+        
 
        

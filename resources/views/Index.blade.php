@@ -417,8 +417,8 @@
     </section>
 
     <section class="timeline-section py-2">
-        <div class="container py-5">
-            <h1 class="text-center mb-5"
+        <div class="container ">
+            <h1 class="text-start mb-5"
                 style="color: #1a365d; font-size: 2.2rem; font-weight: 700; letter-spacing: -0.5px;">
                 Timeline and Current Status
             </h1>

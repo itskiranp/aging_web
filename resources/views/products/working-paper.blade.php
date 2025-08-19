@@ -16,21 +16,16 @@
         <h1 class="gallery-title text-center">Working Papers</h1>
 
         <!-- Working Papers List -->
-        <div class="row">
-            <!-- Paper 1 -->
-            
-            <!-- Paper 1: Major Depressive Disorder and Associated Factors Among Older Adults -->
-            <div >
-                <div >
-                    <li class="paper-item mb-5" style="font-size: 1.2rem;">
-                    Major Depressive Disorder and Associated Factors Among Older Adults, Sharma et al. <br></li>
-                    <!-- <p class="paper-description">This study investigates the prevalence of Major Depressive Disorder (MDD) among older adults, identifying key risk factors such as social isolation, chronic illness, and lifestyle factors that contribute to its onset.</p> -->
-                    <!-- <a href="{{ asset('papers/major_depressive_disorder.pdf') }}" class="btn btn-primary" download>Download Paper</a> -->
-                    
+        <div class="col-12">
+            <!-- <h2 class="section-header fs-4 fw-bold">2023</h2> -->
+
+            <div class="presentation-card p-3 mb-3">
+                <h5 class="fw-semibold mb-1">Major Depressive Disorder and Associated Factors Among Older Adults</h5>
+                <div class="text-muted small mb-1">
+                    <span class="me-3"><i class="fas fa-user me-1"></i> Sharma et al.</span>
+                    <!-- <span><i class="fas fa-calendar-alt me-1"></i> Monthly webinar series at University of Michigan</span> -->
                 </div>
+                <!-- <p class="text-muted small mb-0"><i class="fas fa-clock me-1"></i> December 2023</p> -->
             </div>
-        
-            
-        </div>
     </div>
 @endsection

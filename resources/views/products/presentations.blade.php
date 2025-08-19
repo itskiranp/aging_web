@@ -1,117 +1,69 @@
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 @extends('layout')
-@section('title', 'products')
+@section('title', 'Presentations')
+
 @section('content')
-    <div class="container my-4 mb-5">
-        <nav class="breadcrumb-nav mb-4 d-flex justify-content-end">
-            <ol class="breadcrumb mt-3">
-                <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fas fa-home me-1"></i>Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Products</li>
-                <li class="breadcrumb-item active" aria-current="page">Presentations</li>
-            </ol>
-        </nav>
-    </div>
-    
-    <div class="container py-5">
-        <h1 class="gallery-title">Presentation</h1>
-        <!-- Presentations List -->
-        <div class="row">
-            <!-- 2024 Presentations -->
-            <div class="col-12 mb-3">
-                <h2 class="section-header fs-2 fw-semibold text-dark">2024</h2>
-                
-                <div class="row g-4">
-                    <!-- Presentation 1 -->
-                    <div class="col-12">
-                        <div class="presentation-card bg-white rounded p-4 position-relative">
-                            <span class="year-badge badge bg-primary rounded-pill">2024</span>
-                            <div class="d-flex flex-column flex-md-row">
-                                <div class="me-md-4 mb-3 mb-md-0 text-primary fs-2">
-                                    <i class="fas fa-microphone"></i>
-                                </div>
-                                <div class="flex-grow-1">
-                                    <h3 class="h4 fw-semibold text-dark mb-2">Adapting the HCAP in Nepal: The Chitwan Valley Family Study</h3>
-                                    <p class="text-muted mb-3">Study of Cognition and Aging in Nepal (CVFS-SCAN)</p>
-                                    <div class="d-flex flex-wrap align-items-center text-muted small">
-                                        <span class="me-3"><i class="fas fa-user me-1"></i> Emily Briceño, et al.</span>
-                                        <span><i class="fas fa-calendar-alt me-1"></i> The Health and Aging in Africa: A Longitudinal Study in South Africa (HAALSA) network meeting</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div class="container my-4">
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb bg-light p-2 rounded small justify-content-end">
+            <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fas fa-home me-1"></i>Home</a></li>
+            <li class="breadcrumb-item"><a href="{{ url('/products') }}">Products</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Presentations</li>
+        </ol>
+    </nav>
 
-            <!-- 2023 Presentations -->
-            <div class="col-12 mb-5">
-                <h2 class="section-header fs-2 fw-semibold text-dark">2023</h2>
-                
-                <div class="row g-4">
-                    <!-- Presentation 2 -->
-                    <div class="col-12">
-                        <div class="presentation-card bg-white rounded p-4 position-relative">
-                            <span class="year-badge badge bg-primary rounded-pill">2023</span>
-                            <div class="d-flex flex-column flex-md-row">
-                                <div class="me-md-4 mb-3 mb-md-0 text-primary fs-2">
-                                    <i class="fas fa-chalkboard-teacher"></i>
-                                </div>
-                                <div class="flex-grow-1">
-                                    <h3 class="h4 fw-semibold text-dark mb-2">CVFS-Study on Cognition and Aging in Nepal (CVFS-SCAN)</h3>
-                                    <div class="d-flex flex-wrap align-items-center text-muted small mb-3">
-                                        <span class="me-3"><i class="fas fa-user me-1"></i> Ghimire et al.</span>
-                                        <span><i class="fas fa-calendar-alt me-1"></i> Monthly webinar series at University of Michigan</span>
-                                    </div>
-                                    <p class="text-muted"><i class="fas fa-clock me-1"></i> December 2023</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <!-- Title -->
+    <h1 class="gallery-title">Presentations</h1>
 
-                    <!-- Presentation 3 -->
-                    <div class="col-12">
-                        <div class="presentation-card bg-white rounded p-4 position-relative">
-                            <span class="year-badge badge bg-primary rounded-pill">2023</span>
-                            <div class="d-flex flex-column flex-md-row">
-                                <div class="me-md-4 mb-3 mb-md-0 text-primary fs-2">
-                                    <i class="fas fa-microphone"></i>
-                                </div>
-                                <div class="flex-grow-1">
-                                    <h3 class="h4 fw-semibold text-dark mb-2">International Labor Migration, Armed Conflict and Dementia Risk in Nepal</h3>
-                                    <p class="text-muted mb-3">A Population Study</p>
-                                    <div class="d-flex flex-wrap align-items-center text-muted small">
-                                        <span class="me-3"><i class="fas fa-user me-1"></i> Carlos Mendes de Leon</span>
-                                        <span><i class="fas fa-calendar-alt me-1"></i> 5th Annual Meeting of the Harmonized Cognitive Assessment Protocol (HCAP) International Network</span>
-                                    </div>
-                                    <p class="text-muted mt-2"><i class="fas fa-clock me-1"></i> October 12-13, 2023</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Presentation 4 -->
-                    <div class="col-12">
-                        <div class="presentation-card bg-white rounded p-4 position-relative">
-                            <span class="year-badge badge bg-primary rounded-pill">2023</span>
-                            <div class="d-flex flex-column flex-md-row">
-                                <div class="me-md-4 mb-3 mb-md-0 text-primary fs-2">
-                                    <i class="fas fa-microphone"></i>
-                                </div>
-                                <div class="flex-grow-1">
-                                    <h3 class="h4 fw-semibold text-dark mb-2">Population-Based Dementia Assessment in Nepal</h3>
-                                    <p class="text-muted mb-3">The Chitwan Valley Family Study - Study of Cognition and Aging in Nepal (CVFS-SCAN)</p>
-                                    <div class="d-flex flex-wrap align-items-center text-muted small">
-                                        <span class="me-3"><i class="fas fa-user me-1"></i> Emily Briceño</span>
-                                        <span class="me-3"><i class="fas fa-calendar-alt me-1"></i> Fogarty International Center (FIC) Global Brain Network Meeting</span>
-                                        <span><i class="fas fa-map-marker-alt me-1"></i> Rockville, MD and virtual</span>
-                                    </div>
-                                    <p class="text-muted mt-2"><i class="fas fa-clock me-1"></i> October 19, 2023</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <div class="row gy-4">
+        <!-- 2024 Section -->
+        <div class="col-12">
+            <h2 class="section-header fs-4 fw-bold">2024</h2>
+            <div class="presentation-card p-3">
+                <h5 class="fw-semibold mb-1">Adapting the HCAP in Nepal: The Chitwan Valley Family Study</h5>
+                <p class="text-muted small mb-2">Study of Cognition and Aging in Nepal (CVFS-SCAN)</p>
+                <div class="text-muted small">
+                    <span class="me-3"><i class="fas fa-user me-1"></i> Emily Briceño, et al.</span>
+                    <span><i class="fas fa-calendar-alt me-1"></i> The Health and Aging in Africa: A Longitudinal Study in South Africa (HAALSA)  network meeting</span>
                 </div>
             </div>
         </div>
+
+        <!-- 2023 Section -->
+        <div class="col-12">
+            <h2 class="section-header fs-4 fw-bold">2023</h2>
+
+            <div class="presentation-card p-3 mb-3">
+                <h5 class="fw-semibold mb-1">CVFS-Study on Cognition and Aging in Nepal (CVFS-SCAN)</h5>
+                <div class="text-muted small mb-1">
+                    <span class="me-3"><i class="fas fa-user me-1"></i> Ghimire et al.</span>
+                    <span><i class="fas fa-calendar-alt me-1"></i> Monthly webinar series at University of Michigan</span>
+                </div>
+                <p class="text-muted small mb-0"><i class="fas fa-clock me-1"></i> December 2023</p>
+            </div>
+
+            <div class="presentation-card p-3 mb-3">
+                <h5 class="fw-semibold mb-1">International Labor Migration, Armed Conflict and Dementia Risk in Nepal</h5>
+                <p class="text-muted small mb-2">A Population Study</p>
+                <div class="text-muted small">
+                    <span class="me-3"><i class="fas fa-user me-1"></i> Carlos Mendes de Leon</span>
+                    <span><i class="fas fa-calendar-alt me-1"></i> 5th Annual Meeting of the Harmonized Cognitive Assessment Protocol (HCAP) International Network</span>
+                </div>
+                <p class="text-muted small mt-1 mb-0"><i class="fas fa-clock me-1"></i> October 12–13, 2023</p>
+            </div>
+
+            <div class="presentation-card p-3">
+                <h5 class="fw-semibold mb-1">Population-Based Dementia Assessment in Nepal</h5>
+                <p class="text-muted small mb-2">The Chitwan Valley Family Study – CVFS-SCAN</p>
+                <div class="text-muted small">
+                    <span class="me-3"><i class="fas fa-user me-1"></i> Emily Briceño</span>
+                    <span class="me-3"><i class="fas fa-calendar-alt me-1"></i> Oral presentation at the Fogarty International Center (FIC) Global Brain Network Meeting</span>
+                    <span><i class="fas fa-map-marker-alt me-1"></i> Rockville, MD & virtual</span>
+                </div>
+                <p class="text-muted small mt-1 mb-0"><i class="fas fa-clock me-1"></i> October 19, 2023</p>
+            </div>
+        </div>
     </div>
+</div>
 @endsection
