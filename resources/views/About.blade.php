@@ -71,8 +71,8 @@
                 <!-- Contact Details -->
                 <div class="contact-section mt-4">
                     <h4 class="mb-4"><i class="fas fa-address-card"></i> Contact Details</h4>
-                    <p><i class="fas fa-map-marker-alt"></i> <strong>Address:</strong> Bharapur Sub-Metropolitan City, Ward
-                        No. 19, Fulbari, Chitwan, Nepal</p>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>Address:</strong> Bharapur Metropolitan City, Ward
+                        No. 15, Fulbari, Chitwan, Nepal</p>
                     <p><i class="fas fa-phone"></i> <strong>Tel:</strong> +977-56-591054, 56-592406, 56-592407</p>
                     <p><i class="fas fa-envelope"></i> <strong>Email:</strong> iser.nepal@outlook.com</p>
                     <p><i class="fas fa-globe"></i> <strong>Web:</strong> <a class="text-decoration-none"

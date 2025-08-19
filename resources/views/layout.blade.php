@@ -199,7 +199,7 @@
                             </li>
                             <li class="mb-2 d-flex align-items-start">
                                 <i class="fas fa-phone-alt mt-1 me-2 text-white"></i>
-                                <span>+977-56-591054, +977-56-592406</span>
+                                <span>+977-56-591054, +977-56-592407</span>
                             </li>
                             <li class="mb-2 d-flex align-items-start">
                                 <i class="fas fa-envelope mt-1 me-2 text-white"></i>
