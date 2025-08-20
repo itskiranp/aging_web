@@ -124,16 +124,15 @@
                                             href="/capacitybuilding/interviewing">General Interviewing Techniques (GIT)
                                             Training</a></li>
                                     <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                            href="/capacitybuilding/specifictraining">Study Specific Training</a></li>
+                                            href="/capacitybuilding/specifictraining">Study Specific Training (SST)</a></li>
                                     </a>
                             </li>
                             <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="/capacitybuilding/supervisiortraining">Statistical Analysis Methods
-                                    for Complex Data</a></li>
-                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                    href="/capacitybuilding/supervisiortraining">Data Analysis</a></li>
+                            <!-- <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
                                     href="/capacitybuilding/analysictraining">Power Considerations in Data
                                     Analysis</a>
-                            </li>
+                            </li> -->
                         </ul>
                         </li>
                         <!-- Products Dropdown -->
