@@ -4,7 +4,7 @@
 @section('title', 'CVFS on Cognition and Aging in Nepal')
 @section('content')
 
-<div class="container-fluid p-0 mb-5 ">
+<!-- <div class="container-fluid p-0 mb-5 ">
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             @foreach ($homeContent->carousel_images as $key => $image)
@@ -32,14 +32,71 @@
         </button>
 
     </div>
+</div> -->
+<section>
+    <!-- Hero Carousel -->
+<div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <div class="position-relative h-100">
+        <img src="images/iserfamily.JPG" class="img-fluid hero-img" alt="CVFS-SCAN Team">
+        <div class="hero-overlay">
+          <div class="hero-text">
+            <h1>Study on Cognition and Aging in Nepal</h1>
+            <p>Part of the Chitwan Valley Family Study (CVFS-SCAN)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 (Example) -->
+    <div class="carousel-item">
+      <div class="position-relative h-100">
+        <img src="images/background.JPG" class="img-fluid hero-img" alt="Slide 2">
+        <div class="hero-overlay">
+          <div class="hero-text">
+            <h1>Understanding Nepal's Aging Population</h1>
+            <p>Empowering Research Through Data</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      <div class="position-relative h-100">
+        <img src="images/laboratory1.JPG" class="img-fluid hero-img" alt="Slide 3">
+        <div class="hero-overlay">
+          <div class="hero-text">
+            <h1>Data-Driven Insights</h1>
+            <p>Explore biomarkers, cognition, and more</p>
+          </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
 </div>
+</section>
+
+
+
 <section>
 
 
     <div
         style="font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; width: 100%; margin: 0 auto; padding:0 150px; color: #2d3748;">
         <!-- Header Section -->
-        <div style="margin-bottom: 30px; border-bottom: 1px solid #e2e8f0; padding-bottom: 20px;">
+        <div style="margin-bottom: 30px; border-bottom: 1px solid #e2e8f0; padding-bottom: 20px; margin-top:50px;">
             <h1
                 style="color: #1a365d; font-size: 2.2rem; font-weight: 700; margin-bottom: 8px; letter-spacing: -0.5px;">
                 Welcome to CVFS-SCAN
@@ -90,9 +147,9 @@
             </div>
 
             <!-- Right Column - Image -->
-            <div style="flex: 1; min-width: 300px; display: flex; justify-content: center; align-items: flex-start;">
+            <div style="flex: 1;  display: flex; justify-content: center; align-items: flex-start;">
                 <div
-                    style="width: 100%;  background: #f8fafc; border-radius: 3px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); ">
+                    style="width: 100%;  background: #f8fafc; border-radius: 3px; overflow: hidden;  ">
                     <!-- Placeholder for your image - replace with actual img tag -->
                     <img src="/images/study area.png" alt=""
                         style="width: 100%; height: auto; object-fit: cover;">

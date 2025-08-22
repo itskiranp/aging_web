@@ -4,11 +4,11 @@
 
 @extends('layout')
 
-@section('title', 'CVFS')
+@section('Study', 'CVFS')
 
 @section('content')
-    <!-- Modern Hero Header -->
-    <header class="hero-header">
+<!-- Modern Hero Header -->
+<!-- <header class="hero-header">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
@@ -20,175 +20,99 @@
                 </div>
             </div>
         </div>
-    </header>
+    </header> -->
+<section class="bio-hero">
+    <div class="container">
+        <h1 class="display-5 fw-bold">Biospecimen Laboratory of ISER-N</h1>
+        <p class="lead"><em>A hub for biomarker research and scientific capacity in Nepal.</em></p>
+    </div>
+</section>
 
-    <main class="container">
-        <!-- Study Overview Section -->
-        <section id="study-overview" class="mb-5">
-            <h2 class="section-title">Study Overview</h2>
-            <div class="content-block">
-                <p>The Longitudinal Aging Study in Nepal is a comprehensive research initiative aimed at understanding the
-                    impact of aging on cognitive health, specifically focusing on Alzheimer's Disease and Related Dementias
-                    (ADRD), in Nepal.</p>
+<!-- Introduction Section -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="mb-4 text-primary">Background</h2>
+        <p class="text-muted" style="font-size:1.1rem;">
+            Nepal’s population is rapidly aging, bringing with it an urgent need for advanced research into Alzheimer’s Disease and Related Dementias (ADRD) as well as other chronic health conditions. Yet, until recently, Nepal had very limited population-based data on dementia, making it difficult to design effective prevention strategies or respond to the growing burden of these diseases. To address this critical gap, the Institute for Social and Environmental Research Nepal (ISER-N) established a dedicated biospecimen within its premises in Bharatpur-15, Chitwan. The facility is equipped for blood sample processing and long-term storage of blood derivatives, including serum, plasma, and buffy coat, preserved at –86°C for biomarker and genetic research. All procedures follow internationally standardized protocols and World Health Organization (WHO) guidelines. Today, ISER-N’s biospecimen serves as a national hub for biomarker research, housing state-of-the-art instruments and essential tools required for ADRD investigations in line with international standards. Equally important, the laboratory is strengthening Nepal’s research capacity by training Nepali scientists and health professionals in advanced laboratory techniques ensuring the sustainability of a strong research culture in the country.
+        </p>
+    </div>
+</section>
+<!-- <section class="py-5 team-tree">
+    <div class="container text-center">
+        <img src="images/blood_collection_and_processing_pic.png" alt="Blood Collection and Processing" class="img-fluid" height="500px" width="500px">
+    </div>
+</section> -->
 
-                <p>The study seeks to explore how factors such as international labor migration and exposure to armed
-                    conflict contribute to the risk of dementia and cognitive impairments in older adults.</p>
+<!-- Lab Team Tree Section -->
+<section class="py-5 team-tree">
+    <div class="container text-center">
 
-                <div class="highlight-box">
-                    <p class="mb-0">In addition, we are exploring how chronic psychological stress impacts the transition
-                        to adulthood. Using hair cortisol concentration (HCC), a reliable and non-invasive biomarker, we
-                        measure long-term stress in young adults. This study is part of the Chitwan Valley Family Study
-                        (CVFS), a 25-year longitudinal study of community, household, and individual factors.</p>
+       
+        <!-- Subordinates -->
+        <div class="row justify-content-center mt-4">
+            <!-- Staff 1 -->
+            <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-4">
+                <div class="team-member text-center">
+                    <img src="{{ asset('images/lab_in_charge3.jpeg') }}" alt="Staff 1" class="img-fluid rounded-circle shadow profile-img-sm">
+                    <h6 class="mt-3 mb-1 fw-semibold">Ghaman Sing Susling</h6>
+                    <p class="text-muted">BMLT, Lab In-Charge</p>
                 </div>
             </div>
-        </section>
 
-        <!-- Study Area Section -->
-        <section id="study-area" class="mb-5">
-            <h2 class="section-title">Study Area</h2>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="study-image">
-                        <img src="images/CVFS study area.png" alt="CVFS Study Area" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="content-block" style="height: 100%;">
-                        <p>The Chitwan Valley, where the CVFS study is conducted, is located in Nepal. The region provides a
-                            diverse and representative sample for studying both the cognitive aging process and life
-                            transitions impacted by stress.</p>
-
-                        <div class="mt-4">
-                            <h5 class="fw-bold">Key Features:</h5>
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-check-circle text-primary me-2"></i> Representative population sample
-                                </li>
-                                <li><i class="fas fa-check-circle text-primary me-2"></i> Diverse socioeconomic backgrounds
-                                </li>
-                                <li><i class="fas fa-check-circle text-primary me-2"></i> Longitudinal data available</li>
-                                <li><i class="fas fa-check-circle text-primary me-2"></i> Established research
-                                    infrastructure</li>
-                            </ul>
-                        </div>
-                    </div>
+            <!-- Staff 2 -->
+            <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-4">
+                <div class="team-member text-center">
+                    <img src="{{ asset('images/Chiran_Garanja_Magar.jpg') }}" alt="Chiran Garanja Magar" class="img-fluid rounded-circle shadow profile-img-sm">
+                    <h6 class="mt-3 mb-1 fw-semibold">Chiran Garanja Magar</h6>
+                    <p class="text-muted">Lab Technician</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
 
-        <!-- Summary Section -->
-        <section id="summary" class="mb-5">
-            <h2 class="section-title">Research Context</h2>
-            <div class="content-block">
-                <p>Population aging is becoming increasingly more common in many low- and middle-income countries (LMIC). As
-                    a result, these countries face the growing burden of common age-associated chronic illnesses, including
-                    ADRD.</p>
 
-                <p>Nepal is a low middle-income country where the population is now aging, putting a rising number of adults
-                    at risk of developing ADRD. There is little or no research in Nepal to investigate the scope and primary
-                    determinants of ADRD, and even the most basic information on ADRD is currently lacking.</p>
+<!-- Image + Comments Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="mb-4 text-primary">Biomarker Gallery</h2>
+        <div class="row g-4">
 
-                <div class="alert alert-primary mt-4">
-                    <p class="mb-0"><strong>Urgent Need:</strong> There is an urgent need to build expertise in the design
-                        and conduct of systematic population-level investigations of ADRD in Nepal. There is an equally
-                        urgent need to start collecting rigorous new data on the scope and determinants of ADRD and other
-                        aging-related changes in health to guide the development of prevention strategies and reduce the
-                        burden of ADRD in Nepal.</p>
+            <!-- Item 1 -->
+            <div class="col-md-6">
+                <img src="biomarker1.jpg" alt="Biomarker 1" class="img-fluid bio-img shadow">
+                <div class="comment-box mt-3">
+                    <strong>Sample Comment of Pic1:</strong> <em>This marker indicates inflammation levels in blood samples.</em>
                 </div>
             </div>
-        </section>
 
-        <!-- Objectives Section -->
-        <section id="objectives" class="mb-5">
-            <h2 class="section-title">Study Objectives</h2>
-            <div class="content-block">
-                <ul class="objective-list">
-                    <li>Build research capacity for the conduct of studies of ADRD and other aging-related changes in
-                        health. Specific capacity-building activities focus on the design and administration of culturally
-                        appropriate cognitive assessments to identify ADRD in the general population, and building expertise
-                        in statistical methods for the analysis of longitudinal data from complex surveys.</li>
-                    <li>Design and conduct a population-based study of ADRD and other age-associated conditions of adults
-                        aged > 50 years and complete a baseline interview and one follow-up interview two years later with
-                        these adults and informants/caregivers.</li>
-                    <li>Estimate the prevalence and incidence of ADRD and its primary clinical feature: cognitive
-                        impairment; test associations between primary risk factors and ADRD/cognitive impairment and other
-                        relevant outcomes (e.g., disability, caregiving needs) at baseline and follow-up.</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Methodology Section -->
-        <section id="methodology" class="mb-5">
-            <h2 class="section-title">Methodology</h2>
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="content-block h-100">
-                        <div class="methodology-icon">
-                            <i class="fas fa-clipboard-list"></i>
-                        </div>
-                        <h4>Study Design</h4>
-                        <p>This is a longitudinal cohort study of a representative sample of 4,000 older adults aged >50 and
-                            their 4,000 key informants/caregivers from the Chitwan Valley Family Study (CVFS) panel, based
-                            on a stratified two-stage cluster area probability sampling.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="content-block h-100">
-                        <div class="methodology-icon">
-                            <i class="fas fa-tablet-alt"></i>
-                        </div>
-                        <h4>Survey Data Collection</h4>
-                        <p>Using Harmonized Cognitive Assessment Protocol (HCAP) instruments, face-to-face Computer-Assisted
-                            Personal Interviewing (CAPI) is administered on tablets. The interview includes cognitive and
-                            physical function tests, standardized measures, informant interview, and health assessments.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="content-block h-100">
-                        <div class="methodology-icon">
-                            <i class="fas fa-vial"></i>
-                        </div>
-                        <h4>Biomarker Collection</h4>
-                        <p>A team of licensed and trained phlebotomists draw 32.5 ml of blood during the single blood draw
-                            using a vacuum extraction system. Additional biomarker data including hair cortisol samples are
-                            collected for stress analysis.</p>
-                    </div>
+            <!-- Item 2 -->
+            <div class="col-md-6">
+                <img src="biomarker2.jpg" alt="Biomarker 2" class="img-fluid bio-img shadow">
+                <div class="comment-box mt-3">
+                    <strong>Sample Comment of Pic2:</strong><em> Used for early detection of cardiovascular risks.</em>
                 </div>
             </div>
-        </section>
 
-        <!-- Timeline Section -->
-        <section id="timeline" class="mb-5">
-            <h2 class="section-title">Timeline and Current Status</h2>
-            <div class="content-block">
-                <div class="timeline-item">
-                    <div class="timeline-badge">2022</div>
-                    <h4>Study Commencement</h4>
-                    <p>The study commenced in 2022 and is projected to conclude by 2027. Initial data collection is
-                        completed and follow-up assessments are planned, including hair cortisol sampling and biomarker
-                        collection for stress analysis.</p>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-badge">2023</div>
-                    <h4>Baseline Data Collection</h4>
-                    <p>Completed baseline interviews with 4,000 participants and their caregivers. Established local
-                        research capacity and trained field teams in cognitive assessment protocols.</p>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-badge">2024</div>
-                    <h4>Preliminary Analysis</h4>
-                    <p>Initial analysis of baseline data to establish prevalence estimates and identify key risk factors for
-                        further investigation in follow-up waves.</p>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-badge">2025-27</div>
-                    <h4>Follow-up Waves</h4>
-                    <p>Conducting follow-up assessments to measure cognitive change over time and analyze longitudinal
-                        patterns of ADRD development and progression.</p>
+            <!-- Item 3 -->
+            <div class="col-md-6">
+                <img src="biomarker3.jpg" alt="Biomarker 3" class="img-fluid bio-img shadow">
+                <div class="comment-box mt-3">
+                    <strong>Sample Comment of Pic3:</strong> <em>Helps in monitoring cancer progression.</em>
                 </div>
             </div>
-        </section>
-    </main>
+
+            <!-- Item 4 -->
+            <div class="col-md-6">
+                <img src="biomarker4.jpg" alt="Biomarker 4" class="img-fluid bio-img shadow">
+                <div class="comment-box mt-3">
+                    <strong>Sample Comment of Pic4:</strong><em>Related to neurodegenerative disease research.</em>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
 @endsection

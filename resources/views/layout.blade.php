@@ -91,9 +91,9 @@
                                 <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page"
                                     href="/"><i class="fa-solid fa-house-chimney fa-lg me-2 "></i>HOME</a>
                             </li>
-                            {{-- <li class="nav-item">
-                                <a class="nav-link {{ Request::is('study') ? 'active' : '' }}" href="/study">STUDY</a>
-                            </li> --}}
+                             <li class="nav-item">
+                                <a class="nav-link {{ Request::is('study') ? 'active' : '' }}" href="/study">BIOMARKERS</a>
+                            </li> 
                             <li class="nav-item">
                                 <a class="nav-link {{ Request::is('data') ? 'active' : '' }}" href="/data">DATA</a>
                             </li>
