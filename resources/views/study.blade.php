@@ -77,19 +77,19 @@
     </p>
 </div>
 <div class="container">
-    <h3 class="mb-3 text-primary">Blood Sample Collection</h3>
+    <h4 class="mb-3 text-primary">Blood Sample Collection</h4>
     <p class="text-muted" style="font-size:1.1rem;">
         Trained phlebotomists visit respondents’ homes to collect 30 ml of blood in three 10 ml tubes (two SST tubes and one EDTA tube). Prior to collection, informed consent and a brief health assessment are completed. Blood is drawn using a vacuum extraction system in accordance with SOPs. Each tube is labeled and tracked using the Survey123 mobile application for real-time management.
     </p>
 </div>
 <div class="container">
-    <h3 class="mb-3 text-primary">Mobile Laboratory Processing</h3>
+    <h4 class="mb-3 text-primary">Mobile Laboratory Processing</h4>
     <p class="text-muted" style="font-size:1.1rem;">
         For CVFS-SCAN, ISER-Nepal has established mobile laboratories within study neighborhoods. Upon receiving samples, lab technicians scan tube barcodes for tracking. SST tubes are centrifuged on-site using portable centrifugation machines. Both SST and EDTA tubes are then transported under controlled conditions to ISER-Nepal’s central laboratory for further processing and secure storage.
     </p>
 </div>
 <div class="container">
-    <h3 class="mb-3 text-primary">Receiving Samples at ISER-Nepal Laboratory</h3>
+    <h4 class="mb-3 text-primary">Receiving Samples at ISER-Nepal Laboratory</h4>
     <p class="text-muted" style="font-size:1.1rem;">
        Upon arrival, all tubes are verified for correct labeling, re-scanned with a barcode reader, and logged into the system. The samples are then prepared for centrifugation.
     </p>
