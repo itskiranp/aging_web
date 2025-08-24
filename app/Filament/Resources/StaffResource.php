@@ -39,7 +39,7 @@ class StaffResource extends Resource
                     ->directory('images') // This ensures images are uploaded to /public/images
                     ->label('Profile Image')
                     ->preserveFilenames(),
-                    
+
                 FileUpload::make('cv_link')
                     ->directory('uploads') // This ensures CVs are uploaded to /public/uploads
                     ->label('Curriculum Vitae')
@@ -51,6 +51,8 @@ class StaffResource extends Resource
     public static function table(Table $table): Table
     {
         return $table
+            ->reorderable('sort_order') // This line enables drag-and-drop
+            ->defaultSort('sort_order')
             ->columns([
                 TextColumn::make('name')->sortable()->searchable(),
                 TextColumn::make('position'),

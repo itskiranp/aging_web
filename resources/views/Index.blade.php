@@ -41,39 +41,39 @@
     <!-- Slide 1 -->
     <div class="carousel-item active">
       <div class="position-relative h-100">
-        <img src="images/iserfamily.JPG" class="img-fluid hero-img" alt="CVFS-SCAN Team">
-        <div class="hero-overlay">
+        <img src="images/iserfamily1.JPG" class="img-fluid hero-img" alt="CVFS-SCAN Team">
+        <!-- <div class="hero-overlay">
           <div class="hero-text">
             <h1>Study on Cognition and Aging in Nepal</h1>
             <p>Part of the Chitwan Valley Family Study (CVFS-SCAN)</p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
 
     <!-- Slide 2 (Example) -->
     <div class="carousel-item">
       <div class="position-relative h-100">
-        <img src="images/background.JPG" class="img-fluid hero-img" alt="Slide 2">
-        <div class="hero-overlay">
+        <img src="images/himalayan.jpg" class="img-fluid hero-img" alt="Slide 2">
+        <!-- <div class="hero-overlay">
           <div class="hero-text">
             <h1>Understanding Nepal's Aging Population</h1>
             <p>Empowering Research Through Data</p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
 
     <!-- Slide 3 -->
     <div class="carousel-item">
       <div class="position-relative h-100">
-        <img src="images/laboratory1.JPG" class="img-fluid hero-img" alt="Slide 3">
-        <div class="hero-overlay">
+        <img src="images/biomarkerpic.jpeg" class="img-fluid hero-img" alt="Slide 3">
+        <!-- <div class="hero-overlay">
           <div class="hero-text">
             <h1>Data-Driven Insights</h1>
             <p>Explore biomarkers, cognition, and more</p>
           </div>
-      </div>
+      </div> -->
     </div>
 
   </div>

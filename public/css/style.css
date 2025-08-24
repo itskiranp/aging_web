@@ -1487,3 +1487,12 @@ body {
         height: 100px;
     }
 }
+/* biomarker page images styling */
+.bio-img {
+    /* max-width: 80%;  */
+    height: auto;     /* Keep aspect ratio */
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Center the image */
+    border-radius: 12px; /* optional, for smoother look */
+}

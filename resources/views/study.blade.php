@@ -47,7 +47,7 @@
 <section class="py-5 team-tree">
     <div class="container text-center">
 
-       
+
         <!-- Subordinates -->
         <div class="row justify-content-center mt-4">
             <!-- Staff 1 -->
@@ -70,43 +70,80 @@
         </div>
     </div>
 </section>
-
+<div class="container">
+    <h3 class="mb-3 text-primary">Blood Sample Processing and Storage</h3>
+    <p class="text-muted" style="font-size:1.1rem;">
+        At ISER-Nepal’s central laboratory, blood samples are processed under strict standardized procedures to ensure integrity and reliability for CVFS-SCAN biomarker research. From field collection to long-term storage, every step is designed to maintain the highest quality standards for serum, plasma, and buffy coat extraction.
+    </p>
+</div>
+<div class="container">
+    <h3 class="mb-3 text-primary">Blood Sample Collection</h3>
+    <p class="text-muted" style="font-size:1.1rem;">
+        Trained phlebotomists visit respondents’ homes to collect 30 ml of blood in three 10 ml tubes (two SST tubes and one EDTA tube). Prior to collection, informed consent and a brief health assessment are completed. Blood is drawn using a vacuum extraction system in accordance with SOPs. Each tube is labeled and tracked using the Survey123 mobile application for real-time management.
+    </p>
+</div>
+<div class="container">
+    <h3 class="mb-3 text-primary">Mobile Laboratory Processing</h3>
+    <p class="text-muted" style="font-size:1.1rem;">
+        For CVFS-SCAN, ISER-Nepal has established mobile laboratories within study neighborhoods. Upon receiving samples, lab technicians scan tube barcodes for tracking. SST tubes are centrifuged on-site using portable centrifugation machines. Both SST and EDTA tubes are then transported under controlled conditions to ISER-Nepal’s central laboratory for further processing and secure storage.
+    </p>
+</div>
+<div class="container">
+    <h3 class="mb-3 text-primary">Receiving Samples at ISER-Nepal Laboratory</h3>
+    <p class="text-muted" style="font-size:1.1rem;">
+       Upon arrival, all tubes are verified for correct labeling, re-scanned with a barcode reader, and logged into the system. The samples are then prepared for centrifugation.
+    </p>
+</div>
 
 <!-- Image + Comments Section -->
 <section class="py-5 bg-light">
     <div class="container">
-        <h2 class="mb-4 text-primary">Biomarker Gallery</h2>
+
         <div class="row g-4">
 
             <!-- Item 1 -->
             <div class="col-md-6">
-                <img src="biomarker1.jpg" alt="Biomarker 1" class="img-fluid bio-img shadow">
+                <img src="images/Centrifugation2.jpeg" alt="Biomarker 1" height="auto" class="img-fluid bio-img shadow">
                 <div class="comment-box mt-3">
-                    <strong>Sample Comment of Pic1:</strong> <em>This marker indicates inflammation levels in blood samples.</em>
+                    <strong>Centrifugation:</strong> 
+                    <ul class="text-muted" style="font-size:1rem;">
+                        <li><strong>SST tubes:</strong> centrifuged at 1800 RCF for 10-15 minutes to separate serum.</li>
+                        <li> <strong>EDTA tubes:</strong>centrifuged at 1500 RCF for up to 15 minutes to separate plasma, buffy coat, and red blood cells.</li>
+                    </ul>
                 </div>
             </div>
 
             <!-- Item 2 -->
             <div class="col-md-6">
-                <img src="biomarker2.jpg" alt="Biomarker 2" class="img-fluid bio-img shadow">
+                <img src="images/Extraction_aliquoting2.jpeg" alt="Biomarker 2" class="img-fluid bio-img shadow">
                 <div class="comment-box mt-3">
-                    <strong>Sample Comment of Pic2:</strong><em> Used for early detection of cardiovascular risks.</em>
-                </div>
-            </div>
+                    <strong>Extraction and Aliquoting:</strong>
+                    <p class="text-muted" style="font-size:1rem;">
+                     Following centrifugation, serum, plasma, and buffy coat are carefully extracted using sterile pipettes. Each component is divided into smaller portions (aliquots) to support efficient analysis and long-term storage:</p>
+                    <ul class="text-muted" style="font-size:1rem;">
+                        <li>Serum: up to 6 aliquots</li>
+                        <li>Plasma: up to 6 aliquots</li>
+                        <li>Buffy Coat: up to 2 aliquots</li>
 
-            <!-- Item 3 -->
-            <div class="col-md-6">
-                <img src="biomarker3.jpg" alt="Biomarker 3" class="img-fluid bio-img shadow">
-                <div class="comment-box mt-3">
-                    <strong>Sample Comment of Pic3:</strong> <em>Helps in monitoring cancer progression.</em>
+                    </ul>
+                    
                 </div>
             </div>
 
             <!-- Item 4 -->
             <div class="col-md-6">
-                <img src="biomarker4.jpg" alt="Biomarker 4" class="img-fluid bio-img shadow">
+                <img src="images/storage1.jpeg" alt="Biomarker 4" class="img-fluid bio-img shadow">
                 <div class="comment-box mt-3">
-                    <strong>Sample Comment of Pic4:</strong><em>Related to neurodegenerative disease research.</em>
+                    <strong>Secure Storage and Transport:</strong>
+                    <p class="text-muted" style="font-size:1rem;">
+                        All aliquots are stored at –86°C in ultra-low temperature freezers at ISER-Nepal. For each respondent, 14 cryovials are prepared:
+                    </p>
+                    <ul class="text-muted" style="font-size:1rem;">
+                        <li> <strong>Seven cryovials</strong> remain securely stored at ISER-Nepal.</li>
+                        <li><strong>Seven cryovials</strong> are shipped on dry ice to the University of Michigan Biospecimen Lab (USA).</li>
+                        
+                    </ul>
+                
                 </div>
             </div>
 
