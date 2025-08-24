@@ -62,7 +62,7 @@
             <!-- Staff 2 -->
             <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-4">
                 <div class="team-member text-center">
-                    <img src="{{ asset('images/Chiran_Garanja_Magar.jpg') }}" alt="Chiran Garanja Magar" class="img-fluid rounded-circle shadow profile-img-sm">
+                    <img src="{{ asset('images/Chiran_Garanja_Magar.JPG') }}" alt="Chiran Garanja Magar" class="img-fluid rounded-circle shadow profile-img-sm">
                     <h6 class="mt-3 mb-1 fw-semibold">Chiran Garanja Magar</h6>
                     <p class="text-muted">Lab Technician</p>
                 </div>
