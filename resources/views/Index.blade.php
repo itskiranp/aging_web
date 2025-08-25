@@ -205,8 +205,80 @@
         <!-- Hidden Content (unchanged) -->
         <div id="hidden-content"
             style="display: none; line-height: 1.7; margin-top: 30px; padding-top: 30px; border-top: 1px solid #e2e8f0;">
-            <!-- Unique Features Section -->
+           
             <div style="margin-bottom: 35px;">
+
+
+                <section class="methodology-section">
+                    <div class="container">
+                        <h3 class=" text-center section-title"
+                            style="color: #2b6cb0; font-size: 1.5rem; font-weight: 600; margin-bottom: 20px; position: relative;">
+                            Methodology
+                        </h3>
+                        {{-- <h2 class="text-center text-primary mb-5 section-title"></h2> --}}
+
+                        <div class="row g-4">
+
+                            <!-- Study Design -->
+                            <div class="col-md-4">
+                                <div class="card h-100 shadow-sm border-0 methodology-card">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="me-3 methodology-icon"><i class="bi bi-diagram-3"></i></div>
+                                            <h5 class="mb-0 text-primary">Study Design</h5>
+                                        </div>
+                                        <p class="text-muted small mb-0 ">
+                                            This is a longitudinal cohort study of a representative sample of <strong>4,000
+                                                older adults</strong> aged 50+ and their <strong>4,000 key
+                                                informants</strong>
+                                            from the Chitwan Valley Family Study (CVFS) panel, using a stratified two-stage
+                                            cluster area probability sampling design.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Survey Data Collection -->
+                            <div class="col-md-4">
+                                <div class="card h-100 shadow-sm border-0 methodology-card">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="me-3 methodology-icon"><i class="bi bi-laptop"></i></div>
+                                            <h5 class="mb-0 text-primary">Survey Data Collection</h5>
+                                        </div>
+                                        <p class="text-muted small mb-0">
+                                            Using <strong>Nepal Harmonized Cognitive Assessment Protocol (NHCAP)</strong>
+                                            instruments, <strong>face-to-face Computer-Assisted Personal Interviewing
+                                                (CAPI)</strong> is administered on laptops. Interviews include cognitive and
+                                            physical function tests, standardized measures, informant interviews, and health
+                                            assessments.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Biomarker Collection -->
+                            <div class="col-md-4">
+                                <div class="card h-100 shadow-sm border-0 methodology-card">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="me-3 methodology-icon"><i class="bi bi-droplet-half"></i></div>
+                                            <h5 class="mb-0 text-primary">Biomarker Collection</h5>
+                                        </div>
+                                        <p class="text-muted small mb-0">
+                                            A team of licensed and trained phlebotomists collect <strong>30 ml of
+                                                blood</strong>
+                                            during a single draw using a <strong>vacuum extraction system</strong> following
+                                            best practices in biomarker collection.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                 <!-- Unique Features Section -->
                 <h3
                     style="color: #2b6cb0; font-size: 1.5rem; font-weight: 600; margin-bottom: 20px; position: relative; padding-left: 20px;">
                     What Makes CVFS-SCAN Unique
@@ -295,79 +367,9 @@
                             that older adults can live with dignity, support, and opportunity in the years to come."</em>
                     </p>
                 </div>
-
-                <!-- Goals and Objectives -->
                 
 
-                <section class="methodology-section">
-                    <div class="container">
-                        <h3 class=" text-center section-title"
-                            style="color: #2b6cb0; font-size: 1.5rem; font-weight: 600; margin-bottom: 20px; position: relative;">
-                            Methodology
-                        </h3>
-                        {{-- <h2 class="text-center text-primary mb-5 section-title"></h2> --}}
-
-                        <div class="row g-4">
-
-                            <!-- Study Design -->
-                            <div class="col-md-4">
-                                <div class="card h-100 shadow-sm border-0 methodology-card">
-                                    <div class="card-body">
-                                        <div class="d-flex align-items-center mb-3">
-                                            <div class="me-3 methodology-icon"><i class="bi bi-diagram-3"></i></div>
-                                            <h5 class="mb-0 text-primary">Study Design</h5>
-                                        </div>
-                                        <p class="text-muted small mb-0 ">
-                                            This is a longitudinal cohort study of a representative sample of <strong>4,000
-                                                older adults</strong> aged 50+ and their <strong>4,000 key
-                                                informants</strong>
-                                            from the Chitwan Valley Family Study (CVFS) panel, using a stratified two-stage
-                                            cluster area probability sampling design.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Survey Data Collection -->
-                            <div class="col-md-4">
-                                <div class="card h-100 shadow-sm border-0 methodology-card">
-                                    <div class="card-body">
-                                        <div class="d-flex align-items-center mb-3">
-                                            <div class="me-3 methodology-icon"><i class="bi bi-laptop"></i></div>
-                                            <h5 class="mb-0 text-primary">Survey Data Collection</h5>
-                                        </div>
-                                        <p class="text-muted small mb-0">
-                                            Using <strong>Nepal Harmonized Cognitive Assessment Protocol (NHCAP)</strong>
-                                            instruments, <strong>face-to-face Computer-Assisted Personal Interviewing
-                                                (CAPI)</strong> is administered on laptops. Interviews include cognitive and
-                                            physical function tests, standardized measures, informant interviews, and health
-                                            assessments.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Biomarker Collection -->
-                            <div class="col-md-4">
-                                <div class="card h-100 shadow-sm border-0 methodology-card">
-                                    <div class="card-body">
-                                        <div class="d-flex align-items-center mb-3">
-                                            <div class="me-3 methodology-icon"><i class="bi bi-droplet-half"></i></div>
-                                            <h5 class="mb-0 text-primary">Biomarker Collection</h5>
-                                        </div>
-                                        <p class="text-muted small mb-0">
-                                            A team of licensed and trained phlebotomists collect <strong>30 ml of
-                                                blood</strong>
-                                            during a single draw using a <strong>vacuum extraction system</strong> following
-                                            best practices in biomarker collection.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
+                
 
                 <!-- Specific Aims -->
                 {{-- <div style="margin-bottom: 35px;">
