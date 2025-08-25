@@ -1354,12 +1354,12 @@ body {
 
 /* Hero carousel section styling */
 .hero-carousel {
-  height: 50vh;
+  height: 55vh;
   overflow: hidden;
 }
 
 .hero-carousel .carousel-item {
-  height: 50vh;
+  height: 55vh;
 }
 
 .hero-img {
@@ -1416,6 +1416,7 @@ body {
     height: 50vh;
   }
 }
+
 
 /* -------------------- Biomarkers Page Styling -------------------- */
 

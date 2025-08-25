@@ -24,7 +24,7 @@
 <section class="bio-hero">
     <div class="container">
         <h1 class="display-5 fw-bold">Biospecimen Laboratory of ISER-N</h1>
-        <p class="lead text-center"><em>A hub for biomarker research and scientific capacity in Nepal.</em></p>
+        <p class="lead text-center" style="color: mintCream;"><em>A hub for biomarker research and scientific capacity in Nepal.</em></p>
     </div>
 </section>
 
