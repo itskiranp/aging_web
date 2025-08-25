@@ -344,13 +344,11 @@ body {
     transform: translateY(-5px);
 }
 
-.section-title {
-    font-weight: 600;
-}
+
 
 .methodology-section {
     background-color: #f8f9fa;
-    padding: 4rem 0;
+    padding-bottom: 2rem;
 }
 .methodology-card p {
     font-size: 1rem;

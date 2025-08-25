@@ -35,57 +35,57 @@
 </div> -->
 <section>
     <!-- Hero Carousel -->
-<div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel">
-  <div class="carousel-inner">
+    <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel">
+        <div class="carousel-inner">
 
-    <!-- Slide 1 -->
-    <div class="carousel-item active">
-      <div class="position-relative h-100">
-        <img src="images/iserfamily1.jpg" class="img-fluid hero-img" alt="CVFS-SCAN Team">
-        <!-- <div class="hero-overlay">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <div class="position-relative h-100">
+                    <img src="images/iserfamily1.jpg" class="img-fluid hero-img" alt="CVFS-SCAN Team">
+                    <!-- <div class="hero-overlay">
           <div class="hero-text">
             <h1>Study on Cognition and Aging in Nepal</h1>
             <p>Part of the Chitwan Valley Family Study (CVFS-SCAN)</p>
           </div>
         </div> -->
-      </div>
-    </div>
+                </div>
+            </div>
 
-    <!-- Slide 2 (Example) -->
-    <div class="carousel-item">
-      <div class="position-relative h-100">
-        <img src="images/himalayan.jpg" class="img-fluid hero-img" alt="Slide 2">
-        <!-- <div class="hero-overlay">
+            <!-- Slide 2 (Example) -->
+            <div class="carousel-item">
+                <div class="position-relative h-100">
+                    <img src="images/himalayan.jpg" class="img-fluid hero-img" alt="Slide 2">
+                    <!-- <div class="hero-overlay">
           <div class="hero-text">
             <h1>Understanding Nepal's Aging Population</h1>
             <p>Empowering Research Through Data</p>
           </div>
         </div> -->
-      </div>
-    </div>
+                </div>
+            </div>
 
-    <!-- Slide 3 -->
-    <div class="carousel-item">
-      <div class="position-relative h-100">
-        <img src="images/biomarkerpic.jpeg" class="img-fluid hero-img" alt="Slide 3">
-        <!-- <div class="hero-overlay">
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <div class="position-relative h-100">
+                    <img src="images/biomarkerpic.jpeg" class="img-fluid hero-img" alt="Slide 3">
+                    <!-- <div class="hero-overlay">
           <div class="hero-text">
             <h1>Data-Driven Insights</h1>
             <p>Explore biomarkers, cognition, and more</p>
           </div>
       </div> -->
-    </div>
+                </div>
 
-  </div>
+            </div>
 
-  <!-- Controls -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
 </section>
 
 
@@ -110,9 +110,9 @@
         </div>
 
         <!-- Main Content - Now in Columns -->
-        <div style="display: flex; flex-wrap: wrap; gap: 50px; margin-bottom: 25px;">
+        <div style="display: flex; flex-wrap: wrap; gap: 50px; margin-bottom: 20px;">
             <!-- Left Column - Text Content -->
-            <div style="flex: 1; min-width: 500px;">
+            <div style=" text-align: justify; flex: 1; min-width: 500px;">
                 <div id="main-content" style="line-height: 1.8;">
                     <p style="margin-bottom: 18px; font-size: 1.1rem; color: #4a5568;">
                         The CVFS-SCAN study aims to lay the foundation for a sustainable, population-based research
@@ -149,10 +149,9 @@
             <!-- Right Column - Image -->
             <div style="flex: 1;  display: flex; justify-content: center; align-items: flex-start;">
                 <div
-                    style="width: 100%;  background: #f8fafc; border-radius: 3px; overflow: hidden;  ">
+                    style=" background: #f8fafc; border-radius: 3px; overflow: hidden;  ">
                     <!-- Placeholder for your image - replace with actual img tag -->
-                    <img src="/images/study area.png" alt=""
-                        style="width: 100%; height: auto; object-fit: cover;">
+                    <img src="/images/study area.png" class="img-fluid" alt="" width="600px" height="400px" ;>
 
                 </div>
             </div>
@@ -164,7 +163,7 @@
             <p style="margin-bottom: 18px; font-size: 1.1rem; color: #4a5568;">
                 To develop a foundation for sustained, high-quality, population-based research into ADRD and age-related chronic conditions in Nepal.
             </p>
-            <h4 style="color: #2c5282; font-size: 1.1rem; font-weight: 600; margin-bottom: 7px;">
+            <h4 style="  color: #2c5282; font-size: 1.1rem; font-weight: 600; margin-bottom: 7px;">
                 Objectives
             </h4>
             <ul style="color: #4a5568; font-size: 1.1rem; padding-left: 20px; margin: 0; margin-bottom: 10px;">
@@ -172,11 +171,11 @@
                 </li>
                 <li>Develop and implement a new, longitudinal cohort study of ADRD and related aging-associated health conditions among older adults in Nepal.</li>
             </ul>
-            <div style="margin-bottom: 18px; font-size: 1.1rem; color: #4a5568;">
-                <h4 style="color: #2c5282; font-size: 1.1rem; font-weight: 600; margin-bottom: 10px;">
+            <div style=" margin-bottom: 18px; font-size: 1.1rem; color: #4a5568;">
+                <h4 style="  color: #2c5282; font-size: 1.1rem; font-weight: 600; margin-bottom: 10px;">
                     Specific Aims
                 </h4>
-                <ol style="color: #4a5568; font-size: 1.1rem; padding-left: 20px; margin: 0;">
+                <ol style=" color: #4a5568; font-size: 1.1rem; padding-left: 20px; margin: 0;">
                     <li style="margin-bottom: 12px;">
                         Build research capacity for the conduct of studies of ADRD and other aging-related changes in health. Specific capacity-building activities focus on:
                         <ul style="list-style-type: disc; margin-top: 8px; padding-left: 20px;">
@@ -196,89 +195,85 @@
                 </ol>
             </div>
 
-
-
-
-
         </div>
 
         <!-- Hidden Content (unchanged) -->
         <div id="hidden-content"
             style="display: none; line-height: 1.7; margin-top: 30px; padding-top: 30px; border-top: 1px solid #e2e8f0;">
-           
+
             <div style="margin-bottom: 35px;">
 
 
                 <section class="methodology-section">
-                    <div class="container">
-                        <h3 class=" text-center section-title"
-                            style="color: #2b6cb0; font-size: 1.5rem; font-weight: 600; margin-bottom: 20px; position: relative;">
-                            Methodology
-                        </h3>
-                        {{-- <h2 class="text-center text-primary mb-5 section-title"></h2> --}}
 
-                        <div class="row g-4">
+                    <h3
+                        style="color: #2b6cb0; font-size: 1.5rem; font-weight: 600; margin-bottom: 20px; position: relative; padding-left: 20px;">
+                        Methodology
+                    </h3>
+                    {{-- <h2 class="text-center text-primary mb-5 section-title"></h2> --}}
 
-                            <!-- Study Design -->
-                            <div class="col-md-4">
-                                <div class="card h-100 shadow-sm border-0 methodology-card">
-                                    <div class="card-body">
-                                        <div class="d-flex align-items-center mb-3">
-                                            <div class="me-3 methodology-icon"><i class="bi bi-diagram-3"></i></div>
-                                            <h5 class="mb-0 text-primary">Study Design</h5>
-                                        </div>
-                                        <p class="text-muted small mb-0 ">
-                                            This is a longitudinal cohort study of a representative sample of <strong>4,000
-                                                older adults</strong> aged 50+ and their <strong>4,000 key
-                                                informants</strong>
-                                            from the Chitwan Valley Family Study (CVFS) panel, using a stratified two-stage
-                                            cluster area probability sampling design.
-                                        </p>
+                    <div class="row g-4">
+
+                        <!-- Study Design -->
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm border-0 methodology-card">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <div class="me-3 methodology-icon"><i class="bi bi-diagram-3"></i></div>
+                                        <h5 class="mb-0 text-primary">Study Design</h5>
                                     </div>
+                                    <p class="text-muted small mb-0 ">
+                                        This is a longitudinal cohort study of a representative sample of <strong>4,000
+                                            older adults</strong> aged 50+ and their <strong>4,000 key
+                                            informants</strong>
+                                        from the Chitwan Valley Family Study (CVFS) panel, using a stratified two-stage
+                                        cluster area probability sampling design.
+                                    </p>
                                 </div>
                             </div>
-
-                            <!-- Survey Data Collection -->
-                            <div class="col-md-4">
-                                <div class="card h-100 shadow-sm border-0 methodology-card">
-                                    <div class="card-body">
-                                        <div class="d-flex align-items-center mb-3">
-                                            <div class="me-3 methodology-icon"><i class="bi bi-laptop"></i></div>
-                                            <h5 class="mb-0 text-primary">Survey Data Collection</h5>
-                                        </div>
-                                        <p class="text-muted small mb-0">
-                                            Using <strong>Nepal Harmonized Cognitive Assessment Protocol (NHCAP)</strong>
-                                            instruments, <strong>face-to-face Computer-Assisted Personal Interviewing
-                                                (CAPI)</strong> is administered on laptops. Interviews include cognitive and
-                                            physical function tests, standardized measures, informant interviews, and health
-                                            assessments.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Biomarker Collection -->
-                            <div class="col-md-4">
-                                <div class="card h-100 shadow-sm border-0 methodology-card">
-                                    <div class="card-body">
-                                        <div class="d-flex align-items-center mb-3">
-                                            <div class="me-3 methodology-icon"><i class="bi bi-droplet-half"></i></div>
-                                            <h5 class="mb-0 text-primary">Biomarker Collection</h5>
-                                        </div>
-                                        <p class="text-muted small mb-0">
-                                            A team of licensed and trained phlebotomists collect <strong>30 ml of
-                                                blood</strong>
-                                            during a single draw using a <strong>vacuum extraction system</strong> following
-                                            best practices in biomarker collection.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
+
+                        <!-- Survey Data Collection -->
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm border-0 methodology-card">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <div class="me-3 methodology-icon"><i class="bi bi-laptop"></i></div>
+                                        <h5 class="mb-0 text-primary">Survey Data Collection</h5>
+                                    </div>
+                                    <p class="text-muted small mb-0">
+                                        Using <strong>Nepal Harmonized Cognitive Assessment Protocol (NHCAP)</strong>
+                                        instruments, <strong>face-to-face Computer-Assisted Personal Interviewing
+                                            (CAPI)</strong> is administered on laptops. Interviews include cognitive and
+                                        physical function tests, standardized measures, informant interviews, and health
+                                        assessments.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Biomarker Collection -->
+                        <div class="col-md-4">
+                            <div class="card h-100 shadow-sm border-0 methodology-card">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <div class="me-3 methodology-icon"><i class="bi bi-droplet-half"></i></div>
+                                        <h5 class="mb-0 text-primary">Biomarker Collection</h5>
+                                    </div>
+                                    <p class="text-muted small mb-0">
+                                        A team of licensed and trained phlebotomists collect <strong>30 ml of
+                                            blood</strong>
+                                        during a single draw using a <strong>vacuum extraction system</strong> following
+                                        best practices in biomarker collection.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
+
                 </section>
-                 <!-- Unique Features Section -->
+                <!-- Unique Features Section -->
                 <h3
                     style="color: #2b6cb0; font-size: 1.5rem; font-weight: 600; margin-bottom: 20px; position: relative; padding-left: 20px;">
                     What Makes CVFS-SCAN Unique
@@ -367,9 +362,9 @@
                             that older adults can live with dignity, support, and opportunity in the years to come."</em>
                     </p>
                 </div>
-                
 
-                
+
+
 
                 <!-- Specific Aims -->
                 {{-- <div style="margin-bottom: 35px;">
