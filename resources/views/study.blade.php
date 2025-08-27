@@ -23,8 +23,8 @@
     </header> -->
 <section class="bio-hero">
     <div class="container">
-        <h1 class="display-5 fw-bold">Biospecimen Laboratory of ISER-N</h1>
-        <p class="lead text-center" style="color: mintCream;"><em>A hub for biomarker research and scientific capacity in Nepal.</em></p>
+        <h1 class="display-5 fw-bold  mb-0" style="color:lightgoldenrodyellow">Biospecimen Laboratory of ISER-N</h1>
+        <p class="lead text-center " style="color:lightgoldenrodyellow"><em>A hub for biomarker research and scientific capacity in Nepal.</em></p>
     </div>
 </section>
 
@@ -72,25 +72,25 @@
 </section>
 <div class="container">
     <h3 class="mb-3 text-primary">Blood Sample Processing and Storage</h3>
-    <p  style="font-size:1.1rem;">
+    <p style="font-size:1.1rem;">
         At ISER-Nepal’s central laboratory, blood samples are processed under strict standardized procedures to ensure integrity and reliability for CVFS-SCAN biomarker research. From field collection to long-term storage, every step is designed to maintain the highest quality standards for serum, plasma, and buffy coat extraction.
     </p>
 </div>
 <div class="container">
     <h4 class="mb-3 text-primary">Blood Sample Collection</h4>
-    <p  style="font-size:1.1rem;">
+    <p style="font-size:1.1rem;">
         Trained phlebotomists visit respondents’ homes to collect 30 ml of blood in three 10 ml tubes (two SST tubes and one EDTA tube). Prior to collection, informed consent and a brief health assessment are completed. Blood is drawn using a vacuum extraction system in accordance with SOPs. Each tube is labeled and tracked using the Survey123 mobile application for real-time management.
     </p>
 </div>
 <div class="container">
     <h4 class="mb-3 text-primary">Mobile Laboratory Processing</h4>
-    <p  style="font-size:1.1rem;">
+    <p style="font-size:1.1rem;">
         For CVFS-SCAN, ISER-Nepal has established mobile laboratories within study neighborhoods. Upon receiving samples, lab technicians scan tube barcodes for tracking. SST tubes are centrifuged on-site using portable centrifugation machines. Both SST and EDTA tubes are then transported under controlled conditions to ISER-Nepal’s central laboratory for further processing and secure storage.
     </p>
 </div>
 <div class="container">
     <h4 class="mb-3 text-primary">Receiving Samples at ISER-Nepal Laboratory</h4>
-    <p  style="font-size:1.1rem;">
+    <p style="font-size:1.1rem;">
         Upon arrival, all tubes are verified for correct labeling, re-scanned with a barcode reader, and logged into the system. The samples are then prepared for centrifugation.
     </p>
 </div>
@@ -106,7 +106,7 @@
                 <img src="images/centrifugation.jpg" alt="Biomarker 1" class="img-fluid bio-img shadow">
                 <div class="comment-box mt-3">
                     <strong>Centrifugation:</strong>
-                    <ul  style="font-size:1rem;">
+                    <ul style="font-size:1rem;">
                         <li><strong>SST tubes:</strong> centrifuged at 1800 RCF for 10-15 minutes to separate serum.</li>
                         <li> <strong>EDTA tubes:</strong>centrifuged at 1500 RCF for up to 15 minutes to separate plasma, buffy coat, and red blood cells.</li>
                     </ul>
@@ -118,9 +118,9 @@
                 <img src="images/extraction_aliquoting.jpg" alt="Biomarker 2" class="img-fluid bio-img shadow">
                 <div class="comment-box mt-3">
                     <strong>Extraction and Aliquoting:</strong>
-                    <p  style="font-size:1rem;">
+                    <p style="font-size:1rem;">
                         Following centrifugation, serum, plasma, and buffy coat are carefully extracted using sterile pipettes. Each component is divided into smaller portions (aliquots) to support efficient analysis and long-term storage:</p>
-                    <ul  style="font-size:1rem;">
+                    <ul style="font-size:1rem;">
                         <li>Serum: up to 6 aliquots</li>
                         <li>Plasma: up to 6 aliquots</li>
                         <li>Buffy Coat: up to 2 aliquots</li>
@@ -135,38 +135,21 @@
                 <div class="comment-box mt-3">
                     <strong>Blood test report to the respondent</strong>
                     <p style="font-size:1rem;">
-                        From the blood sample collected from each respondent, a small portion will be drawn from the SST tube, and selected laboratory tests will be performed at the ISER-N laboratory by trained laboratory technicians. The test results will be provided to the respondent in a written report.</p>
-                    <div class="biomarker-list">
-                        <p>The following laboratory tests will be conducted:</p>
-                        <ul>
-                            <li>
-                                <h6>Serum Uric Acid</h6>
-                                <ul>
-                                    <li><em>Normal Range:</em>
-                                        <ul>
-                                            <li>Men: 3.4 to 7.0 mg/dL</li>
-                                            <li>Women: 2.4 to 6.0 mg/dL</li>
-                                        </ul>
-                                    </li>
-                                    <li><em>Interpretation:</em> Indicates kidney function; elevated levels may be associated with kidney dysfunction or gout.</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h6>Total Cholesterol</h6>
-                                <ul>
-                                    <li><em>Normal Range:</em> Less than 200 mg/dL</li>
-                                    <li><em>Interpretation:</em> Related to heart health; elevated levels are a risk factor for cardiovascular diseases.</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h6>Serum Total Protein</h6>
-                                <ul>
-                                    <li><em>Normal Range:</em> 6.0 to 8.3 g/dL</li>
-                                    <li><em>Interpretation:</em> Reflects liver and kidney function; abnormal levels can indicate nutritional problems, liver or kidney disease, or chronic inflammation.</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
+                        From the blood sample collected from each respondent, a small portion will be drawn from the SST tube, and selected laboratory tests will be performed at the ISER-N laboratory by trained laboratory technicians. The test results will be provided to the respondent in a written report. The following laboratory tests will be conducted:</p>
+
+                    <ul style="font-size:1rem;">
+                        <li>
+                            Serum Uric Acid
+
+                        </li>
+                        <li>Total Cholesterol
+                        </li>
+                        <li>
+                            Serum Total Protein
+
+                        </li>
+                    </ul>
+
 
                 </div>
             </div>
@@ -176,7 +159,7 @@
                 <img src="images/storage.jpg" alt="Biomarker 4" class="img-fluid bio-img shadow">
                 <div class="comment-box mt-3">
                     <strong>Secure Storage and Transport:</strong>
-                    <p  style="font-size:1rem;">
+                    <p style="font-size:1rem;">
                         All aliquots are stored at –86°C in ultra-low temperature freezers at ISER-Nepal. For each respondent, 14 cryovials are prepared:
                     </p>
                     <ul style="font-size:1rem;">

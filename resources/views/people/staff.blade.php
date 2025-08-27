@@ -16,25 +16,25 @@
     <h2 class="gallery-title">Staff</h2>
     <div class="row justify-content-center">
         @foreach ($staffMembers as $staff)
-            <div class="col-6 col-md-3">
-                <div class="team-member">
-                    <img src="{{ Storage::url($staff->image) }}" alt="{{ $staff->name }}"
-                        class="img-fluid rounded-circle mb-3">
-                    <h3>{{ $staff->name }}</h3>
-                    <p class="position">{{ $staff->position }}</p>
-                    
-                    <!-- Only show Email and CV for the first 9 staff members -->
-                    @php
-                        $maxDisplayCount = 8; // You can adjust this number as needed
-                        $staffCounter = $loop->index + 1; // $loop->index starts from 0, so we add 1
-                    @endphp
+        <div class="col-6 col-md-3 ">
+            <div class="team-member text-center">
+                <img src="{{ Storage::url($staff->image) }}" alt="{{ $staff->name }}"
+                    class="img-fluid rounded-circle mb-3">
+                <h3>{{ $staff->name }}</h3>
+                <div class="position text-muted">{{ $staff->position }}</div>
 
-                    @if($staffCounter <= $maxDisplayCount)
-                        <p><a href="mailto:{{ $staff->email }}">Email</a></p>
-                        <p><a href="{{ Storage::url($staff->cv_link) }}" target="_blank">Curriculum Vitae</a></p>
+                <!-- Only show Email and CV for the first 10 staff members -->
+                @php
+                $maxDisplayCount = 9; // You can adjust this number as needed
+                $staffCounter = $loop->index + 1; // $loop->index starts from 0, so we add 1
+                @endphp
+
+                @if($staffCounter <= $maxDisplayCount)
+                    <div><a href="mailto:{{ $staff->email }}">Email</a></div>
+                    <div><a href="{{ Storage::url($staff->cv_link) }}" target="_blank">Curriculum Vitae</a></div>
                     @endif
-                </div>
             </div>
+        </div>
         @endforeach
     </div>
 </div>

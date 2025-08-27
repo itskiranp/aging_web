@@ -344,8 +344,6 @@ body {
     transform: translateY(-5px);
 }
 
-
-
 .methodology-section {
     background-color: #f8f9fa;
     padding-bottom: 2rem;
@@ -1349,80 +1347,81 @@ body {
     margin-bottom: 1rem;
 }
 
-
 /* hero carousel secton styling  */
 
 /* Hero carousel section styling */
 .hero-carousel {
-  height: 55vh;
-  overflow: hidden;
+    height: 55vh;
+    overflow: hidden;
 }
 
 .hero-carousel .carousel-item {
-  height: 55vh;
+    height: 55vh;
 }
 
 .hero-img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 /* Overlay text */
 .hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.5);
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    z-index: 1;
 }
 
 /* Hero text styles */
 .hero-text h1 {
-  font-size: 2rem;
-  font-weight: bold;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .hero-text p {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 /* Responsive font scaling */
 @media (min-width: 768px) {
-  .hero-text h1 {
-    font-size: 3rem;
-  }
+    .hero-text h1 {
+        font-size: 3rem;
+    }
 
-  .hero-text p {
-    font-size: 1.25rem;
-  }
+    .hero-text p {
+        font-size: 1.25rem;
+    }
 }
 
 @media (min-width: 1200px) {
-  .hero-carousel {
-    height: 50vh;
-  }
+    .hero-carousel {
+        height: 50vh;
+    }
 
-  .hero-carousel .carousel-item {
-    height: 50vh;
-  }
+    .hero-carousel .carousel-item {
+        height: 50vh;
+    }
 }
-
 
 /* -------------------- Biomarkers Page Styling -------------------- */
 
 .bio-hero {
-    background: linear-gradient(rgba(43, 108, 176, 0.2), rgba(43, 108, 176, 0.2)),
-                url("/images/biomarkerpic.jpeg") center/cover;
+    background: linear-gradient(
+            rgba(43, 108, 176, 0.2),
+            rgba(43, 108, 176, 0.2)
+        ),
+        url("/images/biomarkerpic.jpeg") center/cover;
     color: #fff;
     padding: 100px 20px;
     text-align: center;
@@ -1432,7 +1431,7 @@ body {
 /* Justify text globally inside paragraphs */
 .container p,
 .comment-box p,
-.text-muted,
+
 .biomarker-list p,
 .biomarker-list li {
     text-align: justify;
@@ -1458,21 +1457,6 @@ body {
     border-radius: 8px;
     font-size: 0.95rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-}
-
-/* Biomarker list styling */
-.biomarker-list ul {
-    list-style-type: disc;
-    margin-left: 1.5rem;
-    padding-left: 0.5rem;
-}
-
-.biomarker-list ul ul {
-    list-style-type: circle;
-}
-
-.biomarker-list li {
-    margin-bottom: 0.5rem;
 }
 
 /* -------------------- Team Tree Styling -------------------- */
@@ -1522,3 +1506,13 @@ body {
     }
 }
 
+/* .gradient-text {
+    font-weight: bold;
+    font-size: 3rem; 
+    background: linear-gradient(90deg, #001f4d, #0056d2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    
+} */
