@@ -43,58 +43,57 @@
     </div>
 </section> -->
 
-<!-- Lab Team Tree Section -->
-<section class="py-2 team-tree">
-    <div class="container text-center">
+<section class="py-1 bg-light">
+    <div class="container">
+        <!-- Section Heading -->
+        <div class="text-center mb-4">
+            <!-- <h2 class="fw-bold text-primary">Blood Collection and Processing (30 ml)</h2> -->
+            <!-- <p class="text-muted">Here’s how our workflow is structured step by step</p> -->
+        </div>
 
-
-        <!-- Subordinates -->
-        <div class="row justify-content-center ">
-            <!-- Staff 1 -->
-            <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-4">
-                <div class="team-member text-center">
-                    <img src="{{ asset('images/lab_in_charge3.jpeg') }}" alt="Staff 1" class="img-fluid rounded-circle shadow profile-img-sm">
-                    <h6 class="mt-3 mb-1 fw-semibold">Ghaman Sing Susling</h6>
-                    <p class="text-muted text-center">BMLT, Lab In-Charge</p>
-                </div>
-            </div>
-
-            <!-- Staff 2 -->
-            <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center mb-4">
-                <div class="team-member text-center">
-                    <img src="{{ asset('images/Chiran_Garanja_Magar.JPG') }}" alt="Chiran Garanja Magar" class="img-fluid rounded-circle shadow profile-img-sm">
-                    <h6 class="mt-3 mb-1 fw-semibold">Chiran Garanja Magar</h6>
-                    <p class="text-muted text-center">Lab Technician</p>
-                </div>
+        <!-- Flowchart Wrapper -->
+        <div class="d-flex justify-content-center">
+            <div class="flowchart-wrapper">
+                <img src="images/blood_collection_and_processing_pic.png" alt="Flowchart" class="img-fluid shadow rounded">
             </div>
         </div>
     </div>
 </section>
+
+
+
+
 <div class="container">
-    <h3 class="mb-3 text-primary">Blood Sample Processing and Storage</h3>
+    <h3 class="mb-3 text-primary">Blood Sample Collection and Processing</h3>
     <p style="font-size:1.1rem;">
         At ISER-Nepal’s central laboratory, blood samples are processed under strict standardized procedures to ensure integrity and reliability for CVFS-SCAN biomarker research. From field collection to long-term storage, every step is designed to maintain the highest quality standards for serum, plasma, and buffy coat extraction.
     </p>
 </div>
 <div class="container">
-    <h4 class="mb-3 text-primary">Blood Sample Collection</h4>
+    <h5 class="mb-2 "><strong>Blood Sample Collection</strong></h5>
     <p style="font-size:1.1rem;">
         Trained phlebotomists visit respondents’ homes to collect 30 ml of blood in three 10 ml tubes (two SST tubes and one EDTA tube). Prior to collection, informed consent and a brief health assessment are completed. Blood is drawn using a vacuum extraction system in accordance with SOPs. Each tube is labeled and tracked using the Survey123 mobile application for real-time management.
     </p>
 </div>
 <div class="container">
-    <h4 class="mb-3 text-primary">Mobile Laboratory Processing</h4>
+    <h5 class="mb-2 "><strong>Mobile Laboratory Processing</strong></h5>
     <p style="font-size:1.1rem;">
         For CVFS-SCAN, ISER-Nepal has established mobile laboratories within study neighborhoods. Upon receiving samples, lab technicians scan tube barcodes for tracking. SST tubes are centrifuged on-site using portable centrifugation machines. Both SST and EDTA tubes are then transported under controlled conditions to ISER-Nepal’s central laboratory for further processing and secure storage.
     </p>
 </div>
 <div class="container">
-    <h4 class="mb-3 text-primary">Receiving Samples at ISER-Nepal Laboratory</h4>
+    <h5 class="mb-2"><strong>Receiving Samples at ISER-Nepal Laboratory</strong></h5>
     <p style="font-size:1.1rem;">
-        Upon arrival, all tubes are verified for correct labeling, re-scanned with a barcode reader, and logged into the system. The samples are then prepared for centrifugation.
+        Upon arrival, all tubes are verified for correct labeling, re-scanned with a barcode reader, and logged into the system.
     </p>
 </div>
+<div class="container">
+    <h5 class="mb-2"><strong>Laboratory Processing and Storage</strong></h5>
+    <p style="font-size:1.1rem;">
+        The samples are then prepared for centrifugation.
 
+    </p>
+</div>
 <!-- Image + Comments Section -->
 <section class="py-5 bg-light">
     <div class="container">
