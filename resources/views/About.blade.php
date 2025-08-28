@@ -29,7 +29,7 @@
                             style="width: 100%; height: 100%; object-fit: cover;">
                         <div
                             style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.6); color: white; padding: 5px 10px; font-size: 0.9rem;">
-                            ISER Main Building
+                            ISER-N Office Building
                         </div>
                     </div>
 
@@ -39,7 +39,7 @@
                             style="width: 100%; height: 100%; object-fit: cover;">
                         <div
                             style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.6); color: white; padding: 5px 10px; font-size: 0.9rem;">
-                            ISER Guest House
+                            ISER-N Guest House
                         </div>
                     </div>
                 </div>
@@ -97,6 +97,8 @@
                                 Research-Nepal</a></li>
                         <li class="link-item"><a href="https://umich.edu/"><i class="fas fa-external-link-alt"></i>
                                 University of Michigan</a></li>
+                        <li class="link-item"><a href="https://www.georgetown.edu/"><i class="fas fa-external-link-alt"></i>
+                                Georgetown University</a></li>
 
                         <li class="link-item"><a href="https://hcap.isr.umich.edu/"><i
                                     class="fas fa-external-link-alt"></i> HCAP Network</a></li>

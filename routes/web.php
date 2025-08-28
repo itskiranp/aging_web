@@ -1,4 +1,5 @@
 <?php
+
 use App\Http\Controllers\PublicationController;
 use App\Http\Controllers\ContactController;
 use App\Livewire\ShowHome;
@@ -70,8 +71,9 @@ Route::get('/', [HomePageController::class, 'index'])->name('home');
 
 
 // routes/web.php
-Route::get('/products', [ProductController::class, 'index'])->name('products.index');
-Route::get('/products/presentations', [ProductController::class, 'presentations'])->name('products.presentations');
-Route::get('/products/policy-brief', [ProductController::class, 'policyBrief'])->name('products.policy-brief');
-Route::get('/products/dissemination', [ProductController::class, 'dissemination'])->name('products.dissemination');
-Route::get('/products/working-paper', [ProductController::class, 'workingPaper'])->name('products.working-paper');
+Route::get('/publication', [PublicationController::class, 'index'])->name('publication.index');
+Route::get('/publication/journal', [PublicationController::class, 'journal'])->name('publication.journal');
+
+Route::get('/publication/presentations', [PublicationController::class, 'presentations'])->name('publication.presentations');
+
+Route::get('/publication/working', [PublicationController::class, 'workingPaper'])->name('publication.working');

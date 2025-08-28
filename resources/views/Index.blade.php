@@ -239,7 +239,7 @@
                                 <div class="card-body">
                                     <div class="d-flex align-items-center mb-3">
                                         <div class="me-3 methodology-icon"><i class="bi bi-laptop"></i></div>
-                                        <h5 class="mb-0 text-primary">Survey Data Collection</h5>
+                                        <h5 class="mb-0 text-primary">Data Collection</h5>
                                     </div>
                                     <p class=" small mb-0">
                                         Using <strong>Nepal Harmonized Cognitive Assessment Protocol (NHCAP)</strong>

@@ -96,8 +96,20 @@
                                 <a class="nav-link {{ Request::is('data') ? 'active' : '' }}" href="/data">DATA</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link {{ Request::is('publications') ? 'active' : '' }}"
-                                    href="/publications">PUBLICATION</a>
+                                <a class="nav-link {{ Request::is('study') ? 'active' : '' }}" href="/study">BIOMARKERS</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle {{ Request::is('publications') ? 'active' : '' }}"
+                                    href="/publications" role="button" data-bs-toggle="dropdown" aria-expanded="false">PUBLICATION</a>
+                                    <ul class="dropdown-menu mt-0">
+                                    <li><a class="dropdown-item " href="/publications">Journal Articles</a>
+                                    </li>
+
+                                    <li><a class="dropdown-item {{ Request::is('publication.presentations') ? 'active' : '' }}"
+                                            href="{{ route('publication.presentations') }}">Presentations</a></li>
+                                             <li><a class="dropdown-item {{ Request::is('publication.working') ? 'active' : '' }}"
+                                            href="{{ route('publication.working') }}">Working Papers</a></li>
+                                </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}"
@@ -112,9 +124,7 @@
                                             href="/people/staff">Staff</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link {{ Request::is('study') ? 'active' : '' }}" href="/study">BIOMARKERS</a>
-                            </li>
+                            
                             <li class="nav-item dropdown ">
                                 <a class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}"
                                     href="/people" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -136,25 +146,7 @@
                             </li> -->
                         </ul>
                         </li>
-                        <!-- Products Dropdown -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                PRODUCTS
-                            </a>
-                            <ul class="dropdown-menu mt-0" aria-labelledby="productsDropdown">
-                                <!-- <li><a class="dropdown-item" href="{{ route('products.index') }}">
-                                        Products</a></li> -->
-                                <li><a class="dropdown-item"
-                                        href="{{ route('products.presentations') }}">Presentations</a></li>
-                                <li><a class="dropdown-item" href="{{ route('products.policy-brief') }}">Policy
-                                        Brief</a></li>
-                                <li><a class="dropdown-item"
-                                        href="{{ route('products.dissemination') }}">Dissemination</a></li>
-                                <li><a class="dropdown-item" href="{{ route('products.working-paper') }}">Working
-                                        Paper</a></li>
-                            </ul>
-                        </li>
+                    
 
 
                         <li class="nav-item">
@@ -229,6 +221,9 @@
                             <li class="mb-2"><a href="https://isr.umich.edu/"
                                     class="text-white-50 text-decoration-none hover-white">ISR-University of
                                     Michigan</a>
+                            </li>
+                            <li class="mb-2"><a href="https://www.georgetown.edu/"
+                                    class="text-white-50 text-decoration-none hover-white">Georgetown University</a>
                             </li>
                             <li class="mb-2"><a href="https://hcap.isr.umich.edu/"
                                     class="text-white-50 text-decoration-none hover-white">HCAP Network</a></li>

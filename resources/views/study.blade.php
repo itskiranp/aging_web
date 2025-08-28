@@ -29,7 +29,7 @@
 </section>
 
 <!-- Introduction Section -->
-<section class="py-5">
+<section class="py-4 bg-light">
     <div class="container">
         <h2 class="mb-2 text-primary">Background</h2>
         <p style="font-size:1.1rem;">
@@ -43,21 +43,17 @@
     </div>
 </section> -->
 
-<section class="py-1 bg-light">
-    <div class="container">
-        <!-- Section Heading -->
-        <div class="text-center mb-4">
-            <!-- <h2 class="fw-bold text-primary">Blood Collection and Processing (30 ml)</h2> -->
-            <!-- <p class="text-muted">Here’s how our workflow is structured step by step</p> -->
-        </div>
+<section >
+    
+        
 
         <!-- Flowchart Wrapper -->
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center mb-3">
             <div class="flowchart-wrapper">
-                <img src="images/blood_collection_and_processing_pic.png" alt="Flowchart" class="img-fluid shadow rounded">
+                <img src="images/blood_collection_and_processing_pic.png" alt="Flowchart" class="img-fluid  rounded">
             </div>
         </div>
-    </div>
+    
 </section>
 
 
