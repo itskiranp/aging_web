@@ -11,9 +11,9 @@ use App\Models\Staff;
 
 class PageController extends Controller
 {
-    public function Index()
+    public function index()
     {
-        return view('Index');
+        return view('index');
     }
     public function biomarkers()
     {
