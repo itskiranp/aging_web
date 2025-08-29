@@ -485,7 +485,7 @@
             </div>
             <div class="col-md-4 mb-4">
                 <div class="collaborator-hover">
-                    <img src="{{ asset('images/isern.png') }}" alt="ISER-N" class="img-fluid collaborator-img">
+                    <img src="{{ asset('images/ISERN.png') }}" alt="ISER-N" class="img-fluid collaborator-img">
                 </div>
             </div>
         </div>
