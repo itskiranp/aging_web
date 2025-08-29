@@ -17,9 +17,9 @@
             <h2 class="gallery-title">Study Specific Training (SST)</h2>
         </div>
     <div class="container my-4" style="width: 100%;">
-        <h2 style="color:#2b6cb0; font-weight:700; margin-bottom:20px;">Study Specific Training (SST)</h2>
+        <!-- <h2 style="color:#2b6cb0; font-weight:700; margin-bottom:20px;">Study Specific Training (SST)</h2> -->
 
-        Pre-test
+        <!-- Pre-test -->
         <h3 style="color:#444; font-weight:600; margin-top:25px;">Pre-test Training</h3>
         <div style="border-left:4px solid #2b6cb0; padding-left:15px; margin:15px 0;">
             <p style="margin:0; font-style:italic; font-size:0.95rem;">September 30 – October 4, 2024 | ISER-N, Fulbari Campus</p>
@@ -52,7 +52,7 @@
             <li>Prepared to manage <strong>sensitive cognitive assessments</strong>.</li>
         </ul>
 
-        Production
+        <!-- Production -->
         <h3 style="color:#444; font-weight:600; margin-top:40px;">Production Training</h3>
         <div style="border-left:4px solid #2b6cb0; padding-left:15px; margin:15px 0;">
             <p style="margin:0; font-style:italic; font-size:0.95rem;">February 4 – 12, 2025 | ISER-N, Fulbari Campus</p>

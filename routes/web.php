@@ -16,7 +16,7 @@ use App\Models\Event;
 
 Route::get('/search', [SearchController::class, 'search'])->name('search');
 
-Route::get('/', [PageController::class, 'Index'])->name('Index');
+Route::get('/', [PageController::class, 'index'])->name('index');
 Route::get('/biomarkers', [PageController::class, 'biomarkers'])->name('biomarkers');
 Route::get('/data', [PageController::class, 'data'])->name('data');
 Route::get('/publications', [PageController::class, 'publications'])->name('publications');
@@ -58,7 +58,7 @@ Route::get('/events', [EventController::class, 'showEvents'])->name('events');
 Route::get('/news/{slug}', [EventController::class, 'showNews'])->name('news.show');
 
 
-Route::get('/', [HomePageController::class, 'index'])->name('home');
+Route::get('/', [HomePageController::class, 'index'])->name('index');
 
 
 // Route::get('/news', function () {
