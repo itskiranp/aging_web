@@ -58,13 +58,6 @@ Route::get('/events', [EventController::class, 'showEvents'])->name('events');
 Route::get('/news/{slug}', [EventController::class, 'showNews'])->name('news.show');
 
 
-// Route::get('/', [HomePageController::class, 'index'])->name('index');
-
-
-// Route::get('/news', function () {
-//     return view('news'); 
-// })->name('news');
-
 
 
 
