@@ -17,7 +17,7 @@
 
    
 </div>
-    <!-- <div class="container my-4" style="width: 100%;">
+    <div class="container my-4" style="width: 100%;">
         <h2 style="color:#2b6cb0; font-weight:700; margin-bottom:20px;">General Interviewing Technique (GIT)</h2>
 
         Pre-test
@@ -81,7 +81,7 @@
             <li>Ensured <strong>high-quality data</strong> through close supervision and feedback.</li>
             <li>Prepared enumerators for full-scale production interviews.</li>
         </ul>
-    </div> -->
+    </div>
 
 
     @endsection

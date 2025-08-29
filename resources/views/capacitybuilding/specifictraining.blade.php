@@ -16,7 +16,7 @@
     <div>
             <h2 class="gallery-title">Study Specific Training (SST)</h2>
         </div>
-    <!-- <div class="container my-4" style="width: 100%;">
+    <div class="container my-4" style="width: 100%;">
         <h2 style="color:#2b6cb0; font-weight:700; margin-bottom:20px;">Study Specific Training (SST)</h2>
 
         Pre-test
@@ -87,7 +87,7 @@
             <li>Ensured <strong>accuracy and reliability</strong> in nationwide data collection.</li>
             <li>Strengthened ISER-N’s capacity in <strong>aging and cognitive research</strong>.</li>
         </ul>
-    </div> -->
+    </div>
 
 
     @endsection
