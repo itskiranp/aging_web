@@ -15,9 +15,9 @@ class PageController extends Controller
     {
         return view('Index');
     }
-    public function study()
+    public function biomarkers()
     {
-        return view('study');
+        return view('biomarkers');
     }
     public function data()
     {
@@ -66,11 +66,11 @@ class PageController extends Controller
     // Method to display the feedback page
     public function showFeedback()
     {
-        return view('feedback'); // Returns the feedback.blade.php view
+        return view('feedback'); 
     }
     public function showConnect()
     {
-        return view('connect'); // Returns the feedback.blade.php view
+        return view('connect'); 
     }
 
     public function showinterviewingMember()
@@ -91,18 +91,6 @@ class PageController extends Controller
     }
 
 
-    // public function showpresentationMember()
-    // {
-    //     return view('products.presentations');
-    // }
-    // public function showpolicyMember()
-    // {
-    //     return view('products.policy');
-    // }
-    // public function showdisseminationMember()
-    // {
-    //     return view('products.dissemination');
-    // }
 
 
     public function investigators()

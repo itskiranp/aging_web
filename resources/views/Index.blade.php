@@ -4,35 +4,7 @@
 @section('title', 'CVFS on Cognition and Aging in Nepal')
 @section('content')
 
-<!-- <div class="container-fluid p-0 mb-5 ">
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            @foreach ($homeContent->carousel_images as $key => $image)
-            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="{{ $key }}"
-                class="{{ $key == 0 ? 'active' : '' }}" aria-current="true"
-                aria-label="Slide {{ $key + 1 }}"></button>
-            @endforeach
-        </div>
-        <div class="carousel-inner">
-            @foreach ($homeContent->carousel_images as $key => $image)
-            <div class="carousel-item {{ $key == 0 ? 'active' : '' }}">
-                <img src="{{ asset('storage/' . $image) }}" class="d-block w-100" alt="...">
-            </div>
-            @endforeach
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
 
-    </div>
-</div> -->
 <section>
     <!-- Hero Carousel -->
     <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel">
@@ -400,38 +372,11 @@
             </button>
         </div>
     </div>
-    <!-- <div class="container mb-3">
-        <h2>Study on Cognition and Aging in Nepal.</h2>
-        <p>{!! $homeContent->main_text !!}</p>
-    </div> 
-    <div class="container mb-5">
-        <h2>Why This Matters</h2>
-        <p>{!! $homeContent->why_this_matters !!}</p>
-    </div> -->
+
 
 </section>
 
-<!-- <section class="WhyThisMattersSection py-5">
-    <div
-        style="font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;  margin: 0 auto; padding:0 150px; color: #2d3748;">
-        
-        <div style="margin-bottom: 30px; border-bottom: 1px solid #e2e8f0; padding-bottom: 20px;">
-            <h2 style="color: #3182ce; font-size: 1.4rem; font-weight: 500; margin-bottom: 15px;">
-                A Global Need for Population-Based Dementia Research
-            </h2>
-            <p style="margin-bottom: 18px; font-size: 1.1rem; color: #4a5568;">
-                The world is undergoing a profound demographic shift. The number of adults aged 65 and older is rising
-                rapidly, especially in low- and middle-income countries (LMICs). This trend has led to an unprecedented
-                increase in the global burden of Alzheimer’s disease and related dementias (ADRD), one of the most
-                disabling and costly chronic conditions among older adults.
-                Estimates suggest that over 50 million people worldwide are currently living with dementia, a number
-                expected to triple by 2050. Most of this growth will occur in resource-constrained settings where the
-                healthcare infrastructure is not equipped to support the long-term care needs of individuals with
-                cognitive decline.
-            </p>
-        </div>
 
-</section> -->
 
 <section class="timeline-section py-2">
     <div class="container ">
@@ -528,41 +473,33 @@
     </div>
 </section>
 
-
-<section class="collaborators-section py-5">
+<section class="collaborators-section py-5 bg-light">
     <div class="container">
-        {{-- <h2 class="text-center mb-5">Our Collaborators</h2> --}}
         <h1 class="text-center mb-5"
-            style="color: #1a365d; font-size: 2.2rem; font-weight: 700; margin-bottom: 8px; letter-spacing: -0.5px;">
+            style="color: #1a365d; font-size: 2.2rem; font-weight: 700; letter-spacing: -0.5px;">
             Our Collaborators
         </h1>
-        <div class="position-relative">
-            <!-- Slider Container with overflow -->
-            <div class="collaborators-slider-container">
-                <!-- Auto-scrolling slider -->
-                <div class="collaborators-slider">
-                    @foreach ($homeContent->collaborators as $collaborator)
-                    <div class="collaborator-slide">
-                        <div class="collaborator-card">
-                            <img src="{{ asset('storage/' . $collaborator) }}" alt="Collaborator"
-                                class="collaborator-img">
-                        </div>
-                    </div>
-                    @endforeach
-                    <!-- Duplicate slides for infinite loop effect -->
-                    @foreach ($homeContent->collaborators as $collaborator)
-                    <div class="collaborator-slide">
-                        <div class="collaborator-card">
-                            <img src="{{ asset('storage/' . $collaborator) }}" alt="Collaborator"
-                                class="collaborator-img">
-                        </div>
-                    </div>
-                    @endforeach
+
+        <div class="row justify-content-center text-center">
+            <div class="col-md-4 mb-4">
+                <div class="collaborator-hover">
+                    <img src="{{ asset('images/Michigan University.JPG') }}" alt="Michigan University" class="img-fluid collaborator-img">
                 </div>
             </div>
-
+            <div class="col-md-4 mb-4">
+                <div class="collaborator-hover">
+                    <img src="{{ asset('images/Georgetownlogo.jpg') }}" alt="Georgetown University" class="img-fluid collaborator-img">
+                </div>
+            </div>
+              <div class="col-md-4 mb-4">
+                <div class="collaborator-hover">
+                    <img src="{{ asset('images/iser.PNG') }}" alt="ISER" class="img-fluid collaborator-img">
+                </div>
+            </div>
         </div>
     </div>
 </section>
+
+
 
 @endsection

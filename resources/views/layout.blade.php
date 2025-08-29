@@ -96,7 +96,7 @@
                                 <a class="nav-link {{ Request::is('data') ? 'active' : '' }}" href="/data">DATA</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link {{ Request::is('study') ? 'active' : '' }}" href="/study">BIOMARKERS</a>
+                                <a class="nav-link {{ Request::is('biomarkers') ? 'active' : '' }}" href="/biomarkers">BIOMARKERS</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle {{ Request::is('publications') ? 'active' : '' }}"

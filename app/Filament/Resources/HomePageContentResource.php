@@ -31,27 +31,7 @@ class HomePageContentResource extends Resource
     {
         return $form
             ->schema([
-                TinyEditor::make('main_text')
-                    ->profile('default')
-                    ->columnSpanFull()
-                    ->label('Main Text')
-                    ->required(),
-                TinyEditor::make('why_this_matters')
-                    ->label('Why This Matters Text')
-                    ->profile('default')
-                    ->columnSpanFull()
-                    ->required(),
-                FileUpload::make('carousel_images')
-                    ->label('Carousel Images')
-                    ->multiple()
-                    ->image()
-                    ->required()
-                    ->preserveFilenames(),
-                FileUpload::make('collaborators')
-                    ->label('Collaborators Section')
-                    ->multiple()
-                    ->required()
-                    ->preserveFilenames(),
+               //
             ]);
     }
 
@@ -59,8 +39,7 @@ class HomePageContentResource extends Resource
     {
         return $table
             ->columns([
-                TextColumn::make('main_text')->limit(500),
-                TextColumn::make('why_this_matters')->limit(500),
+               //
             ])
             ->filters([
                 //

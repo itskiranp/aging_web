@@ -424,59 +424,18 @@ body {
 }
 
 /* Collaborators styling */
-/* Base Styles */
-.collaborators-section {
-    background: #f8fafc;
-    overflow: hidden;
-    object-fit: cover;
+.collaborator-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.collaborators-slider-container {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-.collaborators-slider {
-    display: flex;
-    gap: 2rem;
-    width: max-content;
-    animation: scroll 30s linear infinite;
-    padding: 1rem 0;
-}
-
-.collaborator-slide {
-    flex: 0 0 auto;
-    width: 200px; /* Adjust based on your needs */
-}
-
-.collaborator-card {
-    background: white;
-    border-radius: 8px;
-    padding: 1rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-    height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.collaborator-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .collaborator-img {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
+    max-height: 120px;
     object-fit: cover;
-}
-
-/* Animation */
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-50%);
-    }
 }
 
 /* Navigation Arrows */
@@ -1431,7 +1390,6 @@ body {
 /* Justify text globally inside paragraphs */
 .container p,
 .comment-box p,
-
 .biomarker-list p,
 .biomarker-list li {
     text-align: justify;
@@ -1458,8 +1416,6 @@ body {
     font-size: 0.95rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
-
-
 
 /* -------------------- Responsive Styling -------------------- */
 
@@ -1497,12 +1453,12 @@ body {
 } */
 
 /* flowchart styling  */
-   .flowchart-wrapper {
-        max-width: 600px; /* You can adjust this depending on flowchart size */
-        width: 100%;
-    }
-    .flowchart-wrapper img {
-        width: 100%;
-        height: auto;
-        object-fit: contain;
-    }
+.flowchart-wrapper {
+    max-width: 600px; /* You can adjust this depending on flowchart size */
+    width: 100%;
+}
+.flowchart-wrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
