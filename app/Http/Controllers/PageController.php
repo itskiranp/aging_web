@@ -81,14 +81,11 @@ class PageController extends Controller
     {
         return view('capacitybuilding.specifictraining');
     }
-    public function showsupervisiorMember()
+    public function showdataMember()
     {
-        return view('capacitybuilding.supervisiortraining');
+        return view('capacitybuilding.datatraining');
     }
-    public function showanalysicMember()
-    {
-        return view('capacitybuilding.analysictraining');
-    }
+  
 
 
 

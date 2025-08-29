@@ -139,7 +139,7 @@
                                     </a>
                             </li>
                             <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="/capacitybuilding/supervisiortraining">Data Analysis</a></li>
+                                    href="/capacitybuilding/datatraining">Data Analysis</a></li>
                             <!-- <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
                                     href="/capacitybuilding/analysictraining">Power Considerations in Data
                                     Analysis</a>
