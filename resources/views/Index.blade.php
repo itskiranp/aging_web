@@ -325,7 +325,6 @@
                     </div>
                 </div>
 
-
                 <!-- Highlight Quote -->
                 <div
                     style="background: linear-gradient(135deg, #ebf4ff, #bee3f8); border-left: 4px solid #3182ce; padding: 25px; border-radius: 0 8px 8px 0; margin: 30px 0;">
@@ -336,14 +335,7 @@
                     </p>
                 </div>
 
-
-
-
-
             </div>
-
-
-
 
         </div>
 
