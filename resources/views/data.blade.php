@@ -22,10 +22,10 @@
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                     data-bs-parent="#dataAccordion">
                     <div class="accordion-body">
-                        <p> It describes various surveys and data collection efforts over time in the Chitwan Valley, which
+                        <!-- <p> It describes various surveys and data collection efforts over time in the Chitwan Valley, which
                             are essential for understanding ADRD (Alzheimer’s Disease and Related Dementias) and population
-                            aging in Nepal.</p>
-                        <table class="table table-striped table-hover">
+                            aging in Nepal.</p> -->
+                        <!-- <table class="table table-striped table-hover">
                             <thead>
                                 <tr>
                                     <th scope="col">Survey Name</th>
@@ -97,9 +97,14 @@
                                         NBH: Neighborhood Survey</th>
                                 </tr>
                             </tbody>
-                        </table>
-                        <p>DATA <a href="#">Click Here</a></p>
+                        </table> -->
+                        <div class=" text-secondary mb-5" >
+                            Content updating soon......
+
+                        </div>
+                        <p>Questionnaire <a href="#">Click Here</a></p>
                         <p>CodeBook <a href="#">Click Here</a></p>
+                        <p>DATA <a href="#">Click Here</a></p>
                     </div>
                 </div>
             </div>
@@ -114,9 +119,9 @@
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                     data-bs-parent="#dataAccordion">
                     <div class="accordion-body">
-                        <p>The following data is from a study examining the physical and mental health of adults aged 50 and
-                            older in Chitwan Valley.</p>
-                        <table class="table table-hover">
+                        <!-- <p>The following data is from a study examining the physical and mental health of adults aged 50 and
+                            older in Chitwan Valley.</p> -->
+                        <!-- <table class="table table-hover">
                             <thead>
                                 <tr>
                                     <th colspan="4" class="text-center">Chitwan Valley Elderly Health and Well-Being
@@ -148,9 +153,9 @@
 
                             </tbody>
 
-                        </table>
+                        </table> -->
 
-                        <table class="table table-hover">
+                        <!-- <table class="table table-hover">
                             <thead>
                                 <tr>
                                     <th colspan="4" class="text-center">Chitwan Valley Health and Stress Study 2016-2018
@@ -197,9 +202,14 @@
 
                             </tbody>
 
-                        </table>
-                        <p>DATA <a href="#">Click Here</a></p>
+                        </table> -->
+                        <div class=" text-secondary mb-5" >
+                            Content updating soon......
+
+                        </div>
+                        <p>Questionnaire <a href="#">Click Here</a></p>
                         <p>CodeBook <a href="#">Click Here</a></p>
+                        <p>DATA <a href="#">Click Here</a></p>
                     </div>
                 </div>
             </div>
@@ -207,7 +217,7 @@
                 <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <strong>International Labor Migration Data</strong>
+                        <strong>Life History Calendar (LHC)</strong>
                     </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
@@ -279,16 +289,16 @@
                             interviews. Details of the biomarker collection process include:</p>
                         <div class="row">
                             <ul class="ms-3">
-                                <li>A total of 32.5 ml of blood drawn and processed into various components (plasma, serum,
+                                <li>A total of 30 ml of blood drawn and processed into various components (plasma, serum,
                                     and buffy coat).</li>
-                                <li>Samples will be stored at -80°C and transported to both a central laboratory in
-                                    Kathmandu and the University of Michigan for further research.</li>
+                                <li>Samples will be stored at -86°C and transported to both a central laboratory in
+                                    ISER-N and the University of Michigan for further research.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="accordion-item">
+            <!-- <div class="accordion-item">
                 <h2 class="accordion-header" id="headingSix">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
@@ -322,7 +332,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingSeven">
@@ -338,7 +348,7 @@
                         <div class="row">
                             <div class="col-md-4 mb-3">
                                 <div class="card">
-                                    <img src="/images/cvfs bar diagram.png" class="card-img-top" alt="Bar Chart">
+                                    <img src="/images/cvfs bar diagram.png" class="card-img-top" alt="Bar Chart" style="object-fit: contain;">
                                     <div class="card-body">
                                         <h5 class="card-title">Bar Charts</h5>
                                         <p class="card-text">Studies with measures comparable to CVFS.</p>
@@ -348,7 +358,7 @@
                             <div class="col-md-4 mb-3">
                                 <div class="card">
                                     <img src="/images/dementia.png"
-                                        class="card-img-top" alt="Line Graph">
+                                        class="card-img-top" alt="Line Graph" style="object-fit: contain;">
                                     <div class="card-body">
                                         <h5 class="card-title">Bar Charts</h5>
                                         <p class="card-text">Estimated Prevalence of Dementia Among Individuals Aged 60 and Over by Global Regions (2009 vs. 2015)</p>

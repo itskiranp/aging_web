@@ -1462,3 +1462,86 @@ body {
     height: auto;
     object-fit: contain;
 }
+/* biomarker page carousel styling */
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.custom-overlay {
+    position: absolute;
+    bottom: 20px;
+    top: auto;
+    z-index: 2;
+    color: white;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.custom-textbox {
+    background-color: rgba(0, 0, 0, 0.5); /* only the box is semi-transparent */
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    max-width: 80%;
+}
+
+.custom-textbox h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.custom-textbox p {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+/* Fade-in animation for text box */
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 1s ease-in forwards;
+  animation-delay: 0.4s;
+}
+
+/* Keyframes for fade effect */
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%; /* makes it a perfect circle */
+  background-color: #ffffff; /* or any color you want */
+  opacity: 0.5;
+  transition: opacity 0.3s, transform 0.3s;
+  margin: 0 6px;
+  border: none;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+  background-color: #ffffff;
+  transform: scale(1.2); /* slightly enlarge the active dot */
+}
+
+
+@media (max-width: 767px) {
+    .custom-overlay {
+        padding: 1rem;
+    }
+
+    .custom-overlay h4 {
+        font-size: 1.4rem;
+    }
+}
+
+.info-section {
+    padding: 2rem 0;
+}
