@@ -30,7 +30,7 @@ class GalleryItemResource extends Resource
                             ->image()
                             ->directory('gallery')
                             ->preserveFilenames()
-                            ->maxSize(2048)
+                            ->maxSize(3072)
                             ->required()
                             ->imageEditor()
                             ->columnSpanFull(),
