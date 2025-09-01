@@ -27,7 +27,6 @@ class GalleryItemResource extends Resource
                     ->schema([
                         Forms\Components\FileUpload::make('image_path')
                             ->label('Image')
-                            ->image()
                             ->directory('images')
                             ->preserveFilenames()
                             ->maxSize(3072)
