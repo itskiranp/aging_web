@@ -14,17 +14,38 @@ class GalleryItem extends Model
         'sort_order',
         'is_active'
     ];
+
     protected $casts = [
         'is_active' => 'boolean'
     ];
-    public function getCategoryLabelAttribute()
+
+    // ✅ Centralized category labels
+    public static function categoryOptions(): array
     {
-        return match($this->category) {
+        return [
             'training' => 'Trainings',
             'survey' => 'Surveys',
             'lab' => 'Lab Work',
-            default => 'Other',
-        };
+            'visitors' => 'Guest Visits',
+            'other' => 'Other',
+        ];
     }
 
+    // ✅ Centralized category badge colors (for Filament tables)
+    public static function categoryColors(): array
+    {
+        return [
+            'training' => 'info',
+            'survey' => 'success',
+            'lab' => 'warning',
+            'visitors' => 'primary',
+            'other' => 'gray',
+        ];
+    }
+
+    // ✅ Use centralized options for display label
+    public function getCategoryLabelAttribute(): string
+    {
+        return self::categoryOptions()[$this->category] ?? 'Other';
+    }
 }

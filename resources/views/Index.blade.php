@@ -370,7 +370,7 @@
 
 
 
-<section class="timeline-section py-2">
+<section class="timeline-section py-2 bg-light">
     <div class="container ">
         <h1 class="text-center   mb-5"
             style="width: 100%; color: #1a365d; font-size: 2.2rem; font-weight: 700; letter-spacing: -0.5px; margin-top: 30px;">
@@ -465,7 +465,7 @@
     </div>
 </section>
 
-<section class="collaborators-section py-5 bg-light">
+<section class="collaborators-section py-5">
     <div class="container">
         <h1 class="text-center mb-5"
             style="color: #1a365d; font-size: 2.2rem; font-weight: 700; letter-spacing: -0.5px;">

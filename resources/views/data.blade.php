@@ -285,7 +285,7 @@
                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                     data-bs-parent="#dataAccordion">
                     <div class="accordion-body">
-                        <p>For future studies, blood samples will be collected from 4,000 participants during face-to-face
+                        <p>Blood samples will be collected from 4,000 participants during face-to-face
                             interviews. Details of the biomarker collection process include:</p>
                         <div class="row">
                             <ul class="ms-3">

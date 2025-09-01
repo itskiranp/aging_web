@@ -3,17 +3,13 @@
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\GalleryItemResource\Pages;
-use App\Filament\Resources\GalleryItemResource\RelationManagers;
 use App\Models\GalleryItem;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
-use Livewire\Features\SupportFileUploads\TemporaryUploadedFile;
 
 class GalleryItemResource extends Resource
 {
@@ -45,12 +41,7 @@ class GalleryItemResource extends Resource
                             ->columnSpan(1),
 
                         Forms\Components\Select::make('category')
-                            ->options([
-                                'training' => 'Trainings',
-                                'survey' => 'Surveys',
-                                'lab' => 'Lab Work',
-                                'other' => 'Other',
-                            ])
+                            ->options(GalleryItem::categoryOptions()) // ✅ centralized
                             ->required()
                             ->columnSpan(1),
 
@@ -65,10 +56,9 @@ class GalleryItemResource extends Resource
                         Forms\Components\Toggle::make('is_active')
                             ->default(true)
 
-                        ])
-                            ->columns(2),
-
-                            ]);
+                    ])
+                    ->columns(2),
+            ]);
     }
 
     public static function table(Table $table): Table
@@ -76,44 +66,33 @@ class GalleryItemResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\ImageColumn::make('image_path')
-                ->label('Image')
-                ->disk('public'),
-                
-            Tables\Columns\TextColumn::make('title')
-                ->searchable()
-                ->sortable(),
-                
-            Tables\Columns\TextColumn::make('category')
-                ->badge()
-                ->formatStateUsing(fn (string $state): string => match($state) {
-                    'training' => 'Trainings',
-                    'survey' => 'Surveys',
-                    'lab' => 'Lab Work',
-                    default => 'Other',
-                })
-                ->color(fn (string $state): string => match ($state) {
-                    'training' => 'info',
-                    'survey' => 'success',
-                    'lab' => 'warning',
-                    default => 'gray',
-                }),
-                
-            Tables\Columns\IconColumn::make('is_active')
-                ->boolean()
-                ->sortable(),
-                
-            Tables\Columns\TextColumn::make('sort_order')
-                ->sortable(),
+                    ->label('Image')
+                    ->disk('public'),
+
+                Tables\Columns\TextColumn::make('title')
+                    ->searchable()
+                    ->sortable(),
+
+                Tables\Columns\TextColumn::make('category')
+                    ->badge()
+                    ->formatStateUsing(fn (string $state): string =>
+                        GalleryItem::categoryOptions()[$state] ?? 'Other' // ✅ centralized
+                    )
+                    ->color(fn (string $state): string =>
+                        GalleryItem::categoryColors()[$state] ?? 'gray' // ✅ centralized
+                    ),
+
+                Tables\Columns\IconColumn::make('is_active')
+                    ->boolean()
+                    ->sortable(),
+
+                Tables\Columns\TextColumn::make('sort_order')
+                    ->sortable(),
             ])
             ->filters([
                 Tables\Filters\SelectFilter::make('category')
-                    ->options([
-                        'training' => 'Trainings',
-                        'survey' => 'Surveys',
-                        'lab' => 'Lab Work',
-                        'other' => 'Other',
-                    ]),
-                    
+                    ->options(GalleryItem::categoryOptions()), // ✅ centralized
+
                 Tables\Filters\TernaryFilter::make('is_active')
                     ->label('Active'),
             ])
@@ -131,9 +110,7 @@ class GalleryItemResource extends Resource
 
     public static function getRelations(): array
     {
-        return [
-            //
-        ];
+        return [];
     }
 
     public static function getPages(): array
