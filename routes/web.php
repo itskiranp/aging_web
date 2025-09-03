@@ -45,7 +45,7 @@ Route::get('/people/investigators', [PageController::class, 'showInvestigatorMem
 Route::get('/capacitybuilding/interviewing', [PageController::class, 'showinterviewingMember'])->name('capacitybuilding.interviewing');
 Route::get('/capacitybuilding/specifictraining', [PageController::class, 'showspecificMember'])->name('capacitybuilding.specifictraining');
 Route::get('/capacitybuilding/datatraining', [PageController::class, 'showdataMember'])->name('capacitybuilding.datatraining');
-// Route::get('/capacitybuilding/analysictraining', [PageController::class, 'showanalysicMember'])->name('capacitybuilding.analysictraining');
+Route::get('/capacitybuilding/ci', [PageController::class, 'showciMember'])->name('capacitybuilding.ci');
 
 
 

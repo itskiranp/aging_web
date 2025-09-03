@@ -14,75 +14,53 @@
     </nav>
 
     <div>
-        <h2 class="gallery-title">General Interviewing Techniques(GIT)</h2>
+        <h2 class="gallery-title">General Interviewing Techniques (GIT) Training</h2>
     </div>
-
 
 </div>
 <div class="container my-4" style="width: 100%;">
-    <!-- <h2 style="color:#2b6cb0; font-weight:700; margin-bottom:20px;">General Interviewing Technique (GIT)</h2> -->
 
     <!-- Pre-test -->
-    <h3 style="color:#444; font-weight:600; margin-top:25px;">Pre-test Training</h3>
+    <ol>
+    <h4 style="color:#444; font-weight:600; margin-top:25px;"><li>Pre-test </li></h4>
     <div style="border-left:4px solid #2b6cb0; padding-left:15px; margin:15px 0;">
         <p style="margin:0; font-style:italic; font-size:0.95rem;">September 22 – 26, 2024 | ISER-N, Fulbari Campus</p>
         <p style="font-size:1rem; margin-top:5px; text-align:justify;">
-            Four-day training introduced enumerators to <strong>research ethics, informed consent, rapport building, probing, and managing sensitive topics</strong>.
-            Training included <strong>simulations, practice sessions, and supervised fieldwork</strong> (Sept 27–29, 2024 at Ratnanagar Municipality, Chitwan).
+            <strong>Objective:</strong>To introduce interviewers to the CVFS-SCAN project goals and provide fundamental skills in interviewing, including rapport building, informed consent, research ethics, confidentiality, and basic probing techniques. The training also aimed to prepare interviewers for pre-test fieldwork through practice sessions and supervised field exercises in Ratnanagar Municipality.
         </p>
+       
     </div>
-    <h5 style="color:#444; font-weight:600;">Resource Persons</h5>
-    <ul style="font-size:1rem; line-height:1.6;">
-        <li>Dr. Dirgha Jibi Ghimire – Principal Investigator</li>
-        <li>Ms. Indra Chaudhary – Program Coordinator</li>
-        <li>Mr. Prem Pandit – Study Manager</li>
-        <li>Mr. Hardik Sapkota – Project Manager</li>
-        <li>Ms. Adina Gurung – Data Manager</li>
-        <li>Mr. Rajendra Ghimire – Research Officer</li>
-        <li>Mr. Nabin Adhikari – Research Officer</li>
-        <li>Ms. Maureen O’Brien – Senior Survey Specialist (SRO-UM)</li>
-    </ul>
-    <h5 style="color:#444; font-weight:600;">Participants</h5>
-    <p style="font-size:1rem; text-align:justify;">
-        <strong>20 interviewers</strong> with diverse backgrounds completed the training and
-        conducted <strong>three supervised practice interviews</strong> before being allowed to conduct any production interview.
-    </p>
-    <h5 style="color:#444; font-weight:600;">Outcomes</h5>
-    <ul style="font-size:1rem; line-height:1.6;">
-        <li>Understand the basics of scientific research and the significance of high-quality data in producing reliable research outcomes.</li>
-        <li>Recognize the roles and responsibilities of interviewers in ensuring data quality.</li>
-        <li>Become familiar with the techniques and policies involved in gathering information from respondents.</li>
-        <li>Understand research ethics, respondent privacy, and the importance of maintaining confidentiality.</li>
+     <strong>Trainers:</strong> Core ISER-N team: Dr. Dirgha Jibi Ghimire, Ms. Indra Chaudhary, Mr. Prem Pandit, Mr. Hardik Sapkota, Ms. Adina Gurung, and Mr. Rajendra Ghimire.
 
-    </ul>
+     <div><strong>Participants:</strong> 20 interviewers from diverse educational and social backgrounds.</div>
 
     <!-- Production -->
-    <h3 style="color:#444; font-weight:600; margin-top:40px;">Production Training</h3>
-    <div style="border-left:4px solid #2b6cb0; padding-left:15px; margin:15px 0;">
-        <p style="margin:0; font-style:italic; font-size:0.95rem;">January 22 – 28, 2025 | ISER-N, Fulbari Campus</p>
+
+    <h4 style="color:#444; font-weight:600; margin-top:25px;"><li>Part I Production</li></h4>
+     <div style="border-left:4px solid #2b6cb0; padding-left:15px; margin:15px 0;">
+        <p style="margin:0; font-style:italic; font-size:0.95rem;">January 22–28, 2025 | ISER-N, Fulbari Campus</p>
         <p style="font-size:1rem; margin-top:5px; text-align:justify;">
-            The program focused on developing critical skills such as effective probing, active listening, and managing sensitive topics in an ethical manner. By combining theoretical lessons with hands-on practice, the training aimed to improve interviewer efficiency while ensuring data integrity and confidentiality.
-            <strong>Field practice</strong> was held Jan 31 – Feb 3, 2025 at Ratnanagar Municipality, Chitwan.
+            <strong>Objective:</strong>To reinforce and expand interviewer skills gained during the pre-test, addressing lessons learned and ensuring readiness for large-scale fieldwork. Special focus was given to strengthening probing, active listening, handling sensitive topics, and using CAPI systems (SurveyTrak and Blaise). Supervised field practice in Ratnanagar Municipality was included.
         </p>
+       
     </div>
-    <div>
-        <h5 style="color:#444; font-weight:600;">Team Leader and ARO Training</h5>
+    <strong>Trainers:</strong> Core ISER-N team: Dr. Dirgha Jibi Ghimire, Ms. Indra Chaudhary, Mr. Prem Pandit, Mr. Hardik Sapkota, Ms. Adina Gurung, and Mr. Rajendra Ghimire.
+
+     <div><strong>Participants:</strong> 42 participants, including interviewers and assistant research officers selected for production interviews.</div>
+
+
+    <h4 style="color:#444; font-weight:600; margin-top:25px;"><li>Part II Production</li></h4>
+     <div style="border-left:4px solid #2b6cb0; padding-left:15px; margin:15px 0;">
+        <p style="margin:0; font-style:italic; font-size:0.95rem;">June 18–21, 2025 </p>
         <p style="font-size:1rem; margin-top:5px; text-align:justify;">
-            The Team Leaders and Supervisors Training, conducted on February 3 by Ms. Maureen O'Brien and Ms. Jennie Williams, focused on essential aspects of survey management tools, including surveytrak, webtrak, weblog, and field user management (FUM). The training equipped team leaders, assistant research officers (ARO), research officers (RO), and managers with the necessary skills to oversee data collection processes effectively. Participants included Ms. Indra Chaudhary, Mr. Prem Pandit, Ms. Adina Gurung, Mr. Rajendra Ghimire, Mr. Hardik Sapkota, Ms. Mamata Chhetri, Ms. Nira Gurung, Mr. Govinda Lamichhane, Mr. Dil Bahadur C.K., Ms. Sita Chaudhary, and Mr. Bibek Sapkota.
+            <strong>Objective:</strong>To reinforce and expand new interviewers’ skills in general interviewing techniques and ensure readiness for Part II production. Special focus was given to strengthening probing, active listening, handling sensitive topics, and using CAPI systems (SurveyTrak and Blaise). Supervised field practice in Ratnanagar Municipality was included.
         </p>
+       
     </div>
-   
-    <!-- <h5 style="color:#444; font-weight:600;">Participants</h5>
-    <p style="font-size:1rem; text-align:justify;">
-        <strong>40+ interviewers</strong> took part, each completing <strong>five supervised practice interviews</strong> before production surveys using Blaise.
-    </p>
-    <h5 style="color:#444; font-weight:600;">Outcomes</h5>
-    <ul style="font-size:1rem; line-height:1.6;">
-        <li>Improved efficiency in digital survey administration.</li>
-        <li>Ensured <strong>high-quality data</strong> through close supervision and feedback.</li>
-        <li>Prepared enumerators for full-scale production interviews.</li>
-    </ul> -->
+    <strong>Trainers:</strong> Core ISER-N team: Dr. Dirgha Jibi Ghimire, Ms. Indra Chaudhary, Mr. Prem Pandit, Mr. Hardik Sapkota, Ms. Adina Gurung, and Mr. Rajendra Ghimire.
+
+     <div><strong>Participants:</strong> 15 new interviewers selected for production interviews.</div>
+
+    </ol>
 </div>
-
-
 @endsection

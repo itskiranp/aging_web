@@ -729,7 +729,7 @@ body {
 .gallery-title {
     font-weight: 700;
     color: #2c3e50;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     position: relative;
     display: inline-block;
 }
@@ -1545,3 +1545,10 @@ body {
 .info-section {
     padding: 2rem 0;
 }
+
+/* Data analysis training styling */
+
+       .card img {
+      height: 200px;
+      object-fit: cover;
+    }

@@ -91,7 +91,7 @@
                                 <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" aria-current="page"
                                     href="/"><i class="fa-solid fa-house-chimney fa-lg me-2 "></i>HOME</a>
                             </li>
-                            
+
                             <li class="nav-item">
                                 <a class="nav-link {{ Request::is('data') ? 'active' : '' }}" href="/data">DATA</a>
                             </li>
@@ -101,13 +101,13 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle {{ Request::is('publications') ? 'active' : '' }}"
                                     href="/publications" role="button" data-bs-toggle="dropdown" aria-expanded="false">PUBLICATION</a>
-                                    <ul class="dropdown-menu mt-0">
+                                <ul class="dropdown-menu mt-0">
                                     <li><a class="dropdown-item " href="/publications">Journal Articles</a>
                                     </li>
 
                                     <li><a class="dropdown-item {{ Request::is('publication.presentations') ? 'active' : '' }}"
                                             href="{{ route('publication.presentations') }}">Presentations</a></li>
-                                             <li><a class="dropdown-item {{ Request::is('publication.working') ? 'active' : '' }}"
+                                    <li><a class="dropdown-item {{ Request::is('publication.working') ? 'active' : '' }}"
                                             href="{{ route('publication.working') }}">Working Papers</a></li>
                                 </ul>
                             </li>
@@ -124,29 +124,33 @@
                                             href="/people/staff">Staff</a></li>
                                 </ul>
                             </li>
-                            
+
                             <li class="nav-item dropdown ">
-                                <a class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}"
-                                    href="/people" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle {{ Request::is('capacity') ? 'active' : '' }}"
+                                    href="/capacity" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     CAPACITY BUILDING
                                 </a>
                                 <ul class="dropdown-menu mt-0">
-                                    <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                    <li><a class="dropdown-item {{ Request::is('capacitybuilding/workshop') ? 'active' : '' }}"
+                                            href="/capacitybuilding/ci">Cognitive Interviewing (CI)</a>
+                                    <li><a class="dropdown-item {{ Request::is('capacitybuilding/interviewing') ? 'active' : '' }}"
                                             href="/capacitybuilding/interviewing">General Interviewing Techniques (GIT)
                                             Training</a></li>
-                                    <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
+                                    <li><a class="dropdown-item {{ Request::is('capacitybuilding/specifictraining') ? 'active' : '' }}"
                                             href="/capacitybuilding/specifictraining">Study Specific Training (SST)</a></li>
                                     </a>
                             </li>
-                            <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                    href="/capacitybuilding/datatraining">Data Analysis</a></li>
+                            <li><a class="dropdown-item {{ Request::is('capacitybuilding/datatraining') ? 'active' : '' }}"
+                                    href="/capacitybuilding/datatraining">Data Analysis</a>
+                            </li>
+
                             <!-- <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
                                     href="/capacitybuilding/analysictraining">Power Considerations in Data
                                     Analysis</a>
                             </li> -->
                         </ul>
                         </li>
-                    
+
 
 
                         <li class="nav-item">

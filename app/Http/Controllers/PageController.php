@@ -85,6 +85,10 @@ class PageController extends Controller
     {
         return view('capacitybuilding.datatraining');
     }
+    public function showciMember()
+    {
+        return view('capacitybuilding.ci');
+    }
   
 
 

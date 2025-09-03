@@ -17,7 +17,7 @@
         <h2 class="gallery-title">Data Analysis</h2>
     </div>
 
-    <div class="accordion" id="dataAccordion">
+    <div class="accordion mt-3" id="dataAccordion">
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
@@ -87,9 +87,98 @@
                 data-bs-parent="#dataAccordion">
                 <div class="accordion-body">
 
+                    Header / Introduction
+                    <div class="container my-3">
+                        <h4 style="color:#444; font-weight:600; margin-top:25px;">
+                            Data Analysis Training using Stata Software
+                        </h4>
+                        <div style="border-left:4px solid #2b6cb0; padding-left:15px; margin:15px 0;">
+                            <p style="margin:0; font-style:italic; font-size:0.95rem;">December 02 – 05, 2024 |10:00 AM - 4:00 PM | ISER-N, Fulbari Campus</p>
+                            <p style="font-size:1rem; margin-top:5px; text-align:justify;">
+                                <strong>Trainers:</strong> Prof. Sarah Brauner-Otto, Khandys Agnant, Adina Gurung
+
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <!-- Overview -->
+                    <section class="container my-5">
+                        <h5 class="mb-3"><strong>Workshop Overview</strong></h5>
+                        <p>The workshop was designed to enhance the statistical data analysis skills of ISER-Nepal staff and students, targeting participants who wished to strengthen their analytical abilities and gain practical knowledge for academic and professional work. The Data Analysis Training using Stata software provided participants with an in-depth understanding of statistical techniques and tools essential for effective data handling. The workshop further aimed to equip individuals with the practical skills necessary to carry out advanced data analysis tasks using Stata.</p>
+                    </section>
+
+                    <!-- Day-by-Day Breakdown with Images -->
+                    <section class="container my-5">
+                        <h5 class="mb-4"><strong>Workshop Highlights</strong></h5>
+                        <div class="row g-4">
+
+                            <!-- Day 1 -->
+                            <div class="col-md-6">
+                                <div class="card shadow-sm h-100">
+                                    <img src="/images/sarahkhandy1.jpg" class="card-img-top" alt="Day 1 Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Day 1: Introduction to Stata</h5>
+                                        <p class="card-text">On the first day, Adina Gurung opened with an introduction to ISERN and its goals. Professor Sarah then provided an overview of Stata Software, followed by talks on data types and their importance in statistical analysis. The session raised awareness of Stata’s role in various data analysis tasks. Instructor Khandys covered tabulation, code generation, recoding, data labeling, and practical exercises.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Day 2 -->
+                            <div class="col-md-6">
+                                <div class="card shadow-sm h-100">
+                                    <img src="/images/sarahkhandy3.jpg" class="card-img-top" alt="Day 2 Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Day 2: Statistical Concepts</h5>
+                                        <p class="card-text">Day Two focused on basic statistical concepts such as notation, normal distribution, measures of dispersion, confidence intervals, and hypothesis testing—essential for understanding data behavior and conducting hypothesis-driven analysis. The sessions enabled participants to interpret statistical results accurately and apply insights to real-world problems.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Day 3 -->
+                            <div class="col-md-6">
+                                <div class="card shadow-sm h-100">
+                                    <img src="/images/sarahkhandy4.jpg" class="card-img-top" alt="Day 3 Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Day 3: Univariate & Bivariate Stats</h5>
+                                        <p class="card-text">Third day was focused on the estimation and interpretation of univariate and bivariate statistics. The participants learned how to analyze data for one variable (univariate) and two variables (bivariate), gaining practical skills in the interpretation of data and analysis of correlation.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Day 4 -->
+                            <div class="col-md-6">
+                                <div class="card shadow-sm h-100">
+                                    <img src="/images/sarahkhandy2.jpg" class="card-img-top" alt="Day 4 Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Day 4: Multivariate Regression</h5>
+                                        <p class="card-text">On the final day, participants learned advanced multivariate regression techniques, including OLS and Logit models, enabling them to explore relationships among multiple variables. The workshop concluded with participant presentations, where they applied these techniques to real-world data.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
 
 
-
+                    <!-- Participants List -->
+                    
+                    <section class="container my-5">
+                        <h5 class="mb-4"><strong>Participants</strong></h5>
+                        <p>
+                            The following participants attended the workshop and actively engaged in discussions and exercises throughout the program:
+                        </p>
+                        <p>
+                            <strong>Dr. Ananta Dahal</strong> – Student<br>
+                            <strong>Asmi Paudel</strong> – Student<br>
+                            <strong>Bibek Sapkota</strong> – ISERN Staff<br>
+                            <strong>Goma Rai</strong> – Student<br>
+                            <strong>Kamana Ghimire</strong> – ISERN Staff<br>
+                            <strong>Manila Chaudhary</strong> – Student<br>
+                            <strong>Sabina Shrestha</strong> – Student<br>
+                            <strong>Shurendra Ghimire</strong> – Student
+                        </p>
+                    </section>
 
 
                 </div>
