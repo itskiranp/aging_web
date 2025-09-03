@@ -28,7 +28,8 @@
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                 data-bs-parent="#dataAccordion">
                 <div class="accordion-body">
-                    <div style="width: auto; margin: 0 auto; padding: 20px; font-family: 'Segoe UI', Arial, sans-serif; color: #333; line-height: 1.6;"><!-- Header Section -->
+                    <div style="width: auto; margin: 0 auto; padding: 20px; font-family: 'Segoe UI', Arial, sans-serif; color: #333; line-height: 1.6;">
+                        <!-- Header Section -->
 
                         <!-- Introduction Paragraph -->
                         <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 30px;">
@@ -87,7 +88,7 @@
                 data-bs-parent="#dataAccordion">
                 <div class="accordion-body">
 
-                    Header / Introduction
+                    <!-- Header / Introduction -->
                     <div class="container my-3">
                         <h4 style="color:#444; font-weight:600; margin-top:25px;">
                             Data Analysis Training using Stata Software
