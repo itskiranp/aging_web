@@ -14,23 +14,23 @@
     </nav>
 
     <div>
-        <h2 class="gallery-title">Cognitive Interviewing (CI)</h2>
+        <h2 class="gallery-title mb-0" >Cognitive Interviewing Training (CIT)</h2>
     </div>
 </div>
-<div class="container my-3" style="width: 100%;">
+<div class="container " style="width: 100%;">
 
 
-    <h4 style="color:#444; font-weight:600; ">Training on Cognitive Interviewing (CI)</h4>
+    <!-- <h4 style="color:#444; font-weight:600; ">Training on Cognitive Interviewing (CI)</h4> -->
     <div style="border-left:4px solid #2b6cb0; padding-left:15px; margin:10px 0;">
 
-        <p style="font-size:1rem; margin-top:5px; text-align:justify;">
+        <p style="font-size:1rem; text-align:justify;">
             Recognizing the need to further strengthen interviewer capacity on specialized techniques, ISER-N, with its strong infrastructure and experienced staff, organized a two-part training program on Cognitive Interviewing (CI). This aimed to upgrade research skills and ensure high-quality data collection for the CVFS-SCAN project.
         </p>
     </div>
     <div>
         <ol>
             <strong>
-                <li>General Cognitive Interviewing Techniques</li>
+                <li>General Cognitive Interviewing Techniques (GCIT)</li>
             </strong>
 
             <p style="margin:0; font-style:italic; font-size:0.95rem;">February 13 and 15, 2023 | ISER-N, Fulbari Campus</p>

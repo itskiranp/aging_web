@@ -123,7 +123,7 @@
                 <div
                     style=" background: #f8fafc; border-radius: 3px; overflow: hidden;  ">
                     <!-- Placeholder for your image - replace with actual img tag -->
-                    <img src="/images/study area.png" class="img-fluid" alt="" width="600px" height="400px" ;>
+                    <img src="/images/studyarea_homepage.png" class="img-fluid" alt="" width="600px" height="400px" ;>
 
                 </div>
             </div>

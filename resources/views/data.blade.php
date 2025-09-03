@@ -11,7 +11,7 @@
     </nav>
       
         <h1 class="gallery-title text-center">Data</h1>
-        <div class="accordion" id="dataAccordion">
+        <div class="accordion mt-3" id="dataAccordion">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
@@ -113,7 +113,7 @@
                 <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <strong> Preliminary data on physical & mental health in adults aged > 50</strong>
+                        <strong> Data title 2</strong>
                     </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -217,13 +217,20 @@
                 <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <strong>Life History Calendar (LHC)</strong>
+                        <strong>Data title 3</strong>
                     </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-bs-parent="#dataAccordion">
                     <div class="accordion-body">
-                        <p>The Life History Calendar (LHC) method will be utilized to gather and update data on
+                        <div class=" text-secondary mb-5" >
+                            Content updating soon......
+
+                        </div>
+                        <p>Questionnaire <a href="#">Click Here</a></p>
+                        <p>CodeBook <a href="#">Click Here</a></p>
+                        <p>DATA <a href="#">Click Here</a></p>
+                        <!-- <p>The Life History Calendar (LHC) method will be utilized to gather and update data on
                             international labor migration among participants. This method uses visual "timing" cues based on
                             respondents’ other personal life events, which improves recall and autobiographical memory. The
                             LHC has been validated for use in elderly participants with low literacy, ensuring accurate
@@ -239,11 +246,11 @@
                                 <li>Mean Number of Trips Among Participants Reporting at Least One Trip: 1.45</li>
                                 <li>Mean Duration of International Trips: 7.67 years</li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
-            <div class="accordion-item">
+            <!-- <div class="accordion-item">
                 <h2 class="accordion-header" id="headingFour">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -274,30 +281,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFive">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        <strong> Biomarker Data Collection</strong>
-                    </button>
-                </h2>
-                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                    data-bs-parent="#dataAccordion">
-                    <div class="accordion-body">
-                        <p>Blood samples will be collected from 4,000 participants during face-to-face
-                            interviews. Details of the biomarker collection process include:</p>
-                        <div class="row">
-                            <ul class="ms-3">
-                                <li>A total of 30 ml of blood drawn and processed into various components (plasma, serum,
-                                    and buffy coat).</li>
-                                <li>Samples will be stored at -86°C and transported to both a central laboratory in
-                                    ISER-N and the University of Michigan for further research.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </div> -->
+            
             <!-- <div class="accordion-item">
                 <h2 class="accordion-header" id="headingSix">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -334,7 +319,7 @@
                 </div>
             </div> -->
 
-            <div class="accordion-item">
+            <!-- <div class="accordion-item">
                 <h2 class="accordion-header" id="headingSeven">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
@@ -377,7 +362,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 @endsection

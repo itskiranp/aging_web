@@ -132,7 +132,7 @@
                                 </a>
                                 <ul class="dropdown-menu mt-0">
                                     <li><a class="dropdown-item {{ Request::is('capacitybuilding/workshop') ? 'active' : '' }}"
-                                            href="/capacitybuilding/ci">Cognitive Interviewing (CI)</a>
+                                            href="/capacitybuilding/ci">Cognitive Interviewing Training (CIT)</a>
                                     <li><a class="dropdown-item {{ Request::is('capacitybuilding/interviewing') ? 'active' : '' }}"
                                             href="/capacitybuilding/interviewing">General Interviewing Techniques (GIT)
                                             Training</a></li>
