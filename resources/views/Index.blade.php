@@ -13,7 +13,7 @@
             <!-- Slide 1 -->
             <div class="carousel-item active">
                 <div class="position-relative h-100">
-                    <img src="images/homepage_background1.jpg" class="img-fluid hero-img" alt="CVFS-SCAN Team">
+                    <img src="images/homepage_background1.JPG" class="img-fluid hero-img" alt="CVFS-SCAN Team">
                     <!-- <div class="hero-overlay">
           <div class="hero-text">
             <h1>Study on Cognition and Aging in Nepal</h1>
