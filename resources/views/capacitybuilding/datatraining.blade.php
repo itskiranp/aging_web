@@ -231,7 +231,7 @@
                                     <!-- Day 1 Card -->
                                     <div class="col-md-6">
                                         <div class="card h-100 shadow-sm">
-                                            <img src="/images/uttamsir2.jpg" class="card-img-top" alt="Day 1 Image">
+                                            <img src="/images/uttamsir2.JPG" class="card-img-top" alt="Day 1 Image">
                                             <div class="card-body">
                                                 <h5 class="card-title">Day 1: Data & Visualization</h5>
                                                 <p class="card-text">
@@ -245,7 +245,7 @@
                                     <!-- Day 2 Card -->
                                     <div class="col-md-6">
                                         <div class="card h-100 shadow-sm">
-                                            <img src="/images/uttamsir1.jpg" class="card-img-top" alt="Day 2 Image">
+                                            <img src="/images/uttamsir1.JPG" class="card-img-top" alt="Day 2 Image">
                                             <div class="card-body">
                                                 <h5 class="card-title">Day 2: Descriptive Statistics</h5>
                                                 <p class="card-text">
@@ -258,7 +258,7 @@
                                     <!-- Day 3 Card -->
                                     <div class="col-md-6">
                                         <div class="card h-100 shadow-sm">
-                                            <img src="/images/uttamsir3.jpg" class="card-img-top" alt="Day 3 Image">
+                                            <img src="/images/uttamsir3.JPG" class="card-img-top" alt="Day 3 Image">
                                             <div class="card-body">
                                                 <h5 class="card-title">Day 3: Relationships & Sampling</h5>
                                                 <p class="card-text">
@@ -271,7 +271,7 @@
                                     <!-- Day 4 & 5 Merged Card -->
                                     <div class="col-md-6">
                                         <div class="card h-100 shadow-sm">
-                                            <img src="/images/uttamsir4.jpg" class="card-img-top" alt="Day 4 and 5 Image">
+                                            <img src="/images/uttamsir4.JPG" class="card-img-top" alt="Day 4 and 5 Image">
                                             <div class="card-body">
                                                 <h5 class="card-title">Days 4 & 5: Regression & Hypothesis Testing</h5>
                                                 <p class="card-text">
