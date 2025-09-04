@@ -22,7 +22,7 @@
           <p class="card-text">{!! $news->content !!}</p>
       
 
-          <div class="container-fluid p-0 mb-5">
+          <!-- <div class="container-fluid p-0 mb-5">
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 @if(!empty($news->images) && is_array($news->images))
                     <div class="carousel-indicators">
@@ -50,7 +50,7 @@
                     <p>No images available.</p>
                 @endif
             </div>
-        </div>
+        </div> -->
 
   <div class="mt-4">
       <a href="{{ route('events') }}" class="btn btn-success">Back to News & Events</a>
