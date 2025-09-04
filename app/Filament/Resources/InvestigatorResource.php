@@ -42,7 +42,17 @@ class InvestigatorResource extends Resource
                     ->columnSpanFull()
                     ->profile('default')
                     ->label('Description')
-                    ->required(),
+                    ->required()
+                    ->columnSpanFull()
+                    ->toolbar('undo redo | bold italic underline | alignleft aligncenter alignright | bullist numlist outdent indent | removeformat')
+                    ->plugins('paste')
+                    ->options([
+                        'paste_as_text' => true, // forces paste as plain text
+                        'paste_auto_cleanup_on_paste' => true,
+                        'paste_remove_styles' => true,
+                        'paste_remove_spans' => true,
+                        'paste_strip_class_attributes' => 'all',
+                    ]),  
                 FileUpload::make('image')
                     ->directory('images')
                     ->label('Image')
