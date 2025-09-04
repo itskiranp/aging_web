@@ -7,7 +7,9 @@ use App\Filament\Resources\InvestigatorResource\RelationManagers;
 use App\Models\Investigator;
 use Filament\Forms;
 use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\FileUpload;
+use Filament\Forms\Components\MarkdownEditor;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Columns\ImageColumn;
 use Filament\Forms\Form;
@@ -15,6 +17,9 @@ use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
 use Filament\Tables\Actions\EditAction;
+use Filament\Tables\Actions\DeleteBulkAction;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
 
 class InvestigatorResource extends Resource
@@ -27,51 +32,29 @@ class InvestigatorResource extends Resource
     {
         return $form
             ->schema([
+                //
                 TextInput::make('name')->required(),
                 TextInput::make('position')->required(),
                 TextInput::make('phone')->required(),
                 TextInput::make('email')->email()->required(),
-
-                TinyEditor::make('bio')
-                    ->profile('default')
-                    ->label('Bio')
-                    ->nullable()
-                    ->options([
-                        'menubar' => false,
-                        'plugins' => 'paste lists link',
-                        'toolbar' => 'undo redo | bold italic underline | bullist numlist | alignleft aligncenter alignright | removeformat',
-                        'paste_as_text' => true,
-                        'paste_auto_cleanup_on_paste' => true,
-                        'paste_remove_styles' => true,
-                        'paste_remove_spans' => true,
-                        'paste_strip_class_attributes' => 'all',
-                    ]),
-
+                TinyEditor::make('bio')->nullable(),
                 TinyEditor::make('description')
+                    ->columnSpanFull()
                     ->profile('default')
                     ->label('Description')
-                    ->required()
-                    ->columnSpanFull()
-                    ->options([
-                        'menubar' => false,
-                        'plugins' => 'paste lists link',
-                        'toolbar' => 'undo redo | bold italic underline | bullist numlist | alignleft aligncenter alignright | removeformat',
-                        'paste_as_text' => true,
-                        'paste_auto_cleanup_on_paste' => true,
-                        'paste_remove_styles' => true,
-                        'paste_remove_spans' => true,
-                        'paste_strip_class_attributes' => 'all',
-                    ]),
-
+                    ->required(),
                 FileUpload::make('image')
                     ->directory('images')
                     ->label('Image')
                     ->preserveFilenames()
                     ->nullable(),
 
+
+
                 FileUpload::make('profile_pdf')
                     ->directory('uploads') // This ensures CVs are uploaded to /public/uploads
                     ->label('Curriculum Vitae'),
+
             ]);
     }
 
@@ -79,12 +62,13 @@ class InvestigatorResource extends Resource
     {
         return $table
             ->columns([
+
                 TextColumn::make('name')->sortable()->searchable(),
                 TextColumn::make('position'),
                 TextColumn::make('email'),
                 TextColumn::make('phone'),
                 ImageColumn::make('image')->label('Profile Pic')->circular(),
-                TextColumn::make('created_at')->since(),
+                TextColumn::make('created_at')->since()
             ])
             ->filters([
                 //
