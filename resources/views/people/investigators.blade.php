@@ -31,8 +31,8 @@
                 <p><strong><i class="fas fa-phone"></i> {{ $investigator->phone }}</strong></p>
                 <p><strong><i class="fa-solid fa-envelope"></i></strong> <a
                         href="mailto:{{ $investigator->email }}">{{ $investigator->email }}</a></p>
-                <p>{{ $investigator->bio }}</p>
-                <p>{{ $investigator->description }}</p>
+                <p>{!! $investigator->bio !!}</p>
+                <p>{!! $investigator->description !!}</p>
                 <a href="{{ Storage::url($investigator->profile_pdf) }} " class="btn btn-primary"
                     target="_blank">Download CV</a>
             </div>
