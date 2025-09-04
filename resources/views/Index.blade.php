@@ -45,10 +45,17 @@
             <h1>Data-Driven Insights</h1>
             <p>Explore biomarkers, cognition, and more</p>
           </div>
-      </div> -->
+            </div> -->
+                </div>
+            </div>
+            <!-- slide 4 -->
+             <div class="carousel-item">
+                <div class="position-relative h-100">
+                    <img src="images/homepage_backgroundx.JPG" class="img-fluid hero-img" alt="Slide 4">
                 </div>
 
-            </div>
+             </div>
+
 
             <!-- Controls -->
             <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
@@ -214,11 +221,7 @@
                                         <h5 class="mb-0 text-primary">Data Collection</h5>
                                     </div>
                                     <p class=" small mb-0">
-                                        Using <strong>Nepal Harmonized Cognitive Assessment Protocol (NHCAP)</strong>
-                                        instruments, <strong>face-to-face Computer-Assisted Personal Interviewing
-                                            (CAPI)</strong> is administered on laptops. Interviews include cognitive and
-                                        physical function tests, standardized measures, informant interviews, and health
-                                        assessments.
+                                        Face-to-face interviews are conducted with respondents aged 50 years and above, their informants, and, when necessary, their proxies. Data collection is carried out using Computer-Assisted Personal Interviewing (CAPI) as well as selected paper forms and formats. Instruments used for respondents include the Nepal Harmonized Cognitive Assessment Protocol (NHCAP), and questionnaires covering demographics, life events, experiences, health behaviors, and health assessment. Separate questionnaires are used for informants and proxy respondents.
                                     </p>
                                 </div>
                             </div>
