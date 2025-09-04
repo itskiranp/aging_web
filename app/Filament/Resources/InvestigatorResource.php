@@ -13,7 +13,9 @@ use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Amidesfahani\FilamentTinyEditor\TinyEditor;
+use AmidEsfahani\FilamentTinyEditor\TinyEditor;
+
+
 
 class InvestigatorResource extends Resource
 {
