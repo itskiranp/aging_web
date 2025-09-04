@@ -20,7 +20,8 @@ use Filament\Tables\Actions\EditAction;
 use Filament\Tables\Actions\DeleteBulkAction;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
-use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
+use Amidesfahani\FilamentTinyEditor\TinyEditor;
+
 
 class InvestigatorResource extends Resource
 {
