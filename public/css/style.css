@@ -1381,12 +1381,21 @@ body {
             rgba(43, 108, 176, 0.2)
         ),
         url("/images/biomarkerpic.jpeg") center/cover;
-    color: #fff;
     padding: 100px 20px;
     text-align: center;
     border-radius: 5px;
 }
+.bio-banner {
+    background-color: rgba(0, 40, 116, 0.753);
+    display: inline-block;
+    color: #fff;
+    
+}
 
+.bio-banner h1,
+.bio-banner p {
+    color: #fff;
+}
 /* Justify text globally inside paragraphs */
 .container p,
 .comment-box p,
@@ -1441,16 +1450,7 @@ body {
     }
 }
 
-/* .gradient-text {
-    font-weight: bold;
-    font-size: 3rem; 
-    background: linear-gradient(90deg, #001f4d, #0056d2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent;
-    
-} */
+
 
 /* flowchart styling  */
 .flowchart-wrapper {

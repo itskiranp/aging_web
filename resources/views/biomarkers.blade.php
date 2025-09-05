@@ -22,9 +22,12 @@
         </div>
     </header> -->
 <section class="bio-hero">
-    <div class="container">
-        <h1 class="display-5 fw-bold  mb-0" style="color:lightgoldenrodyellow">Biospecimen Laboratory of ISER-N</h1>
-        <p class="lead text-center " style="color:lightgoldenrodyellow"><em>A hub for biomarker research and scientific capacity in Nepal.</em></p>
+    <div class="container mt-5">
+        <div class="bio-banner mt-5 ">
+        <h1 class="display-5 fw-bold" >Biospecimen Laboratory of ISER-N</h1></div><br>
+            <div class="bio-banner">
+        <p class="lead text-center "><em>A hub for biomarker research and scientific capacity in Nepal</em></p>
+        </div>
     </div>
 </section>
 
@@ -44,18 +47,13 @@
 </section> -->
 
 <section>
-
-
-
     <!-- Flowchart Wrapper -->
     <div class="d-flex justify-content-center mb-3">
         <div class="flowchart-wrapper">
             <img src="images/blood_collection_and_processing_pic.png" alt="Flowchart" class="img-fluid  rounded">
         </div>
     </div>
-
 </section>
-
 
 
 <section class="info-section">
