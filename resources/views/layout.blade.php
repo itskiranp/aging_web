@@ -114,14 +114,14 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle {{ Request::is('people') ? 'active' : '' }}"
                                     href="/people" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    PEOPLE
+                                    RESEARCHERS
                                 </a>
                                 <ul class="dropdown-menu mt-0">
                                     <li><a class="dropdown-item " href="{{ route('investigators') }}">Investigators</a>
                                     </li>
 
                                     <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                            href="/people/staff">Staff</a></li>
+                                            href="/people/staff">Project Staff</a></li>
                                 </ul>
                             </li>
 
@@ -608,6 +608,7 @@
             once: true
         });
     </script>
+   
 
 
 </body>

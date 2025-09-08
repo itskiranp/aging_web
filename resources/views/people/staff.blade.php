@@ -13,7 +13,7 @@
             <li class="breadcrumb-item active" aria-current="page">Staff</li>
         </ol>
     </nav>
-    <h2 class="gallery-title">Staff</h2>
+    <h2 class="gallery-title">Project Staff</h2>
     <div class="row justify-content-center">
         @foreach ($staffMembers as $staff)
         <div class="col-6 col-md-3 ">

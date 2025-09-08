@@ -55,7 +55,12 @@
                 </div>
 
              </div>
-
+             <!-- slide 5 -->
+             <div class="carousel-item">
+                <div class="position-relative h-100">
+                    <img src="images/homepage_older.JPG" class="img-fluid hero-img" alt="Slide 5">
+                </div>
+            </div>
 
             <!-- Controls -->
             <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
@@ -337,7 +342,6 @@
                             that older adults can live with dignity, support, and opportunity in the years to come."</em>
                     </p>
                 </div>
-
             </div>
 
         </div>

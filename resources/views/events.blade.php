@@ -5,50 +5,50 @@
 @section('title', 'News and Events')
 
 @section('content')
-    @php
-        use Illuminate\Support\Str;
-    @endphp
+@php
+use Illuminate\Support\Str;
+@endphp
 
-    <div id="main-content" class="container my-5">
+<div id="main-content" class="container my-5">
 
-        <!-- Breadcrumb Navigation -->
-        <nav class="breadcrumb-nav mb-2 d-flex justify-content-end">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fas fa-home me-1"></i>Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">News & Events</li>
-            </ol>
-        </nav>
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb-nav mb-2 d-flex justify-content-end">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{{ url('/') }}"><i class="fas fa-home me-1"></i>Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">News & Events</li>
+        </ol>
+    </nav>
 
-        <!-- Latest News Section -->
-        <div class="container">
-            <h1 class="gallery-title text-center">Latest News</h1>
+    <!-- Latest News Section -->
+    <div class="container">
+        <h1 class="gallery-title text-center">Latest News</h1>
 
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                @foreach ($news as $newsItem)
-                    <div class="col">
-                        <div class="card h-100 shadow-sm">
-                            @if ($newsItem->image_url)
-                                <img src="{{ $newsItem->image_url }}" class="card-img-top" alt="{{ $newsItem->title }}">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            @foreach ($news as $newsItem)
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    @if ($newsItem->image_url)
+                    <img src="{{ $newsItem->image_url }}" class="card-img-top" alt="{{ $newsItem->title }}">
+                    @endif
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">{{ $newsItem->title }}</h5>
+                        <p class="card-text text-muted small">
+                            {{ $newsItem->published_at->format('M d, Y') }}
+                        </p>
+                        <p class="card-text">
+                            {!! Str::limit($newsItem->content, 100) !!}
+                        </p>
+                        <div class="mt-auto">
+                            @if ($newsItem->slug)
+                            <a href="{{ route('news.show', $newsItem->slug) }}" class="btn btn-primary">
+                                Read More
+                            </a>
+                            @else
+                            <span class="btn btn-secondary disabled">Read More</span>
                             @endif
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">{{ $newsItem->title }}</h5>
-                                <p class="card-text text-muted small">
-                                    {{ $newsItem->published_at->format('M d, Y') }}
-                                </p>
-                                <p class="card-text">
-                                    {!! Str::limit($newsItem->content, 100) !!}
-                                </p>
-                                <div class="mt-auto">
-                                    @if ($newsItem->slug)
-                                        <a href="{{ route('news.show', $newsItem->slug) }}" class="btn btn-primary">
-                                            Read More
-                                        </a>
-                                    @else
-                                        <span class="btn btn-secondary disabled">Read More</span>
-                                    @endif
-                                </div>
-                            </div>
                         </div>
+                    </div>
+                </div>
                 @endforeach
             </div>
         </div>
@@ -102,18 +102,18 @@
         </div>
 
         @php
-            $formattedEvents = $events
-                ->map(function ($event) {
-                    return [
-                        'title' => $event->title,
-                        'date' => $event->date->format('Y-m-d'),
-                        'description' => $event->description,
-                        'short_description' => $event->short_description,
-                        'location' => $event->location,
-                        'time' => $event->time,
-                    ];
-                })
-                ->toArray();
+        $formattedEvents = $events
+        ->map(function ($event) {
+        return [
+        'title' => $event->title,
+        'date' => $event->date->format('Y-m-d'),
+        'description' => $event->description,
+        'short_description' => $event->short_description,
+        'location' => $event->location,
+        'time' => $event->time,
+        ];
+        })
+        ->toArray();
         @endphp
 
         <script>
@@ -128,5 +128,5 @@
         </script>
     </section>
 
-    </div>
+</div>
 @endsection
