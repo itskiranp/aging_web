@@ -33,7 +33,7 @@ use Illuminate\Support\Str;
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">{{ $newsItem->title }}</h5>
                         <p class="card-text text-muted small">
-                            {{ $newsItem->published_at->format('M d, Y') }}
+                            {{ $newsItem->published_at ? $newsItem->published_at->format('M d, Y') : '' }}
                         </p>
                         <p class="card-text">
                             {!! Str::limit($newsItem->content, 100) !!}
@@ -49,8 +49,8 @@ use Illuminate\Support\Str;
                         </div>
                     </div>
                 </div>
-                @endforeach
             </div>
+            @endforeach
         </div>
 
         <div class="d-flex justify-content-center mt-4">

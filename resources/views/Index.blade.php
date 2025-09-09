@@ -49,14 +49,14 @@
                 </div>
             </div>
             <!-- slide 4 -->
-             <div class="carousel-item">
+            <div class="carousel-item">
                 <div class="position-relative h-100">
                     <img src="images/homepage_backgroundx.JPG" class="img-fluid hero-img" alt="Slide 4">
                 </div>
 
-             </div>
-             <!-- slide 5 -->
-             <div class="carousel-item">
+            </div>
+            <!-- slide 5 -->
+            <div class="carousel-item">
                 <div class="position-relative h-100">
                     <img src="images/homepage_older.jpg" class="img-fluid hero-img" alt="Slide 5">
                 </div>
