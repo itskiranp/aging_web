@@ -54,7 +54,7 @@ use Illuminate\Support\Str;
         </div>
 
         <div class="d-flex justify-content-center mt-4">
-            {{ $news->links('pagination::bootstrap-5') }}
+            {{ $news->withQueryString()->links('pagination::bootstrap-5') }}
         </div>
     </div>
 
@@ -106,7 +106,7 @@ use Illuminate\Support\Str;
         ->map(function ($event) {
         return [
         'title' => $event->title,
-        'date' => $event->date->format('Y-m-d'),
+        'date' => optional($event->date)->format('Y-m-d'),
         'description' => $event->description,
         'short_description' => $event->short_description,
         'location' => $event->location,

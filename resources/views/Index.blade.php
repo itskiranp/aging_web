@@ -113,12 +113,12 @@
                         limited
                         national
                         capacity to monitor, prevent, or manage these conditions, due to the absence of systematic data
-                        and
+                        and a
                         specialized research infrastructure.
                     </p>
                     <p style="margin-bottom: 18px; font-size: 1.1rem; ">
                         To address this urgent gap, CVFS-SCAN leverages the longstanding Chitwan Valley Family Study
-                        (CVFS);
+                        (CVFS),
                         a respected and nationally recognized longitudinal study that began in 1995.
                         With decades of detailed family, community , and life history data, CVFS provides a unique
                         foundation for launching a new wave of dementia-focused research tailored to Nepal's specific
@@ -145,7 +145,7 @@
                 Overall Goal
             </h4>
             <p style="margin-bottom: 18px; font-size: 1.1rem; ">
-                To develop a foundation for sustained, high-quality, population-based research into ADRD and age-related chronic conditions in Nepal.
+                To develop a foundation for sustained, high-quality, population-based research into ADRD and other age-related chronic conditions in Nepal.
             </p>
             <h4 style="  color: #1a365d; font-size: 1.1rem; font-weight: 600; margin-bottom: 7px;">
                 Objectives
