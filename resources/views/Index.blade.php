@@ -226,7 +226,10 @@
                                         <h5 class="mb-0 text-primary">Data Collection</h5>
                                     </div>
                                     <p class=" small mb-0">
-                                        Face-to-face interviews are conducted with respondents aged 50 years and above, their informants, and, when necessary, their proxies. Data collection is carried out using Computer-Assisted Personal Interviewing (CAPI) as well as selected paper forms and formats. Instruments used for respondents include the Nepal Harmonized Cognitive Assessment Protocol (NHCAP), and questionnaires covering demographics, life events, experiences, health behaviors, and health assessment. Separate questionnaires are used for informants and proxy respondents.
+                                        Face-to-face interviews with respondents and informants. Data collection with Computer-Assisted Personal Interviewing (CAPI).
+                                        Instruments include the Nepal Harmonized Cognitive Assessment Protocol (NHCAP) and a questionnaire covering basic and social demographics, life history events, health behaviors, and health assessments.
+                                        An informant questionnaire to assess the respondents’ cognitive health and functioning.
+
                                     </p>
                                 </div>
                             </div>
@@ -241,10 +244,7 @@
                                         <h5 class="mb-0 text-primary">Biomarker Collection</h5>
                                     </div>
                                     <p class=" small mb-0">
-                                        A team of licensed and trained phlebotomists collect <strong>30 ml of
-                                            blood</strong>
-                                        during a single draw using a <strong>vacuum extraction system</strong> following
-                                        best practices in biomarker collection.
+                                        Draw of 30 ml blood sample by licensed phlebotomists using a  <strong>vacuum extraction system</strong> following best practices.
                                     </p>
                                 </div>
                             </div>
