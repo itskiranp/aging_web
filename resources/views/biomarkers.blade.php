@@ -24,9 +24,10 @@
 <section class="bio-hero">
     <div class="container mt-5">
         <div class="bio-banner mt-5 ">
-        <h1 class="display-5 fw-bold" >Biospecimen Laboratory of ISER-N</h1></div><br>
-            <div class="bio-banner">
-        <p class="lead text-center "><em>A hub for biomarker research and scientific capacity in Nepal</em></p>
+            <h1 class="display-5 fw-bold">Biospecimen Laboratory of ISER-N</h1>
+        </div><br>
+        <div class="bio-banner">
+            <p class="lead text-center "><em>A hub for biomarker research and scientific capacity in Nepal</em></p>
         </div>
     </div>
 </section>
@@ -36,7 +37,7 @@
     <div class="container">
         <h2 class="mb-2 text-primary">Background</h2>
         <p style="font-size:1.1rem;">
-            Nepal’s population is rapidly aging, bringing with it an urgent need for advanced research into Alzheimer’s Disease and Related Dementias (ADRD) as well as other chronic health conditions. Yet, until recently, Nepal had very limited population-based data on dementia, making it difficult to design effective prevention strategies or respond to the growing burden of these diseases. To address this critical gap, the Institute for Social and Environmental Research Nepal (ISER-N) established a dedicated biospecimen within its premises in Bharatpur-15, Chitwan. The facility is equipped for blood sample processing and long-term storage of blood derivatives, including serum, plasma, and buffy coat, preserved at –86°C for biomarker and genetic research. All procedures follow internationally standardized protocols and World Health Organization (WHO) guidelines. Today, ISER-N’s biospecimen serves as a national hub for biomarker research, housing state-of-the-art instruments and essential tools required for ADRD investigations in line with international standards. Equally important, the laboratory is strengthening Nepal’s research capacity by training Nepali scientists and health professionals in advanced laboratory techniques ensuring the sustainability of a strong research culture in the country.
+            Nepal’s population is rapidly aging, bringing with it an urgent need for advanced research into Alzheimer’s Disease and Related Dementias (ADRD) as well asand other chronic health conditions that affect people as they age. Yet, until recently, Nepal had very limited population-based data on dementia, making it difficult to design effective prevention strategies or respond to the growing burden of these diseases. There are important blood-based biomarkers of this disease that predict who may be at increased risk but these biomarkers have not been studied in the Nepali population. To address this critical gap, the Institute for Social and Environmental Research Nepal (ISER-N) established a dedicated biospecimen laboratory within its premises in Bharatpur-15, Chitwan. The facility is equipped for blood sample processing and long-term storage of blood derivatives, including serum, plasma, and buffy coat, preserved at –86°C, for biomarker and genetic research. All procedures follow internationally standardized protocols and World Health Organization (WHO) guidelines. Today, ISER-N’s biospecimen laboratory serves as a national hub for biomarker research, housing state-of-the-art instruments and essential tools required for ADRD investigations in line with international standardsthe Nepali population. Equally important, the laboratory is strengthening Nepal’s research capacity by training Nepali scientists and health professionals in advanced laboratory techniques ensuring the sustainability of a strong research culture in the country.
         </p>
     </div>
 </section>
@@ -69,7 +70,7 @@
 
                 <h5 class="mb-2"><strong>Blood Sample Collection</strong></h5>
                 <p style="font-size:1.1rem;">
-                    Trained phlebotomists visit respondents’ homes to collect 30 ml of blood in three 10 ml tubes (two SST tubes and one EDTA tube). Prior to collection, informed consent and a brief health assessment are completed. Blood is drawn using a vacuum extraction system in accordance with SOPs. Each tube is labeled and tracked using the Survey123 mobile application for real-time management.
+                    Trained phlebotomists visit respondents’ homes to collect 30 ml of blood in three 10 ml tubes (two SST tubes and one EDTA tube). Prior to collection, informed consent and a brief health assessment are completed. Blood is drawn using a vacuum extraction system in accordance with Standard Operation Procedures (SOP). Each tube is labeled and tracked using the Survey123 mobile application for real-time management.
                 </p>
 
                 <h5 class="mb-2"><strong>Mobile Laboratory Processing</strong></h5>
@@ -77,7 +78,7 @@
                     For CVFS-SCAN, ISER-Nepal has established mobile laboratories within study neighborhoods. Upon receiving samples, lab technicians scan tube barcodes for tracking. SST tubes are centrifuged on-site using portable centrifugation machines. Both SST and EDTA tubes are then transported under controlled conditions to ISER-Nepal’s central laboratory for further processing and secure storage.
                 </p>
 
-                <h5 class="mb-2"><strong>Receiving Samples at ISER-Nepal Laboratory</strong></h5>
+                <h5 class="mb-2"><strong>Receiving Samples at ISER-N Laboratory</strong></h5>
                 <p style="font-size:1.1rem;">
                     Upon arrival, tubes are verified for correct labeling, re-scanned with a barcode reader, and logged into the system.
                 </p>
@@ -146,7 +147,7 @@
                 <p style="font-size:1.1rem;">
                     The following procedures are performed in the ISER-N laboratory to ensure proper blood sample processing and secure storage.
 
-                </p>    
+                </p>
             </div>
         </div>
     </div>

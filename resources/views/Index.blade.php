@@ -207,11 +207,8 @@
                                         <h5 class="mb-0 text-primary">Study Design</h5>
                                     </div>
                                     <p class=" small mb-0 ">
-                                        This is a longitudinal cohort study of a representative sample of <strong>4,000
-                                            older adults</strong> aged 50+ and their <strong>4,000 key
-                                            informants</strong>
-                                        from the Chitwan Valley Family Study (CVFS) panel, using a stratified two-stage
-                                        cluster area probability sampling design.
+                                        A longitudinal cohort study of a representative sample of <strong>4,000 older adults</strong> aged 50+ and their <Strong>key informants</Strong>
+                                        from the Chitwan Valley Family Study (CVFS) panel, using a stratified two-stage cluster area probability sampling design.
                                     </p>
                                 </div>
                             </div>
@@ -244,7 +241,7 @@
                                         <h5 class="mb-0 text-primary">Biomarker Collection</h5>
                                     </div>
                                     <p class=" small mb-0">
-                                        Draw of 30 ml blood sample by licensed phlebotomists using a  <strong>vacuum extraction system</strong> following best practices.
+                                        Draw of 30 ml blood sample by licensed phlebotomists using a <strong>vacuum extraction system</strong> following best practices.
                                     </p>
                                 </div>
                             </div>
@@ -272,10 +269,9 @@
                             Integration with a Multigenerational Study
                         </h4>
                         <p style=" font-size: 1rem;">
-                            Unlike new studies built from scratch, CVFS-SCAN draws on over two decades of data about
-                            participants' families, education, migration history, economic background, and health. This
-                            allows researchers to investigate life-course influences on cognitive aging in a way few
-                            other LMIC studies can.
+                            CVFS-SCAN draws on over two decades of data about participants' families, education, migration history, economic background, and health.
+                            Integration with the CVFS parent study offers a unique opportunity to investigate experiences and risk factors from the entire life-course that may affect cognitive aging and other indicators of declining health in old age.
+
                         </p>
                     </div>
 
@@ -291,9 +287,7 @@
                             Focus on Nepali-Specific Risk Factors
                         </h4>
                         <p style=" font-size: 1rem;">
-                            CVFS-SCAN is one of the first studies globally to test the role of labor migration and exposure to armed
-                            conflict as risk factors for ADRD, experiences that are common and often overlapping in
-                            Nepal.
+                            CVFS-SCAN is one of the first studies globally to test the role of labor migration and exposure to armed conflict as risk factors for ADRD, experiences that are common and often overlapping in Nepal.
                         </p>
                     </div>
 
@@ -309,7 +303,7 @@
                             Inclusive Design
                         </h4>
                         <p style=" font-size: 1rem;">
-                            CVFS-SCAN collects data not only from older adults aged 50+, but also from their close
+                            CVFS-SCAN collects data not only from older adults aged 50+, but also from close
                             family members or informants, an approach that enables the study of caregiving dynamics,
                             intergenerational relationships, and shared decision-making in aging households.
                         </p>
@@ -328,7 +322,7 @@
                         </h4>
                         <p style=" font-size: 1rem;">
                             <!-- color: #4a5568; -->
-                            In addition to producing data, CVFS-SCAN is a platform to train the next generation of Nepali researchers in dementia science. Training includes cognitive assessment, biospecimen collection, survey management, and data analysis using longitudinal and multilevel techniques.
+                            CVFS-SCAN is building a platform to train the next generation of Nepali researchers in dementia science. Training includes cognitive assessment, biospecimen collection, survey management, and data analysis using longitudinal and multilevel techniques.
                         </p>
                     </div>
                 </div>
@@ -393,7 +387,7 @@
                     <div class="card-body">
                         <h5 class="mb-1 text-primary">2022</h5>
                         <ul class=" mb-0 small">
-                            <li>The study commenced in 2022 and is projected to conclude by 2027.</li>
+                            <li>The study began in 2022 and is projected to conclude by 2027.</li>
                             <li>Ethical approval from NHRC, Nepal received on December 20, 2022 (NHRC Ref No: 1334).
                             </li>
                             <li>Adaptation and translation of survey instruments and cognitive test battery development
@@ -445,9 +439,9 @@
                         <h5 class="mb-1 text-primary">2025 <span class="badge bg-primary ms-2">Current Year</span>
                         </h5>
                         <ul class=" mb-0 small">
-                            <li>Revision of survey instruments/items as per the pre-test results.</li>
-                            <li>Organized training for final production.</li>
-                            <li>Final production launched from February 20, 2025.</li>
+                            <li>Refinement and finalization of survey instruments based on pre-test results.</li>
+                            <li>Organized GIT, NHCAP, SST, and blood sample collection trainings for the final data collection.</li>
+                            <li>Final data collection launched on February 20, 2025.</li>
                         </ul>
                     </div>
                 </div>
@@ -460,9 +454,9 @@
                     <div class="card-body">
                         <h5 class="mb-1 text-primary">2026–27</h5>
                         <ul class=" mb-0 small">
-                            <li>Follow-up waves.</li>
-                            <li>Conducting follow-up assessments to measure cognitive change over time.</li>
-                            <li>Analyze longitudinal patterns of ADRD development and progression.</li>
+                            <li>Second wave of data collection.</li>
+                            <li>Follow-up assessments that focus on assessing change in cognitive outcomes.</li>
+                            <li>Analyze longitudinal patterns of cognitive decline and onset of ADRD.</li>
                         </ul>
                     </div>
                 </div>
@@ -498,7 +492,5 @@
         </div>
     </div>
 </section>
-
-
 
 @endsection
