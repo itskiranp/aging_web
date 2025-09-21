@@ -297,11 +297,11 @@
                             The following participants attended the workshop and actively engaged in discussions and exercises throughout the program:
                         </p>
                         <p>
-                            <strong>Mrs. Adina Gurung </strong> – ISERN Data Manager<br>
-                            <strong>Kamana Ghimire</strong> – ISERN staff<br>
-                            <strong>Bibek Sapkota</strong> – ISERN Staff<br>
-                            <strong>Deepika Bagale</strong> – ISERN staff<br>
-                            <strong>Kiran Poudel</strong> – ISERN Staff<br>
+                            <strong>Mrs. Adina Gurung </strong> – ISER-N Data Manager<br>
+                            <strong>Kamana Ghimire</strong> – ISER-N Staff<br>
+                            <strong>Bibek Sapkota</strong> – ISER-N Staff<br>
+                            <strong>Deepika Bagale</strong> – ISER-N Staff<br>
+                            <strong>Kiran Poudel</strong> – ISER-N Staff<br>
                             <strong>Prashiddha Sharma</strong> – Intern<br>
                             <strong>Adarsha Pokhrel</strong> – Intern
                         </p>
