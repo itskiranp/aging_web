@@ -71,13 +71,9 @@
             </ul>
              </p>
              <p style="text-align: justify;">
-            The program was led by Ms. Emily Briceno-Abreu, Co-Investigator, and delivered through a mix of in-person lectures, recorded video observations, and hands-on practice sessions.Participants conducted three practice cognitive interviews using scripted probes developed from focus group discussions. These interviews focused on improving comprehension of terminology, refining question wording, and clarifying response categories. Insights gained informed revisions to translations and improved overall administration of cognitive measures.
+            The program was led by Dr. Emily Briceño, Co-Investigator, and delivered through a mix of in-person lectures, video observations, and hands-on practice sessions. Participants conducted three practice cognitive interviews using scripted probes developed from focus group discussions. These interviews focused on improving comprehension of terminology, refining question wording, and clarifying response categories. Insights gained informed revisions to the HCAP interview and improved overall administration of cognitive measures.
            </p>
            <strong>Participants:</strong> 12 ISER-N research staff members who had completed General Interview Techniques (GIT) training.
-
-
-
-
 
 
             <strong>
