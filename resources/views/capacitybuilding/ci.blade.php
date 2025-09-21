@@ -39,7 +39,7 @@
             <ul class="mb-3">
                 <li>Introduction to cognitive interviewing</li>
                 <li>Identifying objectives and determining approaches</li>
-                <li>Identifying objectives and determining approaches</li>
+                <!-- <li>Identifying objectives and determining approaches</li> -->
                 <li>Preparing materials and designing interviews</li>
                 <li>Recruiting and training interviewers</li>
                 <li>Conducting cognitive interviews and data analysis </li>

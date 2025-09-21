@@ -100,7 +100,7 @@
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle {{ Request::is('publications') ? 'active' : '' }}"
-                                    href="/publications" role="button" data-bs-toggle="dropdown" aria-expanded="false">PUBLICATION</a>
+                                    href="/publications" role="button" data-bs-toggle="dropdown" aria-expanded="false">PUBLICATIONS</a>
                                 <ul class="dropdown-menu mt-0">
                                     <li><a class="dropdown-item " href="/publications">Journal Articles</a>
                                     </li>

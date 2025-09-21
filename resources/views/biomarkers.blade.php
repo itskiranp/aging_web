@@ -75,7 +75,7 @@
 
                 <h5 class="mb-2"><strong>Mobile Laboratory Processing</strong></h5>
                 <p style="font-size:1.1rem;">
-                    For CVFS-SCAN, ISER-Nepal has established mobile laboratories within study neighborhoods. Upon receiving samples, lab technicians scan tube barcodes for tracking. SST tubes are centrifuged on-site using portable centrifugation machines. Both SST and EDTA tubes are then transported under controlled conditions to ISER-Nepal’s central laboratory for further processing and secure storage.
+                    For CVFS-SCAN, ISER-Nepal has established mobile laboratories within study neighborhoods. Upon receiving samples, lab technicians scan tube barcodes for tracking. SST tubes are centrifuged on-site using portable centrifugation machines. Both SST and EDTA tubes are then transported under controlled conditions to ISER-N’s central laboratory for further processing and secure storage.
                 </p>
 
                 <h5 class="mb-2"><strong>Receiving Samples at ISER-N Laboratory</strong></h5>
@@ -196,7 +196,7 @@
                 <div class="comment-box mt-3">
                     <strong>STEP 3: Blood test report to the respondent</strong>
                     <p style="font-size:1rem;">
-                        From the blood sample collected from each respondent, a small portion will be drawn from the SST tube, and selected laboratory tests will be performed at the ISER-N laboratory by trained laboratory technicians. The test results will be provided to the respondent in a written report. The following laboratory tests will be conducted:</p>
+                        A  small portion from the SST tube will be drawn for selected laboratory tests performed at the ISER-N laboratory by trained laboratory technicians. The test results will be provided to the respondent in a written report. The following laboratory tests will be conducted:</p>
 
                     <ul style="font-size:1rem;">
                         <li>
@@ -221,7 +221,7 @@
                 <div class="comment-box mt-3">
                     <strong>STEP 4: Secure Storage and Transport</strong>
                     <p style="font-size:1rem;">
-                        All aliquots are stored at –86°C in ultra-low temperature freezers at ISER-Nepal. For each respondent, 14 cryovials are prepared:
+                        Aliquots are stored at –86°C in ultra-low temperature freezers at ISER-N. Fourteen  cryovials per sample are prepared:
                     </p>
                     <ul style="font-size:1rem;">
                         <li> <strong>Seven cryovials</strong> remain securely stored at ISER-Nepal.</li>

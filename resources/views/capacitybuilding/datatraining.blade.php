@@ -209,7 +209,7 @@
                         <div style="border-left:4px solid #2b6cb0; padding-left:15px; margin:15px 0;">
                             <p style="margin:0; font-style:italic; font-size:0.95rem;">May 05 – 09, 2025 |10:00 AM - 4:00 PM | ISER-N, Fulbari Campus</p>
                             <p style="font-size:1rem; margin-top:5px; text-align:justify;">
-                                <strong>Trainers:</strong> Dr. Uttam Sharma
+                                <strong>Workshop Trainer:</strong> Dr. Uttam Sharma
 
                             </p>
 
@@ -333,7 +333,7 @@
                         <div style="border-left:4px solid #2b6cb0; padding-left:15px; margin:15px 0;">
                             <p style="margin:0; font-style:italic; font-size:0.95rem;">December 02 – 05, 2024 |10:00 AM - 4:00 PM | ISER-N, Fulbari Campus</p>
                             <p style="font-size:1rem; margin-top:5px; text-align:justify;">
-                                <strong>Trainers:</strong> Prof. Sarah Brauner-Otto, Khandys Agnant, Adina Gurung
+                                <strong>Workshop Trainers:</strong> Prof. Sarah Brauner-Otto, Khandys Agnant, Adina Gurung
 
                             </p>
 
@@ -368,7 +368,7 @@
                                     <img src="/images/sarahkhandy3.jpg" class="card-img-top" alt="Day 2 Image">
                                     <div class="card-body">
                                         <h5 class="card-title">Day 2: Statistical Concepts</h5>
-                                        <p class="card-text">Day Two focused on basic statistical concepts such as notation, normal distribution, measures of dispersion, confidence intervals, and hypothesis testing—essential for understanding data behavior and conducting hypothesis-driven analysis. The sessions enabled participants to interpret statistical results accurately and apply insights to real-world problems.</p>
+                                        <p class="card-text">Day two focused on basic statistical concepts such as notation, normal distribution, measures of dispersion, confidence intervals, and hypothesis testing—essential for understanding data behavior and conducting hypothesis-driven analysis. The sessions enabled participants to interpret statistical results accurately and apply insights to real-world problems.</p>
                                     </div>
                                 </div>
                             </div>
@@ -426,21 +426,6 @@
 
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
