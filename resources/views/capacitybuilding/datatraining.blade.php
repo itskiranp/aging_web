@@ -343,7 +343,7 @@
                     <!-- Overview -->
                     <section class="container my-5">
                         <h5 class="mb-3"><strong>Workshop Overview</strong></h5>
-                        <p>The workshop was designed to enhance the statistical data analysis skills of ISER-Nepal staff and students, targeting participants who wished to strengthen their analytical abilities and gain practical knowledge for academic and professional work. The Data Analysis Training using Stata software provided participants with an in-depth understanding of statistical techniques and tools essential for effective data handling. The workshop further aimed to equip individuals with the practical skills necessary to carry out advanced data analysis tasks using Stata.</p>
+                        <p>The workshop was designed to enhance the statistical data analysis skills of ISER-N staff and students, targeting participants who wished to strengthen their analytical abilities and gain practical knowledge for academic and professional work. The Data Analysis Training using Stata software provided participants with an in-depth understanding of statistical techniques and tools essential for effective data handling. The workshop further aimed to equip individuals with the practical skills necessary to carry out advanced data analysis tasks using Stata.</p>
                     </section>
 
                     <!-- Day-by-Day Breakdown with Images -->
@@ -426,9 +426,6 @@
 
     </div>
 </div>
-
-
-
 
 
 </div>
