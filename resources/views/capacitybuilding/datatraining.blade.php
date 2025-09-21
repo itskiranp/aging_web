@@ -408,9 +408,9 @@
                         <p>
                             <strong>Dr. Ananta Dahal</strong> – Student<br>
                             <strong>Asmi Paudel</strong> – Student<br>
-                            <strong>Bibek Sapkota</strong> – ISERN Staff<br>
+                            <strong>Bibek Sapkota</strong> – ISER-N Staff<br>
                             <strong>Goma Rai</strong> – Student<br>
-                            <strong>Kamana Ghimire</strong> – ISERN Staff<br>
+                            <strong>Kamana Ghimire</strong> – ISER-N Staff<br>
                             <strong>Manila Chaudhary</strong> – Student<br>
                             <strong>Sabina Shrestha</strong> – Student<br>
                             <strong>Shurendra Ghimire</strong> – Student
