@@ -62,6 +62,7 @@
             <strong>
                 <li class="mt-3">Study-Specific Cognitive Interviewing Training (SSTT)</li>
             </strong>
+             <p style="margin:0; font-style:italic; font-size:0.95rem;">19th April, 2023 | ISER-N, Fulbari Campus</p>
             <p style="font-size:1rem; margin-top:5px; text-align:justify;">
                 The Study-Specific Techniques Training (SSTT) was designed to introduce interviewers to the HCAP instruments, study protocols, and the objectives of each item in the instrument. The training emphasized techniques for:
             <ul class="mb-3">
