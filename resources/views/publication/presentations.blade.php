@@ -38,12 +38,24 @@
         <div class="col-12">
             <h2 class="section-header fs-4 fw-bold">2024</h2>
             <div class="presentation-card p-3 mb-3">
-                <h5 class="fw-semibold mb-1">Adapting the HCAP in Nepal: The Chitwan Valley Family Study</h5>
-                <p class="text-muted small mb-2">Study of Cognition and Aging in Nepal (CVFS-SCAN)</p>
+                <h5 class="fw-semibold mb-1">Adapting the HCAP in Nepal:</h5>
+                <p class="text-muted small mb-2">The Chitwan Valley Family Study - Study of Cognition and Aging in Nepal (CVFS-SCAN)</p>
                 <div class="text-muted small">
                     <span class="me-3"><i class="fas fa-user me-1"></i> Emily Briceño, et al.</span>
                     <span><i class="fas fa-calendar-alt me-1"></i> The Health and Aging in Africa: A Longitudinal Study in South Africa (HAALSA)  network meeting</span>
                 </div>
+            </div>
+            <div class="presentation-card p-3 mb-3">
+                <h5 class="fw-semibold mb-1">Design and Methodology of Population-Based Dementia Assessment in Nepal:
+                   </h5>
+                <p class="text-muted small mb-2"> The Chitwan Valley Family Study - Study on Cognition and Aging in Nepal (CVFS-SCAN)</p>
+                <div class="text-muted small">
+                    <span class="me-3"><i class="fas fa-user me-1"></i> Dirgha Ghimire, Carlos Mendes de Leon, Emily Briceño, Kenneth Langa, 
+                Colter Mitchell, Brady West, Uttam Sharma, Abha Sharma, Usha Dhakal, Nabin Adhikari</span>
+                    <span class="me-3"><i class="fas fa-calendar-alt me-1"></i> The 6th Asian Population Association Conference</span>
+                    <span><i class="fas fa-map-marker-alt me-1"></i> The Soaltee Hotel, Kathmandu City, NEPAL</span>
+                </div>
+                <p class="text-muted small mt-1 mb-0"><i class="fas fa-clock me-1"></i> November 27–30, 2024</p>
             </div>
             <div class="presentation-card p-3 mb-3">
                 <h5 class="fw-semibold mb-1">Aging and Dementia Research from a Global Perspective</h5>
