@@ -92,7 +92,7 @@
                 </div>
                 <p class="text-muted small mb-0"><i class="fas fa-clock me-1"></i> December 2023</p>
             </div>
-            <div class="presentation-card p-3">
+            <div class="presentation-card p-3 mb-3">
                 <h5 class="fw-semibold mb-1">Population-Based Dementia Assessment in Nepal</h5>
                 <p class="text-muted small mb-2">The Chitwan Valley Family Study – CVFS-SCAN</p>
                 <div class="text-muted small">
@@ -103,7 +103,7 @@
                 <p class="text-muted small mt-1 mb-0"><i class="fas fa-clock me-1"></i> October 19, 2023</p>
             </div>
 
-            <div class="presentation-card p-3 mb-3">
+            <div class="presentation-card p-3 ">
                 <h5 class="fw-semibold mb-1">International Labor Migration, Armed Conflict and Dementia Risk in Nepal</h5>
                 <p class="text-muted small mb-2">A Population Study</p>
                 <div class="text-muted small">
