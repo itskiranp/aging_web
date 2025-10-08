@@ -58,7 +58,7 @@
                 <p class="text-muted small mt-1 mb-0"><i class="fas fa-clock me-1"></i> November 27–30, 2024</p>
             </div>
             
-            <div class="presentation-card p-3">
+            <div class="presentation-card p-3 mb-3">
                 <h5 class="fw-semibold mb-1">Building Sustainable Research Programs on Aging and Dementia in LMIC</h5>
                 <p class="text-muted small mb-2"></p>
                 <div class="text-muted small">
@@ -68,7 +68,7 @@
                 </div>
                 <p class="text-muted small mt-1 mb-0"><i class="fas fa-clock me-1"></i> November 11, 2024</p>
             </div>
-            <div class="presentation-card p-3 mb-3">
+            <div class="presentation-card p-3 ">
                 <h5 class="fw-semibold mb-1">Aging and Dementia Research from a Global Perspective</h5>
                 <p class="text-muted small mb-2"></p>
                 <div class="text-muted small">
