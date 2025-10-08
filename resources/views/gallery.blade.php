@@ -21,6 +21,7 @@
         <div class="filter-buttons">
             <button class="filter-btn active" data-filter="all">All</button>
             <button class="filter-btn" data-filter="training">Trainings</button>
+            <button class="filter-btn" data-filter="meetings">Meetings</button>
             <button class="filter-btn" data-filter="survey">Surveys</button>
             <button class="filter-btn" data-filter="lab">Lab Work</button>
             <button class="filter-btn" data-filter="visitors">Guest Visits</button>

@@ -121,7 +121,7 @@
                                     </li>
 
                                     <li><a class="dropdown-item {{ Request::is('people') ? 'active' : '' }}"
-                                            href="/people/staff">Project Staff</a></li>
+                                            href="/people/staff">Project Team</a></li>
                                 </ul>
                             </li>
 

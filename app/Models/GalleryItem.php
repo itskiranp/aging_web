@@ -24,6 +24,7 @@ class GalleryItem extends Model
     {
         return [
             'training' => 'Trainings',
+            'meetings' => 'Meetings',
             'survey' => 'Surveys',
             'lab' => 'Lab Work',
             'visitors' => 'Guest Visits',
@@ -36,6 +37,7 @@ class GalleryItem extends Model
     {
         return [
             'training' => 'info',
+            'meetings' => 'success',
             'survey' => 'success',
             'lab' => 'warning',
             'visitors' => 'primary',
