@@ -285,7 +285,7 @@
 
                         <div class="footer-links mt-4 pt-2 border-top border-secondary">
                             <a href="#"
-                                class="d-block text-white-50 text-decoration-none hover-white small mb-2">UCB Privacy
+                                class="d-block text-white-50 text-decoration-none hover-white small mb-2">Privacy
                                 Statement <i class="fas fa-external-link-alt fa-xs ms-1"></i></a>
                             <a href="#"
                                 class="d-block text-white-50 text-decoration-none hover-white small mb-2">Web
