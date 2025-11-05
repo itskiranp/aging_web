@@ -12,13 +12,15 @@ use App\Http\Controllers\EventController;
 use App\Http\Controllers\HomePageController;
 use App\Http\Controllers\NewsController;
 use App\Http\Controllers\GalleryController;
+use App\Http\Controllers\DataController;
 use App\Models\Event;
 
 Route::get('/search', [SearchController::class, 'search'])->name('search');
 
 Route::get('/', [PageController::class, 'index'])->name('Index');
 Route::get('/biomarkers', [PageController::class, 'biomarkers'])->name('biomarkers');
-Route::get('/data', [PageController::class, 'data'])->name('data');
+Route::get('/data', [DataController::class, 'index'])->name('data.index');
+Route::post('/data/request', [DataController::class, 'requestData'])->name('data.request');
 Route::get('/publications', [PageController::class, 'publications'])->name('publications');
 // Route::get('/people', [PageController::class, 'people'])->name('people');
 Route::get('/links', [PageController::class, 'links'])->name('links');

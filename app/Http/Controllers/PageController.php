@@ -19,10 +19,10 @@ class PageController extends Controller
     {
         return view('biomarkers');
     }
-    public function data()
-    {
-        return view('data');
-    }
+    // public function data()
+    // {
+    //     return view('data');
+    // }
 
     public function publications()
     {
@@ -90,8 +90,6 @@ class PageController extends Controller
         return view('capacitybuilding.ci');
     }
   
-
-
 
 
     public function investigators()

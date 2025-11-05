@@ -10,6 +10,7 @@
     "require": {
         "php": "^8.2",
         "amidesfahani/filament-tinyeditor": "^3.0",
+        "anhskohbo/no-captcha": "^3.7",
         "filament/filament": "^3.2",
         "filament/support": "^3.2",
         "laravel/framework": "^11.9",

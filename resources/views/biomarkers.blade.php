@@ -7,20 +7,7 @@
 @section('Study', 'CVFS')
 
 @section('content')
-<!-- Modern Hero Header -->
-<!-- <header class="hero-header">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8">
-                    <h1 class="display-4 fw-bold mb-3">Chitwan Valley Family Study <br> Study on Cognition and Aging in Nepal</h1>
-                    <p class="lead mb-0">Understanding Alzheimer's Disease and Related Dementias in the Nepalese Context</p>
-                </div>
-                <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
-                    <span class="badge bg-light text-primary fs-6 p-3">Longitudinal Study • 2022-2027</span>
-                </div>
-            </div>
-        </div>
-    </header> -->
+
 <section class="bio-hero">
     <div class="container mt-5">
         <div class="bio-banner mt-5 ">

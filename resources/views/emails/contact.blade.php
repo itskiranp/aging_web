@@ -8,6 +8,7 @@
 
     <p><strong>Name:</strong> {{ $name }}</p>
     <p><strong>Email:</strong> {{ $email }}</p>
+    <p><strong>Affiliation:</strong> {{ $affiliation }}</p>
     <p><strong>Message:</strong></p>
     <p>{{ $message_content }}</p>
 </body>

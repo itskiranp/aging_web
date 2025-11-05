@@ -17,6 +17,7 @@
     <!-- Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 
+
     <!-- AOS Animation CSS -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
@@ -608,7 +609,32 @@
             once: true
         });
     </script>
-   
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+
+        // Pass dataset name to modal
+        const requestModal = document.getElementById('requestModal');
+        requestModal.addEventListener('show.bs.modal', event => {
+            const button = event.relatedTarget;
+            const dataset = button.getAttribute('data-dataset');
+            requestModal.querySelector('#datasetName').value = dataset;
+        });
+    </script>
+    @if(session('success'))
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const toastEl = document.getElementById('successToast');
+            const toast = new bootstrap.Toast(toastEl);
+            toast.show();
+        });
+    </script>
+    @endif
+
 
 
 </body>
