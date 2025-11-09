@@ -1,7 +1,12 @@
 <link rel="stylesheet" href="{{ asset('css/data.css') }}">
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 @extends('layout')
-@section('title', 'Data')
+@section('title', 'Data | CVFS–SCAN')
+@section('meta')
+<meta name="description" content="Access CVFS–SCAN datasets linking social, economic, and demographic data to cognition and aging in Nepal. Data are available for qualified researchers.">
+<meta name="keywords" content="CVFS data, aging research data, dementia dataset, ADRD, Nepal data, cognitive study, CVFS–SCAN datasets">
+@endsection
+
 @section('content')
 <div class="container my-4 mb-5">
     <nav class="breadcrumb-nav mb-4 d-flex justify-content-end">

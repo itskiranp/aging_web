@@ -5,23 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- Primary Meta Tags -->
-    <title>@yield('title', 'CVFS–SCAN | Study on Cognition and Aging in Nepal')</title>
-    <meta name="title" content="CVFS–SCAN | Study on Cognition and Aging in Nepal">
-    <meta name="description" content="The Chitwan Valley Family Study – Study on Cognition and Aging in Nepal (CVFS–SCAN) builds a foundation for population-based research on Alzheimer's disease, dementia, and aging-related health in Nepal.">
-    <meta name="keywords" content="CVFS, SCAN, Chitwan Valley Family Study, ISER Aging Nepal, ISER Nepal, Alzheimer's, Dementia, ADRD, cognitive decline, population-based study, aging, health, research, Nepal">
-    <meta name="author" content="ISER Nepal">
     <meta name="robots" content="index, follow">
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://aging.isernepal.org/">
-    <meta property="og:title" content="CVFS–SCAN | Study on Cognition and Aging in Nepal">
-    <meta property="og:description" content="CVFS–SCAN aims to build national capacity for dementia and aging research in Nepal, leveraging decades of Chitwan Valley Family Study data.">
-    <meta property="og:image" content="https://aging.isernepal.org.np/images/studyarea_homepage.png"> <!-- Replace with your actual image -->
-    <meta property="og:site_name" content="CVFS–SCAN">
-
+    <title>@yield('title', 'CVFS–SCAN | Study on Cognition and Aging in Nepal')</title>
+    @yield('meta')
 
     <!-- Favicon -->
     <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
@@ -29,7 +16,14 @@
     <!-- Canonical URL -->
     <link rel="canonical" href="https://aging.isernepal.org/">
 
-   
+    <!-- Open Graph Default (fallback for pages without their own OG tags) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="CVFS–SCAN">
+    <meta property="og:image" content="https://aging.isernepal.org/images/og-default.jpg"> <!-- replace with default image -->
+
+    <!-- Twitter Default -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://aging.isernepal.org/images/og-default.jpg">
 
     <!-- CSS Libraries -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -48,6 +42,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
+
 
 
 <body>

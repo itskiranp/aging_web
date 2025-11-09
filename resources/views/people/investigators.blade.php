@@ -1,7 +1,11 @@
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 @extends('layout')
 
-@section('title', 'Investigators')
+@section('title', 'Investigators | CVFS–SCAN')
+@section('meta')
+<meta name="description" content="Meet the CVFS–SCAN research team — experts in aging, cognition, social science, and public health driving Nepal’s dementia research forward.">
+<meta name="keywords" content="CVFS researchers, SCAN team, ISER Nepal researchers, dementia experts, cognition researchers, ISER-N CVFS-SCAN research team">
+@endsection
 
 @section('content')
 <div class="container text-center my-5">

@@ -1,7 +1,12 @@
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 @extends('layout')
 
-@section('title', 'CVFS on Cognition and Aging in Nepal')
+@section('title', 'CVFS–SCAN | Study on Cognition and Aging in Nepal')
+@section('meta')
+<meta name="description" content="Welcome to the CVFS–SCAN — advancing Alzheimer’s disease, dementia, and aging research in Nepal through the Chitwan Valley Family Study.">
+<meta name="keywords" content="CVFS SCAN, ISER Aging, Aging Nepal, dementia, Alzheimer’s, research, Nepal, ISER Nepal, cognition, aging study">
+@endsection
+
 @section('content')
 
 

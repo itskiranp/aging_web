@@ -3,7 +3,12 @@
 
 @extends('layout')
 
-@section('title', 'Gallery of Aging Projects')
+@section('title', 'Gallery | CVFS–SCAN')
+@section('meta')
+<meta name="description" content="Browse photos and highlights from CVFS–SCAN fieldwork, training, and community engagement activities in Nepal.">
+<meta name="keywords" content="CVFS gallery, SCAN photos, fieldwork images, research training pictures, Collaborators meetings">
+@endsection
+
 
 @section('content')
 <div class="gallery-section">

@@ -2,7 +2,12 @@
 
 @extends('layout')
 
-@section('title', 'News and Events')
+@section('title', 'News & Events | CVFS–SCAN')
+@section('meta')
+<meta name="description" content="Stay updated with the latest CVFS–SCAN news, workshops, and events on cognition and aging research in Nepal.">
+<meta name="keywords" content="CVFS news, CVFS–SCAN events, dementia workshops, ISER-N conferences, ISER-N aging news">
+@endsection
+
 
 @section('content')
 @php

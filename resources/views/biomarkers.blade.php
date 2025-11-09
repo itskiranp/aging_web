@@ -4,7 +4,12 @@
 
 @extends('layout')
 
-@section('Study', 'CVFS')
+@section('title', 'Biomarkers | CVFS–SCAN')
+@section('meta')
+<meta name="description" content="Learn about biomarker data collected in the CVFS–SCAN study, supporting Alzheimer’s and dementia research in Nepal.">
+<meta name="keywords" content="biomarkers, Biospecimen, Laboratory of ISER-N, ISER lab, dementia biomarkers, Alzheimer’s, blood sample, health indicators, Nepal research">
+@endsection
+
 
 @section('content')
 

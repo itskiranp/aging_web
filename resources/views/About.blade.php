@@ -2,7 +2,12 @@
 
 @extends('layout')
 
-@section('title', 'Contact')
+@section('title', 'Contact | CVFS–SCAN')
+@section('meta')
+<meta name="description" content="Contact the CVFS–SCAN team at ISER Nepal for inquiries, data requests, or collaboration opportunities.">
+<meta name="keywords" content="contact CVFS, SCAN contact, ISER Nepal, aging research contact, dementia study contact">
+@endsection
+
 
 @section('content')
 <div class="container my-5">

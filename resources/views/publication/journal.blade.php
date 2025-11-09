@@ -1,7 +1,12 @@
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 @extends('layout')
 
-@section('title', 'Publications')
+@section('title', 'Publications | CVFS–SCAN')
+@section('meta')
+<meta name="description" content="Explore CVFS–SCAN publications and research outputs on aging, cognition, dementia, and social determinants of health in Nepal.">
+<meta name="keywords" content="CVFS publications, SCAN research, Alzheimer’s papers, dementia studies, aging Nepal, ISER Nepal publications">
+@endsection
+
 
 @section('content')
 <div class="container mt-5 mb-5">
