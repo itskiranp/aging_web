@@ -36,7 +36,7 @@
     <div class="container py-3">
         <div class="text-center mb-5">
             <!-- <h2 class="fw-bold display-6 mb-3">Available Data Sets</h2> -->
-            <p class="text-muted">Explore our curated datasets. Request access to get detailed files and documentation.</p>
+            <p style="font-size: 1.1rem;">Explore our curated datasets. Request access to get detailed files and documentation.</p>
         </div>
 
         <div class="row g-4">
@@ -141,8 +141,6 @@
             </div>
         </div>
     </div>
-
-
 
 </div>
 @endsection

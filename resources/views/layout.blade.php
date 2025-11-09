@@ -4,8 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@yield('title')</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    <!-- Primary Meta Tags -->
+    <title>@yield('title', 'CVFS–SCAN | Study on Cognition and Aging in Nepal')</title>
+    <meta name="title" content="CVFS–SCAN | Study on Cognition and Aging in Nepal">
+    <meta name="description" content="The Chitwan Valley Family Study – Study on Cognition and Aging in Nepal (CVFS–SCAN) builds a foundation for population-based research on Alzheimer's disease, dementia, and aging-related health in Nepal.">
+    <meta name="keywords" content="CVFS, SCAN, Chitwan Valley Family Study, ISER Aging Nepal, ISER Nepal, Alzheimer's, Dementia, ADRD, cognitive decline, population-based study, aging, health, research, Nepal">
+    <meta name="author" content="ISER Nepal">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aging.isernepal.org/">
+    <meta property="og:title" content="CVFS–SCAN | Study on Cognition and Aging in Nepal">
+    <meta property="og:description" content="CVFS–SCAN aims to build national capacity for dementia and aging research in Nepal, leveraging decades of Chitwan Valley Family Study data.">
+    <meta property="og:image" content="https://aging.isernepal.org.np/images/studyarea_homepage.png"> <!-- Replace with your actual image -->
+    <meta property="og:site_name" content="CVFS–SCAN">
+
+
+    <!-- Favicon -->
+    <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://aging.isernepal.org/">
+
+   
+
+    <!-- CSS Libraries -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -13,16 +39,16 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
     <!-- Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-
 
     <!-- AOS Animation CSS -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
-
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
+
 
 <body>
     <header class="header">
