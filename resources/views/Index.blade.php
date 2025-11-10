@@ -15,23 +15,11 @@
     <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel">
         <div class="carousel-inner">
 
-            <!-- Slide 1 -->
+
+            <!-- Slide 1 (Example) -->
             <div class="carousel-item active">
                 <div class="position-relative h-100">
-                    <img src="images/homepage_background1.JPG" class="img-fluid hero-img" alt="CVFS-SCAN Team">
-                    <!-- <div class="hero-overlay">
-          <div class="hero-text">
-            <h1>Study on Cognition and Aging in Nepal</h1>
-            <p>Part of the Chitwan Valley Family Study (CVFS-SCAN)</p>
-          </div>
-        </div> -->
-                </div>
-            </div>
-
-            <!-- Slide 2 (Example) -->
-            <div class="carousel-item">
-                <div class="position-relative h-100">
-                    <img src="images/himalayan1.jpg" class="img-fluid hero-img" alt="Slide 2">
+                    <img src="images/himalayan1.jpg" class="img-fluid hero-img" alt="CVFS-SCAN Team">
                     <!-- <div class="hero-overlay">
           <div class="hero-text">
             <h1>Understanding Nepal's Aging Population</h1>
@@ -41,7 +29,7 @@
                 </div>
             </div>
 
-            <!-- Slide 3 -->
+            <!-- Slide 2 -->
             <div class="carousel-item">
                 <div class="position-relative h-100">
                     <img src="images/biomarkerpic.jpeg" class="img-fluid hero-img" alt="Slide 3">
@@ -53,14 +41,14 @@
             </div> -->
                 </div>
             </div>
-            <!-- slide 4 -->
+            <!-- slide 3 -->
             <div class="carousel-item">
                 <div class="position-relative h-100">
                     <img src="images/homepage_backgroundx.JPG" class="img-fluid hero-img" alt="Slide 4">
                 </div>
 
             </div>
-            <!-- slide 5 -->
+            <!-- slide 4 -->
             <div class="carousel-item">
                 <div class="position-relative h-100">
                     <img src="images/homepage_older.jpg" class="img-fluid hero-img" alt="Slide 5">
@@ -146,7 +134,7 @@
             </div>
         </div>
         <div>
-            <h4 style=" color: #1a365d; font-size: 1.1rem; font-weight: 600; margin-bottom: 5px;">
+            <h4 style="color: #1a365d; font-size: 1.1rem; font-weight: 600; margin-bottom: 5px;">
                 Overall Goal
             </h4>
             <p style="margin-bottom: 18px; font-size: 1.1rem; ">
