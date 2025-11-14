@@ -16,7 +16,7 @@
     <div>
         <h2 class="gallery-title">Study Specific Training (SST)</h2>
     </div>
-    <div class="container my-4" style="width: 100%;">
+    <div class="container my-4" style="font-size:1.1rem; line-height: 1.6; width: 100%;">
 
         <!-- Pre-test -->
         <ol>
@@ -25,7 +25,7 @@
             </h4>
             <div style="border-left:4px solid #2b6cb0; padding-left:15px; margin:15px 0;">
                 <p style="margin:0; font-style:italic; font-size:0.95rem;">September 30–October 7, 2024 | ISER-N, Fulbari Campus</p>
-                <p style="font-size:1rem; margin-top:5px; text-align:justify;">
+                <p style="margin-top:5px; text-align:justify;">
                     <strong>Objective:</strong>To train interviewers on the administration of the Harmonized Cognitive Assessment Protocol (HCAP). The training also covered survey introduction, eligibility screening, informed consent, proxy/informant questionnaires, and the Life History Calendar (LHC). Certification tests were conducted for consenting and N-HCAP administration. Supervised field practice in Kalika Municipality helped identify challenges and refine procedures.
                 </p>
 
@@ -41,7 +41,7 @@
             </h4>
             <div style="border-left:4px solid #2b6cb0; padding-left:15px; margin:15px 0;">
                 <p style="margin:0; font-style:italic; font-size:0.95rem;">January 22–28, 2025 | ISER-N, Fulbari Campus</p>
-                <p style="font-size:1rem; margin-top:5px; text-align:justify;">
+                <p style="margin-top:5px; text-align:justify;">
                     <strong>Objective:</strong>To provide advanced training on the finalized Nepal Harmonized Cognitive Assessment Protocol (N-HCAP), ensuring accuracy and standardization across large-scale fieldwork. Training emphasized cognitive domains (memory, attention, language, executive function, visuospatial skills), scoring, and instrument administration, as well as detailed training on Informant Interview administration. Certification tests were conducted for consenting and N-HCAP administration. Supervised field practice was conducted in Kalika and Ratnanagar Municipalities.
                 </p>
 
@@ -56,7 +56,7 @@
             </h4>
             <div style="border-left:4px solid #2b6cb0; padding-left:15px; margin:15px 0;">
                 <p style="margin:0; font-style:italic; font-size:0.95rem;">June 22–July 3, 2025 </p>
-                <p style="font-size:1rem; margin-top:5px; text-align:justify;">
+                <p style="margin-top:5px; text-align:justify;">
                     <strong>Objective:</strong>To provide advanced training on the Life History Calendar (LHC), demographic, life events/experiences, health behavior, and health assessment sections of the respondent questionnaire, as well as detailed training on proxy interviews. For biomarker collection and processing, phlebotomists and lab staff were trained on the Standard Operating Protocol (SOP) for Blood Sample Collection, Processing, and Storage. Supervised field practice was conducted in Kalika and Ratnanagar Municipalities.
                 </p>
 

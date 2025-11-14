@@ -17,13 +17,13 @@
         <h2 class="gallery-title mb-0" >Cognitive Interviewing Training (CIT)</h2>
     </div>
 </div>
-<div class="container " style="width: 100%;">
+<div class="container " style=" font-size:1.1rem; line-height: 1.6; width: 100%;">
 
 
     <!-- <h4 style="color:#444; font-weight:600; ">Training on Cognitive Interviewing (CI)</h4> -->
     <div style="border-left:4px solid #2b6cb0; padding-left:15px; margin:10px 0;">
 
-        <p style="font-size:1rem; text-align:justify;">
+        <p style=" text-align:justify;">
             Recognizing the need to further strengthen interviewer capacity on specialized techniques, ISER-N, with its strong infrastructure and experienced staff, organized a two-part training program on Cognitive Interviewing (CI). This aimed to upgrade research skills and ensure high-quality data collection for the CVFS-SCAN project.
         </p>
     </div>
@@ -34,7 +34,7 @@
             </strong>
 
             <p style="margin:0; font-style:italic; font-size:0.95rem;">February 13 and 15, 2023 | ISER-N, Fulbari Campus</p>
-            <p style="font-size:1rem; margin-top:5px; text-align:justify;">
+            <p style="margin-top:5px; text-align:justify;">
                 A two-day virtual training (two hours each day) was conducted by Ms. Margaret Hudson, Survey Director and Manager at Survey Research Operations, University of Michigan. Ms. Hudson holds a Master of Public Health and leads the Survey Research Operations Quality Control Implementation team.The training focused on the foundations of cognitive interviewing and included eight modules:
             <ul class="mb-3">
                 <li>Introduction to cognitive interviewing</li>
@@ -63,7 +63,7 @@
                 <li class="mt-3">Study-Specific Cognitive Interviewing Training (SSTT)</li>
             </strong>
              <p style="margin:0; font-style:italic; font-size:0.95rem;">19th April, 2023 | ISER-N, Fulbari Campus</p>
-            <p style="font-size:1rem; margin-top:5px; text-align:justify;">
+            <p style=" margin-top:5px; text-align:justify;">
                 The Study-Specific Techniques Training (SSTT) was designed to introduce interviewers to the HCAP instruments, study protocols, and the objectives of each item in the instrument. The training emphasized techniques for:
             <ul class="mb-3">
                 <li>Asking questions effectively</li>
