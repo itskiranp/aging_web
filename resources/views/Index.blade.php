@@ -133,17 +133,17 @@
                 </div>
             </div>
         </div>
-        <div>
-            <h4 style="color: #1a365d; font-size: 1.1rem; font-weight: 600; margin-bottom: 5px;">
+        <div style="line-height: 1.8;">
+            <h4 style="color: #1a365d; font-size: 1.1rem; font-weight: 600; margin-bottom: 10px;">
                 Overall Goal
             </h4>
             <p style="margin-bottom: 18px; font-size: 1.1rem; ">
                 To develop a foundation for sustained, high-quality, population-based research into ADRD and other age-related chronic conditions in Nepal.
             </p>
-            <h4 style="  color: #1a365d; font-size: 1.1rem; font-weight: 600; margin-bottom: 7px;">
+            <h4 style="  color: #1a365d; font-size: 1.1rem; font-weight: 600; margin-bottom: 10px;">
                 Objectives
             </h4>
-            <ul style=" font-size: 1.1rem; padding-left: 20px; margin: 0; margin-bottom: 10px;">
+            <ul style="margin-bottom: 18px; font-size: 1.1rem; ">
                 <li style="margin-bottom: 4px;">Build capacity in Nepal for the conduct of systematic, population-based research on Alzheimer’s disease and related dementias.
                 </li>
                 <li>Develop and implement a new, longitudinal cohort study of ADRD and related aging-associated health conditions among older adults in Nepal.</li>
@@ -184,7 +184,7 @@
                 <section class="methodology-section">
 
                     <h3
-                        style=" color: #1a365d; font-size: 1.5rem; font-weight: 600; margin-bottom: 10px; position: relative; padding-left: 20px;">
+                        style=" color: #1a365d; font-size: 1.1rem; font-weight: 600; margin-bottom: 10px; position: relative; padding-left: 20px;">
                         Methodology
                     </h3>
                     {{-- <h2 class="text-center text-primary mb-5 section-title"></h2> --}}
@@ -199,7 +199,7 @@
                                         <div class="me-3 methodology-icon"><i class="bi bi-diagram-3"></i></div>
                                         <h5 class="mb-0 text-primary">Study Design</h5>
                                     </div>
-                                    <p class=" small mb-0 ">
+                                    <p style="margin-bottom: 18px; font-size: 1.1rem; ">
                                         A longitudinal cohort study of a representative sample of <strong>4,000 older adults</strong> aged 50+ and their <Strong>key informants</Strong>
                                         from the Chitwan Valley Family Study (CVFS) panel, using a stratified two-stage cluster area probability sampling design.
                                     </p>
@@ -215,7 +215,7 @@
                                         <div class="me-3 methodology-icon"><i class="bi bi-laptop"></i></div>
                                         <h5 class="mb-0 text-primary">Data Collection</h5>
                                     </div>
-                                    <p class=" small mb-0">
+                                    <p style="margin-bottom: 18px; font-size: 1.1rem; ">
                                         Face-to-face interviews with respondents and informants. Data collection with Computer-Assisted Personal Interviewing (CAPI).
                                         Instruments include the Nepal Harmonized Cognitive Assessment Protocol (NHCAP) and a questionnaire covering basic and social demographics, life history events, health behaviors, and health assessments.
                                         An informant questionnaire to assess the respondents’ cognitive health and functioning.
@@ -233,7 +233,7 @@
                                         <div class="me-3 methodology-icon"><i class="bi bi-droplet-half"></i></div>
                                         <h5 class="mb-0 text-primary">Biomarker Collection</h5>
                                     </div>
-                                    <p class=" small mb-0">
+                                    <p style="margin-bottom: 18px; font-size: 1.1rem; ">
                                         Draw of 30 ml blood sample by licensed phlebotomists using a <strong>vacuum extraction system</strong> following best practices.
                                     </p>
                                 </div>
@@ -261,7 +261,7 @@
                             </svg>
                             Integration with a Multigenerational Study
                         </h4>
-                        <p style=" font-size: 1rem;">
+                        <p style="margin-bottom: 18px; font-size: 1.1rem; ">
                             CVFS-SCAN draws on over two decades of data about participants' families, education, migration history, economic background, and health.
                             Integration with the CVFS parent study offers a unique opportunity to investigate experiences and risk factors from the entire life-course that may affect cognitive aging and other indicators of declining health in old age.
 
@@ -279,7 +279,7 @@
                             </svg>
                             Focus on Nepali-Specific Risk Factors
                         </h4>
-                        <p style=" font-size: 1rem;">
+                        <p style="margin-bottom: 18px; font-size: 1.1rem; ">
                             CVFS-SCAN is one of the first studies globally to test the role of labor migration and exposure to armed conflict as risk factors for ADRD, experiences that are common and often overlapping in Nepal.
                         </p>
                     </div>
@@ -295,7 +295,7 @@
                             </svg>
                             Inclusive Design
                         </h4>
-                        <p style=" font-size: 1rem;">
+                        <p style="margin-bottom: 18px; font-size: 1.1rem; ">
                             CVFS-SCAN collects data not only from older adults aged 50+, but also from close
                             family members or informants, an approach that enables the study of caregiving dynamics,
                             intergenerational relationships, and shared decision-making in aging households.
@@ -313,7 +313,7 @@
                             </svg>
                             Foundational Capacity-Building
                         </h4>
-                        <p style=" font-size: 1rem;">
+                        <p style="margin-bottom: 18px; font-size: 1.1rem; ">
                             <!-- color: #4a5568; -->
                             CVFS-SCAN is building a platform to train the next generation of Nepali researchers in dementia science. Training includes cognitive assessment, biospecimen collection, survey management, and data analysis using longitudinal and multilevel techniques.
                         </p>
@@ -367,11 +367,11 @@
 <section class="timeline-section py-2 bg-light">
     <div class="container ">
         <h1 class="text-center   mb-5"
-            style="width: 100%; color: #1a365d; font-size: 2.2rem; font-weight: 700; letter-spacing: -0.5px; margin-top: 30px;">
+            style="width: 100%; color: #1a365d; font-size: 1.5rem; font-weight: 600;  margin-top: 30px;">
             Timeline and Current Status
         </h1>
 
-        <div class="timeline">
+        <div class="timeline" style="line-height: 1.8;">
 
             <!-- 2022 -->
             <div class="timeline-item" data-aos="fade-up">
@@ -379,7 +379,7 @@
                 <div class="card shadow-sm border-0">
                     <div class="card-body">
                         <h5 class="mb-1 text-primary">2022</h5>
-                        <ul class=" mb-0 small">
+                        <ul style="margin-bottom: 18px; font-size: 1.1rem; ">
                             <li>The study began in 2022 and is projected to conclude by 2027.</li>
                             <li>Ethical approval from NHRC, Nepal received on December 20, 2022 (NHRC Ref No: 1334).
                             </li>
@@ -396,7 +396,7 @@
                 <div class="card shadow-sm border-0">
                     <div class="card-body">
                         <h5 class="mb-1 text-primary">2023</h5>
-                        <ul class=" mb-0 small">
+                        <ul style="margin-bottom: 18px; font-size: 1.1rem; ">
                             <li>Iterative translation and expert review of survey instruments.</li>
                             <li>Focus Group Discussion on translation of study materials.</li>
                             <li>Trainers training on cognitive interviewing technique.</li>
@@ -412,7 +412,7 @@
                 <div class="card shadow-sm border-0">
                     <div class="card-body">
                         <h5 class="mb-1 text-primary">2024</h5>
-                        <ul class=" mb-0 small">
+                        <ul style="margin-bottom: 18px; font-size: 1.1rem; ">
                             <li>Cognitive interviews conducted with diverse respondents aged 50+ from various
                                 backgrounds to assess understanding of study questions and identify areas of confusion
                                 for further refinement.</li>
@@ -431,7 +431,7 @@
                     <div class="card-body">
                         <h5 class="mb-1 text-primary">2025 <span class="badge bg-primary ms-2">Current Year</span>
                         </h5>
-                        <ul class=" mb-0 small">
+                        <ul style="margin-bottom: 18px; font-size: 1.1rem; ">
                             <li>Refinement and finalization of survey instruments based on pre-test results.</li>
                             <li>Organized GIT, NHCAP, SST, and blood sample collection trainings for the final data collection.</li>
                             <li>Final data collection launched on February 20, 2025.</li>
@@ -446,7 +446,7 @@
                 <div class="card shadow-sm border-0">
                     <div class="card-body">
                         <h5 class="mb-1 text-primary">2026–27</h5>
-                        <ul class=" mb-0 small">
+                        <ul style="margin-bottom: 18px; font-size: 1.1rem; ">
                             <li>Second wave of data collection.</li>
                             <li>Follow-up assessments that focus on assessing change in cognitive outcomes.</li>
                             <li>Analyze longitudinal patterns of cognitive decline and onset of ADRD.</li>

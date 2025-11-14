@@ -55,7 +55,7 @@
                         style="margin: 0 0 12px 0; font-size: 1.4rem; color: #222; font-weight: 600;">
                         Institute for Social and Environmental Research-Nepal (ISER-N)
                     </h3>
-                    <p class="card-text" style="margin: 0; color: #555; line-height: 1.6; font-size: 1rem;">
+                    <p class="card-text" style="margin: 0; color: #555; line-height: 1.6; font-size: 1.1rem;">
                         ISER-N is a premier research and development institute. The institute adopts a three-pronged
                         working approach that interlinks research, capacity building, and policy and program
                         interventions as part of its effort to turn knowledge into practice.
