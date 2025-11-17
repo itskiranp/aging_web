@@ -41,6 +41,22 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "CVFS–SCAN | Chitwan Valley Family Study – Study on Cognition and Aging in Nepal",
+            "url": "https://aging.isernepal.org",
+            "logo": "https://aging.isernepal.org/images/cvfs_web_logo1.png",
+            "sameAs": [
+                "https://www.facebook.com/isernepalofficial/",
+                "https://www.linkedin.com/company/isernepal",
+                "https://twitter.com/ISERNepal"
+            ]
+        }
+    </script>
+
+
 </head>
 
 
