@@ -41,21 +41,21 @@
     <div class="container py-3">
         <div class="text-center mb-5">
             <!-- <h2 class="fw-bold display-6 mb-3">Available Data Sets</h2> -->
-            <p style="font-size: 1.1rem;">Explore our curated datasets. Request access to get detailed files and documentation.</p>
+            <p style="font-size: 1.1rem;">Our curated datasets will be available soon. You can request access to receive detailed files and documentation once they are ready.</p>
         </div>
 
         <div class="row g-4">
             {{-- Card 1 --}}
             <div class="col-md-6 col-lg-4" data-aos="fade-up">
                 <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
-                    <div class="card-body p-4 d-flex flex-column" >
+                    <div class="card-body p-4 d-flex flex-column">
                         <div class="d-flex align-items-center mb-3">
                             <div class="rounded-circle bg-primary bg-opacity-10 p-3 me-3">
                                 <i class="bi bi-database text-primary fs-4"></i>
                             </div>
                             <h5 class="card-title mb-0">CVFS Linked Data Sets</h5>
                         </div>
-                        <p class="text-muted small mb-4">Chitwan Valley Family Study datasets linking social, economic, and demographic data.</p>
+                        <p class="text-muted small mb-4">Chitwan Valley Family Study datasets linking social, economic, and demographic data. Available soon. </p>
                         <ul class="list-unstyled flex-grow-1">
                             <li>📄 <a href="#" class="text-decoration-none text-primary">Questionnaire</a></li>
                             <li>📘 <a href="#" class="text-decoration-none text-primary">CodeBook</a></li>
@@ -109,7 +109,7 @@
     <!-- Request Data Modal -->
     <div class="modal fade" id="requestModal" tabindex="-1" aria-labelledby="requestModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content rounded-4 shadow">
+            <div class="modal-content rounded-4 shadow" style="z-index:1055;">
                 <div class="modal-header bg-primary text-white rounded-top-4">
                     <h5 class="modal-title" id="requestModalLabel">Request Data Access</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -121,31 +121,31 @@
 
                         <div class="mb-3">
                             <label for="name" class="form-label">Your Name</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
+                            <input type="text" class="form-control" id="name" name="name" required autocomplete="off">
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Your Email</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
+                            <input type="email" class="form-control" id="email" name="email" required autocomplete="off">
                         </div>
                         <div class="mb-3">
                             <label for="affiliation" class="form-label">Affiliation</label>
-                            <input type="text" class="form-control" id="affiliation" name="affiliation">
+                            <input type="text" class="form-control" id="affiliation" name="affiliation" required autocomplete="off">
                         </div>
                         <div class="mb-3">
                             <label for="message" class="form-label">Message (purpose)</label>
                             <textarea class="form-control" id="message" name="message" rows="3"></textarea>
                         </div>
                     </div>
-                    
+
                     <div class="modal-footer">
                         <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</button>
                         <button type="submit" class="btn btn-primary">Send Request</button>
                     </div>
                 </form>
-             
             </div>
         </div>
     </div>
+
 
 </div>
 @endsection

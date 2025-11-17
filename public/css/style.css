@@ -1212,8 +1212,8 @@ body {
 
 .form-control:focus {
     background-color: rgba(255, 255, 255, 0.1);
-    color: #fff;
-    border-color: #fff;
+    /* color: #fff; */
+    /* border-color: #fff; */
     box-shadow: none;
 }
 

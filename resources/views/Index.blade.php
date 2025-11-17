@@ -4,7 +4,7 @@
 @section('title', 'CVFS–SCAN | Study on Cognition and Aging in Nepal')
 @section('meta')
 <meta name="description" content="Welcome to the CVFS–SCAN — advancing Alzheimer’s disease, dementia, and aging research in Nepal through the Chitwan Valley Family Study.">
-<meta name="keywords" content="CVFS SCAN, ISER Aging, Aging Nepal, dementia, Alzheimer’s, research, Nepal, ISER Nepal, cognition, aging study">
+<meta name="keywords" content="CVFS SCAN, HCAP, ISER Aging, Aging Nepal, dementia, Alzheimer’s, ISER Nepal, cognition, aging study">
 @endsection
 
 @section('content')
