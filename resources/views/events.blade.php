@@ -37,12 +37,15 @@ use Illuminate\Support\Str;
                     @endif
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">{{ $newsItem->title }}</h5>
+
                         <p class="card-text text-muted small">
                             {{ $newsItem->published_at ? $newsItem->published_at->format('M d, Y') : '' }}
                         </p>
+
                         <p class="card-text">
-                            {!! Str::limit($newsItem->content, 100) !!}
+                            {{ Str::limit(strip_tags($newsItem->content), 150) }}
                         </p>
+
                         <div class="mt-auto">
                             @if ($newsItem->slug)
                             <a href="{{ route('news.show', $newsItem->slug) }}" class="btn btn-primary">
@@ -53,6 +56,8 @@ use Illuminate\Support\Str;
                             @endif
                         </div>
                     </div>
+
+
                 </div>
             </div>
             @endforeach

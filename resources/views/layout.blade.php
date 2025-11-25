@@ -59,8 +59,6 @@
 
 </head>
 
-
-
 <body>
     <header class="header">
         <div class="sf-top-header">
