@@ -19,7 +19,7 @@
     <!-- Open Graph Default (fallback for pages without their own OG tags) -->
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="CVFS–SCAN">
-    <meta property="og:image" content="https://aging.isernepal.org/images/cvfs_web_logo1.png"> <!-- replace with default image -->
+    <meta property="og:image" content="https://aging.isernepal.org/images/agin_logo.ico"> <!-- replace with default image -->
 
     <!-- Twitter Default -->
     <meta name="twitter:card" content="summary_large_image">
