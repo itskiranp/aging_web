@@ -103,15 +103,23 @@
             </div>
         </div>
         {{-- Logo section --}}
+
         <div class="main-header" id="sf-main-header">
-            {{-- <div class="container"> --}}
-            <div class="col-lg-7 mt-1">
-                <a href="{{ url('/') }}" class="logo ">
-                    <img src="/images/cvfs_web_logo1.png" class="img-fluid mb-5 ms-5" alt="...">
-                </a>
-            </div>
-            {{-- </div> --}}
+            <div class="row align-items-center">
+
+                {{-- Logo Section (Left) --}}
+                <div class="col-lg-7 mt-1">
+                    <a href="{{ url('/') }}" class="logo">
+                        <img src="/images/cvfs_web_logo1.png" class="img-fluid mb-5 ms-5" alt="CVFS Logo">
+                    </a>
+                </div>
+
+                
+            </div> 
         </div>
+
+
+        {{-- Navigation Bar --}}
         <div class="row navWrapper">
             <nav class="navbar navbar-expand-lg ">
                 <div class="container ">
@@ -186,9 +194,6 @@
                             </li> -->
                         </ul>
                         </li>
-
-
-
                         <li class="nav-item">
                             <a class="nav-link {{ Request::is('events') ? 'active' : '' }}" href="/events">NEWS &
                                 EVENTS</a>
@@ -205,7 +210,6 @@
                 </div>
             </nav>
         </div>
-
     </header>
 
     <!-- Main Content Section -->
