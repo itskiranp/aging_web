@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources;
 
+use AmidEsfahani\FilamentTinyEditor\Tiny;
 use App\Filament\Resources\EventResource\Pages;
 use App\Filament\Resources\EventResource\RelationManagers;
 use App\Models\Event;
@@ -14,6 +15,8 @@ use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use AmidEsfahani\FilamentTinyEditor\TinyEditor;
+use Dotswan\FilamentCodeEditor\Fields\CodeEditor;
+
 
 
 class EventResource extends Resource
@@ -35,10 +38,18 @@ class EventResource extends Resource
                     ->profile('default')
                     ->columnSpanFull()
                     ->maxLength(255),
-                TinyEditor::make('description')
-                    ->profile('default')
-                    ->columnSpanFull()
-                    ->label('Description'),
+                // ⭐ Filament Code Editor for full HTML + inline CSS
+                CodeEditor::make('description')
+                    ->label('Description (HTML + CSS)')
+                    ->minHeight(400)
+                    ->darkModeTheme('vs-dark')
+                    ->lightModeTheme('vs')
+                    ->columnSpanFull(),
+
+                // TinyEditor::make('description')
+                //     ->profile('default')
+                //     ->columnSpanFull()
+                //     ->label('Description'),
                 Forms\Components\DatePicker::make('date')
                     ->required()
                     ->label('Event Date'),
