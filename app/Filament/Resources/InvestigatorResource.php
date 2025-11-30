@@ -71,7 +71,8 @@ class InvestigatorResource extends Resource
 
                 FileUpload::make('profile_pdf')
                     ->directory('uploads') // This ensures CVs are uploaded to /public/uploads
-                    ->label('Curriculum Vitae'),
+                    ->label('Curriculum Vitae')
+                    ->preserveFilenames(),
             ]);
     }
 
